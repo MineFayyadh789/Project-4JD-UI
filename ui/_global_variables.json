@@ -1,6 +1,22 @@
 {  
+  /* Vanilla DX: 4JD UI Tweaks */
+
+  /* (c) CrisXolt. Don't use any code without authorization! */
+
   ////*/ Compatibility /*////
   "$is_4jd_ui": true,
+
+  ////*/ Other Resource Packs Compatibility /*////
+  /* By @agentms_*/
+  "$is_console_aspects": false,
+  "$is_console_aspects_fidelity": false,
+  "$is_console_aspects_performance": false,
+  
+  /* By @ZouChenyunfei*/
+  "$is_multipixel": false,
+  "$is_multipixel_java": false,
+  "$is_multipixel_bedrock": false,
+  "$is_multipixel_mixed": false,
 
   ////*/ Main menu button /*////
   "$main_menu_button_default_color": [ 0.87, 0.87, 0.87 ],
@@ -11,9 +27,6 @@
   //////// Anvil ////////
   "$anvil_cost_fail_text_color": [ 1.0, 0.375, 0.375 ], //[ 0.929, 0.337, 0.337 ],
   //"$anvil_cost_success_text_color": [ 0.000, 0.647, 0.000 ]
-
-  "$global_font_type": "ExtendedASCII", // Use "DFGMaruGothic" if you are using JPN language.
-  "$global_font_scale_factor": 1.0, // Use 0.8 if you are using JPN language.
 
   //////// Enchanting Table ////////
   //For java text colors, default, hover and locked.
@@ -27,5 +40,17 @@
   "$chat_size": [ "100%", 180 ],
   "$ignore_scoreboard_scores": false,
   "$scoreboard_text_shadow": false,
-  "$player_score_color": [ 1.0, 0.333, 0.333, 1.0 ]
+  "$player_score_color": [ 1.0, 0.333, 0.333, 1.0 ],
+
+  //////// Container ////////
+  
+  "$ignore_flying_item": false,
+  "$4jd_inventory_title_text_color": [ 0.3, 0.3, 0.3 ],
+  "$4jd_container_title_text_color": [ 0.3, 0.3, 0.3 ],
+  "$4jd_2x2_crafting_title_text_color": [ 0.3, 0.3, 0.3 ],
+  "$4jd_3x3_crafting_title_text_color": [ 0.3, 0.3, 0.3 ],
+  "$4jd_recipe_title_text_color": [ 0.3, 0.3, 0.3 ],
+
+  "$custom_hover_text": true,
+  "$custom_durability_bar": true
 }

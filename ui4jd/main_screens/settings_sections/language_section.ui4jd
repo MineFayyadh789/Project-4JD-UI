@@ -3,9 +3,34 @@
 
   /*//// Lang Button ////*/
   
-  "button_label@common_buttons_4jd.button_label": {
+  "button_label@common_4jd.global_label": {
+    "color": "$text_color",
     "text": "$radio_label_text",
-    "bindings": "$radio_label_bindings"
+    "bindings": "$radio_label_bindings",
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "size": [ "100%", 10 ],
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0.5 ],
+          "bindings": [
+            {
+              "binding_name": "#language_description",
+              "binding_type": "collection",
+              "binding_condition": "once",
+              "binding_collection_name": "languages"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "('§r' + (#language_description) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+              "target_property_name": "#text"
+            }
+          ]
+        }
+      }
+    ]
   },
 
   "language_grid_item@general_section.language_grid_item": {

@@ -2,7 +2,7 @@
 //(c) Don't use any code design without permission!*/
 /*  NOTE: I used the panels to make renderer inside of it. In order to make compatibility for other resource packs. */
 {
-  "namespace": "item_renderer_dx",
+  "namespace": "item_renderer_4jd",
 
   ////*/ Item Renderer /*////
 
@@ -12,7 +12,7 @@
     "controls": [
       {
         "item_renderer": {
-          "ignored": "$is_java_aspects",
+          "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
           "$item_renderer_binding_condition|default": "none",
@@ -92,12 +92,12 @@
         }
       },
       {
-        "java_aspects_assets": {
+        "console_aspects_assets": {
           "type": "panel",
           "size": [ 16, 16 ],
           "$icon_size": [ 16, 16 ],
           "$use_item_icons|default": true,
-          "ignored": "(not $is_java_aspects)",
+          "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
             {
               "requires": "$is_multipixel_bedrock",
@@ -136,7 +136,7 @@
     "controls": [
       {
         "item_renderer_selected_icon": {
-          "ignored": "$is_java_aspects",
+          "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
           "size": [ 16, 16 ],
@@ -175,12 +175,12 @@
         }
       },
       {
-        "java_aspects_assets": {
+        "console_aspects_assets": {
           "type": "panel",
           "size": [ 16, 16 ],
           "$icon_size": [ 16, 16 ],
           "$selected_size": [ 16, 16 ],
-          "ignored": "(not $is_java_aspects)",
+          "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
             {
               "requires": "$is_multipixel_bedrock",
@@ -231,7 +231,7 @@
     "controls": [
       {
         "item_renderer": {
-          "ignored": "$is_java_aspects",
+          "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
           "$item_renderer_binding_condition|default": "none",
@@ -315,12 +315,12 @@
         }
       },
       {
-        "java_aspects_assets": {
+        "console_aspects_assets": {
           "type": "panel",
           "size": [ 16, 16 ],
           "$icon_size": [ 16, 16 ],
           "$use_item_icons|default": true,
-          "ignored": "(not $is_java_aspects)",
+          "ignored": "(not $is_console_aspects_fidelity)",
           "$item_collection_name": "$hotbar_collection_name",
           "property_bag": {
             "force_update": true
@@ -363,7 +363,7 @@
     "controls": [
       {
         "item_renderer": {
-          "ignored": "$is_java_aspects",
+          "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
           "size": [ 16, 16 ],
@@ -378,12 +378,12 @@
         }
       },
       {
-        "java_aspects_assets": {
+        "console_aspects_assets": {
           "type": "panel",
           "size": [ 16, 16 ],
           "$icon_size": [ 16, 16 ],
           "$use_item_icons|default": true,
-          "ignored": "(not $is_java_aspects)",
+          "ignored": "(not $is_console_aspects_fidelity)",
           "property_bag": {
             "force_update": true
           },
@@ -475,7 +475,7 @@
       {
         "item_renderer": {
           "type": "custom",
-          "ignored": "$is_java_aspects",
+          "ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
           "size": [ 16, 16 ],
           "bindings": [
@@ -504,12 +504,12 @@
         }
       },
       {
-        "java_aspects_assets": {
+        "console_aspects_assets": {
           "type": "panel",
           "size": [ 16, 16 ],
           "$icon_size": [ 16, 16 ],
           "$use_item_icons|default": true,
-          "ignored": "(not $is_java_aspects)",
+          "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
             {
               "requires": "$is_multipixel_bedrock",
@@ -534,7 +534,7 @@
       {
         "item_renderer": {
           "type": "custom",
-          //"ignored": "$is_java_aspects",
+          //"ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
           "size": [ 16, 16 ],
           "bindings": [
@@ -557,7 +557,7 @@
       {
         "item_renderer": {
           "type": "custom",
-          //"ignored": "$is_java_aspects",
+          //"ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
           "size": [ 16, 16 ],
           "bindings": [

@@ -38,7 +38,7 @@
                 "$focus_override_left_binding_type": "none",
                 "$focus_override_left": "armor_item_head",
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -50,7 +50,7 @@
               "crafting_input_item_top_mid@crafting.crafting_input_grid_item": {
                 "grid_position": [ 1, 0 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -62,7 +62,7 @@
               "crafting_input_item_top_right@crafting.crafting_input_grid_item": {
                 "grid_position": [ 2, 0 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -80,7 +80,7 @@
                 "$focus_override_left_binding_type": "none",
                 "$focus_override_left": "armor_item_legs",
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -92,7 +92,7 @@
               "crafting_input_item_middle@crafting.crafting_input_grid_item": {
                 "grid_position": [ 1, 1 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -104,7 +104,7 @@
               "crafting_input_item_mid_right@crafting.crafting_input_grid_item": {
                 "grid_position": [ 2, 1 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -116,7 +116,7 @@
               "crafting_input_item_bot_left@crafting.crafting_input_grid_item": {
                 "grid_position": [ 0, 2 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -128,7 +128,7 @@
               "crafting_input_item_bot_mid@crafting.crafting_input_grid_item": {
                 "grid_position": [ 1, 2 ],
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -143,7 +143,7 @@
                 "$focus_override_right_binding_type": "none",
                 "$focus_override_right": "crafting_output_item",
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -177,7 +177,7 @@
                 "$focus_override_right": "FOCUS_OVERRIDE_STOP",
 
                 "$background_images": "ui_4jd_textures.cell_image_1_5",
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 32, 32 ],
                 "$cell_image_size": [ 32, 32 ],
                 "$item_renderer_panel_size": [ 32, 32 ],
@@ -209,7 +209,7 @@
   "grid_item_for_recipe_book@crafting.grid_item_for_recipe_book": {
     "size": [ 27, 27 ],
     "$background_images": "crafting_4jd.crafting_container_cell_images_1_5",
-    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 27, 27 ],
     "$cell_image_size": [ 27, 27 ],
     "$item_renderer_panel_size": [ 27, 27 ],

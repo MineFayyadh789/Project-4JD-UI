@@ -53,28 +53,12 @@
           "size": [ "100%cm", 16 ],
           "controls": [
             {
-              "tooltip_label": {
-                "type": "label",
-                "color": "$gamepad_helper_icon_description_text_color",
-                "size": [ "default", 10 ],
+              "tooltip_label@common_tooltip_4jd.tooltip_label": {
                 "anchor_from": "bottom_middle",
                 "anchor_to": "bottom_middle",
                 "offset": [ 0, -2 ],
-                "shadow": true,
-                "text": "$icon_description_bind",
-                "$icon_description_bind|default": "#gamepad_helper_icon_description",
-                "$icon_description_bind_type|default": "global",
-                "$icon_description_bind_condition|default": "always_when_visible",
-                "$gamepad_helper_icon_description_text_color|default": "$gamepad_description_text_color",
-                "$gamepad_helper_icon_description_shadow|default": true,
-                "bindings": [
-                  {
-                    "binding_name": "$icon_description_bind",
-                    "binding_type": "$icon_description_bind_type",
-                    "binding_condition": "$icon_description_bind_condition"
-                  }
-                ],
                 "controls": [
+                  { "shadow@common_tooltip_4jd.tooltip_label": { "offset": [ 0.5, 0.5 ], "color": [ 0.0, 0.0, 0.0 ], "layer": -1 } },
                   { "content@$desc_panel_content": { } }
                 ]
               }
@@ -87,6 +71,25 @@
           "type": "panel",
           "size": [ 11, 16 ]
         }
+      }
+    ]
+  },
+  
+  "tooltip_label@common_4jd.global_label": {
+    "color": "$gamepad_helper_icon_description_text_color",
+    "size": [ "default", 10 ],
+    "shadow": false,
+    "text": "$icon_description_bind",
+    "$icon_description_bind|default": "#gamepad_helper_icon_description",
+    "$icon_description_bind_type|default": "global",
+    "$icon_description_bind_condition|default": "always_when_visible",
+    "$gamepad_helper_icon_description_text_color|default": "$gamepad_description_text_color",
+    "$gamepad_helper_icon_description_shadow|default": true,
+    "bindings": [
+      {
+        "binding_name": "$icon_description_bind",
+        "binding_type": "$icon_description_bind_type",
+        "binding_condition": "$icon_description_bind_condition"
       }
     ]
   },

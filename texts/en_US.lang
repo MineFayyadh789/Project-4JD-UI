@@ -6,6 +6,11 @@
 
 4jd.menu.exitGameWarning=Are you sure you want to exit the game?
 
+selectWorld.tab.worlds=Load
+selectWorld.tab.friends=Join
+selectWorld.tab.classmates=Join
+selectWorld.tab.thirdParty=Mini Games
+
 4jd.progress.initializingServer=Initializing Server ##3480
 
 furnaceScreen.input=Ingredient

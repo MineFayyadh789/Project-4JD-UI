@@ -266,7 +266,19 @@
                 "offset": [ 41.5, 6 ],
                 "line_padding": 2,
                 "layer": 5,
-                "shadow": false
+                "shadow": false,
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "line_padding": 2,
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "resourcePack.vanilla.name",
+                      "offset": [ 0.5, 0.5 ]
+                    }
+                  }
+                ]
               }
             },
             {
@@ -278,7 +290,19 @@
                 "offset": [ 6.5, 38 ],
                 "line_padding": 2,
                 "layer": 5,
-                "shadow": false
+                "shadow": false,
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "line_padding": 2,
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "resourcePack.vanilla.description",
+                      "offset": [ 0.5, 0.5 ]
+                    }
+                  }
+                ]
               }
             },
             {

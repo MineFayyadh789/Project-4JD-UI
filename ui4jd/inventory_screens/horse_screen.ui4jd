@@ -3,7 +3,7 @@
 
   "container_item@common.container_item": {
     "size": [ 21, 21 ],
-    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 21, 21 ],
     "$cell_image_size": [ 21, 21 ],
     "$item_renderer_panel_size": [ 21, 21 ],

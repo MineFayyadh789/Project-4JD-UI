@@ -1,0 +1,50 @@
+/*File made by @CrisXolt and HJN.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "common_panorama_4jd",
+
+  "panorama_scroll": {
+    "anim_type": "offset",
+    "easing": "linear",
+    "duration": 150,
+    "from": "$panorama_start",
+    "to": "$panorama_end",
+    "$panorama_start|default": [ 0, 0 ],
+    "$panorama_end|default": [ "-569.4%y", 0 ],
+    "next": "@common_panorama_4jd.panorama_scroll"
+  },
+  
+  "panorama_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "clips_children": true,
+    "controls": [
+      {
+        "main_panorama": {
+          "type": "image",
+          "$panorama_texture|default": "textures/ui4jd/panorama/day",
+          "texture": "$panorama_texture",
+          "size": [ "569.444%y", "100%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": "@common_panorama_4jd.panorama_scroll",
+          "layer": -200,
+          "bilinear": true,
+          "controls": [
+            { 
+              "next_side_panorama": {
+                "type": "image",
+                "texture": "$panorama_texture",
+                "size": [ "100%", "100%" ],
+                "offset": [ "100%", 0 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "bilinear": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

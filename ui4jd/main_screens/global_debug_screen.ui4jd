@@ -1,0 +1,17 @@
+/*File made by @CrisXolt.
+//(c) Don't use any code design without permission!*/
+{
+  "namespace": "global_debug_screen_4jd",
+
+  "content_bg_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      { 
+        "panorama_panel@common_panorama_4jd.panorama_panel": {
+          "ignored": "(not $is_pregame)"
+        }
+      }
+    ]
+  }
+}

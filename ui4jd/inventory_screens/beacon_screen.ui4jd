@@ -250,7 +250,7 @@
     "controls": [
       {
         "netherite@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 601,
+          "$item_id_beacon": 742,
           "bindings": [
             {
               "binding_name": "#supports_netherite",
@@ -300,7 +300,7 @@
       { "usable_items_stack_pane@beacon_4jd.usable_items_stack_panel": { } },
       {
         "ingredient_item@common.container_item": {
-          "$highlight_control": "common_4jd.highlight_slot_panel",
+          "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
           "$container_item_size": [ 21, 21 ],
           "$cell_image_size": [ 21, 21 ],
           "$item_renderer_panel_size": [ 21, 21 ],

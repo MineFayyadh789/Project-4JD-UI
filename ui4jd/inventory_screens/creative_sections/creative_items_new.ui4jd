@@ -183,7 +183,7 @@
     "size": [ 27, 27 ],
     
     "$background_images": "ui_4jd_textures.cell_image_1_5",
-    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 27, 27 ],
     "$cell_image_size": [ 27, 27 ],
     "$item_renderer_panel_size": [ 27, 27 ],

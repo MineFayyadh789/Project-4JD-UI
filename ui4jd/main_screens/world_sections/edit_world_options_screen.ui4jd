@@ -13,7 +13,19 @@
     "offset": [ 237.5, -10 ],
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "createWorldScreen.seed.desc",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   "natural_regen_toggle_desc_text@common_4jd.global_label": {
@@ -24,7 +36,19 @@
     "offset": [ 237.5, 2.5 ],
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "4jd.createWorldScreen.naturalregeneration.desc",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   "experiment_desc_text@common_4jd.global_label": {
@@ -35,7 +59,19 @@
     "offset": "$desc_offset",
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "createWorldScreen.experimentalgameplayinfo",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   /*////// TAB BUTTONS //////*/
@@ -489,12 +525,7 @@
           "$slider_value_binding_name": "#server_sim_distance",
           "$option_enabled_binding_name": "#server_sim_distance_enabled",
           "$slider_tts_text_value": "#server_sim_distance_text_value",
-          "$slider_steps_binding_name": "#server_sim_distance_steps",
-          "$label_bindings": [
-            {
-              "binding_name": "$option_label"
-            }
-          ]
+          "$slider_steps_binding_name": "#server_sim_distance_steps"
         }
       },
       {
@@ -519,6 +550,49 @@
               }
             }
           ]
+        }
+      }
+    ]
+  },
+
+  "world_options_stack_panel_page_2@edit_world_optons_4jd.world_options_stack_panel_page_1": {
+    "controls": [
+      {
+        "top_padding": {
+          "type": "panel",
+          "size": [ "100%", 2 ]
+        }
+      },
+      { "experiments_text@controls_4jd.header_text_panel": { "size": [ "100%", 10 ], "$header_text": "createWorldScreen.experimentalgameplay" } },
+      {
+        "experimental_toggles": {
+          "ignored": false,
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          //"factory": {
+          //  "name": "experimental_toggle_factory",
+          //  "control_name": "edit_world_optons_4jd.experimental_toggle"
+          //},
+
+          "collection_name": "experimental_toggles",
+
+          "controls": [
+            { "0@edit_world_optons_4jd.experimental_toggle": { "collection_index": 0, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -11 ] } },
+            { "1@edit_world_optons_4jd.experimental_toggle": { "collection_index": 1, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -26 ] } }, //+15
+            { "2@edit_world_optons_4jd.experimental_toggle": { "collection_index": 2, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -41 ] } },
+            { "3@edit_world_optons_4jd.experimental_toggle": { "collection_index": 3, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -56 ] } },
+            { "4@edit_world_optons_4jd.experimental_toggle": { "collection_index": 4, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -71 ] } },
+            { "5@edit_world_optons_4jd.experimental_toggle": { "collection_index": 5, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -86 ] } }/* ,
+            { "6@edit_world_optons_4jd.experimental_toggle": { "collection_index": 6, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -101 ] } } */
+          ]/* ,
+
+          "bindings": [
+            {
+              "binding_name": "#experimental_toggle_count",
+              "binding_name_override": "#collection_length"
+            }
+          ] */
         }
       },
       {
@@ -549,49 +623,6 @@
               }
             }
           ]
-        }
-      }
-    ]
-  },
-
-  "world_options_stack_panel_page_2@edit_world_optons_4jd.world_options_stack_panel_page_1": {
-    "controls": [
-      {
-        "top_padding": {
-          "type": "panel",
-          "size": [ "100%", 2 ]
-        }
-      },
-      { "experiments_text@controls_4jd.header_text_panel": { "size": [ "100%", 10 ], "$header_text": "createWorldScreen.experimentalgameplay" } },
-      {
-        "experimental_toggles": {
-          "type": "stack_panel",
-          "orientation": "vertical",
-          "size": [ "100%", "100%c" ],
-          "ignored": "$education_edition",
-          //"factory": {
-          //  "name": "experimental_toggle_factory",
-          //  "control_name": "edit_world_optons_4jd.experimental_toggle"
-          //},
-
-          "collection_name": "experimental_toggles",
-
-          "controls": [
-            { "0@edit_world_optons_4jd.experimental_toggle": { "collection_index": 0, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -11 ] } },
-            { "1@edit_world_optons_4jd.experimental_toggle": { "collection_index": 1, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -26 ] } }, //+15
-            { "2@edit_world_optons_4jd.experimental_toggle": { "collection_index": 2, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -41 ] } },
-            { "3@edit_world_optons_4jd.experimental_toggle": { "collection_index": 3, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -56 ] } },
-            { "4@edit_world_optons_4jd.experimental_toggle": { "collection_index": 4, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -71 ] } },
-            { "5@edit_world_optons_4jd.experimental_toggle": { "collection_index": 5, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -86 ] } },
-            { "6@edit_world_optons_4jd.experimental_toggle": { "collection_index": 6, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -101 ] } }
-          ]/* ,
-
-          "bindings": [
-            {
-              "binding_name": "#experimental_toggle_count",
-              "binding_name_override": "#collection_length"
-            }
-          ] */
         }
       }
     ]

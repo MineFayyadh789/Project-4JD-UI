@@ -1,7 +1,7 @@
 /*File made by @CrisXolt.
 //(c) Don't use any code design without permission!*/
 {
-  "namespace": "common_durability_dx",
+  "namespace": "common_durability_4jd",
 
   ////*/ Original Main Durability Bar /*////
 
@@ -40,7 +40,7 @@
     ]
   },
 
-  "original_durability_bar_grabbed@common_durability_dx.original_durability_bar": {
+  "original_durability_bar_grabbed@common_durability_4jd.original_durability_bar": {
     "layer": 61,
     "offset": [ "-10%", 4.5 ],
     "size": [ "100%", 1 ],
@@ -73,10 +73,10 @@
         "durability_bar_hold": {
           "type": "panel",
           "size": [ 16, 16 ],
-          "ignored": "($custom_durability_bar or $is_java_aspects)",
+          "ignored": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
             { 
-              "durability_bar@common_durability_dx.original_durability_bar": {
+              "durability_bar@common_durability_4jd.original_durability_bar": {
                 "layer": 0,
                 "size": [ 13, 1 ],
                 "anchor_from": "bottom_left",
@@ -91,9 +91,9 @@
         "custom_durability_bar_hold": {
           "type": "panel",
           "size": [ 16, 16 ],
-          "visible": "($custom_durability_bar or $is_java_aspects)",
+          "visible": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
-            { "durability_bar@common_durability_dx.durability_bar": { } }
+            { "durability_bar@common_durability_4jd.durability_bar": { } }
           ]
         }
       }
@@ -104,16 +104,16 @@
 
   "durability_bar_selected_icon": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "durability_bar_hold": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "ignored": "($custom_durability_bar or $is_java_aspects)",
+          "size": [ "100%", "100%" ],
+          "ignored": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
             { 
-              "durability_bar_grabbed@common_durability_dx.original_durability_bar_grabbed": {
+              "durability_bar_grabbed@common_durability_4jd.original_durability_bar_grabbed": {
                 "size": [ 13, 1 ],
                 "anchor_from": "bottom_left",
                 "anchor_to": "bottom_left",
@@ -127,13 +127,12 @@
       {
         "custom_durability_bar_hold": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "visible": "($custom_durability_bar or $is_java_aspects)",
+          "size": [ "100%", "100%" ],
+          "visible": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
             { 
-              "durability_bar_grabbed@common_durability_dx.durability_bar": {
+              "durability_bar_grabbed@common_durability_4jd.durability_bar": {
                 "layer": 61,
-                "$item_renderer_size": [ 16, 16 ],
                 "$is_grabbed": true,
                 "$total_amount": "#selected_item_durability_total_amount",
                 "$current_amount": "#selected_item_durability_current_amount",
@@ -191,26 +190,26 @@
     ]
   },
 
-  "durability_bar_00@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/00" },
-  "durability_bar_01@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/01" },
-  "durability_bar_02@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/02" },
-  "durability_bar_03@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/03" },
-  "durability_bar_04@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/04" },
-  "durability_bar_05@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/05" },
-  "durability_bar_06@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/06" },
-  "durability_bar_07@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/07" },
-  "durability_bar_08@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/08" },
-  "durability_bar_09@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/09" },
-  "durability_bar_10@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/10" },
-  "durability_bar_11@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/11" },
-  "durability_bar_12@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/12" },
-  "durability_bar_13@common_durability_dx.durability_bindings": { "texture": "textures/uidx/durability_bar/13" },
+  "durability_bar_00@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/00" },
+  "durability_bar_01@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/01" },
+  "durability_bar_02@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/02" },
+  "durability_bar_03@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/03" },
+  "durability_bar_04@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/04" },
+  "durability_bar_05@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/05" },
+  "durability_bar_06@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/06" },
+  "durability_bar_07@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/07" },
+  "durability_bar_08@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/08" },
+  "durability_bar_09@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/09" },
+  "durability_bar_10@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/10" },
+  "durability_bar_11@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/11" },
+  "durability_bar_12@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/12" },
+  "durability_bar_13@common_durability_4jd.durability_bindings": { "texture": "textures/ui4jd/durability_bar/13" },
 
   /* Durability Bar */
 
   "durability_bar": {
     "type": "panel",
-    "size": "$item_renderer_size",
+    "size": [ "100%", "100%" ],
     "$total_amount": "#item_durability_total_amount",
     "$current_amount": "#item_durability_current_amount",
     "$is_grabbed": false,
@@ -223,20 +222,20 @@
       }
     ],
     "controls": [
-      { "durability_bar_00@common_durability_dx.durability_bar_00": { "$min_amount": 0.0000, "$max_amount": 0.0714 } },
-      { "durability_bar_01@common_durability_dx.durability_bar_01": { "$min_amount": 0.0714, "$max_amount": 0.1428 } },
-      { "durability_bar_02@common_durability_dx.durability_bar_02": { "$min_amount": 0.1428, "$max_amount": 0.2142 } },
-      { "durability_bar_03@common_durability_dx.durability_bar_03": { "$min_amount": 0.2142, "$max_amount": 0.2856 } },
-      { "durability_bar_04@common_durability_dx.durability_bar_04": { "$min_amount": 0.2856, "$max_amount": 0.3570 } },
-      { "durability_bar_05@common_durability_dx.durability_bar_05": { "$min_amount": 0.3570, "$max_amount": 0.4284 } },
-      { "durability_bar_06@common_durability_dx.durability_bar_06": { "$min_amount": 0.4284, "$max_amount": 0.4998 } },
-      { "durability_bar_07@common_durability_dx.durability_bar_07": { "$min_amount": 0.4998, "$max_amount": 0.5712 } },
-      { "durability_bar_08@common_durability_dx.durability_bar_08": { "$min_amount": 0.5712, "$max_amount": 0.6426 } },
-      { "durability_bar_09@common_durability_dx.durability_bar_09": { "$min_amount": 0.6426, "$max_amount": 0.7140 } },
-      { "durability_bar_10@common_durability_dx.durability_bar_10": { "$min_amount": 0.7140, "$max_amount": 0.7854 } },
-      { "durability_bar_11@common_durability_dx.durability_bar_11": { "$min_amount": 0.7854, "$max_amount": 0.8568 } },
-      { "durability_bar_12@common_durability_dx.durability_bar_12": { "$min_amount": 0.8568, "$max_amount": 0.9282 } },
-      { "durability_bar_13@common_durability_dx.durability_bar_13": { "$min_amount": 0.9282, "$max_amount": 1.0000 } }
+      { "durability_bar_00@common_durability_4jd.durability_bar_00": { "$min_amount": 0.0000, "$max_amount": 0.0714 } },
+      { "durability_bar_01@common_durability_4jd.durability_bar_01": { "$min_amount": 0.0714, "$max_amount": 0.1428 } },
+      { "durability_bar_02@common_durability_4jd.durability_bar_02": { "$min_amount": 0.1428, "$max_amount": 0.2142 } },
+      { "durability_bar_03@common_durability_4jd.durability_bar_03": { "$min_amount": 0.2142, "$max_amount": 0.2856 } },
+      { "durability_bar_04@common_durability_4jd.durability_bar_04": { "$min_amount": 0.2856, "$max_amount": 0.3570 } },
+      { "durability_bar_05@common_durability_4jd.durability_bar_05": { "$min_amount": 0.3570, "$max_amount": 0.4284 } },
+      { "durability_bar_06@common_durability_4jd.durability_bar_06": { "$min_amount": 0.4284, "$max_amount": 0.4998 } },
+      { "durability_bar_07@common_durability_4jd.durability_bar_07": { "$min_amount": 0.4998, "$max_amount": 0.5712 } },
+      { "durability_bar_08@common_durability_4jd.durability_bar_08": { "$min_amount": 0.5712, "$max_amount": 0.6426 } },
+      { "durability_bar_09@common_durability_4jd.durability_bar_09": { "$min_amount": 0.6426, "$max_amount": 0.7140 } },
+      { "durability_bar_10@common_durability_4jd.durability_bar_10": { "$min_amount": 0.7140, "$max_amount": 0.7854 } },
+      { "durability_bar_11@common_durability_4jd.durability_bar_11": { "$min_amount": 0.7854, "$max_amount": 0.8568 } },
+      { "durability_bar_12@common_durability_4jd.durability_bar_12": { "$min_amount": 0.8568, "$max_amount": 0.9282 } },
+      { "durability_bar_13@common_durability_4jd.durability_bar_13": { "$min_amount": 0.9282, "$max_amount": 1.0000 } }
     ]
   }
 }

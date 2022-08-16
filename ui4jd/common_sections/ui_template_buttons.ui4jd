@@ -59,9 +59,19 @@
   },
 
   "button_label@common_4jd.global_label": {
-    "shadow": true,
+    "shadow": false,
     "size": [ "default", "default" ],
     "color": "$text_color",
-    "text": "$button_text"
+    "text": "$button_text",
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "layer": -1,
+          "color": "black",
+          "text": "$button_text",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }
 }

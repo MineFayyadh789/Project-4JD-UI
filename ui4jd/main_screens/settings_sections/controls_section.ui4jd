@@ -6,7 +6,8 @@
     "layer": 2,
     "controls": [
       {
-        "keymapping_label_control@common_buttons_4jd.button_label": {
+        "keymapping_label_control@common_4jd.global_label": {
+          "color": "$text_color",
           "text": "#keymapping_name",
           "layer": 4,
           "offset": [ 8, 5.5 ],
@@ -18,6 +19,26 @@
               "binding_name": "#keymapping_name",
               "binding_type": "collection",
               "binding_collection_name": "$keymapping_collection"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", "100%" ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "layer": -1,
+                "color": "black",
+                "text": "#keymapping_name",
+                "offset": [ 0.5, 0.5 ],
+                "bindings": [
+                  {
+                    "binding_name": "#keymapping_name",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$keymapping_collection"
+                  }
+                ]
+              }
             }
           ]
         }

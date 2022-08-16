@@ -18,12 +18,7 @@
                 "$slider_value_binding_name": "#main_volume",
                 "$slider_tts_text_value": "#main_volume_text_value",
                 "$option_enabled_binding_name": "#main_volume_enabled",
-                "$focus_override_up": "FOCUS_OVERRIDE_STOP",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$focus_override_up": "FOCUS_OVERRIDE_STOP"
               }
             },
             {
@@ -32,12 +27,7 @@
                 "$slider_name": "music_volume",
                 "$slider_value_binding_name": "#music_volume",
                 "$slider_tts_text_value": "#music_volume_text_value",
-                "$option_enabled_binding_name": "#music_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#music_volume_enabled"
               }
             },
             {
@@ -46,12 +36,7 @@
                 "$slider_name": "sound_volume",
                 "$slider_value_binding_name": "#sound_volume",
                 "$slider_tts_text_value": "#sound_volume_text_value",
-                "$option_enabled_binding_name": "#sound_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#sound_volume_enabled"
               }
             },
             {
@@ -60,12 +45,7 @@
                 "$slider_name": "ambient_volume",
                 "$slider_value_binding_name": "#ambient_volume",
                 "$slider_tts_text_value": "#ambient_volume_text_value",
-                "$option_enabled_binding_name": "#ambient_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#ambient_volume_enabled"
               }
             },
             {
@@ -74,12 +54,7 @@
                 "$slider_name": "block_volume",
                 "$slider_value_binding_name": "#block_volume",
                 "$slider_tts_text_value": "#block_volume_text_value",
-                "$option_enabled_binding_name": "#block_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#block_volume_enabled"
               }
             },
             {
@@ -88,12 +63,7 @@
                 "$slider_name": "hostile_volume",
                 "$slider_value_binding_name": "#hostile_volume",
                 "$slider_tts_text_value": "#hostile_volume_text_value",
-                "$option_enabled_binding_name": "#hostile_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#hostile_volume_enabled"
               }
             },
             {
@@ -102,12 +72,7 @@
                 "$slider_name": "neutral_volume",
                 "$slider_value_binding_name": "#neutral_volume",
                 "$slider_tts_text_value": "#neutral_volume_text_value",
-                "$option_enabled_binding_name": "#neutral_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#neutral_volume_enabled"
               }
             },
             {
@@ -116,12 +81,7 @@
                 "$slider_name": "player_volume",
                 "$slider_value_binding_name": "#player_volume",
                 "$slider_tts_text_value": "#player_volume_text_value",
-                "$option_enabled_binding_name": "#player_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#player_volume_enabled"
               }
             },
             {
@@ -130,12 +90,7 @@
                 "$slider_name": "record_volume",
                 "$slider_value_binding_name": "#record_volume",
                 "$slider_tts_text_value": "#record_volume_text_value",
-                "$option_enabled_binding_name": "#record_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#record_volume_enabled"
               }
             },
             {
@@ -144,12 +99,7 @@
                 "$slider_name": "weather_volume",
                 "$slider_value_binding_name": "#weather_volume",
                 "$slider_tts_text_value": "#weather_volume_text_value",
-                "$option_enabled_binding_name": "#weather_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#weather_volume_enabled"
               }
             },
             {
@@ -158,12 +108,7 @@
                 "$slider_name": "texttospeech_volume",
                 "$slider_value_binding_name": "#texttospeech_volume",
                 "$slider_tts_text_value": "#texttospeech_volume_text_value",
-                "$option_enabled_binding_name": "#texttospeech_volume_enabled",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$option_enabled_binding_name": "#texttospeech_volume_enabled"
               }
             },
             {

@@ -54,7 +54,8 @@
         }
       },
       {
-        "button_label@common_buttons_4jd.button_label": {
+        "button_label@common_4jd.global_label": {
+          "color": "$text_color",
           "layer": 6,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
@@ -65,6 +66,24 @@
               "binding_type": "collection",
               "binding_collection_name": "ugc_items",
               "binding_name": "#text"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": "#text",
+                "offset": [ 0.5, 0.5 ],
+                "bindings": [
+                  {
+                    "binding_type": "collection",
+                    "binding_collection_name": "ugc_items",
+                    "binding_name": "#text"
+                  }
+                ]
+              }
             }
           ]
         }

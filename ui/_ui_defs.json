@@ -2,15 +2,24 @@
   "ui_defs": [
     ////*/ Common Sections /*////
     "ui4jd/common_sections/ui_common.ui4jd",
+    "ui4jd/common_sections/ui_4jd_panorama.ui4jd",
     "ui4jd/common_sections/ui_4jd_textures.ui4jd",
     "ui4jd/common_sections/ui_template_buttons.ui4jd",
     "ui4jd/common_sections/ui_template_scroll.ui4jd",
     "ui4jd/common_sections/ui_template_toggles.ui4jd",
     "ui4jd/common_sections/ui_template_tooltip.ui4jd",
+    /* Container Item Sections */
+    "ui4jd/common_sections/container_item_sections/inventory_buttons.ui4jd",
+    "ui4jd/common_sections/container_item_sections/ui_container_item.ui4jd",
+    "ui4jd/common_sections/container_item_sections/ui_item_highlight.ui4jd",
+    "ui4jd/common_sections/container_item_sections/ui_item_renderer.ui4jd",
+    "ui4jd/common_sections/container_item_sections/ui_selected_icon.ui4jd",
+    "ui4jd/common_sections/container_item_sections/ui_template_durability.ui4jd",
     ////*/ Main Screens /*////
     "ui4jd/main_screens/add_external_server_screen.ui4jd",
     "ui4jd/main_screens/book_screen.ui4jd",
     "ui4jd/main_screens/death_screen.ui4jd",
+    "ui4jd/main_screens/global_debug_screen.ui4jd",
     "ui4jd/main_screens/in_bed_screen.ui4jd",
     "ui4jd/main_screens/online_safety_screen.ui4jd",
     "ui4jd/main_screens/pause_screen.ui4jd",

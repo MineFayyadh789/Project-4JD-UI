@@ -55,5 +55,43 @@
 
   "screen_panel/popup_dialog_factory": {
     "ignored": "$ignore_main_popup_dialog"
+  },
+
+  "base_screen/variables_button_mappings_and_controls": {
+    "controls": [
+      {
+        "bg_no_safezone_screen_panel@$screen_bg_content": {
+          "anims": "$background_animations",
+          "animation_reset_name": "screen_animation_reset",
+          "propagate_alpha": true,
+          "disable_anim_fast_forward": true,
+          "layer": 2
+        }
+      },
+      {
+        "safezone_screen_matrix@common.safezone_outer_matrix": {
+          "anims": "$screen_animations",
+          "animation_reset_name": "screen_animation_reset",
+          "propagate_alpha": true,
+          "disable_anim_fast_forward": true,
+          "layer": "$safezone_screen_matrix_layer"
+        }
+      },
+      {
+        "screen_background@common_dialogs.full_screen_background": {
+          "anims": "$screen_animations",
+          "animation_reset_name": "screen_animation_reset",
+          "propagate_alpha": true,
+          "disable_anim_fast_forward": true,
+          "layer": -1
+        }
+      },
+      { 
+        "gamma_fix@common_4jd.gamma_fix": {
+          "anims": "unset",
+          "animation_reset_name": "screen_animation_reset"
+        }
+      }
+    ]
   }
 }

@@ -91,7 +91,7 @@
                 "$focus_override_up": "FOCUS_OVERRIDE_STOP",
                 "$focus_override_up_binding_type": "none",
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -133,7 +133,7 @@
                 "$focus_override_left": "FOCUS_OVERRIDE_STOP",
                 "$focus_override_left_binding_type": "none",
 
-                "$highlight_control": "common_4jd.highlight_slot_panel",
+                "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 21, 21 ],
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
@@ -158,7 +158,7 @@
           "$focus_override_left_binding_type": "none",
           "$focus_override_left": "furnace_fuel_item",
 
-          "$highlight_control": "common_4jd.highlight_slot_panel",
+          "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
           "$background_images": "ui_4jd_textures.cell_image_1_5",
           "$container_item_size": [ 32, 32 ],
           "$cell_image_size": [ 32, 32 ],

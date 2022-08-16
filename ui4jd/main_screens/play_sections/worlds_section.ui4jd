@@ -101,7 +101,8 @@
         }
       },
       {
-        "button_label@common_buttons_4jd.button_label": {
+        "button_label@common_4jd.global_label": {
+          "color": "$text_color",
           "layer": 6,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
@@ -112,6 +113,28 @@
               "binding_name": "#local_world_name",
               "binding_type": "collection",
               "binding_collection_name": "local_worlds"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "layer": -1,
+                "color": "black",
+                "text": "#text",
+                "offset": [ 0.5, 0.5 ],
+                "bindings": [
+                  {
+                    "binding_name": "#local_world_name",
+                    "binding_type": "collection",
+                    "binding_collection_name": "local_worlds"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('§r' + (#local_world_name) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                    "target_property_name": "#text"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -241,9 +264,11 @@
           "size": [ "fill", "100%" ],
           "controls": [
             {
-              "button_label@common_buttons_4jd.button_label": {
+              "button_label@common_4jd.global_label": {
+                "color": "$text_color",
                 "layer": 6,
-                "size": [ "100%", 10 ],
+                "size": [ "default", 10 ],
+                "max_size": [ "100%", 10 ],
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "offset": [ 0, 5.5 ],
@@ -253,6 +278,29 @@
                     "binding_name": "#realms_world_header",
                     "binding_type": "collection",
                     "binding_collection_name": "$realms_worlds_collection_name"
+                  }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", 10 ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "bindings": [
+                        {
+                          "binding_name": "#realms_world_header",
+                          "binding_type": "collection",
+                          "binding_collection_name": "$realms_worlds_collection_name"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + (#realms_world_header) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
                   }
                 ]
               }
@@ -268,7 +316,7 @@
             {
               "player_count@common_4jd.global_label": {
                 "text": "#realms_world_player_count",
-                "shadow": true,
+                "shadow": false,
                 "layer": 5,
                 "color": [ 0.75, 0.75, 0.75 ],
                 "anchor_from": "top_middle",
@@ -280,6 +328,29 @@
                     "binding_name": "#realms_world_player_count",
                     "binding_type": "collection",
                     "binding_collection_name": "$realms_worlds_collection_name"
+                  }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", 10 ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "bindings": [
+                        {
+                          "binding_name": "#realms_world_player_count",
+                          "binding_type": "collection",
+                          "binding_collection_name": "$realms_worlds_collection_name"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + (#realms_world_player_count) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
                   }
                 ]
               }

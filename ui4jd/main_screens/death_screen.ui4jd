@@ -19,14 +19,14 @@
     "offset": [ 0, -51 ],
     "controls": [
       { "main_text@death_4jd.you_died_label": { "color": [ 1.0, 1.0, 1.0 ], "layer": 3, "offset": [ 0, 0 ] } },
-      { "outline_1@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 0 ] } },
-      { "outline_2@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 0 ] } },
-      { "outline_3@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, 1 ] } },
-      { "outline_4@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, -1 ] } },
-      { "outline_5@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 1 ] } },
-      { "outline_6@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, -1 ] } },
-      { "outline_7@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, -1 ] } },
-      { "outline_8@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 1 ] } }
+      { "outline_1@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 0 ] } }, /* Left */
+      { "outline_2@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, -1 ] } }, /* Up */
+      { "outline_3@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, 1.5 ] } }, /* down */
+      { "outline_4@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 0 ] } }, /* right */
+      { "outline_5@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 1.5 ] } }, /* Left, Down */
+      { "outline_6@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, -1 ] } }, /* Right, Up */
+      { "outline_7@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 1.5 ] } }, /* Right, Down */
+      { "outline_8@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, -1 ] } } /* Left, Up */
     ]
   },
 

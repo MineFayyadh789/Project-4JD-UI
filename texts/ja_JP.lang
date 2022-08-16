@@ -1,0 +1,27 @@
+##  Start
+4jd.menu.play=プレイする ##3343
+4jd.menu.store=Minecraft ストア ##1441
+4jd.menu.helpOptions=遊び方 & オプション ##1649
+4jd.menu.exit=ゲームを終了 ##1535
+
+4jd.progress.initializingServer=サーバーを初期化中 ##3480
+
+furnaceScreen.input=Ingredient
+
+##  Crafting
+4jd.craftingScreen.enableRecipe=Enable Recipe Book
+
+4jd.craftingScreen.tab.structures=建物 ##1640
+4jd.craftingScreen.tab.tools=道具と武器 ##1641
+4jd.craftingScreen.tab.food=食べ物 ##1633
+4jd.craftingScreen.tab.armor=防具 ##1630
+4jd.craftingScreen.tab.mechanisms=機械 ##1635
+4jd.craftingScreen.tab.transport=乗り物 ##1643
+4jd.craftingScreen.tab.decorations=飾り ##1632
+
+4jd.creativeScreen.tab.buildingBlocks=建築ブロック ##1631
+4jd.creativeScreen.tab.redstone_and_transport=レッドストーンと乗り物 ##1639
+4jd.creativeScreen.tab.materials=材料 ##1634
+4jd.creativeScreen.tab.toolsWeaponsAndArmor=道具、武器、防具 ##1642
+4jd.creativeScreen.tab.brewing=調合 ##1637 or 1638
+4jd.creativeScreen.tab.miscellaneous=その他 ##1636

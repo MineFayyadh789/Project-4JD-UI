@@ -13,7 +13,19 @@
     "offset": [ 237.5, -10 ],
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "createWorldScreen.seed.desc",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   "natural_regen_toggle_desc_text@common_4jd.global_label": {
@@ -24,7 +36,19 @@
     "offset": [ 237.5, 2.5 ],
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "4jd.createWorldScreen.naturalregeneration.desc",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   "experiment_desc_text@common_4jd.global_label": {
@@ -35,7 +59,19 @@
     "offset": "$desc_offset",
     "size": [ 164, "default" ],
     "line_padding": 2,
-    "shadow": false
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "createWorldScreen.experimentalgameplayinfo",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   }, 
 
   /*////// TAB BUTTONS //////*/
@@ -534,12 +570,7 @@
           "$slider_value_binding_name": "#server_sim_distance",
           "$option_enabled_binding_name": "#server_sim_distance_enabled",
           "$slider_tts_text_value": "#server_sim_distance_text_value",
-          "$slider_steps_binding_name": "#server_sim_distance_steps",
-          "$label_bindings": [
-            {
-              "binding_name": "$option_label"
-            }
-          ]
+          "$slider_steps_binding_name": "#server_sim_distance_steps"
         }
       },
       { "experiments_text@controls_4jd.header_text_panel": { "size": [ "100%", 24.5 ], "$header_text": "createWorldScreen.experimentalgameplay" } },

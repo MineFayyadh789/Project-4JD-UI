@@ -37,12 +37,7 @@
                 "$slider_value_binding_name": "#gamma",
                 "$slider_tts_text_value": "#gamma_text_value",
                 "$option_enabled_binding_name": "#gamma_enabled",
-                "$focus_override_up": "FOCUS_OVERRIDE_STOP",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ]
+                "$focus_override_up": "FOCUS_OVERRIDE_STOP"
               }
             },
             {
@@ -114,11 +109,6 @@
                 "$slider_tts_text_value": "#render_distance_text_value",
                 "$option_enabled_binding_name": "#render_distance_enabled",
                 "$slider_steps_binding_name": "#render_distance_steps",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ],
                 "bindings": [
                   {
                     "binding_name": "#show_render_distance",
@@ -136,11 +126,6 @@
                 "$slider_tts_text_value": "#msaa_text_value",
                 "$option_enabled_binding_name": "#msaa_enabled",
                 "$slider_steps_binding_name": "#msaa_steps",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ],
                 "bindings": [
                   {
                     "binding_name": "#show_msaa",
@@ -190,11 +175,6 @@
                 "$slider_tts_text_value": "#raytracing_render_distance_text_value",
                 "$option_enabled_binding_name": "#raytracing_render_distance_enabled",
                 "$slider_steps_binding_name": "#raytracing_render_distance_steps",
-                "$label_bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ],
                 "bindings": [
                   {
                     "binding_name": "#show_raytracing_render_distance",

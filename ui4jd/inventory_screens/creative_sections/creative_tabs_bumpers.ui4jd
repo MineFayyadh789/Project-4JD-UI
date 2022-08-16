@@ -44,7 +44,7 @@
 
           "size": [ 243, 27 ],
           "$background_images": "ui_4jd_textures.cell_image_1_5",
-          "$highlight_control": "common_4jd.highlight_slot_panel",
+          "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
           "$container_item_size": [ 27, 27 ],
           "$cell_image_size": [ 27, 27 ],
           "$item_renderer_panel_size": [ 27, 27 ],
@@ -170,6 +170,7 @@
   },
 
   "building_blocks_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_1": true,
     "$category": "building_blocks",
     "$scroll_box_offset_page_2": [ 0, 24 ],
@@ -188,6 +189,7 @@
   },
 
   "decorations_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_2": true,
     "$category": "decorations",
     "$scroll_box_offset_page_2": [ 0, 24 ],
@@ -205,6 +207,7 @@
   },
 
   "redstone_and_transport_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_3": true,
     "$category": "redstone_and_transport",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -216,6 +219,7 @@
   },
 
   "materials_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_4": true,
     "$category": "materials",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -227,6 +231,7 @@
   },
 
   "food_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_5": true,
     "$category": "food",
     "$1_page_only": true,
@@ -236,6 +241,7 @@
   },
 
   "tools_weapons_and_armor_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_6": true,
     "$category": "tools_weapons_and_armor",
     "$scroll_box_offset_page_2": [ 0, 40 ],
@@ -252,6 +258,7 @@
   },
 
   "brewing_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_7": true,
     "$category": "brewing",
     "$scroll_box_offset_page_2": [ 0, 60 ],
@@ -265,6 +272,7 @@
   },
   
   "miscellaneous_panel_content@creative_tabs_bumpers.tab_panel_content": {
+    "ignored": true,
     "$is_tab_8": true,
     "$category": "miscellaneous",
     "$scroll_box_offset_page_2": [ 0, 40 ],

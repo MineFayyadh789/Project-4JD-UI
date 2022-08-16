@@ -20,11 +20,12 @@
   "grid_item_for_creative@crafting.grid_item_for_recipe_book": {
     "size": [ 27, 27 ],
     "$background_images": "common.empty_panel",
-    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 27, 27 ],
     "$cell_image_size": [ 27, 27 ],
     "$item_renderer_panel_size": [ 27, 27 ],
     "$item_renderer_size": [ 22, 22 ],
+    "$highlight_slot_size": [ 24, 24 ],
     "$stack_count_control": "common.empty_panel"
   },
   

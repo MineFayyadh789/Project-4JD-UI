@@ -17,12 +17,23 @@
         }
       },
       {
-        "button_label@common_buttons_4jd.button_label": {
+        "button_label@common_4jd.global_label": {
           "layer": 6,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 39.5, 10.5 ],
-          "text": "selectWorld.createNew"
+          "color": "$text_color",
+          "text": "selectWorld.createNew",
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "layer": -1,
+                "color": "black",
+                "text": "selectWorld.createNew",
+                "offset": [ 0.5, 0.5 ]
+              }
+            }
+          ]
         }
       }
     ]

@@ -1,4 +1,4 @@
-### IMPORTANT NOTE: It is only viable to use it in 1280x720 resolution, for 1080 pixel height format I will bring it later, also, make sure you haven't changed the safezone screen values. And finally, it only works for the latest Beta version.
+### IMPORTANT NOTE: It is only viable to use it in 1080p resolution, for 720p pixel height format I will bring it later. And yes, it only works for the latest version.
 
 # VDX: Project 4JD UI
 
@@ -8,45 +8,22 @@
 
 Is an testing/experimental museum resource pack that would change some UI designs, and the goal of this project is convert from default UI to high accuracy 4JD (Legacy Console) UI TP for Bedrock Edition users, replacing some designs to look more similar!
 
-The UI design was originally made by Julie "Danger" Kennedy from 4J Studios! I simply recreate the UI port for Bedrock Edition ;D.
+The UI design was originally made by Julie "Danger" Kennedy from 4J Studios! I simply recreate the UI port/adaptation for Bedrock Edition ;D.
 
 For now it will be designated only for High-end PC Windows 10 or Last Gen Consoles.
 
-For mobile (Mini version, even for Switch) it will be available for late 2022.
-
 #### Current Features ####
 
-- Start
-- Progress
-- HUD
-- Anvil screen.
-- Beacon screen.
-- Trade v2 screen.
-- Classic Inventory and Crafting screen (Just like JE UI).
-- Creative Screen (Temporarily removed).
-- Furnace screen.
-- Enchanting Table screen.
-- Chest screen.
-- Horse screen.
-- Grindstone screen.
-- Cartography Table screen.
-- Dispenser screen.
-- Hopper screen.
-- Smithing Table screen.
+- Waiting further information...
 
 #### Supported Languages ####
 
 - English (en_US)(Main)
-- Japanese (ja_JP), as separate patch.
-
-In progress:
-- Spanish (es_MX)
-- Korean (ko_KR)
+- Japanese (ja_JP)(WIP)
 
 #### To do list ####
 
 - CE 3x3 and 2x2 Crafting screen (10%, still in progress).
-- Pause screen.
 
 #### License ####
 
@@ -73,6 +50,7 @@ You can't:
 
 - It takes about 14 seconds to open the inventory screen. But it only happens once and it will take less than 2 seconds more than the second time.
 - At the moment, it is not recommended for use with another resource pack, much less when applied to a single world.
+- The modified create world screen can't be worked anymore due new UI engine (can't be changed though resource packs).
 
 #### Credits ####
 

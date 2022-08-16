@@ -35,11 +35,12 @@
       },
       {
         "option_label@common_4jd.global_label": {
+          "alpha": "$toggle_alpha",
           "color": "$title_text_color",
           "text": "$option_label",
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 14, 2 ],
+          "offset": [ 13.5, 2 ],
           "layer": 5,
           "bindings": "$label_bindings"
         }
@@ -62,14 +63,26 @@
       },
       {
         "option_label@common_4jd.global_label": {
+          "alpha": "$toggle_alpha",
           "color": "$main_menu_button_hover_color",
           "text": "$option_label",
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 13, 1 ],
-          "shadow": true,
+          "offset": [ 13, 1.5 ],
+          "shadow": false,
           "layer": 6,
-          "bindings": "$label_bindings"
+          "bindings": "$label_bindings",
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": "$option_label",
+                "offset": [ 0.5, 0.5 ]
+              }
+            }
+          ]
         }
       }
     ]
@@ -141,10 +154,36 @@
           ],
           "controls": [
             {
-              "option_label@common_buttons_4jd.button_label": {
+              "option_label@common_4jd.global_label": {
+                "color": "$text_color",
                 "layer": 10,
                 "text": "$option_label",
-                "bindings": "$label_bindings"
+                "bindings": [
+                  {
+                    "binding_name": "$option_label"
+                  }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", 10 ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "bindings": [
+                        {
+                          "binding_name": "$option_label"
+                        },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + ($option_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
             },
             { "bg_texture@$bg_texture": { "layer": 3 } }
@@ -186,8 +225,8 @@
                 "$hover_content": "common.empty_panel",
                 "controls": [
                   { "default@ui_4jd_textures.slider_box": { } },
-                  { "hover@ui_4jd_textures.slider_box_hover": { } },
-                  { "indent@ui_4jd_textures.slider_box": { } },
+                  { "hover@ui_4jd_textures.slider_box": { } },
+                  { "indent@ui_4jd_textures.slider_box_hover": { } },
                   { "locked@ui_4jd_textures.slider_box": { "alpha": 0.5 } }
                 ]
               }
@@ -210,12 +249,37 @@
                 ],
                 "controls": [
                   {
-                    "option_label_locked@common_buttons_4jd.button_label": {
+                    "option_label_locked@common_4jd.global_label": {
                       "layer": 10,
                       "alpha": 0.5,
                       "text": "$option_label",
                       "color": "$main_menu_button_locked_color",
-                      "bindings": "$label_bindings"
+                      "bindings": [
+                        {
+                          "binding_name": "$option_label"
+                        }
+                      ],
+                      "controls": [
+                        {
+                          "shadow@common_4jd.global_label": {
+                            "size": [ "100%", 10 ],
+                            "layer": -1,
+                            "color": "black",
+                            "text": "#text",
+                            "offset": [ 0.5, 0.5 ],
+                            "bindings": [
+                              {
+                                "binding_name": "$option_label"
+                              },
+                              {
+                                "binding_type": "view",
+                                "source_property_name": "('§r' + ($option_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                                "target_property_name": "#text"
+                              }
+                            ]
+                          }
+                        }
+                      ]
                     }
                   },
                   { "bg_texture@ui_4jd_textures.slider_background": { "size": [ "100%+8px", 16 ], "alpha": 0.5, "layer": 3 } }
@@ -316,25 +380,49 @@
     "layer": 2,
     "controls": [
       {
-        "button_label@common_buttons_4jd.button_label": {
+        "button_label@common_4jd.global_label": {
           "text": "$option_label",
-          "color": "$option_label_text_color"
+          "color": "$option_label_text_color",
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": "$option_label",
+                "offset": [ 0.5, 0.5 ]
+              }
+            }
+          ]
         }
       },
       {
-        "colon@common_buttons_4jd.button_label": {
+        "colon@common_4jd.global_label": {
+          "color": "$text_color",
           "ignored": "(not $colon_needed)",
-          "text": ": "
+          "text": ": ",
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": ": ",
+                "offset": [ 0.5, 0.5 ]
+              }
+            }
+          ]
         }
       },
       {
-        "separator@common_buttons_4jd.button_label": {
+        "separator@common_4jd.global_label": {
+          "color": "$text_color",
           "ignored": "$colon_needed",
           "text": " "
         }
       },
       {
-        "value_label@common_buttons_4jd.button_label": {
+        "value_label@common_4jd.global_label": {
           "$option_label_text_color|default": "$text_color",
           "$options_dropdown_toggle_label_font_type|default": "default",
           "$options_dropdown_toggle_label_binding_type|default": "global",
@@ -359,6 +447,35 @@
               "binding_type": "global",
               "binding_name": "$options_dropdown_toggle_label_font_type",
               "binding_name_override": "#font_type"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": "#text",
+                "offset": [ 0.5, 0.5 ],
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "$options_dropdown_toggle_label_font_type",
+                    "binding_name_override": "#font_type"
+                  },
+                  {
+                    "binding_name": "$options_dropdown_toggle_label_binding",
+                    "binding_condition": "none",
+                    "binding_type": "$options_dropdown_toggle_label_binding_type",
+                    "binding_collection_name": "$options_dropdown_toggle_label_binding_collection_name"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('§r' + ($options_dropdown_toggle_label_binding) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                    "target_property_name": "#text"
+                  }
+                ]
+              }
             }
           ]
         }

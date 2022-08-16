@@ -8,7 +8,7 @@
     "anchor_to": "top_left",
     "grid_dimensions": [ 1, 1 ],
     "$background_images": "ui_4jd_textures.cell_image_1_5",
-    "$highlight_control": "common_4jd.highlight_slot_panel",
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 30, 30 ],
     "$cell_image_size": [ 30, 30 ],
     "$item_renderer_panel_size": [ 30, 30 ],
@@ -68,13 +68,43 @@
   },
 
   "cost_label@common_4jd.global_label": {
-    "shadow": true,
+    "shadow": false,
     "offset": [ -13, 90.5 ],
     "layer": 3,
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "text": "#text",
     "controls": [
+      {
+        "shadow_0@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0.5 ]
+        }
+      },
+      {
+        "shadow_1@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0, 0.5 ]
+        }
+      },
+      {
+        "shadow_2@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0 ]
+        }
+      },
       {
         "text_bg": {
           "type": "image",
@@ -83,7 +113,7 @@
           "texture": "textures/ui4jd/global/base_color",
           "layer": -1,
           "color": [ 0, 0, 0 ],
-          "alpha": 0.5
+          "alpha": 0.0
         }
       }
     ]

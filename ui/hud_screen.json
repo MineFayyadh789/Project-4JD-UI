@@ -2,12 +2,71 @@
 //(c) Don't use any code design without permission!*/
 {
   "hud_screen": {
-    "$screen_content": "hud_4jd.center_screen",
-    "$screen_bg_content": "hud_4jd.full_screen"
+    "$screen_content": "hud_4jd.hud_content",
+    "$screen_bg_content": "hud_4jd.hud_content_bg"
+  },
+
+  /* Making Full Hive Server Compatibility (Ignoring some UI elements that are not modified by the server) */
+
+  "player_position": {
+    "ignored": true
+  },
+
+  "chat_panel": {
+    "ignored": true
+  },
+
+  "left_helpers_edu": {
+    "ignored": true
+  },
+
+  "left_helpers": {
+    "ignored": true
+  },
+
+  "right_helpers": {
+    "ignored": true
+  },
+
+  "emote_helpers": {
+    "ignored": true
+  },
+
+  "centered_gui_elements": {
+    "ignored": true
+  },
+
+  "vignette_renderer": { "layer": -10 },
+
+  "centered_gui_elements_at_bottom_middle": {
+    "ignored": true
+  },
+
+  "not_centered_gui_elements": {
+    "ignored": true
+  },
+
+  "exp_progress_bar_and_hotbar": {
+    "ignored": true
+  },
+
+  "hud_actionbar_text": {
+    "ignored": true
+  },
+
+  "hud_tip_text": {
+    "ignored": true
+  },
+
+  "auto_save": {
+    "ignored": true
   },
 
   "hud_content": {
-    "ignored": true,
-    "controls": []
+    "controls": [
+      { "root_panel_for_hive@hud_4jd.root_panel_for_hive": { } },
+      { "root_panel@hud.root_panel": {} },
+      { "camera_renderer@camera_renderer": {} }
+    ]
   }
 } 

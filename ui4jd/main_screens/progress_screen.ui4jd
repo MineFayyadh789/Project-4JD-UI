@@ -35,14 +35,14 @@
           "offset": [ 0, 0 ]
         }
       },
-      { "outline_1@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 0 ] } },
-      { "outline_2@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 0 ] } },
-      { "outline_3@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, 1 ] } },
-      { "outline_4@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, -1 ] } },
-      { "outline_5@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 1 ] } },
-      { "outline_6@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, -1 ] } },
-      { "outline_7@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, -1 ] } },
-      { "outline_8@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 1 ] } }
+      { "outline_1@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 0 ] } }, /* Left */
+      { "outline_2@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, -1 ] } }, /* Up */
+      { "outline_3@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, 1.5 ] } }, /* down */
+      { "outline_4@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 0 ] } }, /* right */
+      { "outline_5@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 1.5 ] } }, /* Left, Down */
+      { "outline_6@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, -1 ] } }, /* Right, Up */
+      { "outline_7@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 1.5 ] } }, /* Right, Down */
+      { "outline_8@progress_4jd.progress_title_text": { "text": "$title_text", "layer": 1, "font_size": "large", "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, -1 ] } } /* Left, Up */
     ]
   },
 
@@ -51,6 +51,8 @@
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
     "offset": [ 0, -49 ],
+    "layer": 3,
+    "$text_panel_label": "#progress_text",
     "controls": [
       {
         "text_hold_1": {
@@ -60,23 +62,41 @@
           "anchor_to": "top_middle",
           "offset": [ 0, 12 ],
           "clips_children": true,
-          "bindings": [
-            {
-              "binding_name": "(not #loading_bar_visible)",
-              "binding_name_override": "#visible"
-            }
-          ],
+          "layer": 2,
           "controls": [
             {
               "pointer_text_tip_panel@common_4jd.global_label": {
-                "shadow": true,
+                "shadow": false,
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "text_alignment": "center",
                 "size": [ "100%", "default" ],
-                "text": "#progress_text",
+                "text": "$text_panel_label",
                 "bindings": [
-                  { "binding_name": "#progress_text" }
+                  { "binding_name": "$text_panel_label" }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "shadow": false,
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "text_alignment": "center",
+                      "bindings": [
+                        { "binding_name": "$text_panel_label" },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + ($text_panel_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -91,24 +111,42 @@
           "anchor_to": "top_middle",
           "offset": [ 0, 24 ],
           "clips_children": true,
-          "bindings": [
-            {
-              "binding_name": "(not #loading_bar_visible)",
-              "binding_name_override": "#visible"
-            }
-          ],
+          "layer": 2,
           "controls": [
             {
               "pointer_text_tip_panel@common_4jd.global_label": {
-                "shadow": true,
+                "shadow": false,
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, -10 ],
                 "text_alignment": "center",
                 "size": [ "100%", "default" ],
-                "text": "#progress_text",
+                "text": "$text_panel_label",
                 "bindings": [
-                  { "binding_name": "#progress_text" }
+                  { "binding_name": "$text_panel_label" }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "shadow": false,
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "text_alignment": "center",
+                      "bindings": [
+                        { "binding_name": "$text_panel_label" },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + ($text_panel_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -123,24 +161,42 @@
           "anchor_to": "top_middle",
           "offset": [ 0, 36 ],
           "clips_children": true,
-          "bindings": [
-            {
-              "binding_name": "(not #loading_bar_visible)",
-              "binding_name_override": "#visible"
-            }
-          ],
+          "layer": 2,
           "controls": [
             {
               "pointer_text_tip_panel@common_4jd.global_label": {
-                "shadow": true,
+                "shadow": false,
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, -20 ],
                 "text_alignment": "center",
                 "size": [ "100%", "default" ],
-                "text": "#progress_text",
+                "text": "$text_panel_label",
                 "bindings": [
-                  { "binding_name": "#progress_text" }
+                  { "binding_name": "$text_panel_label" }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "shadow": false,
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#text",
+                      "offset": [ 0.5, 0.5 ],
+                      "anchor_from": "top_middle",
+                      "anchor_to": "top_middle",
+                      "text_alignment": "center",
+                      "bindings": [
+                        { "binding_name": "$text_panel_label" },
+                        {
+                          "binding_type": "view",
+                          "source_property_name": "('§r' + ($text_panel_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                          "target_property_name": "#text"
+                        }
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -247,7 +303,11 @@
               }
             },
             { "loading_bar_panel@progress_4jd.loading_bar_panel": { } },
-            { "text_panel@progress_4jd.text_panel": { } }
+            { 
+              "text_panel@progress_4jd.text_panel": {
+                "$text_panel_label": "#progress_text"
+              }
+            }
           ]
         }
       },
@@ -274,8 +334,35 @@
         "progress_bar_text@progress_4jd.progress_bar_text": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "shadow": true,
-          "offset": [ 1, 0 ]
+          "shadow": false,
+          "offset": [ 1, 0 ],
+          "text": "#title_text",
+          "bindings": [
+            { "binding_name": "#title_text" }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "shadow": false,
+                "size": [ "100%", "100%" ],
+                "layer": -1,
+                "color": "black",
+                "text": "#text",
+                "offset": [ 0.5, 0.5 ],
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "text_alignment": "center",
+                "bindings": [
+                  { "binding_name": "#title_text" },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('§r' + (#title_text) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                    "target_property_name": "#text"
+                  }
+                ]
+              }
+            }
+          ]
         }
       },
       {

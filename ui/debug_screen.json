@@ -1,5 +1,6 @@
 {
   "debug_screen": {
-    "$screen_bg_content": "common_4jd.gamma_fix"
+    "screen_draws_last": false,
+    "$screen_bg_content": "global_debug_screen_4jd.content_bg_panel"
   }
 }
