@@ -1,12 +1,16 @@
 /*File made by @CrisXolt.
 //(c) Don't use any code design without permission!*/
 {
-  "namespace": "container_item_dx",
+  "namespace": "container_item_4jd",
 
   ////*/ Main Container Item /*////
   
   "container_item": {
     "$container_item_size|default": [ 18, 18 ],
+    "$stack_count_font_scale_factor|default": 1.0,
+    "$stack_count_offset|default": [ 0, 1 ],
+
+    "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
 
     "type": "input_panel",
     "size": "$container_item_size",
@@ -14,14 +18,19 @@
     "$cell_image_size|default": [ 18, 18 ],
     "$cell_overlay_ref|default": "common.cell_overlay",
     "$button_ref|default": "common.container_slot_button_prototype",
+    "$button_ref_sound_name|default": "ui.press",
+    "$button_ref_sound_volume|default": 1.0,
+    "$button_ref_sound_pitch|default": 1.0,
+    "$auto_place_mode_button_name|default": "button.container_auto_place",
     "$stack_count_required|default": true,
     "$durability_bar_required|default": true,
-    "$item_renderer|default": "item_renderer_dx.item_renderer",
+    "$item_renderer|default": "item_renderer_4jd.item_renderer",
     "$item_renderer_panel_size|default": [ 18, 18 ],
     "$item_renderer_size|default": [ 16, 16 ],
     "$item_renderer_offset|default": [ 0, 0 ],
     "$background_images|default": "common.cell_image",
     "$background_image_control_name|default": "bg",
+    "$include_button_ref|default": true,
 
     "$focus_id|default": "",
     "$focus_override_down|default": "",
@@ -57,8 +66,9 @@
                   {
                     "stack_count_label@common_4jd.global_label_numbers": {
                       "ignored": "(not $stack_count_required)",
+                      "font_scale_factor": "$stack_count_font_scale_factor",
+                      "offset": "$stack_count_offset",
                       "color": "$item_stack_count_color",
-                      "offset": [ 0, 1 ],
                       "anchor_to": "bottom_right",
                       "anchor_from": "bottom_right",
                       "layer": 9,
@@ -89,7 +99,8 @@
               }
             },
             {
-              "durability_bar@common_durability_dx.durability_bar_common": {
+              "durability_bar@common_durability_4jd.durability_bar_common": {
+                "size": "$item_renderer_size",
                 "layer": 8
               }
             }
@@ -102,12 +113,93 @@
         }
       },
       {
-        "item_button_ref@$button_ref": {
-          "consume_hover_events": false,
-          "tts_ignore_count": true,
-          "tts_skip_message": true,
-          "tts_inherit_siblings": true,
-          "layer": 5
+        "item_button_ref": {
+          "ignored":"(not $include_button_ref)",
+          "type": "panel",
+          "layer": 5,
+          "controls": [
+            {
+              "main@$button_ref": { 
+                "sound_name": "$button_ref_sound_name",
+                "sound_volume": "$button_ref_sound_volume",
+                "sound_pitch": "$button_ref_sound_pitch",
+                "default_control": "default",
+                "hover_control": "hover",
+                "pressed_control": "pressed",
+                "ignored": "($touch)",
+                "consume_hover_events": false,
+                "tts_ignore_count": true,
+                "tts_skip_message": true,
+                "tts_inherit_siblings": true
+              }
+            },
+            {
+              "normal_place": {
+                "type": "panel",
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "normal_place_toggle",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  { 
+                    "button@$button_ref": {
+                      "sound_name": "$button_ref_sound_name",
+                      "sound_volume": "$button_ref_sound_volume",
+                      "sound_pitch": "$button_ref_sound_pitch",
+                      "consume_hover_events": false,
+                      "tts_ignore_count": true,
+                      "tts_skip_message": true,
+                      "tts_inherit_siblings": true
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "auto_place": {
+                "type": "panel",
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "auto_place_toggle",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  { 
+                    "button@$button_ref": {
+                      "sound_name": "$button_ref_sound_name",
+                      "sound_volume": "$button_ref_sound_volume",
+                      "sound_pitch": "$button_ref_sound_pitch",
+                      "consume_hover_events": false,
+                      "tts_ignore_count": true,
+                      "tts_skip_message": true,
+                      "tts_inherit_siblings": true,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$auto_place_mode_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$auto_place_mode_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
         }
       },
       {
@@ -131,10 +223,14 @@
     ]
   },
 
-  ////*/ Inventory Container Item /*////
+  ////*/ Inventory Contaqiner Item /*////
 
-  "inventory_container_item@container_item_dx.container_item": {
+  "inventory_container_item@container_item_4jd.container_item": {
     "$button_ref|default": "crafting.inventory_container_slot_button",
+    "$button_ref_sound_name|default": "ui.press",
+    "$button_ref_sound_volume|default": 1.0,
+    "$button_ref_sound_pitch|default": 1.0,
+    "$auto_place_mode_button_name|default": "button.container_auto_place",
     "$background_images|default": "crafting.container_cell_images",
 
     "$overlay_images|default": "crafting.container_overlay_images",
@@ -159,10 +255,11 @@
                 "layer": 0,
                 "controls": [
                   {
-                    "stack_count_label@common_dx.global_label_numbers": {
+                    "stack_count_label@common_4jd.global_label_numbers": {
                       "ignored": "(not $stack_count_required)",
+                      "font_scale_factor": "$stack_count_font_scale_factor",
+                      "offset": "$stack_count_offset",
                       "color": "$item_stack_count_color",
-                      "offset": [ 0, 1 ],
                       "anchor_to": "bottom_right",
                       "anchor_from": "bottom_right",
                       "layer": 9,
@@ -193,7 +290,8 @@
               }
             },
             {
-              "durability_bar@common_durability_dx.durability_bar_common": {
+              "durability_bar@common_durability_4jd.durability_bar_common": {
+                "size": "$item_renderer_size",
                 "layer": 8
               }
             },
@@ -211,11 +309,87 @@
         }
       },
       {
-        "item_button_ref@$button_ref": {
-          "tts_ignore_count": true,
-          "tts_skip_message": true,
-          "tts_inherit_siblings": true,
-          "layer": 5
+        "item_button_ref": {
+          "ignored":"(not $include_button_ref)",
+          "type": "panel",
+          "layer": 5,
+          "controls": [
+            {
+              "main@$button_ref": {
+                "sound_name": "$button_ref_sound_name",
+                "sound_volume": "$button_ref_sound_volume",
+                "sound_pitch": "$button_ref_sound_pitch",
+                "ignored": "($touch)",
+                "tts_ignore_count": true,
+                "tts_skip_message": true,
+                "tts_inherit_siblings": true
+              }
+            },
+            {
+              "normal_place": {
+                "type": "panel",
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "normal_place_toggle",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  { 
+                    "button@$button_ref": {
+                      "sound_name": "$button_ref_sound_name",
+                      "sound_volume": "$button_ref_sound_volume",
+                      "sound_pitch": "$button_ref_sound_pitch",
+                      "tts_ignore_count": true,
+                      "tts_skip_message": true,
+                      "tts_inherit_siblings": true
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "auto_place": {
+                "type": "panel",
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "view",
+                    "source_control_name": "auto_place_toggle",
+                    "source_property_name": "#toggle_state",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  { 
+                    "button@$button_ref": {
+                      "sound_name": "$button_ref_sound_name",
+                      "sound_volume": "$button_ref_sound_volume",
+                      "sound_pitch": "$button_ref_sound_pitch",
+                      "tts_ignore_count": true,
+                      "tts_skip_message": true,
+                      "tts_inherit_siblings": true,
+                      "button_mappings": [
+                        {
+                          "from_button_id": "button.menu_select",
+                          "to_button_id": "$auto_place_mode_button_name",
+                          "mapping_type": "pressed"
+                        },
+                        {
+                          "from_button_id": "button.menu_ok",
+                          "to_button_id": "$auto_place_mode_button_name",
+                          "mapping_type": "pressed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
         }
       },
       {

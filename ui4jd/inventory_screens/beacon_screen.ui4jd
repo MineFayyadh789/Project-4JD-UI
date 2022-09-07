@@ -230,10 +230,7 @@
           "size": [ 19, 19 ],
           "anchor_to": "center",
           "anchor_from": "center",
-          "$number_aux_index": 65536,
-          "property_bag": {
-            "#item_id_aux": "($item_id_beacon * $number_aux_index)"
-          }
+          "property_bag": "$item_id_aux"
         }
       }
     ]
@@ -250,7 +247,7 @@
     "controls": [
       {
         "netherite@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 742,
+          "$item_id_aux": { "#item_id_aux": 48627712 },
           "bindings": [
             {
               "binding_name": "#supports_netherite",
@@ -261,22 +258,22 @@
       },
       {
         "emerald@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 512
+          "$item_id_aux": { "#item_id_aux": 25427968 }
         }
       },
       {
         "diamond@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 304
+          "$item_id_aux": { "#item_id_aux": 17301504 }
         }
       },
       {
         "gold@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 306
+          "$item_id_aux": { "#item_id_aux": 17432576 }
         }
       },
       {
         "iron@beacon_4jd.usable_item_renderer_panel": {
-          "$item_id_beacon": 305
+          "$item_id_aux": { "#item_id_aux": 17367040 }
         }
       }
     ]
@@ -299,13 +296,14 @@
       },
       { "usable_items_stack_pane@beacon_4jd.usable_items_stack_panel": { } },
       {
-        "ingredient_item@common.container_item": {
+        "ingredient_item@container_item_4jd.container_item": {
           "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
           "$container_item_size": [ 21, 21 ],
           "$cell_image_size": [ 21, 21 ],
           "$item_renderer_panel_size": [ 21, 21 ],
           "$item_renderer_size": [ 19, 19 ],
-          "$stack_count_control": "common_4jd.stack_count_label_21",
+          "$stack_count_font_scale_factor": 1.3,
+          "$stack_count_offset": [ 0.5, 1.5 ],
 
           "size": [ 21, 21 ],
           "offset": [ -99, 128 ],
@@ -314,6 +312,7 @@
           "$item_collection_name": "beacon_payment_items"
         }
       },
+      { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },
       { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
       {
         "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {
@@ -330,7 +329,7 @@
     "controls": [
       { "beacon_panel@beacon_4jd.beacon_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
-      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]
   }

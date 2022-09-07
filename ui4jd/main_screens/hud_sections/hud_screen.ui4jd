@@ -187,6 +187,7 @@
             },
             {
               "item_dura@common_durability_4jd.durability_bar_common": {
+                "size": [ 16, 16 ],
                 "layer": 10,
                 "$durability_bar_required|default": true,
                 "$item_renderer_size": [ 16, 16 ],

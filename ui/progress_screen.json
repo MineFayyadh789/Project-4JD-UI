@@ -33,6 +33,6 @@
 
   "realms_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_dimension_progress_screen_content"
+    "$screen_bg_content": "progress_4jd.world_realms_progress_screen_content"
   }
 }

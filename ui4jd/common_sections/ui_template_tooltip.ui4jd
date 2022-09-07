@@ -117,7 +117,14 @@
       },
       { 
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "#gamepad_helper_visible",
+              "binding_name_override": "#visible",
+              "binding_condition": "none"
+            }
+          ],
           "$desc_panel_content": "inventory_4jd.close_button"
         }
       },

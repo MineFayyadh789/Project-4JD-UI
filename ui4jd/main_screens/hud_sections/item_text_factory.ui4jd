@@ -158,15 +158,26 @@
     ],
     "controls": [
       {
-        "item_text_background": {
-          "type": "image",
-          "size": [ "100% + 12px", "100% + 5px" ],
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "offset": [ 0, -3 ],
+        "shadow@common_4jd.global_label": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "text_alignment": "center",
+          "alpha": "@hud_item_text_4jd.jukebox_text_alpha_in",
+          "line_padding": 2,
           "layer": -1,
-          "texture": "textures/ui4jd/hud/hud_tip_text_background",
-          "alpha": "@hud_item_text_4jd.anim_item_name_text_alpha_in"
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0.5 ],
+          "bindings": [
+            {
+              "binding_name": "#tip_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "('§r' + (#tip_text) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+              "target_property_name": "#text"
+            }
+          ]
         }
       }
     ]
@@ -219,7 +230,7 @@
     "type": "factory",
     "control_ids": {
       "item_text": "@hud_item_text_4jd.item_name_text",
-      "jukebox_text": "@hud_item_text_4jd.jukebox_popup_text"
+      "jukebox_text": "@hud_item_text_4jd.legacy_jukebox_text_label"
     }
   },
 
@@ -420,28 +431,51 @@
           ]
         }
       }
-    ]/* ,
+    ]
+  },
+  
+  "legacy_jukebox_text_label@common_4jd.global_label": {
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [ 0, -68 ],
+    "text_alignment": "center",
+    "layer": 31,
+    "line_padding": 2,
+    "color": [ 1.0, 1.0, 1.0 ],
+    "text": "#text",
+    "shadow": false,
+    "alpha": "@hud_item_text_4jd.jukebox_text_alpha_in",
+    "bindings": [
+      {
+        "binding_name": "#jukebox_text",
+        "binding_name_override": "#text"
+      }
+    ],
     "controls": [
       {
-        "item_text_background": {
-          "type": "image",
-          "size": [ "100% + 12px", "100% + 5px" ],
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "offset": [ 0, -3 ],
-          "layer": -1,
-          "texture": "textures/ui4jd/hud/hud_tip_text_background",
+        "shadow@common_4jd.global_label": {
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "text_alignment": "center",
           "alpha": "@hud_item_text_4jd.jukebox_text_alpha_in",
+          "line_padding": 2,
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0.5 ],
           "bindings": [
             {
-              "binding_name": "(not #jukebox_text = '')",
-              "binding_name_override": "#visible",
-              "binding_type": "global"
+              "binding_name": "#jukebox_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "('§r' + (#jukebox_text) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+              "target_property_name": "#text"
             }
           ]
         }
       }
-    ] */
+    ]
   },
 
   "jukebox_text_alpha_in": {

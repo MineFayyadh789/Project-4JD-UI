@@ -190,32 +190,26 @@
 
   /* Loom */
 
-  "loom_input_slots": {
+  "book_panel_1_5": {
     "type": "image",
-    "size": [ 75, 82.5 ],
-    "texture": "textures/ui4jd/loom/loom_input_slots"
-  },
-
-  "loom_patterns_panel_1_5": {
-    "type": "image",
-    "texture": "textures/ui4jd/loom/loom_patterns_panel_1.5"
+    "texture": "textures/ui4jd/loom/book_panel_1.5"
   },
 
   "loom_active_pattern": {
     "type": "image",
-    "size": [ 27, 27 ],
+    "size": [ 21, 21 ],
     "texture": "textures/ui4jd/loom/loom_active_pattern"
   },
 
   "loom_active_pattern_hover": {
     "type": "image",
-    "size": [ 27, 27 ],
+    "size": [ 21, 21 ],
     "texture": "textures/ui4jd/loom/loom_active_pattern_hover"
   },
 
   "loom_inactive_pattern": {
     "type": "image",
-    "size": [ 27, 27 ],
+    "size": [ 21, 21 ],
     "texture": "textures/ui4jd/loom/loom_inactive_pattern"
   },
 
@@ -599,12 +593,6 @@
     "texture": "textures/ui4jd/cell_images/1.5x"
   },
 
-  "cell_image_normal_1_5": {
-    "type": "image",
-    "size": [ "100%", "100%" ],
-    "texture": "textures/ui4jd/cell_images/normal_1.5x"
-  },
-
   "cell_image_invert_1_5": {
     "type": "image",
     "size": [ "100%", "100%" ],
@@ -615,12 +603,6 @@
     "type": "image",
     "size": [ "100%", "100%" ],
     "texture": "textures/ui4jd/cell_images/red_1.5x"
-  },
-
-  "cell_image_selected_1_5": {
-    "type": "image",
-    "size": [ "100%", "100%" ],
-    "texture": "textures/ui4jd/cell_images/selected_1.5x"
   },
 
   "cell_image_darkgrey_1_5": {
@@ -645,6 +627,40 @@
     "type": "image",
     "size": [ "100%", "100%" ],
     "texture": "textures/ui4jd/cell_images/red_2x"
+  },
+
+  /* Recipe Cell Images */
+
+  "recipe_cell_image_normal_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/recipe_normal_1.5x"
+  },
+
+  "recipe_cell_image_red_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/recipe_red_1.5x"
+  },
+
+  "recipe_cell_image_selected_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/recipe_selected_1.5x"
+  },
+
+  /* Creative Cell Images */
+
+  "creative_cell_image_group_expanded_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/creative_group_expanded_1.5x"
+  },
+
+  "creative_cell_image_group_collapsed_1_5": {
+    "type": "image",
+    "size": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/cell_images/creative_group_collapsed_1.5x"
   },
 
   /* Crafting Icons */
@@ -718,6 +734,12 @@
   },
 
   /* Creative Scroll Box and Track */
+
+  "recipe_scroll_box": {
+    "type": "image",
+    "size": [ 16, 16 ],
+    "texture": "textures/ui4jd/creative/recipe_scroll_box"
+  },
 
   "creative_scroll_box": {
     "type": "image",

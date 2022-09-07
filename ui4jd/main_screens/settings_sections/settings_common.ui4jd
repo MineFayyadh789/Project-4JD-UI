@@ -129,7 +129,7 @@
           "$checked_locked_control": "settings_common_4jd.toggle_checked_locked",
           "$checked_locked_hover_control": "settings_common_4jd.toggle_checked_locked",
 
-          "$button_content": "settings_common_dx.button_label_with_value"
+          "$button_content": "settings_common_4jd.button_label_with_value"
         }
       }
     ]
@@ -340,7 +340,7 @@
         }
       },
       {
-        "button@common_buttons_dx.main_button_20": {
+        "button@common_buttons_4jd.main_button": {
           "enabled": "$enabled",
           "ignored": "(not $with_button)",
           "$pressed_button_name|default": "unset_button_name",

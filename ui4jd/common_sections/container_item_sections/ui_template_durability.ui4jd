@@ -67,12 +67,12 @@
 
   "durability_bar_common": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "durability_bar_hold": {
           "type": "panel",
-          "size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
           "ignored": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
             { 
@@ -90,7 +90,7 @@
       {
         "custom_durability_bar_hold": {
           "type": "panel",
-          "size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
           "visible": "($custom_durability_bar or $is_console_aspects_fidelity)",
           "controls": [
             { "durability_bar@common_durability_4jd.durability_bar": { } }

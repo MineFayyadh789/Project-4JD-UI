@@ -557,6 +557,83 @@
 
   /* Main */
 
+  "trade_buttons_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [ 32, 34 ],
+    "size": [ 24, "100%c" ],
+    "bindings": [
+      {
+        "binding_name": "(not #is_using_gamepad)",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "trade_one@common_buttons_4jd.black_button": {
+          "sound_name": "ui.press",
+          "$pressed_button_name": "button.trade",
+          "$button_content": "trade2_4jd.trade_one",
+          "size": [ 24, 24 ],
+          "bindings": [
+            {
+              "binding_name": "#trade_button_enabled",
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [ "100%", 2 ]
+        }
+      },
+      {
+        "trade_all@common_buttons_4jd.black_button": {
+          "property_bag": {
+            "#collection_name": "trade2_result_item",
+            "#collection_index": 0
+          },
+          "sound_name": "ui.press",
+          "$button_content": "trade2_4jd.trade_all",
+          "size": [ 24, 24 ],
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.container_auto_place",
+              "mapping_type": "pressed"
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "button.container_auto_place",
+              "mapping_type": "pressed"
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#trade_button_enabled",
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "trade_one": {
+    "type": "image",
+    "size": [ 16, 16 ],
+    "texture": "textures/ui4jd/icons/trade_one"
+  },
+
+  "trade_all": {
+    "type": "image",
+    "size": [ 16, 16 ],
+    "texture": "textures/ui4jd/icons/trade_all"
+  },
+
   "trade_panel@common_4jd.root_panel": {
     "size": [ 290.5, 181.5 ],
     "$collection_name": "trade_tiers",
@@ -741,7 +818,6 @@
           ]
         }
       },
-      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
       {
         "trade_items_hold": {
           "type": "panel",
@@ -749,6 +825,12 @@
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "offset": [ -35, -14 ],
+          "bindings": [
+            {
+              "binding_name": "(not #is_using_gamepad)",
+              "binding_name_override": "#visible"
+            }
+          ],
           "controls": [
             {
               "ingredient_1_item_slot@trade2_4jd.item_slot": {
@@ -766,7 +848,10 @@
             }
           ]
         }
-      }
+      },
+      { "close_button@inventory_buttons_4jd.close_button": { } },
+      { "trade_buttons_panel@trade2_4jd.trade_buttons_panel": { } },
+      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } }
     ]
   },
 
@@ -815,7 +900,14 @@
     "controls": [
       { 
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "#gamepad_helper_visible",
+              "binding_name_override": "#visible",
+              "binding_condition": "none"
+            }
+          ],
           "$desc_panel_content": "inventory_4jd.close_button"
         }
       },
@@ -833,7 +925,6 @@
       },
       {
         "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": {
-          "bindings": [ ],
           "$icon_description_bind": "trade.trade",
           "$desc_panel_content": "trade2_4jd.trade_button_panel"
         }
@@ -852,7 +943,7 @@
     "controls": [
       { "trade_panel@trade2_4jd.trade_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
-      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]
   }

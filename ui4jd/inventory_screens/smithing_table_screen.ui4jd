@@ -14,7 +14,7 @@
     "offset": [ 13.5, 55 ],
     "controls": [
       {
-        "input_item_slot@smithing_table.smithing_table_item_slot": {
+        "input_item_slot@container_item_4jd.container_item": {
           "grid_position": [ 0, 0 ],
           "$item_collection_name": "smithing_table_input_items",
           "$focus_id_binding_type": "none",
@@ -30,7 +30,7 @@
     "offset": [ 82.5, 55 ],
     "controls": [
       {
-        "material_item_slot@smithing_table.smithing_table_item_slot": {
+        "material_item_slot@container_item_4jd.container_item": {
           "$cell_overlay_ref": "smithing_table_4jd.ingot_image",
           "grid_position": [ 0, 0 ],
           "$item_collection_name": "smithing_table_material_items",
@@ -49,7 +49,7 @@
     "offset": [ 165.5, 55 ],
     "controls": [
       {
-        "result_item_slot@smithing_table.smithing_table_item_slot": {
+        "result_item_slot@container_item_4jd.container_item": {
           "grid_position": [ 0, 0 ],
           "$item_collection_name": "smithing_table_result_items",
           "$button_ref": "smithing_table.smithing_table_output_slot_button",
@@ -114,6 +114,7 @@
       { "recipe_grid_input@smithing_table_4jd.recipe_grid_input": { } },
       { "recipe_grid_material@smithing_table_4jd.recipe_grid_material": { } },
       { "recipe_grid_result@smithing_table_4jd.recipe_grid_result": { } },
+      { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },
       { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
       {
         "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {
@@ -130,7 +131,7 @@
     "controls": [
       { "smithing_table_panel@smithing_table_4jd.smithing_table_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
-      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]
   }

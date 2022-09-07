@@ -132,14 +132,14 @@
 
   "item_renderer_selected_icon": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ 24, 24 ],
     "controls": [
       {
         "item_renderer_selected_icon": {
           "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
-          "size": [ 16, 16 ],
+          "size": [ 24, 24 ],
           "bindings": [
             {
               "binding_name": "#inventory_selected_item",
@@ -177,9 +177,9 @@
       {
         "console_aspects_assets": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "$icon_size": [ 16, 16 ],
-          "$selected_size": [ 16, 16 ],
+          "size": [ 24, 24 ],
+          "$icon_size": [ 24, 24 ],
+          "$selected_size": [ 24, 24 ],
           "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
             {

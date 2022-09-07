@@ -1,7 +1,7 @@
 /*File made by @CrisXolt.
 //(c) Don't use any code design without permission!*/
 {
-  "namespace": "selected_icon_dx",
+  "namespace": "selected_icon_4jd",
 
   /*//// Selected Icon ////*/
 
@@ -14,7 +14,7 @@
     "hover_control": "hover",
     "pressed_control": "pressed",
     "layer": -10,
-    "size": [ 16, 16 ],
+    "size": [ 24, 24 ],
     "follows_cursor": true,
     "sound_name": "random.click",
     "sound_volume": 1.0,
@@ -22,21 +22,22 @@
     "always_handle_pointer": true,
     "$durability_bar_required|default": true,
     "controls": [
-      { "default@selected_icon_dx.inventory_icon_panel": {} },
-      { "pressed@selected_icon_dx.inventory_icon_panel": {} },
-      { "hover@selected_icon_dx.inventory_icon_panel": {} }
+      { "default@selected_icon_4jd.inventory_icon_panel": {} },
+      { "pressed@selected_icon_4jd.inventory_icon_panel": {} },
+      { "hover@selected_icon_4jd.inventory_icon_panel": {} }
     ]
   },
 
   "inventory_icon_panel": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ 24, 24 ],
     "controls": [
       { 
         "zero_panel": {
           "type": "custom",
           "renderer": "inventory_item_renderer",
-          "size": [ 0, 0 ], /* I put zero values because the is the decoy object */
+          "size": [ 24, 24 ],
+          "offset": [ 0, 0 ],
           "anchor_to": "top_left",
           "anchor_from": "top_left",
           "bindings": [
@@ -73,7 +74,8 @@
           ],
           "controls": [
             { 
-              "icon@item_renderer_dx.item_renderer_selected_icon": {
+              "icon@item_renderer_4jd.item_renderer_selected_icon": {
+                "size": [ 24, 24 ],
                 "anchor_to": "top_left",
                 "anchor_from": "top_left",
                 "layer": 50
@@ -88,7 +90,8 @@
               }
             },
             { 
-              "durability_bar_selected_icon@common_durability_dx.durability_bar_selected_icon": {
+              "durability_bar_selected_icon@common_durability_4jd.durability_bar_selected_icon": {
+                "size": [ 24, 24 ],
                 "anchor_to": "top_left",
                 "anchor_from": "top_left",
                 "layer": 52
@@ -98,9 +101,10 @@
         }
       },
       { 
-        "selected_stack_size_text@common_dx.global_label_numbers": {
+        "selected_stack_size_text@common_4jd.global_label_numbers": {
           "color": "$item_stack_count_color",
-          "offset": [ 1, 2 ],
+          "font_scale_factor": 1.5,
+          "offset": [ 2.5, 4 ],
           "anchor_to": "bottom_right",
           "anchor_from": "bottom_right",
           "layer": 53,

@@ -408,7 +408,7 @@
           "collection_name": "enchanting_input_items",
           "controls": [
             {
-              "item_slot@common.container_item": {
+              "item_slot@container_item_4jd.container_item": {
                 "size": [ 21, 21 ],
                 "grid_position": [ 0, 0 ],
                 "$item_collection_name": "enchanting_input_items",
@@ -418,7 +418,8 @@
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
                 "$item_renderer_size": [ 19, 19 ],
-                "$stack_count_control": "common_4jd.stack_count_label_19"
+                "$stack_count_font_scale_factor": 1.1875,
+                "$stack_count_offset": [ 1.5, 2 ]
               }
             }
           ]
@@ -435,7 +436,7 @@
           "collection_name": "enchanting_lapis_items",
           "controls": [
             {
-              "lapis@common.container_item": {
+              "lapis@container_item_4jd.container_item": {
                 "size": [ 21, 21 ],
                 "grid_position": [ 0, 0 ],
                 "$cell_overlay_ref": "enchanting_4jd.lapis_image",
@@ -449,7 +450,8 @@
                 "$cell_image_size": [ 21, 21 ],
                 "$item_renderer_panel_size": [ 21, 21 ],
                 "$item_renderer_size": [ 19, 19 ],
-                "$stack_count_control": "common_4jd.stack_count_label_19"
+                "$stack_count_font_scale_factor": 1.1875,
+                "$stack_count_offset": [ 1.5, 2 ]
               }
             }
           ]
@@ -463,7 +465,8 @@
           "size": [ 123, 66 ],
           "layer": 2
         }
-       },
+      },
+      { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },
       { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
       {
         "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {
@@ -483,7 +486,7 @@
     "controls": [
       { "enchanting_panel@enchanting_4jd.enchanting_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
-      { "inventory_selected_icon_button@common_4jd.inventory_selected_icon_button": {} },
+      { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} }
     ]
   }

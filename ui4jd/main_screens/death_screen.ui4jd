@@ -16,17 +16,51 @@
     "size": [ "100%", 20 ],
     "anchor_from": "center",
     "anchor_to": "center",
-    "offset": [ 0, -51 ],
+    "offset": [ 0, -61 ],
     "controls": [
       { "main_text@death_4jd.you_died_label": { "color": [ 1.0, 1.0, 1.0 ], "layer": 3, "offset": [ 0, 0 ] } },
-      { "outline_1@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 0 ] } }, /* Left */
+      { "outline_1@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 0 ] } }, /* Left */
       { "outline_2@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, -1 ] } }, /* Up */
       { "outline_3@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 0, 1.5 ] } }, /* down */
-      { "outline_4@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 0 ] } }, /* right */
-      { "outline_5@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, 1.5 ] } }, /* Left, Down */
-      { "outline_6@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, -1 ] } }, /* Right, Up */
-      { "outline_7@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1, 1.5 ] } }, /* Right, Down */
-      { "outline_8@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1.5, -1 ] } } /* Left, Up */
+      { "outline_4@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1.5, 0 ] } }, /* right */
+      { "outline_5@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, 1.5 ] } }, /* Left, Down */
+      { "outline_6@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1.5, -1 ] } }, /* Right, Up */
+      { "outline_7@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ 1.5, 1.5 ] } }, /* Right, Down */
+      { "outline_8@death_4jd.you_died_label": { "layer": 1, "color": [ 0.0, 0.0, 0.0, 1.0 ], "offset": [ -1, -1 ] } } /* Left, Up */
+    ]
+  },
+
+  "death_reason_label@common_4jd.global_label": {
+    "color": "$death_text_color",
+    "offset": [ 0, -20.5 ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 4,
+    "text": "#death_reason_text",
+    "shadow": false,
+    "bindings": [
+      { "binding_name": "#death_reason_text" }
+    ],
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "#text",
+          "offset": [ 0.5, 0.5 ],
+          "text_alignment": "center",
+          "bindings": [
+            { "binding_name": "#death_reason_text" },
+            {
+              "binding_type": "view",
+              "source_property_name": "('§r' + (#death_reason_text) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+              "target_property_name": "#text"
+            }
+          ]
+        }
+      }
     ]
   },
 
@@ -34,54 +68,14 @@
     "type": "panel",
     "controls": [
       { "you_died_label@death_4jd.you_died_panel": {} },
-      {
-        "score_stack_panel": {
-          "ignored": true,
-          "type": "stack_panel",
-          "orientation": "horizontal",
-          "anchor_from": "center",
-          "anchor_to": "center",
-          "offset": [ 0, -16 ],
-          "size": [ "100%c", 10 ],
-          "controls": [
-            {
-              "score_label@common_4jd.global_label": {
-                "shadow": true,
-                "text": "deathScreen.score",
-                "size": [ "default", 10 ]
-              }
-            },
-            {
-              "separator_label@common_4jd.global_label": {
-                "shadow": true,
-                "text": ":",
-                "size": [ "default", 10 ]
-              }
-            },
-            {
-              "object_name": {
-                "type": "panel",
-                "size": [ 4, 10 ]
-              }
-            },
-            {
-              "score_number_label@common_4jd.global_label": {
-                "shadow": true,
-                "color": "$e_color_format",
-                "text": "&e0",
-                "size": [ "default", 10 ]
-              }
-            }
-          ]
-        }
-      },
+      { "death_reason_label@death_4jd.death_reason_label": {} },
       {
         "buttons_panel": {
           "type": "panel",
           "anchor_from": "center",
           "anchor_to": "center",
-          "offset": [ 0, 34 ],
-          "size": [ 200, 46 ],
+          "offset": [ 0, 42.5 ],
+          "size": [ 200, 45 ],
           "controls": [
             {
               "respawn_button@common_buttons_4jd.main_button": {
@@ -89,7 +83,6 @@
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "layer": 10,
-                "offset": [ 0, 1 ],
                 "$pressed_button_name": "button.respawn_button",
                 "bindings": [
                   {
@@ -104,7 +97,6 @@
                 "anchor_from": "bottom_left",
                 "anchor_to": "bottom_left",
                 "layer": 10,
-                "offset": [ 0, -1 ],
                 "$pressed_button_name": "button.main_menu_button",
                 "variables": [
                   {
@@ -138,16 +130,15 @@
           "type": "panel",
           "anchor_from": "center",
           "anchor_to": "center",
-          "offset": [ 0, 34 ],
-          "size": [ 200, 46 ],
+          "offset": [ 0, 42.5 ],
+          "size": [ 200, 45 ],
           "controls": [
             {
               "respawn_button_locked@common_buttons_4jd.locked": {
                 "size": [ 200, 20 ],
                 "$button_text": "deathScreen.respawn",
                 "anchor_from": "top_left",
-                "anchor_to": "top_left",
-                "offset": [ 0, 1 ]
+                "anchor_to": "top_left"
               }
             },
             {
@@ -155,7 +146,6 @@
                 "size": [ 200, 20 ],
                 "anchor_from": "bottom_left",
                 "anchor_to": "bottom_left",
-                "offset": [ 0, -1 ],
                 "variables": [
                   {
                     "requires": "$is_secondary_client",
@@ -204,7 +194,14 @@
     "type": "panel",
     "controls": [
       { "death_screen_content@death_4jd.death_screen_content": { } },
-      { "background_gradient@death.background_gradient": { "layer": -10 } }
+      {
+        "background_gradient": {
+          "type": "image",
+          "fill": true,
+          "layer": -10,
+          "texture": "textures/ui4jd/death_screen_background"
+        }
+      }
     ]
   }
 }

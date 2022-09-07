@@ -14,7 +14,7 @@
     "anchor_to": "top_middle",
     "layer": 3,
     "controls": [
-      { "server_loading_bar@progress_anim_dx.server_loading_bar": { } }
+      { "server_loading_bar@progress_anim_4jd.server_loading_bar": { } }
     ]
   },
 
@@ -250,7 +250,7 @@
     ]
   },
 
-  "cancel_button@common_buttons_dx.main_button_200": {
+  "cancel_button@common_buttons_4jd.main_button": {
     "$pressed_button_name": "button.menu_exit",
     "layer": 10,
     "$button_text": "gui.cancel",
@@ -313,7 +313,8 @@
       },
       //{ "title_panel@progress_4jd.title_stack_panel": {} },
       //{ "cancel_button@progress_4jd.cancel_button": { "offset": [ 0, -56 ] } },
-      { "popup_dialog_factory@progress.popup_dialog_factory": {} }
+      { "popup_dialog_factory@progress.popup_dialog_factory": {} },
+      { "panorama_panel@common_panorama_4jd.panorama_panel": { "ignored": "($is_pregame)" } }
     ]
   },
 
@@ -398,7 +399,25 @@
     "controls": [
       { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
       { "title_text_panel@progress_4jd.title_text_panel": { } },
-      { "popup_dialog_factory@progress.popup_dialog_factory": {} }
+      { "popup_dialog_factory@progress.popup_dialog_factory": {} },
+      { 
+        "panorama_panel@common_panorama_4jd.panorama_panel": {
+          "$panorama_texture": "textures/ui4jd/panorama/night"
+        }
+      }
+    ]
+  },
+
+  /*//// World Realms Loading Screen /////*/
+  
+  "world_realms_progress_screen_content": {
+    "type": "panel",
+    "layer": 4,
+    "controls": [
+      { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
+      { "title_text_panel@progress_4jd.title_text_panel": { } },
+      { "popup_dialog_factory@progress.popup_dialog_factory": {} },
+      { "panorama_panel@common_panorama_4jd.panorama_panel": { "ignored": "($is_pregame)" } }
     ]
   },
 

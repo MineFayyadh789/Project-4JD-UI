@@ -5,7 +5,7 @@
 
   "tab_back": {
     "type": "panel",
-    "size": [ 50.5, 37 ],
+    "size": [ "100%", 37 ],
     "controls": [
       { 
         "tab_back_texture@$tab_back_texture": {
@@ -13,7 +13,7 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 0, 4.5 ],
-          "size": [ 50.5, 41.5 ]
+          "size": [ "100%", 41.5 ]
         }
       },
       { 
@@ -29,14 +29,14 @@
 
   "tab_front": {
     "type": "panel",
-    "size": [ 50.5, 37 ],
+    "size": [ "100%", 37 ],
     "controls": [
       { 
         "tab_front_texture@$tab_front_texture": {
           "layer": 4,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "size": [ 50.5, 46 ]
+          "size": [ "100%", 46 ]
         }
       },
       { 

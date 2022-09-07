@@ -30,8 +30,8 @@
         "normal_place_tab@common_touch_4jd.normal_place_tab": {
           "anchor_from": "top_right",
           "anchor_to": "top_right",
-          "offset": [ 24, 32 ],
-          "size": [ 20, 20 ],
+          "offset": [ 32, 34 ],
+          "size": [ 24, 24 ],
           "bindings": [
             {
               "binding_type": "view",
@@ -46,8 +46,8 @@
         "auto_place_tab@common_touch_4jd.auto_place_tab": {
           "anchor_from": "top_right",
           "anchor_to": "top_right",
-          "offset": [ 24, 32 ],
-          "size": [ 20, 20 ],
+          "offset": [ 32, 34 ],
+          "size": [ 24, 24 ],
           "bindings": [
             {
               "binding_type": "view",

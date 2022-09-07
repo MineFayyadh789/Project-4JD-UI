@@ -50,7 +50,7 @@
     "$is_realms": true,
     "$include_controls_and_settings_sections": true,
     "$screen_content": "common.empty_panel",
-    "$screen_bg_content": "settings_dx.settings_screen_content",
+    "$screen_bg_content": "settings_4jd.settings_screen_content",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -59,7 +59,7 @@
   "screen_realm_settings": {
     "$include_realm_section": true,
     "$screen_content": "common.empty_panel",
-    "$screen_bg_content": "realms_main_dx.realms_settings_screen_content",
+    "$screen_bg_content": "realms_main_4jd.realms_settings_screen_content",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false

@@ -155,7 +155,8 @@
                   }
                 ]
               }
-            }
+            },
+            { "close_button@inventory_buttons_4jd.close_button": { } }
           ]
         }
       }
@@ -178,7 +179,6 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "bindings": [ ],
                 "$icon_description_bind": "gui.back",
                 "$desc_panel_content": "inventory_4jd.close_button"
               }

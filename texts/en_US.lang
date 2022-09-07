@@ -13,6 +13,9 @@ selectWorld.tab.thirdParty=Mini Games
 
 4jd.progress.initializingServer=Initializing Server ##3480
 
+deathScreen.message=You Died!
+deathScreen.title=You Died!
+
 furnaceScreen.input=Ingredient
 
 4jd.key.look=Look

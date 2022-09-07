@@ -73,5 +73,82 @@
         }
       }
     ]
+  },
+
+  /*//// Black Button ////*/
+
+  "black_button_label@common_dx.global_label": {
+    "text": "$button_text",
+    "offset": "$text_offset",
+    "shadow": false,
+    "color": "$text_color",
+    "size": [ "default", 10 ],
+    "max_size": "$button_label_max_size",
+    "$button_label_max_size|default": [ "100%+2px", 10 ]
+  },
+  
+  "black_button_default": {
+    "type": "image",
+    "size": "$black_button_size",
+    "$black_button_size|default": [ "100%", "100%" ],
+    "texture": "textures/ui4jd/option_controls/black_button_bg",
+    "$text_color": "$main_menu_button_default_color",
+    "$text_offset|default": [ 0, 0 ],
+    "$button_text|default": "",
+    "$button_content|default": "common_buttons_4jd.black_button_label",
+    "controls": [
+      {
+        "button_content@$button_content": {
+          "layer": 4,
+          "anchor_from": "center",
+          "anchor_to": "center"
+        }
+      }
+    ]
+  },
+
+  "black_button_hover@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_hover",
+    "$text_color": "$main_menu_button_hover_color"
+  },
+  
+  "black_button_pressed@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_pressed",
+    "$text_color": "$main_menu_button_preesed_color"
+  },
+
+  "black_button_locked@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_locked",
+    "$text_color": "$main_menu_button_locked_color"
+  },
+
+  "black_button@common.button": {
+    "locked_control": "locked",
+    "controls": [
+      { "default@common_buttons_4jd.black_button_default": {} },
+      { "hover@common_buttons_4jd.black_button_hover": {} },
+      { "pressed@common_buttons_4jd.black_button_pressed": {} },
+      { "locked@common_buttons_4jd.black_button_locked": {} }
+    ]
+  },
+
+  "black_button_checked_top@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_checked_top",
+    "$text_color": "$main_menu_button_hover_color"
+  },
+
+  "black_button_checked_top_hover@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_checked_top_hover",
+    "$text_color": "$main_menu_button_hover_color"
+  },
+
+  "black_button_checked_right@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_checked_right",
+    "$text_color": "$main_menu_button_hover_color"
+  },
+
+  "black_button_checked_right_hover@common_buttons_4jd.black_button_default": {
+    "texture": "textures/ui4jd/option_controls/black_button_bg_checked_right_hover",
+    "$text_color": "$main_menu_button_hover_color"
   }
 }

@@ -1,0 +1,194 @@
+{
+  "namespace": "creative_adaptive_4jd",
+
+  "tabs_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", 33 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "$tab_back_icon_offset": [ 0, 8 ],
+    "$tab_front_icon_offset": [ 0, 6.5 ],
+    "$tab_back_offset": [ 0, 1.5 ],
+    "$tab_back_size": [ "100%", "100%+7.5px" ],
+    "controls": [
+      { "structures_tab@recipe_book_adaptive_4jd.structures_tab": { } },
+      { "tools_tab@recipe_book_adaptive_4jd.tools_tab": { } },
+      { "items_tab@recipe_book_adaptive_4jd.items_tab": { } },
+      { "nature_tab@recipe_book_adaptive_4jd.nature_tab": { } },
+      { "search_tab@recipe_book_adaptive_4jd.search_tab": { } }
+    ]
+  },
+
+  "grid_item_for_creative@recipe_book_adaptive_4jd.grid_item_for_recipe_book": {
+    "$highlight_slot_size": [ 24, 24 ],
+    "$item_renderer_size": [ 22, 22 ]
+  },
+
+  "scroll_grid_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%c-3px" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "grid@crafting.scroll_grid": {
+          "size": [ "100%+3px", "default" ],
+          "offset": [ -1.5, -1.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$grid_item_template": "creative_adaptive_4jd.grid_item_for_creative"
+        }
+      }
+    ]
+  },
+
+  "creative_panel_content@common_4jd.root_panel": {
+    "size": [ 321.5, 212 ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "controls": [
+      {
+        "search_and_filter_panel": {
+          "type": "panel",
+          "layer": 6,
+          "bindings": [
+            {
+              "binding_name": "#is_left_tab_search",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "text_edit_control@recipe_book_adaptive_4jd.text_edit_control": {
+                "size": [ 270, 18 ],
+                "offset": [ 20, 7.5 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tab_label@common_4jd.global_label": {
+          "color": "$4jd_recipe_title_text_color",
+          "size": [ "default", 10 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "text_alignment": "center",
+          "shadow": false,
+          "offset": [ 0, 11.5 ],
+          "layer": 2,
+          "text": "#tab_label_text",
+          "bindings": [
+            {
+              "binding_name": "#tab_label_text"
+            },
+            {
+              "binding_name": "(not #is_left_tab_search)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { 
+        "scrolling_panel@recipe_book_adaptive_4jd.scrolling_panel": {
+          "size": [ 292, 137 ],
+          "offset": [ 19, 26.5 ],
+          "$scroll_size": [ 16, 137 ],
+          "$scroll_track_offset": [ 0, 0 ],
+          "$scroll_view_port_size": [ 267, 132 ],
+          "$scroll_view_port_offset": [ 2.5, 2.5 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "$scroll_box_image_control": "recipe_book_adaptive_4jd.creative_scroll_box",
+          "$scrolling_content": "creative_adaptive_4jd.scroll_grid_panel"
+        }
+      },
+      {
+        "locked_scroll_track@ui_4jd_textures.creative_scroll_track": {
+          "layer": 2,
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ 12, 135 ],
+          "offset": [ -12.5, 27.5 ],
+          "propagate_alpha": true,
+          "alpha": 0.5,
+          "bindings": [
+            {
+              "binding_name": "(#recipe_book_total_items < 51)",
+              "binding_name_override": "#visible",
+              "binding_type": "collection",
+              "binding_collection_name": "recipe_book"
+            }
+          ],
+          "controls": [
+            {
+              "point": {
+                "type": "panel",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -2, -1 ],
+                "controls": [
+                  {
+                    "creative_scroll_box@ui_4jd_textures.creative_scroll_box": {
+                      "layer": 3,
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [ 0, 0 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "creative_panel@ui_4jd_textures.panel_content_1_5": {
+          "layer": 2,
+          "size": [ 270, 135 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 20, 27.5 ]
+        }
+      },
+      {
+        "hotbar_grid": {
+          "type": "grid",
+          "grid_dimensions": [ 9, 1 ],
+          "grid_item_template": "common_4jd.grid_item_for_hotbar",
+          "collection_name": "hotbar_items",
+
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "offset": [ 33.5, -10.5 ],
+          "layer": 2,
+
+          "size": [ 243, 27 ],
+          "$background_images": "ui_4jd_textures.cell_image_1_5",
+          "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
+          "$container_item_size": [ 27, 27 ],
+          "$cell_image_size": [ 27, 27 ],
+          "$item_renderer_panel_size": [ 27, 27 ],
+          "$item_renderer_size": [ 24, 24 ],
+          "$stack_count_font_scale_factor": 1.5,
+          "$stack_count_offset": [ -0.5, 2 ],
+
+          "$button_ref": "crafting.creative_hotbar_container_slot_button"
+        }
+      },
+      { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } }
+    ]
+  },
+  
+  "creative_panel": {
+    "type": "panel",
+    "size": [ 321.5, 245 ],
+    "controls": [
+      { "tabs_panel@creative_adaptive_4jd.tabs_panel": { } },
+      { "creative_panel_content@creative_adaptive_4jd.creative_panel_content": { } }
+    ]
+  }
+}
