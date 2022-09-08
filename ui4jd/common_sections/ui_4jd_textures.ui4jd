@@ -730,7 +730,7 @@
   "icon_miscellaneous": {
     "type": "image",
     "size": [ 24, 24 ],
-    "texture": "textures/ui4jd/tab_icons/icon_miscellaneous"
+    "texture": "textures/items/bucket_lava" //"textures/ui4jd/tab_icons/icon_miscellaneous"
   },
 
   /* Creative Scroll Box and Track */

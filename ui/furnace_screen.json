@@ -6,7 +6,8 @@
       {
         "requires": "$desktop_screen",
         "$screen_content": "furnace_4jd.center_screen",
-        "$screen_bg_content": "furnace_4jd.full_screen",
+        "$screen_bg_content": "common.empty_panel",
+        "$4jd_full_screen_content": "furnace_4jd.full_screen",
         "$gamepad_cursor": true
       },
       {

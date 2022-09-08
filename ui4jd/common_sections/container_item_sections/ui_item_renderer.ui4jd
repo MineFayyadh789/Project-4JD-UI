@@ -8,7 +8,7 @@
 
   "item_renderer": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "item_renderer": {
@@ -16,6 +16,7 @@
           "type": "custom",
           "renderer": "inventory_item_renderer",
           "$item_renderer_binding_condition|default": "none",
+          "size": [ "100%", "100%" ],
           "bindings": [
             {
               "binding_type": "collection_details",
@@ -94,8 +95,9 @@
       {
         "console_aspects_assets": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "$icon_size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
+          "$icon_size": [ "100%", "100%" ],
+          "$spectrum_icon_size": [ "100%", "100%" ],
           "$use_item_icons|default": true,
           "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
@@ -106,19 +108,20 @@
           ],
           "controls": [
             {
-              "specific_item_renderer@common.specific_item_renderer": { }
+              "specific_item_renderer@common.specific_item_renderer": { "size": [ "100%", "100%" ] }
             },
             {
-              "chest_image@common.chest_image": { } //Disabling vanilla chest icons uses a different system than other item icons. Because of that, chests are the only item icons that cannot be disabled.
+              "chest_image@common.chest_image": { "size": [ "100%", "100%" ] } //Disabling vanilla chest icons uses a different system than other item icons. Because of that, chests are the only item icons that cannot be disabled.
             },
             {
-              "trapped_chest_image@common.trapped_chest_image": {}
+              "trapped_chest_image@common.trapped_chest_image": { "size": [ "100%", "100%" ] }
             },
             {
-              "ender_chest_image@common.ender_chest_image": {}
+              "ender_chest_image@common.ender_chest_image": { "size": [ "100%", "100%" ] }
             },
             {
               "item_list@common.item_list": {
+                "size": [ "100%", "100%" ],
                 "ignored": "(not $use_item_icons)"
               }
             }
@@ -180,6 +183,10 @@
           "size": [ 24, 24 ],
           "$icon_size": [ 24, 24 ],
           "$selected_size": [ 24, 24 ],
+          "$spectrum_icon_size": [ 24, 24 ],
+          "$selected_shield_size": [ 24, 24 ],
+          "$obscure_icon_size": [ 24, 24 ],
+          "$selected_icon_size": [ 24, 24 ],
           "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
             {
@@ -188,7 +195,7 @@
             }
           ],
           "controls": [
-            { "selected_item_icon@common.inventory_selected_icon": { "$use_item_icons|default": true, "layer": 0, "offset": [ 0.5, 0.5 ], "min_size": [ 16, 16 ] } }
+            { "selected_item_icon@common.inventory_selected_icon": { "$use_item_icons|default": true, "layer": 0, "offset": [ 0.0, 0.0 ], "size": [ 24, 24 ], "min_size": [ 24, 24 ] } }
           ]
         }
       }
@@ -359,14 +366,14 @@
 
   "item_renderer_for_stone_pattern": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ 19, 19 ],
     "controls": [
       {
         "item_renderer": {
           "ignored": "$is_console_aspects_fidelity",
           "type": "custom",
           "renderer": "inventory_item_renderer",
-          "size": [ 16, 16 ],
+          "size": [ 19, 19 ],
           "bindings": [
             {
               "binding_name": "#item_id_aux",
@@ -380,8 +387,8 @@
       {
         "console_aspects_assets": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "$icon_size": [ 16, 16 ],
+          "size": [ 19, 19 ],
+          "$icon_size": [ 19, 19 ],
           "$use_item_icons|default": true,
           "ignored": "(not $is_console_aspects_fidelity)",
           "property_bag": {
@@ -395,70 +402,7 @@
           ],
           "controls": [
             {
-              "specific_item_renderer@stonecutter.specific_item_renderer": {}
-            },
-            {
-              "andesite_wall_image@common.andesite_wall_image": {}
-            },
-            {
-              "blackstone_wall_image@common.blackstone_wall_image": {}
-            },
-            {
-              "brick_wall_image@common.brick_wall_image": {}
-            },
-            {
-              "cobbled_deepslate_wall_image@common.cobbled_deepslate_wall_image": {}
-            },
-            {
-              "cobblestone_wall_image@common.cobblestone_wall_image": {}
-            },
-            {
-              "deepslate_brick_wall_image@common.deepslate_brick_wall_image": {}
-            },
-            {
-              "deepslate_tile_wall_image@common.deepslate_tile_wall_image": {}
-            },
-            {
-              "diorite_wall_image@common.diorite_wall_image": {}
-            },
-            {
-              "end_stone_brick_wall_image@common.end_stone_brick_wall_image": {}
-            },
-            {
-              "granite_wall_image@common.granite_wall_image": {}
-            },
-            {
-              "mossy_cobblestone_wall_image@common.mossy_cobblestone_wall_image": {}
-            },
-            {
-              "mossy_stone_brick_wall_image@common.mossy_stone_brick_wall_image": {}
-            },
-            {
-              "nether_brick_wall_image@common.nether_brick_wall_image": {}
-            },
-            {
-              "polished_blackstone_brick_wall_image@common.polished_blackstone_brick_wall_image": {}
-            },
-            {
-              "polished_blackstone_wall_image@common.polished_blackstone_wall_image": {}
-            },
-            {
-              "polished_deepslate_wall_image@common.polished_deepslate_wall_image": {}
-            },
-            {
-              "prismarine_wall_image@common.prismarine_wall_image": {}
-            },
-            {
-              "red_nether_brick_wall_image@common.red_nether_brick_wall_image": {}
-            },
-            {
-              "red_sandstone_wall_image@common.red_sandstone_wall_image": {}
-            },
-            {
-              "sandstone_wall_image@common.sandstone_wall_image": {}
-            },
-            {
-              "stone_brick_wall_image@common.stone_brick_wall_image": {}
+              "specific_item_renderer@stonecutter.specific_item_renderer": { "size": [ "100%", "100%" ] }
             }
           ]
         }
@@ -470,14 +414,14 @@
 
   "item_renderer_for_trade2": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "item_renderer": {
           "type": "custom",
           "ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
-          "size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
           "bindings": [
             {
               "binding_type": "collection_details"
@@ -506,8 +450,8 @@
       {
         "console_aspects_assets": {
           "type": "panel",
-          "size": [ 16, 16 ],
-          "$icon_size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
+          "$icon_size": [ "100%", "100%" ],
           "$use_item_icons|default": true,
           "ignored": "(not $is_console_aspects_fidelity)",
           "variables": [
@@ -517,8 +461,9 @@
             }
           ],
           "controls": [
-            { "specific_trade_icon_renderer@trade2.specific_trade_icon_renderer": { "layer": 0 } },
-            { "glass_pane_icon@trade2.glass_pane_icon": { "layer": 0 } }
+            { "specific_trade_icon_renderer@trade2.specific_trade_icon_renderer": { "size": [ "100%", "100%" ], "layer": 0 } },
+            { "glass_pane_icon@trade2.glass_pane_icon": { "size": [ "100%", "100%" ], "layer": 0 } },
+            { "block_overlay_icon@trade2.block_overlay_icon": { "size": [ "100%", "100%" ], "layer": 4 } }
           ]
         }
       }
@@ -529,14 +474,14 @@
 
   "item_renderer_for_trade": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "item_renderer": {
           "type": "custom",
           //"ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
-          "size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
           "bindings": [
             {
               "binding_name": "#item_id_aux",
@@ -552,14 +497,14 @@
 
   "greyed_item_renderer_for_trade": {
     "type": "panel",
-    "size": [ 16, 16 ],
+    "size": [ "100%", "100%" ],
     "controls": [
       {
         "item_renderer": {
           "type": "custom",
           //"ignored": "$is_console_aspects_fidelity",
           "renderer": "inventory_item_renderer",
-          "size": [ 16, 16 ],
+          "size": [ "100%", "100%" ],
           "bindings": [
             {
               "binding_name": "#item_id_aux",

@@ -171,35 +171,7 @@
                 ]
               }
             },
-            {
-              "item_renderer@common.item_renderer": {
-                "layer": 5,
-                "size": [ 24, 24 ],
-                "bindings": [
-                  {
-                    "binding_type": "collection_details"
-                  },
-                  {
-                    "binding_name": "#item_id_aux"
-                  },
-                  {
-                    "binding_name": "#item_custom_color"
-                  },
-                  {
-                    "binding_name": "#item_pickup_time"
-                  },
-                  {
-                    "binding_name": "#banner_patterns"
-                  },
-                  {
-                    "binding_name": "#banner_colors"
-                  },
-                  {
-                    "binding_name": "#banner_type"
-                  }
-                ]
-              }
-            },
+            { "item_renderer_for_trade2@item_renderer_4jd.item_renderer_for_trade2": { "layer": 5, "size": [ 24, 24 ] } },
             {
               "stack_count_label@common_4jd.stack_count_label_24": {
                 "layer": 8,
@@ -542,7 +514,7 @@
               }
             },
             {
-              "item_renderer@common.item_renderer": {
+              "item_renderer@item_renderer_4jd.item_renderer": {
                 "size": "$item_renderer_size",
                 "anchor_to": "center",
                 "anchor_from": "center",

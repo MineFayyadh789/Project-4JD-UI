@@ -3,7 +3,8 @@
 {
   "ugc_viewer_screen": {
     "$screen_content": "seed_picker_4jd.gamepad_helpers",
-    "$screen_bg_content": "seed_picker_4jd.seed_picker_panel",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "seed_picker_4jd.seed_picker_panel",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false

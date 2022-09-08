@@ -4,12 +4,13 @@
       {
         "requires": "$desktop_screen",
         "$screen_content": "trade2_4jd.trade_screen_content",
-        "$screen_bg_content": "trade2_4jd.trade_full_screen"
+        "$screen_bg_content": "common.empty_panel",
+        "$4jd_full_screen_content": "trade2_4jd.trade_full_screen"
       },
       {
         "requires": "$pocket_screen",
         "$screen_content": "trade2_pocket.screen_panel",
-        "$screen_bg_content": "common.screen_background",
+        "$4jd_full_screen_content": "common.screen_background",
         "$button_mappings": [
           {
             "from_button_id": "button.menu_cancel",

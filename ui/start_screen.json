@@ -4,6 +4,7 @@
   "start_screen": {
     "$ignore_main_popup_dialog": true,
     "$screen_content": "start_4jd.center_screen",
-    "$screen_bg_content": "start_4jd.full_screen"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "start_4jd.full_screen"
   }
 }

@@ -3,7 +3,8 @@
 {
   "hud_screen": {
     "$screen_content": "hud_4jd.hud_content",
-    "$screen_bg_content": "hud_4jd.hud_content_bg"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "hud_4jd.hud_content_bg"
   },
 
   /* Making Full Hive Server Compatibility (Ignoring some UI elements that are not modified by the server) */

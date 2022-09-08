@@ -86,6 +86,76 @@
     "$toggle_state_binding_name": "#is_survival_layout"
   },
 
+  "crafting_buttons_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [ 32, 34 ],
+    "size": [ 24, "100%c" ],
+    "ignored": "(not $touch)",
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "(#is_recipe_book_layout)",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "craft_one@common_buttons_4jd.black_button": {
+          "property_bag": {
+            "#collection_name": "crafting_output_items",
+            "#collection_index": 0
+          },
+          "sound_name": "ui.press",
+          "$button_content": "trade2_4jd.trade_one",
+          "size": [ 24, 24 ],
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.crafting_output_primary",
+              "mapping_type": "pressed"
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "button.crafting_output_primary",
+              "mapping_type": "pressed"
+            }
+          ]
+        }
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [ "100%", 2 ]
+        }
+      },
+      {
+        "craft_all@common_buttons_4jd.black_button": {
+          "property_bag": {
+            "#collection_name": "crafting_output_items",
+            "#collection_index": 0
+          },
+          "sound_name": "ui.press",
+          "$button_content": "trade2_4jd.trade_all",
+          "size": [ 24, 24 ],
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_select",
+              "to_button_id": "button.crafting_output_tertiary",
+              "mapping_type": "pressed"
+            },
+            {
+              "from_button_id": "button.menu_ok",
+              "to_button_id": "button.crafting_output_tertiary",
+              "mapping_type": "pressed"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "inventory_adaptive_buttons_panel": {
     "type": "stack_panel",
     "size": [ "100%sm", "100%sm" ],
@@ -137,7 +207,20 @@
           "type": "panel",
           "size": [ "100%", "fill" ],
           "controls": [
-            { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },
+            { "crafting_buttons_panel@inventory_adaptive_4jd.crafting_buttons_panel": { } },
+            { "close_button@inventory_buttons_4jd.close_button": { } },
+            { 
+              "top_type_toggles@common_touch_4jd.top_type_toggles": {
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(not #is_recipe_book_layout)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
             {
               "mode_button": {
                 "type": "stack_panel",

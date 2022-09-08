@@ -4,7 +4,8 @@
   "screen_world_create": {
     "$title_text": "createWorldScreen.header.local",
     "$screen_content": "create_world_4jd.center_screen",
-    "$screen_bg_content": "create_world_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "create_world_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -13,7 +14,8 @@
   "screen_template_create": {
     "$title_text": "createWorldScreen.header.editLocal",
     "$screen_content": "create_world_4jd.center_screen",
-    "$screen_bg_content": "edit_world_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "edit_world_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -22,7 +24,8 @@
   "screen_world_edit": {
     "$title_text": "createWorldScreen.header.editLocal",
     "$screen_content": "create_world_4jd.center_screen",
-    "$screen_bg_content": "edit_world_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "edit_world_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_edit_screen": true,
@@ -31,7 +34,8 @@
  
   "screen_controls_and_settings": {
     "$screen_content": "settings_4jd.center_screen",
-    "$screen_bg_content": "settings_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "settings_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -39,7 +43,8 @@
 
   "screen_world_controls_and_settings": {
     "$screen_content": "settings_4jd.center_screen",
-    "$screen_bg_content": "settings_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "settings_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -50,7 +55,8 @@
     "$is_realms": true,
     "$include_controls_and_settings_sections": true,
     "$screen_content": "common.empty_panel",
-    "$screen_bg_content": "settings_4jd.settings_screen_content",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "settings_4jd.settings_screen_content",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false
@@ -59,7 +65,8 @@
   "screen_realm_settings": {
     "$include_realm_section": true,
     "$screen_content": "common.empty_panel",
-    "$screen_bg_content": "realms_main_4jd.realms_settings_screen_content",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "realms_main_4jd.realms_settings_screen_content",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false

@@ -4,7 +4,8 @@
       {
         "requires": "$desktop_screen",
         "$screen_content": "common_4jd.center_screen",
-        "$screen_bg_content": "anvil_4jd.anvil_screen_content"
+        "$screen_bg_content": "common.empty_panel",
+        "$4jd_full_screen_content": "anvil_4jd.anvil_screen_content"
       },
       {
         "requires": "$pocket_screen",

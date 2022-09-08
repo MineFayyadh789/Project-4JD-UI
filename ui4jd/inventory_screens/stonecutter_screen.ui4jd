@@ -48,8 +48,8 @@
     "size": [ 21, 21 ],
     "$item_collection_name": "$collection_name",
     "controls": [
-      { "item_panel@stonecutter.item_panel": { "$item_renderer_panel_size": [ 19, 19 ], "$item_renderer_size": [ 19, 19 ] } }
-      //{ "item_renderer_for_stone_pattern@item_renderer_4jd.item_renderer_for_stone_pattern": { "layer": 6 } }
+      //{ "item_panel@stonecutter.item_panel": { "$item_renderer_panel_size": [ 19, 19 ], "$item_renderer_size": [ 19, 19 ] } }
+      { "item_renderer_for_stone_pattern@item_renderer_4jd.item_renderer_for_stone_pattern": { "layer": 6 } }
     ]
   },
 

@@ -3,6 +3,7 @@
 {
   "online_safety_screen": {
     "$screen_content": "online_safety_4jd.online_safety_screen_content",
-    "$screen_bg_content": "online_safety_4jd.gamepad_helpers"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "online_safety_4jd.gamepad_helpers"
   }
 }

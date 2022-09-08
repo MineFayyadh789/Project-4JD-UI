@@ -3,6 +3,7 @@
 {
   "add_external_server_screen": {
     "$screen_content": "add_external_server_4jd.center_screen",
-    "$screen_bg_content": "add_external_server_4jd.full_screen"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "add_external_server_4jd.full_screen"
   }
 }

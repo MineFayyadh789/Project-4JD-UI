@@ -70,28 +70,7 @@
           ]
         }
       },
-      {
-        "tab_label@common_4jd.global_label": {
-          "color": "$4jd_recipe_title_text_color",
-          "size": [ "default", 10 ],
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "text_alignment": "center",
-          "shadow": false,
-          "offset": [ 0, 11.5 ],
-          "layer": 2,
-          "text": "#tab_label_text",
-          "bindings": [
-            {
-              "binding_name": "#tab_label_text"
-            },
-            {
-              "binding_name": "(not #is_left_tab_search)",
-              "binding_name_override": "#visible"
-            }
-          ]
-        }
-      },
+      { "tab_label_panel@recipe_book_adaptive_4jd.tab_label_panel": { "$tab_label_offset": [ 0, 11.5 ] } },
       { 
         "scrolling_panel@recipe_book_adaptive_4jd.scrolling_panel": {
           "size": [ 292, 137 ],

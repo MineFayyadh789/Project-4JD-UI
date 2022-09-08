@@ -210,13 +210,13 @@
   "icon_nature": {
     "type": "image",
     "size": [ 24, 24 ],
-    "texture": "textures/ui4jd/tab_icons/icon_nature"
+    "texture": "textures/items/reeds" //"textures/ui4jd/tab_icons/icon_nature"
   },
 
   "icon_search": {
     "type": "image",
     "size": [ 24, 24 ],
-    "texture": "textures/ui4jd/tab_icons/icon_search"
+    "texture": "textures/items/compass_item" //"textures/ui4jd/tab_icons/icon_search"
   },
 
   "top_tab@common_toggles_4jd.toggle_panel": {
@@ -325,7 +325,7 @@
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "offset": [ 23, -17.5 ],
-          "layer": 3,
+          "layer": 4,
           "controls": [
             { "crafting_input_item_top_left@recipe_book_adaptive_4jd.crafting_input_grid_item": { "grid_position": [ 0, 0 ] } },
             { "crafting_input_item_top_right@recipe_book_adaptive_4jd.crafting_input_grid_item": { "grid_position": [ 1, 0 ] } },
@@ -336,13 +336,13 @@
       },
       {
         "crafting_arrow@crafting.crafting_arrow": {
-          "layer": 3,
+          "layer": 4,
           "offset": [ 77.5, 58 ]
         }
       },
       {
         "work_bench_output_grid@crafting.output_grid_2x2": {
-          "layer": 3,
+          "layer": 4,
           "size": [ 36, 36 ],
           "offset": [ 102, 46 ],
           "controls": [
@@ -398,7 +398,7 @@
 
   "grid_item@container_item_4jd.inventory_container_item": {
     "$overlay_images": "recipe_book_adaptive_4jd.container_overlay_images",
-    "$stack_count_required": true,
+    "$stack_count_required": false,
     "$durability_bar_required": false,
     "$item_renderer_binding_condition": "visible",
     "$button_ref": "crafting.creative_no_coalesce_container_slot_button",
@@ -415,6 +415,7 @@
 
   "grid_item_for_recipe_book@recipe_book_adaptive_4jd.grid_item": {
     "size": [ 27, 27 ],
+    "$auto_place_mode_button_name": "button.recipe_select",
     "$background_images": "recipe_book_adaptive_4jd.recipe_container_cell_images_1_5",
     "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 27, 27 ],
@@ -501,6 +502,101 @@
     ]
   },
 
+  "tab_label_panel": {
+    "type": "panel",
+    "layer": 4,
+    "controls": [
+      {
+        "construction@common_4jd.global_label": {
+          "color": "$4jd_recipe_title_text_color",
+          "size": [ "default", 10 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "text_alignment": "center",
+          "shadow": false,
+          "offset": "$tab_label_offset",
+          "text": "craftingScreen.tab.construction.aspects",
+          "bindings": [
+            {
+              "binding_name": "#tab_label_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#tab_label_text = 'craftingScreen.tab.construction')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "equipment@common_4jd.global_label": {
+          "color": "$4jd_recipe_title_text_color",
+          "size": [ "default", 10 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "text_alignment": "center",
+          "shadow": false,
+          "offset": "$tab_label_offset",
+          "text": "craftingScreen.tab.equipment.aspects",
+          "bindings": [
+            {
+              "binding_name": "#tab_label_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#tab_label_text = 'craftingScreen.tab.equipment')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "items@common_4jd.global_label": {
+          "color": "$4jd_recipe_title_text_color",
+          "size": [ "default", 10 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "text_alignment": "center",
+          "shadow": false,
+          "offset": "$tab_label_offset",
+          "text": "craftingScreen.tab.items.aspects",
+          "bindings": [
+            {
+              "binding_name": "#tab_label_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#tab_label_text = 'craftingScreen.tab.items')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "nature@common_4jd.global_label": {
+          "color": "$4jd_recipe_title_text_color",
+          "size": [ "default", 10 ],
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "text_alignment": "center",
+          "shadow": false,
+          "offset": "$tab_label_offset",
+          "text": "craftingScreen.tab.nature.aspects",
+          "bindings": [
+            {
+              "binding_name": "#tab_label_text"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(#tab_label_text = 'craftingScreen.tab.nature')",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "crafting_panel_content@common_4jd.root_panel": {
     "size": [ 344.5, "100%-33px" ],//[ 344.5, 215.5 ]
     "anchor_from": "bottom_left",
@@ -544,28 +640,7 @@
           ]
         }
       },
-      {
-        "tab_label@common_4jd.global_label": {
-          "color": "$4jd_recipe_title_text_color",
-          "size": [ "default", 10 ],
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "text_alignment": "center",
-          "shadow": false,
-          "offset": [ 0, 11.5 ],//[ 0, 16.5 ]
-          "layer": 2,
-          "text": "#tab_label_text",
-          "bindings": [
-            {
-              "binding_name": "#tab_label_text"
-            },
-            {
-              "binding_name": "(not #is_left_tab_search)",
-              "binding_name_override": "#visible"
-            }
-          ]
-        }
-      },
+      { "tab_label_panel@recipe_book_adaptive_4jd.tab_label_panel": { "$tab_label_offset": [ 0, 11.5 ] } },
       { "scrolling_panel@recipe_book_adaptive_4jd.scrolling_panel": { } },
       {
         "locked_scroll_track@ui_4jd_textures.creative_scroll_track": {

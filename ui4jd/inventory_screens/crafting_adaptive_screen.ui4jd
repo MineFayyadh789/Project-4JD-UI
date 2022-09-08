@@ -10,7 +10,7 @@
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "offset": [ 11.5, -6 ],
-          "layer": 3,
+          "layer": 4,
           "controls": [
             { "crafting_input_item_top_left@recipe_book_adaptive_4jd.crafting_input_grid_item": { "grid_position": [ 0, 0 ] } },
             { "crafting_input_item_top_mid@recipe_book_adaptive_4jd.crafting_input_grid_item": { "grid_position": [ 1, 0 ] } },
@@ -26,13 +26,13 @@
       },
       {
         "crafting_arrow@crafting.crafting_arrow": {
-          "layer": 3,
+          "layer": 4,
           "offset": [ 88, 58 ]
         }
       },
       {
         "work_bench_output_grid@crafting.output_grid_3x3": {
-          "layer": 3,
+          "layer": 4,
           "size": [ 36, 36 ],
           "offset": [ 113.5, 46 ],
           "controls": [
@@ -96,7 +96,30 @@
           "type": "panel",
           "size": [ "100%", "fill" ],
           "controls": [
-            { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } }
+            { 
+              "crafting_buttons_panel@inventory_adaptive_4jd.crafting_buttons_panel": {
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(not #is_creative_mode)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            { "close_button@inventory_buttons_4jd.close_button": { } },
+            { 
+              "top_type_toggles@common_touch_4jd.top_type_toggles": {
+                "ignored": "(not $touch)",
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(#is_creative_mode)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
           ]
         }
       }

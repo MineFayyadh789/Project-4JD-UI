@@ -3,36 +3,43 @@
 {
   "world_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_loading_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_loading_progress_screen_content"
   },
 
   "overworld_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_dimension_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
   "nether_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_dimension_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
   "theend_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_dimension_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
   "world_saving_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_saving_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_saving_progress_screen_content"
   },
 
   "world_convert_modal_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_loading_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_loading_progress_screen_content"
   },
 
   "realms_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
-    "$screen_bg_content": "progress_4jd.world_realms_progress_screen_content"
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "progress_4jd.world_realms_progress_screen_content"
   }
 }

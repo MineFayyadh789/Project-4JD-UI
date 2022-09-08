@@ -3,7 +3,8 @@
 {
   "world_templates_screen": {
     "$screen_content": "world_templates_4jd.center_screen",
-    "$screen_bg_content": "world_templates_4jd.full_screen",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "world_templates_4jd.full_screen",
     "$header_safezone_control": "common.empty_panel",
     "$header_bar_control": "common.empty_panel",
     "$is_full_screen_layout": false

@@ -6,7 +6,7 @@
       {
         "requires": "$desktop_screen",
         "$screen_content": "common_4jd.center_screen",
-        "$screen_bg_content": "beacon_4jd.beacon_screen_content"
+        "$4jd_full_screen_content": "beacon_4jd.beacon_screen_content"
       },
       {
         "requires": "$pocket_screen",
