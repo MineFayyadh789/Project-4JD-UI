@@ -39,7 +39,7 @@
       },
       /* 4JD assets */
       {
-        "bg_no_safezone_screen_panel@$4jd_full_screen_content": {
+        "4jd_full_screen_content@$4jd_full_screen_content": {
           "anims": "$background_animations",
           "animation_reset_name": "screen_animation_reset",
           "propagate_alpha": true,
@@ -49,6 +49,7 @@
       },
       { 
         "gamma_fix@common_4jd.gamma_fix": {
+          //"ignored": "$is_console_aspects",
           "anims": "unset",
           "animation_reset_name": "screen_animation_reset"
         }

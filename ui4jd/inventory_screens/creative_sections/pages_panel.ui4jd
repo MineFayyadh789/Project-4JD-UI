@@ -84,6 +84,7 @@
 
   "page_6": {
     "type": "panel",
+    "$6_pages_only|default": false,
     "bindings": [
       {
         "binding_type": "view",
@@ -93,7 +94,40 @@
       }
     ],
     "controls": [
-      { "page_6@creative_tab_pages.page_6": { "$ignore_next_button": true  } }
+      { "page_6@creative_tab_pages.page_6": { "$ignore_next_button": "$6_pages_only"  } },
+      { "page_7@creative_pages_panels.page_7": { "ignored": "$6_pages_only" } }
+    ]
+  },
+
+  "page_7": {
+    "type": "panel",
+    "$7_pages_only|default": false,
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_7_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_7@creative_tab_pages.page_7": { "$ignore_next_button": "$7_pages_only"  } },
+      { "page_8@creative_pages_panels.page_8": { "ignored": "$7_pages_only" } }
+    ]
+  },
+
+  "page_8": {
+    "type": "panel",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "($category + '_page_8_button_toggle')",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "page_8@creative_tab_pages.page_8": { "$ignore_next_button": true  } }
     ]
   }
 }

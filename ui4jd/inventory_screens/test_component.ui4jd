@@ -3,25 +3,53 @@
 
   // Test!
 
+  "test_component_panel": {
+    "type": "panel",
+    "size": [ "100%-32px", "100%" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },
+      {
+        "item_number_scroll_panel@common_scroll_4jd.scrolling_panel": {
+          "$scroll_background_image_control": "common.container_scroll_background_image",
+          "$show_background": false,
+          "layer": 100,
+          "size": [ "100%", "100%" ],
+          "$scroll_view_port_size": [ "100%-25px", "100%" ],
+          "$scroll_size": [ 16, "100%" ],
+          "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+          "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track",
+          "$scrolling_content": "test_component_4jd.scroll_grid_panel",
+          "$collection_name": "recipe_book"
+        }
+      }
+    ]
+  },
+
   "scroll_grid_panel": {
     "type": "stack_panel",
     "orientation": "horizontal",
-    "size": [ "100%", "100%c" ],
+    "size": [ "100%", 26064 ],
     "controls": [
-      { 
-        "item_names@crafting.scroll_grid": {
-          "size": [ "fill", "100%c" ],
-          "grid_item_template": "test_component_4jd.item_names_template"
-        }
-      },
-      { "number_stack_panel@test_component_4jd.number_stack_panel": { } },
       {
         "grid_panel": {
           "type": "panel",
           "size": [ 18, "100%c" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
           "controls": [
             { "grid@crafting.scroll_grid": { } }
           ]
+        }
+      },
+      { "number_stack_panel@test_component_4jd.number_stack_panel": { } },
+      { 
+        "item_names@crafting.scroll_grid": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ "fill", "100%c" ],
+          "grid_item_template": "test_component_4jd.item_names_template"
         }
       }
     ]
@@ -36,9 +64,9 @@
         "item_name_label": {
           "type": "label",
           "size": [ "default", 10 ],
-          "anchor_from": "right_middle",
-          "anchor_to": "right_middle",
-          "offset": [ -4, 0 ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "offset": [ 4, 0 ],
           "layer": 2,
           "shadow": true,
           "text": "#hover_text",
@@ -87,7 +115,9 @@
 
   "number_stack_panel": {
     "type": "stack_panel",
-    "size": [ 52, "100%cm" ],
+    "size": [ 52, "100%c" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
     "controls": [
       { "0000@test_component_4jd.number_panel": { "$item_number_text": "0000" } },
       { "0001@test_component_4jd.number_panel": { "$item_number_text": "0001" } },
@@ -1501,7 +1531,56 @@
       { "1396@test_component_4jd.number_panel": { "$item_number_text": "1396" } },
       { "1397@test_component_4jd.number_panel": { "$item_number_text": "1397" } },
       { "1398@test_component_4jd.number_panel": { "$item_number_text": "1398" } },
-      { "1399@test_component_4jd.number_panel": { "$item_number_text": "1399" } }
+      { "1399@test_component_4jd.number_panel": { "$item_number_text": "1399" } },
+      
+      { "1400@test_component_4jd.number_panel": { "$item_number_text": "1400" } },
+      { "1401@test_component_4jd.number_panel": { "$item_number_text": "1401" } },
+      { "1402@test_component_4jd.number_panel": { "$item_number_text": "1402" } },
+      { "1403@test_component_4jd.number_panel": { "$item_number_text": "1403" } },
+      { "1404@test_component_4jd.number_panel": { "$item_number_text": "1404" } },
+      { "1405@test_component_4jd.number_panel": { "$item_number_text": "1405" } },
+      { "1406@test_component_4jd.number_panel": { "$item_number_text": "1406" } },
+      { "1407@test_component_4jd.number_panel": { "$item_number_text": "1407" } },
+      { "1408@test_component_4jd.number_panel": { "$item_number_text": "1408" } },
+      { "1409@test_component_4jd.number_panel": { "$item_number_text": "1409" } },
+      { "1410@test_component_4jd.number_panel": { "$item_number_text": "1410" } },
+      { "1411@test_component_4jd.number_panel": { "$item_number_text": "1411" } },
+      { "1412@test_component_4jd.number_panel": { "$item_number_text": "1412" } },
+      { "1413@test_component_4jd.number_panel": { "$item_number_text": "1413" } },
+      { "1414@test_component_4jd.number_panel": { "$item_number_text": "1414" } },
+      { "1415@test_component_4jd.number_panel": { "$item_number_text": "1415" } },
+      { "1416@test_component_4jd.number_panel": { "$item_number_text": "1416" } },
+      { "1417@test_component_4jd.number_panel": { "$item_number_text": "1417" } },
+      { "1418@test_component_4jd.number_panel": { "$item_number_text": "1418" } },
+      { "1419@test_component_4jd.number_panel": { "$item_number_text": "1419" } },
+      { "1420@test_component_4jd.number_panel": { "$item_number_text": "1420" } },
+      { "1421@test_component_4jd.number_panel": { "$item_number_text": "1421" } },
+      { "1422@test_component_4jd.number_panel": { "$item_number_text": "1422" } },
+      { "1423@test_component_4jd.number_panel": { "$item_number_text": "1423" } },
+      { "1424@test_component_4jd.number_panel": { "$item_number_text": "1424" } },
+      { "1425@test_component_4jd.number_panel": { "$item_number_text": "1425" } },
+      { "1426@test_component_4jd.number_panel": { "$item_number_text": "1426" } },
+      { "1427@test_component_4jd.number_panel": { "$item_number_text": "1427" } },
+      { "1428@test_component_4jd.number_panel": { "$item_number_text": "1428" } },
+      { "1429@test_component_4jd.number_panel": { "$item_number_text": "1429" } },
+      { "1430@test_component_4jd.number_panel": { "$item_number_text": "1430" } },
+      { "1431@test_component_4jd.number_panel": { "$item_number_text": "1431" } },
+      { "1432@test_component_4jd.number_panel": { "$item_number_text": "1432" } },
+      { "1433@test_component_4jd.number_panel": { "$item_number_text": "1433" } },
+      { "1434@test_component_4jd.number_panel": { "$item_number_text": "1434" } },
+      { "1435@test_component_4jd.number_panel": { "$item_number_text": "1435" } },
+      { "1436@test_component_4jd.number_panel": { "$item_number_text": "1436" } },
+      { "1437@test_component_4jd.number_panel": { "$item_number_text": "1437" } },
+      { "1438@test_component_4jd.number_panel": { "$item_number_text": "1438" } },
+      { "1439@test_component_4jd.number_panel": { "$item_number_text": "1439" } },
+      { "1440@test_component_4jd.number_panel": { "$item_number_text": "1440" } },
+      { "1441@test_component_4jd.number_panel": { "$item_number_text": "1441" } },
+      { "1442@test_component_4jd.number_panel": { "$item_number_text": "1442" } },
+      { "1443@test_component_4jd.number_panel": { "$item_number_text": "1443" } },
+      { "1444@test_component_4jd.number_panel": { "$item_number_text": "1444" } },
+      { "1445@test_component_4jd.number_panel": { "$item_number_text": "1445" } },
+      { "1446@test_component_4jd.number_panel": { "$item_number_text": "1446" } },
+      { "1447@test_component_4jd.number_panel": { "$item_number_text": "1447" } }
     ]
   }
 }

@@ -8,6 +8,7 @@
     "ui4jd/common_sections/ui_template_scroll.ui4jd",
     "ui4jd/common_sections/ui_template_toggles.ui4jd",
     "ui4jd/common_sections/ui_template_tooltip.ui4jd",
+    "ui4jd/common_sections/ui_template_touch.ui4jd",
     /* Container Item Sections */
     "ui4jd/common_sections/container_item_sections/inventory_buttons.ui4jd",
     "ui4jd/common_sections/container_item_sections/ui_container_item.ui4jd",
@@ -87,6 +88,7 @@
     "ui4jd/inventory_screens/smithing_table_screen.ui4jd",
     "ui4jd/inventory_screens/stonecutter_screen.ui4jd",
     "ui4jd/inventory_screens/test_component.ui4jd",
+    "ui4jd/inventory_screens/test_component_renew.ui4jd",
     "ui4jd/inventory_screens/trade_2_screen.ui4jd",
     "ui4jd/inventory_screens/crafting_sections/3x3_crafting_tabs.ui4jd",
     /* Creative Sections */

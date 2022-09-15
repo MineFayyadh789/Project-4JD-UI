@@ -195,6 +195,7 @@
     "size": [ 215, 202.5 ],
     "controls": [
       { "crafting_panel@crafting_4jd.crafting_panel_3x3": { "layer": 3 } },
+      { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { "layer": 11 } },
       { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } },
       {
         "inventory_panel_bottom_half@common_4jd.inventory_panel_bottom_half": {

@@ -1,6 +1,5 @@
 {
   "namespace": "creative_items_common_4jd",
-
   
   /*//// Base Objects ////*/
 
@@ -17,16 +16,17 @@
     "collection_name": "recipe_book"
   },
 
-  "grid_item_for_creative@crafting.grid_item_for_recipe_book": {
+  "grid_item_for_creative@recipe_book_adaptive_4jd.grid_item": {
     "size": [ 27, 27 ],
+    "$auto_place_mode_button_name": "button.recipe_select",
     "$background_images": "common.empty_panel",
     "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
     "$container_item_size": [ 27, 27 ],
     "$cell_image_size": [ 27, 27 ],
     "$item_renderer_panel_size": [ 27, 27 ],
-    "$item_renderer_size": [ 22, 22 ],
-    "$highlight_slot_size": [ 24, 24 ],
-    "$stack_count_control": "common.empty_panel"
+    "$item_renderer_size": [ 24, 24 ],
+    "$stack_count_font_scale_factor": 1.5,
+    "$stack_count_offset": [ -0.5, 2 ]
   },
   
   /*//// Button Tab ////*/

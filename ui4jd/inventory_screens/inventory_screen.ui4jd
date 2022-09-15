@@ -581,6 +581,74 @@
     ]
   },
 
+  "inventory_buttons_panel": {
+    "type": "stack_panel",
+    "size": [ "100%sm", "100%sm" ],
+    "layer": 11,
+    "controls": [
+      {
+        "creative_tab_padding": {
+          "type": "panel",
+          "size": [ "100%", 33 ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(#is_creative_layout)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "main_panel": {
+          "type": "panel",
+          "size": [ "100%", "fill" ],
+          "controls": [
+            { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+
+  "main_inventory_screen_content": {
+    "type": "panel",
+    "controls": [
+      {
+        "panel_hold": {
+          "type": "panel",
+          "size": [ "100%cm", "100%cm" ],
+          "controls": [
+            { "inventory_buttons_panel@inventory_4jd.inventory_buttons_panel": { } },
+            { 
+              "classic_inventory_panel@inventory_4jd.classic_inventory_panel": {
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(not #is_creative_layout)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            { 
+              "creative_panel@creative_4jd.creative_panel": {
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "#is_creative_layout",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "inventory_center_screen":{
     "type": "panel",
     "controls": [
@@ -594,42 +662,8 @@
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
-      { 
-        "classic_inventory_panel@inventory_4jd.classic_inventory_panel": {
-          "bindings": [
-            {
-              "binding_type": "global",
-              "binding_name": "(not #is_creative_layout)",
-              "binding_name_override": "#visible"
-            }
-          ]
-        }
-      },
-      { 
-        "creative_panel@creative_4jd.creative_panel": {
-          "bindings": [
-            {
-              "binding_type": "global",
-              "binding_name": "#is_creative_layout",
-              "binding_name_override": "#visible"
-            }
-          ]
-        }
-      },
-      {
-        "item_number_scroll_panel@crafting.scroll_panel": {
-          "ignored": true,
-          "$scroll_background_image_control": "common.container_scroll_background_image",
-          "$show_background": false,
-          "layer": 100,
-          "size": [ 350, "100%" ],
-          "anchor_from": "top_right",
-          "anchor_to": "top_right",
-          "$scroll_size": [ 12, "100%" ],
-          "$scrolling_content": "test_component_4jd.scroll_grid_panel",
-          "$collection_name": "recipe_book"
-        }
-      }
+      //{ "main_inventory_screen_content@inventory_4jd.main_inventory_screen_content": { } },
+      { "test_component@test_component_renew_4jd.test_component_panel": { "ignored": false } }
     ]
   }
 }

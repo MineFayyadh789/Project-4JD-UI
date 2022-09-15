@@ -36,7 +36,12 @@
         }
       },
       {
-        "hotbar_grid@common.hotbar_grid_template": {
+        "hotbar_grid": {
+          "type": "grid",
+          "grid_dimensions": [ 9, 1 ],
+          "grid_item_template": "common_4jd.grid_item_for_hotbar",
+          "collection_name": "hotbar_items",
+
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "offset": [ 33.5, -10.5 ],
@@ -49,7 +54,8 @@
           "$cell_image_size": [ 27, 27 ],
           "$item_renderer_panel_size": [ 27, 27 ],
           "$item_renderer_size": [ 24, 24 ],
-          "$stack_count_control": "common_4jd.stack_count_label_24",
+          "$stack_count_font_scale_factor": 1.5,
+          "$stack_count_offset": [ -0.5, 2 ],
 
           "$button_ref": "crafting.creative_hotbar_container_slot_button"
         }
@@ -130,6 +136,7 @@
     "$is_tab_6": false,
     "$is_tab_7": false,
     "$is_tab_8": false,
+    "$ignore_panel_content": false,
     "controls": [
       { 
         "tab_icons@creative_tabs_bumpers.tab_icons": {
@@ -147,6 +154,7 @@
           "controls": [
             { 
               "category_panel_content@creative_pages_panels.creative_tab_pages": {
+                "ignored": "$ignore_panel_content",
                 "layer": 8,
                 "size": [ 321.5, 212 ],
                 "anchor_from": "bottom_left",
@@ -170,26 +178,29 @@
   },
 
   "building_blocks_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_1": true,
     "$category": "building_blocks",
     "$scroll_box_offset_page_2": [ 0, 24 ],
     "$scroll_box_offset_page_3": [ 0, 48 ],
     "$scroll_box_offset_page_4": [ 0, 72 ],
     "$scroll_box_offset_page_5": [ 0, 96 ],
+    "$scroll_box_offset_page_6": [ 0, 96 ],
+    "$scroll_box_offset_page_7": [ 0, 96 ],
     "$panel_content_page_1": "creative_building_blocks_4jd.building_blocks_items_page_1",
     "$panel_content_page_2": "creative_building_blocks_4jd.building_blocks_items_page_2",
     "$panel_content_page_3": "creative_building_blocks_4jd.building_blocks_items_page_3",
     "$panel_content_page_4": "creative_building_blocks_4jd.building_blocks_items_page_4",
     "$panel_content_page_5": "creative_building_blocks_4jd.building_blocks_items_page_5",
-    "$panel_content_page_6": "common.empty_panel",
-    //"$panel_content_page_6": "creative_building_blocks_4jd.building_blocks_items_page_6",
+    "$panel_content_page_6": "creative_building_blocks_4jd.building_blocks_items_page_6",
+    "$panel_content_page_7": "creative_building_blocks_4jd.building_blocks_items_page_7",
+    "$panel_content_page_8": "creative_building_blocks_4jd.building_blocks_items_page_8",
     "$category_text": "4jd.creativeScreen.tab.buildingBlocks",
     "$tab_binding_name": "building_blocks_tab_toggle"
   },
 
   "decorations_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_2": true,
     "$category": "decorations",
     "$scroll_box_offset_page_2": [ 0, 24 ],
@@ -202,12 +213,13 @@
     "$panel_content_page_4": "creative_decorations_4jd.decorations_items_page_4",
     "$panel_content_page_5": "creative_decorations_4jd.decorations_items_page_5",
     "$panel_content_page_6": "creative_decorations_4jd.decorations_items_page_6",
+    "$panel_content_page_7": "creative_decorations_4jd.decorations_items_page_7",
     "$category_text": "4jd.craftingScreen.tab.decorations",
     "$tab_binding_name": "decorations_tab_toggle"
   },
 
   "redstone_and_transport_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_3": true,
     "$category": "redstone_and_transport",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -219,7 +231,7 @@
   },
 
   "materials_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_4": true,
     "$category": "materials",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -231,7 +243,7 @@
   },
 
   "food_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_5": true,
     "$category": "food",
     "$1_page_only": true,
@@ -241,7 +253,7 @@
   },
 
   "tools_weapons_and_armor_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_6": true,
     "$category": "tools_weapons_and_armor",
     "$scroll_box_offset_page_2": [ 0, 40 ],
@@ -251,14 +263,13 @@
     "$panel_content_page_1": "creative_tools_4jd.tools_items_page_1",
     "$panel_content_page_2": "creative_tools_4jd.tools_items_page_2",
     "$panel_content_page_3": "creative_tools_4jd.tools_items_page_3",
-    "$panel_content_page_4": "common.empty_panel",
-    //"$panel_content_page_4": "creative_tools_4jd.tools_items_page_4",
+    "$panel_content_page_4": "creative_tools_4jd.tools_items_page_4",
     "$category_text": "4jd.creativeScreen.tab.toolsWeaponsAndArmor",
     "$tab_binding_name": "tools_weapons_and_armor_tab_toggle"
   },
 
   "brewing_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_7": true,
     "$category": "brewing",
     "$scroll_box_offset_page_2": [ 0, 60 ],
@@ -272,7 +283,7 @@
   },
   
   "miscellaneous_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "ignored": true,
+    "$ignore_panel_content": true,
     "$is_tab_8": true,
     "$category": "miscellaneous",
     "$scroll_box_offset_page_2": [ 0, 40 ],
@@ -282,8 +293,7 @@
     "$panel_content_page_1": "creative_miscellaneous_4jd.miscellaneous_items_page_1",
     "$panel_content_page_2": "creative_miscellaneous_4jd.miscellaneous_items_page_2",
     "$panel_content_page_3": "creative_miscellaneous_4jd.miscellaneous_items_page_3",
-    "$panel_content_page_4": "common.empty_panel",
-    //"$panel_content_page_4": "creative_miscellaneous_4jd.miscellaneous_items_page_4",
+    "$panel_content_page_4": "creative_miscellaneous_4jd.miscellaneous_items_page_4",
     "$category_text": "4jd.creativeScreen.tab.miscellaneous",
     "$tab_binding_name": "miscellaneous_tab_toggle"
   },
@@ -360,23 +370,23 @@
 
   "left_cycle@creative_tabs_bumpers.cycle_button": {
     "$bumper_button": "creative_tabs_bumpers.left_cycle_gamepad_helper",
-    "$button_cycle_text": "<"
+    "$button_cycle_text": "["
   },
 
   "left_cycle_hover@creative_tabs_bumpers.cycle_button": {
     "$bumper_button": "creative_tabs_bumpers.left_cycle_gamepad_helper",
-    "$button_cycle_text": "<",
+    "$button_cycle_text": "[",
     "$ignore_border": false
   },
 
   "right_cycle@creative_tabs_bumpers.cycle_button": {
     "$bumper_button": "creative_tabs_bumpers.right_cycle_gamepad_helper",
-    "$button_cycle_text": ">"
+    "$button_cycle_text": "]"
   },
   
   "right_cycle_hover@creative_tabs_bumpers.cycle_button": {
     "$bumper_button": "creative_tabs_bumpers.right_cycle_gamepad_helper",
-    "$button_cycle_text": ">",
+    "$button_cycle_text": "]",
     "$ignore_border": false
   },
 
