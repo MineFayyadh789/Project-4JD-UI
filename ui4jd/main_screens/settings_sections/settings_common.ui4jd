@@ -79,6 +79,7 @@
                 "layer": -1,
                 "color": "black",
                 "text": "$option_label",
+                "bindings": "$label_bindings",
                 "offset": [ 0.5, 0.5 ]
               }
             }
@@ -142,6 +143,7 @@
     "size": [ "100%+8px", 16 ],
     "$text_color": "$main_menu_button_default_color",
     "$bg_texture": "ui_4jd_textures.slider_background",
+    "$is_slider_hover": false,
     "controls": [
       {
         "hold_panel": {
@@ -186,15 +188,21 @@
                 ]
               }
             },
-            { "bg_texture@$bg_texture": { "layer": 3 } }
+            { "bg_texture@$bg_texture": { "layer": 3 } },
+            { "hover_content@$hover_content": { "ignored": "(not $is_slider_hover)" } }
           ]
         }
       }
     ]
   },
 
+  "slider_bar_base_hover@settings_common_4jd.slider_bar_base": {
+    "$is_slider_hover": true
+  },
+
   "option_slider@settings_common_4jd.option_generic": {
     "size": [ "100%", 18 ],
+    "$hover_content|default": "common.empty_panel",
     "controls": [
       {
         "slider@common.slider": {
@@ -233,7 +241,7 @@
             },
             { "slider_bar_default@settings_common_4jd.slider_bar_base": { } },
             {
-              "slider_bar_hover@settings_common_4jd.slider_bar_base": {
+              "slider_bar_hover@settings_common_4jd.slider_bar_base_hover": {
                 "$text_color": "$main_menu_button_hover_color",
                 "$bg_texture": "ui_4jd_textures.slider_background_hover"
               }

@@ -1,5 +1,7 @@
 ### IMPORTANT NOTE: It is only viable to use it in 1080p resolution, for 720p pixel height format I will bring it later. And yes, it only works for the latest version.
 
+### To get the file, click the green button "Code" and then press "Download ZIP", after downloading "Project-4JD-UI-master.zip", rename .zip to .mcpack. That's all!
+
 # VDX: Project 4JD UI
 
 ### An legacy console UI design for MC Win10 Bedrock.
@@ -19,7 +21,9 @@ For now it will be designated only for High-end PC Windows 10 or Last Gen Consol
 #### Supported Languages ####
 
 - English (en_US)(Main)
+- Spanish of Mexico (es_MX)(WIP)
 - Japanese (ja_JP)(WIP)
+- Russian (ru_RU)(WIP)(Thanks umioMikket)
 
 #### To do list ####
 
@@ -45,6 +49,10 @@ At the moment, you can:
 
 You can't:
 - Redistribute the master (current) version to other pages.
+
+#### How to use creative menu in Museum UI mode? ####
+
+At the moment this is designated for use by controller. You can use bumpers to switch tabs. To scroll pages, use the triggers. And use the "Select" button to switch mode between "Creative" and "Inventory", that's all.
 
 #### Known Issues ####
 

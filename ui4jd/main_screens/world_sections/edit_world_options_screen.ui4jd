@@ -5,6 +5,29 @@
 
   /*////// Options Descriptions //////*/
 
+  "option_desc_text@common_4jd.global_label": {
+    "text": "$option_description_text",
+    "layer": 50,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": "$option_description_offset",
+    "size": [ 164, "default" ],
+    "line_padding": 2,
+    "shadow": false,
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "line_padding": 2,
+          "size": [ "100%", "100%" ],
+          "layer": -1,
+          "color": "black",
+          "text": "$option_description_text",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
+  }, 
+
   "seed_input_desc_text@common_4jd.global_label": {
     "text": "createWorldScreen.seed.desc",
     "layer": 50,
@@ -167,6 +190,9 @@
     "controls": [
       {
         "multiplayer_game_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, 2.5 ],
+          "$option_description_text": "4jd.createWorldScreen.onlineGame.desc",
           "$option_label": "options.multiplayergame",
           "$option_binding_name": "#multiplayer_game",
           "$option_enabled_binding_name": "#multiplayer_game_enabled",
@@ -175,6 +201,9 @@
       },
       {
         "server_visible_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -12.5 ],
+          "$option_description_text": "4jd.createWorldScreen.visibleToLanPlayers.desc",
           "$option_label": "options.servervisible",
           "$option_binding_name": "#server_visible",
           "$option_enabled_binding_name": "#server_visibility_enabled",
@@ -190,6 +219,9 @@
       },
       {
         "pvp_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -27.5 ],
+          "$option_description_text": "4jd.createWorldScreen.playerVsPlayer.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.pvp",
           "$option_binding_name": "#pvp",
@@ -201,6 +233,9 @@
       },
       {
         "allow_cheats_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -42.5 ],
+          "$option_description_text": "4jd.createWorldScreen.commands.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "selectWorld.cheats",
           "$option_binding_name": "#allow_cheats",
@@ -212,6 +247,9 @@
       },
       {
         "daylight_cycle_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -57.5 ],
+          "$option_description_text": "4jd.createWorldScreen.daylightCycleNormal.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.daylightcycle",
           "$option_binding_name": "#daylight_cycle",
@@ -223,6 +261,9 @@
       },
       {
         "weather_cycle_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -72.5 ],
+          "$option_description_text": "4jd.createWorldScreen.weather.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.weathercycle",
           "$option_binding_name": "#weather_cycle",
@@ -248,6 +289,9 @@
       },
       {
         "keep_inventory_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -87.5 ],
+          "$option_description_text": "4jd.createWorldScreen.inventory.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.keepInventory",
           "$option_binding_name": "#keep_inventory",
@@ -259,6 +303,9 @@
       },
       {
         "mob_spawn_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -102.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobSpawning.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.mobSpawn",
           "$option_binding_name": "#mob_spawn",
@@ -270,6 +317,9 @@
       },
       {
         "mob_griefing_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -117.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobGriefing.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.mobgriefing",
           "$option_binding_name": "#mob_griefing",
@@ -281,6 +331,9 @@
       },
       {
         "entities_drop_loot_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -132.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobLoot.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.entitiesdroploot",
           "$option_binding_name": "#entities_drop_loot",
@@ -292,6 +345,9 @@
       },
       {
         "tile_drops_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -147.5 ],
+          "$option_description_text": "4jd.createWorldScreen.tileDrops.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.tileDrops",
           "$option_binding_name": "#tile_drops",
@@ -308,7 +364,9 @@
     "controls": [
       {
         "natural_regeneration_toggle@settings_common_4jd.option_toggle": {
-          "$hover_content": "edit_world_optons_4jd.natural_regen_toggle_desc_text",
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, 2.5 ],
+          "$option_description_text": "4jd.createWorldScreen.naturalregeneration.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.naturalregeneration",
           "$option_binding_name": "#natural_regeneration",
@@ -320,6 +378,9 @@
       },
       {
         "immediate_respawn_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -12.5 ],
+          "$option_description_text": "4jd.createWorldScreen.immediateRespawn.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.immediaterespawn",
           "$option_binding_name": "#immediaterespawn",
@@ -331,6 +392,9 @@
       },
       {
         "respawn_radius@settings_common_4jd.option_text_edit": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -38.5 ],
+          "$option_description_text": "4jd.createWorldScreen.respawnRadius.desc",
           "$option_label": "createWorldScreen.respawnRadius",
           "$option_binding_name": "#respawn_radius",
           "$option_enabled_binding_name": "#respawn_radius_enabled",
@@ -348,6 +412,9 @@
       },
       {
         "education_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -58.5 ],
+          "$option_description_text": "4jd.createWorldScreen.education.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.educationtoggle",
           "$option_binding_name": "#education_toggle",
@@ -358,6 +425,9 @@
       },
       {
         "command_blocks_enabled_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -73.5 ],
+          "$option_description_text": "4jd.createWorldScreen.commandBlocks.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.commandblocksenabled",
           "$option_binding_name": "#command_blocks_enabled",
@@ -369,6 +439,9 @@
       },
       {
         "random_tick_speed@settings_common_4jd.option_text_edit": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -99.5 ],
+          "$option_description_text": "4jd.createWorldScreen.tickSpeed.desc",
           "$option_label": "createWorldScreen.randomtickspeed",
           "$option_binding_name": "#random_tick_speed",
           "$option_enabled_binding_name": "#random_tick_speed_enabled",
@@ -436,6 +509,9 @@
     "controls": [
       {
         "option_text_edit_1@settings_common_4jd.option_text_edit": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -10 ],
+          "$option_description_text": "",
           "$option_label": "selectWorld.enterName",
           "$option_binding_name": "#world_name",
           "$option_enabled_binding_name": "#world_name_enabled",
@@ -485,6 +561,9 @@
       },
       {
         "fire_spreads_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -58 ],
+          "$option_description_text": "4jd.createWorldScreen.firesSpreads.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.fireSpreads",
           "$option_binding_name": "#fire_spreads",
@@ -496,6 +575,9 @@
       },
       {
         "tnt_explodes_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -73 ],
+          "$option_description_text": "4jd.createWorldScreen.tntExplodes.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.tntexplodes",
           "$option_binding_name": "#tnt_explodes",
@@ -507,6 +589,9 @@
       },
       {
         "show_coordinates_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -88 ],
+          "$option_description_text": "4jd.createWorldScreen.showCoordinates.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.showCoordinates",
           "$option_binding_name": "#show_coordinates",
@@ -518,6 +603,9 @@
       },
       {
         "server_sim_distance_slider@settings_common_4jd.option_slider": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -103 ],
+          "$option_description_text": "4jd.createWorldScreen.simulationDistance.desc",
           "$tts_section_header": "createWorldScreen.worldPreferences",
           "ignored": "($is_holographic)",
           "$option_label": "#server_sim_distance_slider_label",
@@ -578,13 +666,13 @@
           "collection_name": "experimental_toggles",
 
           "controls": [
-            { "0@edit_world_optons_4jd.experimental_toggle": { "collection_index": 0, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -11 ] } },
-            { "1@edit_world_optons_4jd.experimental_toggle": { "collection_index": 1, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -26 ] } }, //+15
-            { "2@edit_world_optons_4jd.experimental_toggle": { "collection_index": 2, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -41 ] } },
-            { "3@edit_world_optons_4jd.experimental_toggle": { "collection_index": 3, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -56 ] } },
-            { "4@edit_world_optons_4jd.experimental_toggle": { "collection_index": 4, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -71 ] } },
-            { "5@edit_world_optons_4jd.experimental_toggle": { "collection_index": 5, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -86 ] } }/* ,
-            { "6@edit_world_optons_4jd.experimental_toggle": { "collection_index": 6, "$hover_content": "edit_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -101 ] } } */
+            { "0@edit_world_optons_4jd.experimental_toggle": { "collection_index": 0, "$option_description_offset": [ 237.5, -11  ], "$option_description_text": "createWorldScreen.spectatorModeDescription" } },
+            { "1@edit_world_optons_4jd.experimental_toggle": { "collection_index": 1, "$option_description_offset": [ 237.5, -26  ], "$option_description_text": "createWorldScreen.experimentalholidayDescription" } },
+            { "2@edit_world_optons_4jd.experimental_toggle": { "collection_index": 2, "$option_description_offset": [ 237.5, -41  ], "$option_description_text": "createWorldScreen.experimentalbiomesDescription" } },
+            { "3@edit_world_optons_4jd.experimental_toggle": { "collection_index": 3, "$option_description_offset": [ 237.5, -56  ], "$option_description_text": "createWorldScreen.experimentalCreatorFeaturesDescription" } },
+            { "4@edit_world_optons_4jd.experimental_toggle": { "collection_index": 4, "$option_description_offset": [ 237.5, -71  ], "$option_description_text": "createWorldScreen.experimentalGameTestDescription" } },
+            { "5@edit_world_optons_4jd.experimental_toggle": { "collection_index": 5, "$option_description_offset": [ 237.5, -86  ], "$option_description_text": "createWorldScreen.experimentalMolangFeaturesDescription" } }/* ,
+            { "6@edit_world_optons_4jd.experimental_toggle": { "collection_index": 6, "$option_description_offset": [ 237.5, -101 ], "$option_description_text": "" } } */ //+15
           ]/* ,
 
           "bindings": [
@@ -629,6 +717,7 @@
   },
 
   "experimental_toggle@settings_common_4jd.option_toggle": {
+    "$hover_content": "edit_world_optons_4jd.option_desc_text",
     "$tts_section_header": "createWorldScreen.worldSettings",
     "$toggle_tts_header_binding_type": "collection",
     "$toggle_tts_header_binding_collection_name": "experimental_toggles",
@@ -672,6 +761,31 @@
     "anchor_to": "top_left",
     "offset": [ 0, 23 ],
     "controls": [
+      { 
+        "close_button@common_toggles_4jd.toggle_panel": {
+          "$custom_toggle_sound_name": "ui.back",
+          "size": [ 24, 24 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ],
+          "$toggle_name": "main_world_tab",
+          "$is_back_button": true,
+          "$tab_view_binding_name": "back_tab_toggle",
+          "$toggle_group_forced_index": 100,
+          "$button_content": "inventory_buttons_4jd.close_icon",
+
+          "$unchecked_control": "common_buttons_4jd.black_button_default",
+          "$checked_control": "common_buttons_4jd.black_button_default",
+          "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+          "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+          "bindings": [
+            {
+              "binding_name": "#close_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
       {
         "world_options_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
           "size": [ 244, 175 ],

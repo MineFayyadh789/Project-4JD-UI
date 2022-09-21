@@ -86,15 +86,15 @@
 
   /*//// Individual Tabs Icons ////*/
 
-  "top_tab_b@creative_tabs_4jd.tab_back": {
-    "size": [ 41.5, 33 ],
+  "top_tab_b@recipe_book_adaptive_4jd.tab_back": {
+    "size": [ 41.5, "100%" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$tab_back_texture": "ui_4jd_textures.TabTopBack"
   },
 
-  "top_tab_f@creative_tabs_4jd.tab_front": {
-    "size": [ 41.5, 33 ],
+  "top_tab_f@recipe_book_adaptive_4jd.tab_front": {
+    "size": [ 41.5, "100%" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "$tab_front_texture": "ui_4jd_textures.TabTopFront"
@@ -102,7 +102,11 @@
 
   "tab_icons": {
     "type": "panel",
-    "size": [ 344.5, 37 ],
+    "size": [ 344.5, 33 ],
+    "$tab_back_icon_offset": [ 0, 8 ],
+    "$tab_front_icon_offset": [ 0, 6.5 ],
+    "$tab_back_offset": [ 0, 1.5 ],
+    "$tab_back_size": [ "100%", "100%+7.5px" ],
     "controls": [
       { "tab_1_b@creative_tabs_bumpers.top_tab_b": { "ignored": "($is_tab_1)", "$tab_back_texture": "ui_4jd_textures.TabTopBackLeftMost", "$tab_icon": "ui_4jd_textures.icon_structures" } },
       { "tab_1_f@creative_tabs_bumpers.top_tab_f": { "ignored": "(not $is_tab_1)", "$tab_front_texture": "ui_4jd_textures.TabTopFrontLeftMost", "$tab_icon": "ui_4jd_textures.icon_structures" } },
@@ -178,15 +182,17 @@
   },
 
   "building_blocks_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_1": true,
     "$category": "building_blocks",
-    "$scroll_box_offset_page_2": [ 0, 24 ],
-    "$scroll_box_offset_page_3": [ 0, 48 ],
-    "$scroll_box_offset_page_4": [ 0, 72 ],
-    "$scroll_box_offset_page_5": [ 0, 96 ],
-    "$scroll_box_offset_page_6": [ 0, 96 ],
-    "$scroll_box_offset_page_7": [ 0, 96 ],
+    "$scroll_box_offset_page_2": [ 0, 17 ],
+    "$scroll_box_offset_page_3": [ 0, 34 ],
+    "$scroll_box_offset_page_4": [ 0, 51 ],
+    "$scroll_box_offset_page_5": [ 0, 68 ],
+    "$scroll_box_offset_page_6": [ 0, 85 ],
+    "$scroll_box_offset_page_7": [ 0, 102 ],
+    "$scroll_box_offset_page_8": [ 0, 121 ],
+    "$8_pages_only": true,
     "$panel_content_page_1": "creative_building_blocks_4jd.building_blocks_items_page_1",
     "$panel_content_page_2": "creative_building_blocks_4jd.building_blocks_items_page_2",
     "$panel_content_page_3": "creative_building_blocks_4jd.building_blocks_items_page_3",
@@ -200,13 +206,16 @@
   },
 
   "decorations_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_2": true,
     "$category": "decorations",
-    "$scroll_box_offset_page_2": [ 0, 24 ],
-    "$scroll_box_offset_page_3": [ 0, 48 ],
-    "$scroll_box_offset_page_4": [ 0, 72 ],
-    "$scroll_box_offset_page_5": [ 0, 96 ],
+    "$scroll_box_offset_page_2": [ 0, 20 ],
+    "$scroll_box_offset_page_3": [ 0, 40 ],
+    "$scroll_box_offset_page_4": [ 0, 60 ],
+    "$scroll_box_offset_page_5": [ 0, 80 ],
+    "$scroll_box_offset_page_6": [ 0, 100 ],
+    "$scroll_box_offset_page_7": [ 0, 121 ],
+    "$7_pages_only": true,
     "$panel_content_page_1": "creative_decorations_4jd.decorations_items_page_1",
     "$panel_content_page_2": "creative_decorations_4jd.decorations_items_page_2",
     "$panel_content_page_3": "creative_decorations_4jd.decorations_items_page_3",
@@ -219,7 +228,7 @@
   },
 
   "redstone_and_transport_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_3": true,
     "$category": "redstone_and_transport",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -231,7 +240,7 @@
   },
 
   "materials_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_4": true,
     "$category": "materials",
     "$scroll_box_offset_page_2": [ 0, 121 ],
@@ -243,7 +252,7 @@
   },
 
   "food_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_5": true,
     "$category": "food",
     "$1_page_only": true,
@@ -253,7 +262,7 @@
   },
 
   "tools_weapons_and_armor_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_6": true,
     "$category": "tools_weapons_and_armor",
     "$scroll_box_offset_page_2": [ 0, 40 ],
@@ -269,7 +278,7 @@
   },
 
   "brewing_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_7": true,
     "$category": "brewing",
     "$scroll_box_offset_page_2": [ 0, 60 ],
@@ -283,7 +292,7 @@
   },
   
   "miscellaneous_panel_content@creative_tabs_bumpers.tab_panel_content": {
-    "$ignore_panel_content": true,
+    "$ignore_panel_content": false,
     "$is_tab_8": true,
     "$category": "miscellaneous",
     "$scroll_box_offset_page_2": [ 0, 40 ],
@@ -319,7 +328,6 @@
     "size": [ 24, 24 ],
     "$ignore_border": true,
     "controls": [
-      { "bumper_button@$bumper_button": { "layer": 4 } },
       { 
         "text@common_4jd.global_label": {
           "text": "$button_cycle_text",
@@ -369,23 +377,19 @@
   },
 
   "left_cycle@creative_tabs_bumpers.cycle_button": {
-    "$bumper_button": "creative_tabs_bumpers.left_cycle_gamepad_helper",
     "$button_cycle_text": "["
   },
 
   "left_cycle_hover@creative_tabs_bumpers.cycle_button": {
-    "$bumper_button": "creative_tabs_bumpers.left_cycle_gamepad_helper",
     "$button_cycle_text": "[",
     "$ignore_border": false
   },
 
   "right_cycle@creative_tabs_bumpers.cycle_button": {
-    "$bumper_button": "creative_tabs_bumpers.right_cycle_gamepad_helper",
     "$button_cycle_text": "]"
   },
   
   "right_cycle_hover@creative_tabs_bumpers.cycle_button": {
-    "$bumper_button": "creative_tabs_bumpers.right_cycle_gamepad_helper",
     "$button_cycle_text": "]",
     "$ignore_border": false
   },

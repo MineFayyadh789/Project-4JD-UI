@@ -9,6 +9,7 @@
     "$container_item_size|default": [ 18, 18 ],
     "$stack_count_font_scale_factor|default": 1.0,
     "$stack_count_offset|default": [ 0, 1 ],
+    "$include_item_lock_overlay|default": true,
 
     "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
 
@@ -28,6 +29,7 @@
     "$item_renderer_panel_size|default": [ 18, 18 ],
     "$item_renderer_size|default": [ 16, 16 ],
     "$item_renderer_offset|default": [ 0, 0 ],
+    "$include_background_images|default": true,
     "$background_images|default": "common.cell_image",
     "$background_image_control_name|default": "bg",
     "$include_button_ref|default": true,
@@ -54,6 +56,7 @@
           "controls": [
             {
               "$background_image_control_name@$background_images": {
+                "ignored": "(not $include_background_images)",
                 "layer": 1
               }
             },
@@ -204,6 +207,7 @@
       },
       {
         "container_item_lock_overlay@common.container_item_lock_overlay": {
+          "ignored": "(not $include_item_lock_overlay)",
           "size": "$item_renderer_size",
           "offset": [ 1, 1 ],
           "anchor_to": "top_left",
@@ -213,6 +217,7 @@
       },
       {
         "item_lock_cell_image@common.item_lock_cell_image": {
+          "ignored": "(not $include_item_lock_overlay)",
           "texture": "$item_lock_cell_texture",
           "size": "$item_lock_cell_size",
           "$item_lock_cell_size|default": [ "100%", "100%" ],
@@ -233,6 +238,7 @@
     "$auto_place_mode_button_name|default": "button.container_auto_place",
     "$background_images|default": "crafting.container_cell_images",
 
+    "$include_overlay_images|default": true,
     "$overlay_images|default": "crafting.container_overlay_images",
     "$overlay_image_control_name|default": "overlay",
 
@@ -245,6 +251,7 @@
           "controls": [
             {
               "$background_image_control_name@$background_images": {
+                "ignored": "(not $include_background_images)",
                 "layer": 1
               }
             },
@@ -297,6 +304,7 @@
             },
             {
               "$overlay_image_control_name@$overlay_images": {
+                "ignored": "(not $include_overlay_images)",
                 "layer": 9
               }
             }
@@ -394,6 +402,7 @@
       },
       {
         "container_item_lock_overlay@common.container_item_lock_overlay": {
+          "ignored": "(not $include_item_lock_overlay)",
           "size": "$item_renderer_size",
           "offset": [ 1, 1 ],
           "anchor_to": "top_left",
@@ -403,6 +412,7 @@
       },
       {
         "item_lock_cell_image@common.item_lock_cell_image": {
+          "ignored": "(not $include_item_lock_overlay)",
           "texture": "$item_lock_cell_texture",
           "size": "$item_lock_cell_size",
           "$item_lock_cell_size|default": [ "100%", "100%" ],

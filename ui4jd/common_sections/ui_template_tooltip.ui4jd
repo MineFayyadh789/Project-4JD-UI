@@ -14,6 +14,8 @@
     "$gamepad_helper_visible_binding_name|default": "#gamepad_helper_visible",
     "$gamepad_helper_visible_binding_type|default": "global",
     "$gamepad_helper_binding_condition|default": "none",
+    "alpha": 0.875,
+    "propagate_alpha": true,
     "bindings": [
       {
         "binding_type": "$gamepad_helper_visible_binding_type",
@@ -366,6 +368,7 @@
     "controls": [
       { 
         "pocket_select@common.gamepad_icon_button": {
+          "size": [ 26, 26 ],
           "texture": "textures/ui/generic_select_button",
           "bindings": [
             {
@@ -377,6 +380,7 @@
       },
       { 
         "xbox_one_select@common.gamepad_icon_button": {
+          "size": [ 26, 26 ],
           "texture": "textures/ui/xbox_select_button",
           "bindings": [
             {
@@ -388,6 +392,7 @@
       },
       {
         "ps4_touchpad@common.gamepad_icon_button": {
+          "size": [ 26, 26 ],
           "texture": "textures/ui/ps4_touchpad",
           "bindings": [
             {
@@ -399,6 +404,7 @@
       },
       { 
         "nintendo_switch_select@common.gamepad_icon_button": {
+          "size": [ 26, 26 ],
           "texture": "textures/ui/switch_select_button",
           "bindings": [
             {

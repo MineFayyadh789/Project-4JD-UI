@@ -222,15 +222,10 @@
         }
       },
       {
-        "create_or_play_button@common_buttons_4jd.main_button": {
+        "load_button@common_buttons_4jd.main_button": {
           "size": [ "100%", 20 ],
-          "$button_text": "menu.play",
-          "$pressed_button_name": "play_world_button",
-          "variables": {
-            "requires": "(not $is_world_edit)",
-            "$button_text": "createWorldScreen.create",
-            "$pressed_button_name": "create_world_button"
-          }
+          "$button_text": "structure_block.mode.load",
+          "$pressed_button_name": "play_world_button"
         }
       }
     ]
@@ -240,6 +235,13 @@
     "size": [ 245, 233 ],
     "offset": [ -79, 21.5 ],
     "controls": [
+      { 
+        "close_button@inventory_buttons_4jd.close_button": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ]
+        }
+      },
       { "main_stack_panel@edit_world_4jd.edit_stack_panel": { } },
       {
         "pack_info_panel": {

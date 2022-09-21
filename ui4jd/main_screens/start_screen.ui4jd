@@ -201,8 +201,15 @@
   },
 
   "store_button@start_4jd.main_button": {
+    "enabled": "(not $store_disabled)",
     "$pressed_button_name": "button.menu_store",
-    "$button_text": "4jd.menu.store"
+    "$button_text": "4jd.menu.store",
+    "bindings": [
+      {
+        "binding_name": "(not #marketplace_disabled)",
+        "binding_name_override": "#enabled"
+      }
+    ]
   },
 
   "settings_button@start_4jd.main_button": {

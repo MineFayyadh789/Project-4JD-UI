@@ -25,6 +25,8 @@ map.position=X: %s, Y: %s, Z: %s	#
 4jd.menu.helpOptions=遊び方 & オプション ##1649
 4jd.menu.exit=ゲームを終了 ##1535
 
+4jd.menu.exitGameWarning=本当にゲームを終了してもよろしいですか? ##4917
+
 4jd.progress.initializingServer=サーバーを初期化中 ##3480
 
 furnaceScreen.input=Ingredient

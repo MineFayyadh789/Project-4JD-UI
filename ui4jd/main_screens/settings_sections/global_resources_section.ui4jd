@@ -521,23 +521,22 @@
                 "orientation": "horizontal",
                 "size": [ "100%", 28 ],
                 "controls": [
-                  { "selected_pack_left_button@global_resources_4jd.selected_pack_minus_button": { } },
+                  { "selected_pack_left_button@global_resources_4jd.selected_pack_minus_button": { "size": [ "fill", 28 ] } },
                   { "selected_pack_right_button@global_resources_4jd.selected_pack_plus_button": { "size": [ "100%", 28 ] } },
                   { "selected_pack_up_button@global_resources_4jd.selected_pack_up_button": { } },
                   { "selected_pack_down_button@global_resources_4jd.selected_pack_down_button": { } },
                   {
                     "selected_pack_options_buttons": {
                       "type": "stack_panel",
-                      "size": [ "fill", 28 ],
+                      "orientation": "horizontal",
+                      "size": [ "100%c", 28 ],
                       "ignored": "(not $is_selected)",
                       "controls": [
                         {
                           "info_button@global_resources_4jd.base_button": {
                             "$icon_image": "global_resources_4jd.warning_image_wrapper",
-                            "size": [ "100%", "fill" ],
+                            "size": [ 28, 28 ],
                             "$pressed_button_name": "$button.report_errors",
-                            "anchor_from": "top_right",
-                            "anchor_to": "top_right",
                             "bindings": [
                               {
                                 "binding_collection_name": "$button_collection_name",
@@ -555,10 +554,8 @@
                         {
                           "config_button@global_resources_4jd.base_button": {
                             "$icon_image": "global_resources_4jd.options_wrapper",
-                            "size": [ "100%", 16 ],
+                            "size": [ 28, 28 ],
                             "$pressed_button_name": "$button.pack_settings",
-                            "anchor_from": "bottom_right",
-                            "anchor_to": "bottom_right",
                             "bindings": [
                               {
                                 "binding_type": "collection",

@@ -736,6 +736,8 @@
     "anchor_to": "bottom_left",
     "offset": [ 0, 0 ],
     "size": [ "100%", 16 ],
+    "alpha": 0.875,
+    "propagate_alpha": true,
     "controls": [
       {
         "stack_panel_0": {

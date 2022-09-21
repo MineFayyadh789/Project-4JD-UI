@@ -166,7 +166,7 @@
     "controls": [
       { 
         "tab_back_texture@$tab_back_texture": {
-          "layer": 4,
+          "layer": -10,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": "$tab_back_offset",

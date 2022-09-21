@@ -6,80 +6,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1115 } }, // Coal
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1116 } }, // Charcoal
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1117 } }, // Diamond
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1128 } }, // Emerald
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1123 } }, // Iron Ingot
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1127 } }, // Gold Ingot
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1129 } }, // Nether Quartz
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1131 } }, // Brick
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1132 } }, // Nether Brick
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 978, "$item_renderer_size": [ 24, 24 ] } }  // Stick
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1164 } }, // Coal
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1165 } }, // Charcoal
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1166 } }, // Diamond
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1177 } }, // Emerald
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1168 } }, // Raw Iron *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1172 } }, // Iron Ingot
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1170 } }, // Raw Copper *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1171 } }, // Copper Ingot *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1169 } }, // Raw Gold *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1176 } }  // Gold Ingot
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1093 } }, // Bowl
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 611, "$item_renderer_size": [ 24, 24 ] } }, // Bone
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1140 } }, // String
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1141 } }, // Feather
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1142 } }, // Flint
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1144 } }, // Leather
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1145 } }, // Rabbit Hide
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1143 } }, // Gunpowder
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1130 } }, // Clay
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1076 } }  // Glowstone Dust
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1173 } }, // Netherite Scrap *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1174 } }, // Netherite Ingot *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1178 } }, // Nether Quartz
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1180 } }, // Brick
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1181 } }, // Nether Brick
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1023, "$item_renderer_size": [ 24, 24 ] } }, // Stick
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1141 } }, // Bowl
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 632,  "$item_renderer_size": [ 24, 24 ] } }, // Bone
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1189 } }, // String
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1190 } }  // Feather
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1135 } }, // Prismarine Crystals
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1133 } }, // Prismarine Shard
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1136 } }, // Nautilus Shell
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1137 } }, // Heart of the Sea
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 470 } }, // Seeds
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 472 } }, // Melon Seeds
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 471 } }, // Pumpkin Seeds
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 473 } }, // Beetroot Seeds
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 474 } }, // Wheat
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 608 } }  // Sugar Cane
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1191 } }, // Flint
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1193 } }, // Leather
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1194 } }, // Rabbit Hide
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1192 } }, // Gunpowder
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1179 } }, // Clay
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1123 } }, // Glowstone
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1184 } }, // Prismarine Crystals
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1182 } }, // Prismarine Shard
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1185 } }, // Nautilus Shell
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1186 } }  // Heart of the Sea
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 607 } }, // Egg
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 609 } }, // Sugar
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1155 } }, // Slimeball
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1148, "$item_renderer_size": [ 24, 24 ] } }, // Blaze Rod
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1126 } }, // Gold Nugget
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1118 } }, // Iron Nugget
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1153 } }, // Shulker Shell
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 696 } }, // Nether Wart
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 701 } }, // Popped Chorus Fruit
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1138 } }  // Scute
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 489  } }, // Seeds
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 491  } }, // Melon Seeds
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 490  } }, // Pumpkin Seeds
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 492  } }, // Beetroot Seeds
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 493  } }, // Wheat
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 629  } }, // Sugar Cane
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 510  } }, // Honeycomb *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1183 } }, // Amethyst Shard *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 628  } }, // Egg
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 630  } }  // Sugar
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 554 } }, // Ink Sac
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 557 } }, // Lapis Lazuli
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 549 } }, // Light Blue Dye
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 548 } }, // Cyan Dye
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 547 } }, // Green Dye
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 546 } }, // Lime Dye
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 553 } }, // Pink Dye
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 552 } }, // Magenta Dye
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 551 } }, // Purple Dye
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 543 } }  // Red Dye
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1205 } }, // Slimeball
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1197, "$item_renderer_size": [ 24, 24 ] } }, // Blaze Rod
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1175 } }, // Gold Nugget
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1167 } }, // Iron Nugget
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1203 } }, // Shulker Shell
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 726  } }, // Nether Wart
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 731  } }, // Popped Chorus Fruit
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1187 } }, // Scute
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1201 } }, // Echo Shard *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 572  } }  // Glow Ink Sac *New*
           ]
         }
       }
@@ -91,16 +91,32 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 556 } }, // Cocoa Beans
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 544 } }, // Orange Dye
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 545 } }, // Yellow Dye
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 558 } }, // Bone Meal
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 539 } }, // Light Gray Dye
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 540 } }, // Gray Dye
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 541 } }, // Black Dye
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 550 } }, // Blue Dye
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 542 } }, // Brown Dye
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 538 } }  // White Dye
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 571 } }, // Ink Sac
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 574 } }, // Lapis Lazuli
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 566 } }, // Light Blue Dye
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 565 } }, // Cyan Dye
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 564 } }, // Green Dye
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 563 } }, // Lime Dye
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 570 } }, // Pink Dye
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 569 } }, // Magenta Dye
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 568 } }, // Purple Dye
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 560 } }  // Red Dye
+          ]
+        }
+      },
+      {
+        "column_2@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 573 } }, // Cocoa Beans
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 561 } }, // Orange Dye
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 562 } }, // Yellow Dye
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 575 } }, // Bone Meal
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 556 } }, // Light Gray Dye
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 557 } }, // Gray Dye
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 558 } }, // Black Dye
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 567 } }, // Blue Dye
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 559 } }, // Brown Dye
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 555 } }  // White Dye
           ]
         }
       }

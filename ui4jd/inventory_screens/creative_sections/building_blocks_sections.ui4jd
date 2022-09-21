@@ -6,80 +6,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 389 } }, // Stone
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 385 } }, // Grass Block
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 386 } }, // Grass (Dirt) Path Block
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 382 } }, // Dirt
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 220 } }, // Cobblestone
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 223 } }, // Smooth Stone
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 420 } }, // Sand
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 224 } }, // Sandstone
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 227 } }, // Smooth Sandstone
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 225 } }  // Chiseled Sandstone
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 402 } }, // Stone
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 397 } }, // Grass Block
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 398 } }, // Dirt Path Block (Grass)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 394 } }, // Dirt
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 230 } }, // Cobblestone
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 233 } }, // Smooth Stone
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 433 } }, // Sand
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 234 } }, // Sandstone
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 237 } }, // Smooth Sandstone
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 235 } }  // Chiseled Sandstone
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 226 } }, // Cut Sandstone
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 421 } }, // Red Sand
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 228 } }, // Red Sandstone
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 231 } }, // Smooth Red Sandstone
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 229 } }, // Chiseled Red Sandstone
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 230 } }, // Cut Red Sandstone
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 410 } }, // Granite
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 415 } }, // Polished Granite
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 412 } }, // Andesite
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 417 } }  // Polished Andesite
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 236 } }, // Cut Sandstone
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 434 } }, // Red Sand
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 238 } }, // Red Sandstone
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 241 } }, // Smooth Red Sandstone
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 239 } }, // Chiseled Red Sandstone
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 240 } }, // Cut Red Sandstone
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 423 } }, // Granite
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 428 } }, // Polished Granite
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 425 } }, // Andesite
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 430 } }  // Polished Andesite
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 411 } }, // Diorite
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 416 } }, // Polished Diorite
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 232 } }, // Block of Coal
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 233 } }, // Dried Kelp Block
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 234 } }, // Block of Gold
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 235 } }, // Block of Iron
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 254 } }, // Block of Lapis Lazuli
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 253 } }, // Block of Diamond
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 252 } }, // Block of Emerald
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 258 } }  // Block of Quartz
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 424 } }, // Diorite
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 429 } }, // Polished Diorite
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 427 } }, // Deepslate *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 232 } }, // Cobbled Deepslate *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 432 } }, // Polished Deepslate *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 426 } }, // Blackstone *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 431 } }, // Polished Blackstone *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 242 } }, // Block of Coal
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 243 } }, // Dried Kelp Block
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 276 } }  // Honeycomb Block *New*
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 395 } }, // Coal Ore
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 393 } }, // Lapis Lazuli Ore
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 392 } }, // Diamond Ore
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 394 } }, // Redstone Ore
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 390 } }, // Iron Ore
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 391 } }, // Gold Ore
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 397 } }, // Emerald Ore
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 398 } }, // Nether Quartz Ore
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 373 } }, // Nether Wart Block
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 692 } }  // Bedrock
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 267 } }, // Block of Raw Gold *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 244 } }, // Block of Gold
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 265 } }, // Block of Raw Iron *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 245 } }, // Block of Iron
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 264 } }, // Block of Lapis Lazuli
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 263 } }, // Block of Diamond
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 281 } }, // Block of Netherite *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 262 } }, // Block of Emerald
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 268 } }, // Block of Quartz
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 266 } }  // Block of Raw Copper *New*
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0   } }, // Oak Planks
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1   } }, // Spruce Planks
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 2   } }, // Birch Planks
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 3   } }, // Jungle Planks
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 4   } }, // Acacia Planks
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 5   } }, // Dark Oak Planks
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 423 } }, // Oak Log
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 425 } }, // Spruce Log
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 427 } }, // Birch Log
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 429 } }  // Jungle Log
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 246 } }, // Block Of Copper *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 409 } }, // Copper Ore *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 421 } }, // Deepslate Copper Ore *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 408 } }, // Coal Ore
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 420 } }, // Deepslate Coal Ore *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 406 } }, // Lapis Lazuli Ore
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 417 } }, // Deepslate Lapis Ore *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 405 } }, // Diamond Ore
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 416 } }, // Deepslate Diamond Ore *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 407 } }  // Redstone Ore
           ]
         }
       }
@@ -91,80 +91,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 431 } }, // Acacia Log
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 433 } }, // Dark Oak Log
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 424 } }, // Stripped Oak Log
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 426 } }, // Stripped Spruce Log
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 428 } }, // Stripped Birch Log
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 430 } }, // Stripped Jungle Log
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 432 } }, // Stripped Acacia Log
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 434 } }, // Stripped Dark Oak Log
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 439 } }, // Oak Wood
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 441 } }  // Spruce Wood
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 418 } }, // Deepslate Redstone Ore *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 403 } }, // Iron Ore
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 414 } }, // Deepslate Iron Ore *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 404 } }, // Gold Ore
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 415 } }, // Deepslate Gold Ore *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 410 } }, // Emerald Ore
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 419 } }, // Deepslate Emerald Ore *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 411 } }, // Nether Quartz Ore
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 412 } }, // Nether Gold Ore *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 223 } }  // Gilded Blackstone *New*
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 443 } }, // Birch Wood
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 445 } }, // Jungle Wood
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 447 } }, // Acacia Wood
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 449 } }, // Dark Oak Wood
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 440 } }, // Stripped Oak Wood
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 442 } }, // Stripped Spruce Wood
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 444 } }, // Stripped Birch Wood
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 446 } }, // Stripped Jungle Wood
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 448 } }, // Stripped Acacia Wood
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 450 } }  // Stripped Dark Oak Wood
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 413 } }, // Ancient Debris *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 385 } }, // Nether Wart Block
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 386 } }, // Warped Wart Block *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 722 } }, // Bedrock
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0   } }, // Oak Planks
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1   } }, // Spruce Planks
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 2   } }, // Birch Planks
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 3   } }, // Jungle Planks
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 4   } }, // Acacia Planks
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 5   } }  // Dark Oak Planks
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 409 } }, // Gravel
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 201 } }, // Brick Block
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 221 } }, // Mossy Cobblestone
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 690 } }, // Obsidian
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 337 } }, // Clay Block
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 566 } }, // Ice
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 567 } }, // Packet Ice
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 568 } }, // Blue Ice
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 565 } }, // Snow
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 694 } }  // Netherrack
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 6   } }, // Mangrove Planks *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 7   } }, // Crimson Planks *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 8   } }, // Warped Planks *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 436 } }, // Oak Log
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 438 } }, // Spruce Log
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 440 } }, // Birch Log
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 442 } }, // Jungle Log
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 444 } }, // Acacia Log
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 446 } }, // Dark Oak Log
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 448 } }  // Mangrove Log *New*
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 693 } }, // Soul Sand
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1077 } }, // Glowstone
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 695 } }, // Magma Block
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1079 } }, // Sea lantern
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 262 } }, // Prismarine
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 210 } }, // Prismarine Bricks
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 263 } }, // Dark Prismarine
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 264 } }, // Block of Slime
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 149 } }, // Scaffolding
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 29 } }  // Oak Fence
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 450 } }, // Crimson Stem *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 452 } }, // Warped Stem *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 437 } }, // Stripped Oak Log
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 439 } }, // Stripped Spruce Log
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 441 } }, // Stripped Birch Log
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 443 } }, // Stripped Jungle Log
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 445 } }, // Stripped Acacia Log
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 447 } }, // Stripped Dark Oak Log
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 449 } }, // Stripped Mangrove Log *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 451 } }  // Stripped Crimson Stem *New*
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 30 } }, // Spruce Fence
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 31 } }, // Birch Fence
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 32 } }, // Jungle Fence
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 33 } }, // Acacia Fence
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 34 } }, // Dark Oak Fence
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 35 } }, // Nether Brick Fence
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 112 } }, // Iron Bars
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 205 } }, // Stone Bricks
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 206 } }, // Mossy Stone Bricks
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 207 } }  // Cracked Stone Bricks
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 453 } }, // Stripped Warped Stem *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 454 } }, // Oak Wood
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 456 } }, // Spruce Wood
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 458 } }, // Birch Wood
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 460 } }, // Jungle Wood
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 462 } }, // Acacia Wood
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 464 } }, // Dark Oak Wood
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 466 } }, // Mangrove Wood *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 468 } }, // Crimson Hyphae *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 470 } }  // Warped Hyphae *New*
           ]
         }
       }
@@ -176,80 +176,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 208 } }, // Chiseled Stone Bricks
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 615 } }, // Infested Stone
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 616 } }, // Infested Cobblestone
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 617 } }, // Infested Stone Bricks
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 618 } }, // Infested Mossy Stone Bricks
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 619 } }, // Infested Cracked Stone Bricks
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 620 } }, // Infested Chiseled Stone Bricks
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 388 } }, // Mycelium
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 383 } }, // Coarse Dirt
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 387 } }  // Podzol
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 455 } }, // Stripped Oak Wood
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 457 } }, // Stripped Spruce Wood
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 459 } }, // Stripped Birch Wood
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 461 } }, // Stripped Jungle Wood
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 463 } }, // Stripped Acacia Wood
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 465 } }, // Stripped Dark Oak Wood
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 467 } }, // Stripped Mangrove Wood *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 469 } }, // Stripped Crimson Hyphae *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 471 } }, // Stripped Warped Hyphae *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 595 } }  // Mangrove Roots *New*
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 269 } }, // Nether Bricks
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 270 } }, // Red Nether Bricks
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 697 } }, // End Stone
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 209 } }, // End Stone Bricks
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 261 } }, // Smooth Quartz Block
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 259 } }, // Pillar Quartz Block
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 260 } }, // Chiseled Quartz Block
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 371 } }, // Purpur Block
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 372 } }, // Purpur Pillar
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 103 } }  // Oak Trapdoor
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 596 } }, // Muddy Mangrove Roots *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 401 } }, // Mud *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 383 } }, // Packed Mud *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 384 } }, // Mud Bricks *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 422 } }, // Gravel
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 211 } }, // Brick Block
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 231 } }, // Mossy Cobblestone
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 720 } }, // Obsidian
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 721 } }, // Crying Obsidian *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 347 } }  // Clay Block
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 104 } }, // Spruce Trapdoor
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 105 } }, // Birch Trapdoor
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 106 } }, // Jungle Trapdoor
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 107 } }, // Acacia Trapdoor
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 108 } }, // Dark Oak Trapdoor
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 109 } }, // Iron Trapdoor
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 38 } }, // Oak Fence Gate
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 39 } }, // Spruce Fence Gate
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 40 } }, // Birch Fence Gate
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 41 } }  // Jungle Fence Gate
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 609 } }, // Tuff *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 590 } }, // Dripstone Block *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 610 } }, // Calcite *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 603 } }, // Block of Amethyst *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 604 } }, // Budding Amethyst *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 585 } }, // Ice
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 586 } }, // Packet Ice
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 587 } }, // Blue Ice
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 584 } }, // Snow
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 724 } }  // Netherrack
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 42 } }, // Acacia Fence Gate
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 43 } }, // Dark Oak Fence Gate
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 94 } }, // Oak Door
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 100 } }, // Iron Door
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 95 } }, // Spruce Door
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 96 } }, // Birch Door
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 97 } }, // Jungle Door
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 98 } }, // Acacia Door
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 99 } }, // Dark Oak Door
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 150 } }  // Smooth Stone Slab
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 388  } }, // Crimson Nylium *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 389  } }, // Warped Nylium *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 723  } }, // Soul Sand
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 393  } }, // Soul Soil *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 390  } }, // Basalt *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 391  } }, // Polished Basalt *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 392  } }, // Smooth Basalt *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1124 } }, // Glowstone
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 387  } }, // Shroomlight *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 725  } }  // Magma Block
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 151 } }, // Stone Slab
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 152 } }, // Cobblestone Slab
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 153 } }, // Mossy Cobblestone Slab
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 160 } }, // Stone Brick Slab
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 161 } }, // Mossy Stone Brick Slab
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 154 } }, // Oak Slab
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 155 } }, // Spruce Slab
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 156 } }, // Birch Slab
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 157 } }, // Jungle Slab
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 158 } }  // Acacia Slab
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 646  } }, // Ochre Froglight *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 647  } }, // Verdant Froglight *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 648  } }, // Pearlescent Froglight *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1126 } }, // Sea Lantern
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 272  } }, // Prismarine
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 220  } }, // Prismarine Bricks
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 273  } }, // Dark Prismarine
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 274  } }, // Block of Slime
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 275  } }, // Honey Block *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 157  } }  // Scaffolding
           ]
         }
       }
@@ -261,80 +261,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 159 } }, // Dark Oak Slab
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 162 } }, // Sandstone Slab
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 163 } }, // Cut Sandstone Slab
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 164 } }, // Smooth Sandstone Slab
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 165 } }, // Red Sandstone Slab
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 166 } }, // Red Cut Sandstone Slab
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 167 } }, // Red Smooth Sandstone Slab
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 168 } }, // Granite Slab
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 169 } }, // Polished Granite Slab
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 170 } }  // Diorite Slab
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 247 } }, // Exposed Copper *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 248 } }, // Weathered Copper *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 249 } }, // Oxidized Copper *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 254 } }, // Cut Copper *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 255 } }, // Exposed Cut Copper *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 256 } }, // Weathered Cut Copper *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 257 } }, // Oxidized Cut Copper *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 250 } }, // Waxed Block Of Copper *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 251 } }, // Waxed Exposed Copper *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 252 } }  // Waxed Weathered Copper *New*
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 171 } }, // Polished Diorite Slab
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 172 } }, // Andesite Slab
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 173 } }, // Polished Andesite Slab
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 174 } }, // Brick Slab
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 175 } }, // Nether Brick Slab
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 176 } }, // Red Nether Brick Slab
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 177 } }, // End Stone Brick Slab
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 178 } }, // Quartz Slab
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 179 } }, // Smooth Quartz Slab
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 180 } }  // Purpur Slab
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 253 } }, // Waxed Oxidized Copper *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 258 } }, // Waxed Cut Copper *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 259 } }, // Waxed Exposed Cut Copper *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 260 } }, // Waxed Weathered Cut Copper *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 261 } }, // Waxed Oxidized Cut Copper *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 31  } }, // Oak Fence
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 32  } }, // Spruce Fence
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 33  } }, // Birch Fence
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 34  } }, // Jungle Fence
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 35  } }  // Acacia Fence
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 181 } }, // Prismarine Slab
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 182 } }, // Dark Prismarine Slab
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 183 } }, // Prismarine Brick Slab
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 46 } }, // Stone Stairs
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 47 } }, // Cobblestone stairs
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 48 } }, // Mossy Cobblestone Stairs
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 55 } }, // Stone Brick Stairs
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 48 } }, // Mossy Stone Brick Stairs
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 49 } }, // Oak Stairs
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 50 } }  // Spruce Stairs
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 36  } }, // Dark Oak Fence
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 37  } }, // Mangrove Fence *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 39  } }, // Crimson Fence *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 40  } }, // Warped Fence *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 38  } }, // Nether Brick Fence
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 120 } }, // Iron Bars
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 215 } }, // Stone Bricks
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 216 } }, // Mossy Stone Bricks
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 217 } }, // Cracked Stone Bricks
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 218 } }  // Chiseled Stone Bricks
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 51 } }, // Birch Stairs
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 52 } }, // Jungle Stairs
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 53 } }, // Acacia Stairs
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 54 } }, // Dark Oak Stairs
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 57 } }, // Sandstone Stairs
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 58 } }, // Smooth Sandstone Stairs
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 59 } }, // Red Sandstone Stairs
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 60 } }, // Red Smooth Sandstone Stairs
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 61 } }, // Granite Stairs
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 62 } }  // Polished Granite Stairs
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 636 } }, // Infested Stone
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 637 } }, // Infested Cobblestone
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 638 } }, // Infested Stone Brick
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 639 } }, // Infested Mossy Stone Brick
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 640 } }, // Infested Cracked Stone Brick
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 641 } }, // Infested Chiseled Stone Brick
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 227 } }, // Deepslate Bricks *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 228 } }, // Cracked Deepslate Bricks *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 225 } }, // Deepslate Tiles *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 226 } }  // Cracked Deepslate Tiles *New*
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 63 } }, // Diorite Stairs
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 64 } }, // Polished Diorite Stairs
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 65 } }, // Andesite Stairs
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 66 } }, // Polished Andesite Stairs
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 67 } }, // Brick Stairs
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 68 } }, // Nether Brick Stairs
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 69 } }, // Red Nether Brick Stairs
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 70 } }, // End Stone Brick Stairs
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 71 } }, // Quartz Stairs
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 72 } }  // Smootn Quartz Stairs
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 229 } }, // Chiseled Deepslate *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 749 } }, // Reinforced Deepslate *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 642 } }, // Infested Deepslate *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 400 } }, // Mycelium
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 395 } }, // Coarse Dirt
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 399 } }, // Podzol
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 279 } }, // Nether Brick Block
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 213 } }, // Cracked Nether Brick *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 212 } }, // Chiseled Nether Brick *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 280 } }  // Red Nether Bricks
           ]
         }
       }
@@ -346,39 +346,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 73 } }, // Purpur Stairs
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 74 } }, // Prismarine Stairs
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 75 } }, // Dark Prismarine Stairs
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 76 } }, // Prismarine Brick Stairs
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 338 } }, // Terracotta
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 342 } }, // Black Terracotta
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 351 } }, // Blue Terracotta
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 350 } }, // Light Blue Terracotta
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 349 } }, // Cyan Terracotta
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 348 } }  // Green Terracotta
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 221 } }, // Polished Blackstone Bricks *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 222 } }, // Cracked Polished Blackstone Bricks *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 224 } }, // Chiseled Polished Blackstone *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 727 } }, // End Stone
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 219 } }, // End Stone Bricks
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 271 } }, // Smooth Quartz Block
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 214 } }, // Quartz Bricks *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 269 } }, // Pillar Quartz Block
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 270 } }, // Chiseled Quartz Block
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 381 } }  // Purpur Block
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 347 } }, // Lime Terracotta
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 354 } }, // Pink Terracotta
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 353 } }, // Magenta Terracotta
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 352 } }, // Purple Terracotta
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 344 } }, // Red Terracotta
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 343 } }, // Brown Terracotta
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 345 } }, // Orange Terracotta
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 346 } }, // Yellow Terracotta
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 339 } }, // White Terracotta
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 340 } }  // Light Gray Terracotta
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 382 } }, // Purpur Pillar
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 110 } }, // Oak Trapdoor
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 111 } }, // Spruce Trapdoor
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 112 } }, // Birch Trapdoor
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 113 } }, // Jungle Trapdoor
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 114 } }, // Acacia Trapdoor
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 115 } }, // Dark Oak Trapdoor
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 116 } }, // Mangrove Trapdoor *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 118 } }, // Crimson Trapdoor *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 119 } }  // Warped Trapdoor *New*
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 341 } } // Gray Terracotta
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 117 } }, // Iron Trapdoor
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 41  } }, // Oak Fence Gate
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 42  } }, // Spruce Fence Gate
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 43  } }, // Birch Fence Gate
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 44  } }, // Jungle Fence Gate
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 45  } }, // Acacia Fence Gate
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 46  } }, // Dark Oak Fence Gate
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 47  } }, // Mangrove Fence Gate *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 48  } }, // Crimson Fence Gate *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 49  } }  // Warped Fence Gate *New*
+          ]
+        }
+      },
+      {
+        "column_4@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 100 } }, // Oak Door
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 107 } }, // Iron Door
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 101 } }, // Spruce Door
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 102 } }, // Birch Door
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 103 } }, // Jungle Door
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 104 } }, // Acacia Door
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 105 } }, // Dark Oak Door
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 106 } }, // Mangrove Door *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 108 } }, // Crimson Door *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 109 } }  // Warped Door *New*
+          ]
+        }
+      },
+      {
+        "column_5@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 158 } }, // Smooth Stone Slab
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 159 } }, // Stone Slab
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 160 } }, // Cobblestone Slab
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 161 } }, // Mossy Cobblestone Slab
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 169 } }, // Stone Brick Slab
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 170 } }, // Mossy Stone Brick Slab
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 162 } }, // Oak Slab
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 163 } }, // Spruce Slab
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 164 } }, // Birch Slab
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 165 } }  // Jungle Slab
           ]
         }
       }
@@ -390,80 +431,186 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }  // 
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 166 } }, // Acacia Slab
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 167 } }, // Dark Oak Slab
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 168 } }, // Mangrove Slab *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 171 } }, // Sandstone Slab
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 172 } }, // Cut Sandstone Slab
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 173 } }, // Smooth Sandstone Slab
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 174 } }, // Red Sandstone Slab
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 175 } }, // Red Cut Sandstone Slab
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 176 } }, // Red Smooth Sandstone Slab
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 177 } }  // Granite Slab
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }  // 
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 178 } }, // Polished Granite Slab
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 179 } }, // Diorite Slab
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 180 } }, // Polished Diorite Slab
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 181 } }, // Andesite Slab
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 182 } }, // Polished Andesite Slab
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 183 } }, // Brick Slab
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 184 } }, // Nether Brick Slab
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 185 } }, // Red Nether Brick Slab
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 186 } }, // End Stone Brick Slab
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 187 } }  // Quartz Slab
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }  // 
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 188 } }, // Smooth Quartz Slab
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 189 } }, // Purpur Slab
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 190 } }, // Prismarine Slab
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 191 } }, // Dark Prismarine Slab
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 192 } }, // Prismarine Brick Slab
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 193 } }, // Crimson Slab *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 194 } }, // Warped Slab *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 195 } }, // Blackstone Slab *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 196 } }, // Polished Blackstone Slab *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 197 } }  // Polished Blackstone Brick Slab *New*
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }  // 
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 198 } }, // Cut Copper Slab *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 199 } }, // Exposed Cut Copper Slab *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 200 } }, // Weathered Cut Copper Slab *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 201 } }, // Oxidized Cut Copper Slab *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 202 } }, // Waxed Cut Copper Slab *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 203 } }, // Waxed Exposed Cut Copper Slab *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 204 } }, // Waxed Weathered Cut Copper Slab *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 205 } }, // Waxed Oxidized Cut Copper Slab *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 206 } }, // Cobbled Deepslate Slab *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 207 } }  // Polished Deepslate Slab *New*
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }, // 
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 0 } }  // 
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 208 } }, // Deepslate Tile Slab *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 209 } }, // Deepslate Brick Slab *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 210 } }, // Mud Brick Slab *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 50  } }, // Stone Stairs
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 51  } }, // Cobblestone stairs
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 52  } }, // Mossy Cobblestone Stairs
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 60  } }, // Stone Brick Stairs
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 61  } }, // Mossy Stone Brick Stairs
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 53  } }, // Oak Stairs
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 54  } }  // Spruce Stairs
+          ]
+        }
+      }
+    ]
+  },
+
+  "building_blocks_items_page_7@creative_items_common_4jd.column_panel": {
+    "controls": [
+      {
+        "column_1@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 55 } }, // Birch Stairs
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 56 } }, // Jungle Stairs
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 57 } }, // Acacia Stairs
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 58 } }, // Dark Oak Stairs
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 59 } }, // Mangrove Stairs *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 62 } }, // Sandstone Stairs
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 63 } }, // Smooth Sandstone Stairs 
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 64 } }, // Red Sandstone Stairs
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 65 } }, // Red Smooth Sandstone Stairs
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 66 } }  // Granite Stairs
+          ]
+        }
+      },
+      {
+        "column_2@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 67 } }, // Polished Granite Stairs
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 68 } }, // Diorite Stairs
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 69 } }, // Polished Diorite Stairs
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 70 } }, // Andesite Stairs
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 71 } }, // Polished Andesite Stairs
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 72 } }, // Brick Stairs
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 73 } }, // Nether Brick Stairs
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 74 } }, // Red Nether Brick Stairs
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 75 } }, // End Stone Brick Stairs
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 76 } }  // Quartz Stairs
+          ]
+        }
+      },
+      {
+        "column_3@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 77 } }, // Smootn Quartz Stairs
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 78 } }, // Purpur Stairs
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 79 } }, // Prismarine Stairs
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 80 } }, // Dark Prismarine Stairs
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 81 } }, // Prismarine Brick Stairs
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 82 } }, // Crimson Stairs *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 83 } }, // Warped Stairs *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 84 } }, // Blackstone Stairs *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 85 } }, // Polished Blackstone Stairs *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 86 } }  // Polished Blackstone Brick Stairs *New*
+          ]
+        }
+      },
+      {
+        "column_4@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 87 } }, // Cut Copper Stairs *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 88 } }, // Exposed Cut Copper Stairs *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 89 } }, // Weathered Cut Copper Stairs *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 90 } }, // Oxidized Cut Copper Stairs *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 91 } }, // Waxed Cut Copper Stairs *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 92 } }, // Waxed Exposed Cut Copper Stairs *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 93 } }, // Waxed Weathered Cut Copper Stairs *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 94 } }, // Waxed Oxidized Cut Copper Stairs *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 95 } }, // Cobbled Deepslate Stairs *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 96 } }  // Deepslate Tile Stairs *New*
+          ]
+        }
+      },
+      {
+        "column_5@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 97  } }, // Polished Deepslate Stairs *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 98  } }, // Deepslate Brick Stairs *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 99  } }, // Mud Brick Stairs *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 348 } }, // Terracotta
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 352 } }, // Black Terracotta
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 361 } }, // Blue Terracotta
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 360 } }, // Light Blue Terracotta
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 359 } }, // Cyan Terracotta
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 358 } }, // Green Terracotta
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 357 } }  // Lime Terracotta
+          ]
+        }
+      }
+    ]
+  },
+
+  "building_blocks_items_page_8@creative_items_common_4jd.column_panel": {
+    "controls": [
+      {
+        "column_1@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 364 } }, // Pink Terracotta
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 363 } }, // Magenta Terracotta
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 362 } }, // Purple Terracotta
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 354 } }, // Red Terracotta
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 353 } }, // Brown Terracotta
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 355 } }, // Orange Terracotta
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 356 } }, // Yellow Terracotta
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 349 } }, // White Terracotta
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 350 } }, // Light Gray Terracotta
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 351 } }  // Gray Terracotta
           ]
         }
       }

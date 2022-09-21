@@ -6,80 +6,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 847 } }, // Bottle o' Enchanting
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1152 } }, // Dragon's Breath
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1154 } }, // Ghast Tear
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1151 } }, // Fermented Spider Eye
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1149 } }, // Blaze Powder
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1150 } }, // Magma Cream
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 485 } }, // Glistering Melon
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1146 } }, // Rabbit's Foot
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1139 } }, // Phantom Membrane
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 846 } }  // Glass Bottle
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 892  } }, // Bottle o' Enchanting
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1202 } }, // Dragon's Breath
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1204 } }, // Ghast Tear
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1200 } }, // Fermented Spider Eye
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1198 } }, // Blaze Powder
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1199 } }, // Magma Cream
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 504  } }, // Glistering Melon
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1195 } }, // Rabbit's Foot
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1188 } }, // Phantom Membrane
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 891  } }  // Glass Bottle
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 848 } }, // Water Bottle
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 852 } }, // Akward Potion
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 853 } }, // Potion of Night Vision (Normal)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 855 } }, // Potion of Invisibility (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 857 } }, // Potion of Leaping (Normal)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 860 } }, // Potion of Fire Resistance (Normal)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 862 } }, // Potion of Swiftness (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 865 } }, // Potion of Slowness (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 867 } }, // Potion of Water Breathing (Normal)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 869 } }  // Potion of Healing (Normal)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 893 } }, // Water Bottle
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 897 } }, // Awkward Potion
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 898 } }, // Potion of Night Vision (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 900 } }, // Potion of Invisibility (Normal)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 902 } }, // Potion of Leaping (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 905 } }, // Potion of Fire Resistance (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 907 } }, // Potion of Swiftness (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 910 } }, // Potion of Slowness (Normal)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 912 } }, // Potion of Water Breathing (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 914 } }  // Potion of Healing (Normal)
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 871 } }, // Potion of Harming (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 873 } }, // Potion of Poison (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 876 } }, // Potion of Regeneration (Normal)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 879 } }, // Potion of Strength (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 882 } }, // Potion of Weakness (Normal)
-            { "row_06": { "type": "panel", "size": [ 27, 27 ] } }, // ???
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 885 } }, // Potion of the Turtle Master (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 888 } }, // Potion of Slow Falling (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 891 } }, // Splash Water Bottle
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 896 } }  // Splash Potion of Night Vision (Normal)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 916 } }, // Potion of Harming (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 918 } }, // Potion of Poison (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 921 } }, // Potion of Regeneration (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 924 } }, // Potion of Strength (Normal)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 927 } }, // Potion of Weakness (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 930 } }, // Potion of the Turtle Master (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 933 } }, // Potion of Slow Falling (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 936 } }, // Splash Water Bottle
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 941 } }, // Splash Potion of Night Vision (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 943 } }  // Splash Potion of Invisibility (Normal)
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 898 } }, // Splash Potion of Invisibility (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 900 } }, // Splash Potion of Leaping (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 903 } }, // Splash Potion of Fire Resistance (Normal)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 905 } }, // Splash Potion of Swiftness (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 908 } }, // Splash Potion of Slowness (Normal)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 910 } }, // Splash Potion of Water Breathing (Normal)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 912 } }, // Splash Potion of Healing (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 914 } }, // Splash Potion of Harming (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 916 } }, // Splash Potion of Poison (Normal)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 919 } }  // Splash Potion of Regeneration (Normal)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 945 } }, // Splash Potion of Leaping (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 948 } }, // Splash Potion of Fire Resistance (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 950 } }, // Splash Potion of Swiftness (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 953 } }, // Splash Potion of Slowness (Normal)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 955 } }, // Splash Potion of Water Breathing (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 957 } }, // Splash Potion of Healing (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 959 } }, // Splash Potion of Harming (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 961 } }, // Splash Potion of Poison (Normal)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 964 } }, // Splash Potion of Regeneration (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 967 } }  // Splash Potion of Strength (Normal)
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 922 } }, // Splash Potion of Strength (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 925 } }, // Splash Potion of Weakness (Normal)
-            { "row_03": { "type": "panel", "size": [ 27, 27 ] } }, // ???
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 928 } }, // Splash Potion of the Turtle Master (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 931 } }, // Splash Potion of Slow Falling (Normal)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 934 } }, // Lingering Water Bottle
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 939 } }, // Lingering Potion of Night Vision (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 941 } }, // Lingering Potion of Invisibility (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 943 } }, // Lingering Potion of Leaping (Normal)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 946 } }  // Lingering Potion of Fire Resistance (Normal)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 970 } }, // Splash Potion of Weakness (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 973 } }, // Splash Potion of the Turtle Master (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 976 } }, // Splash Potion of Slow Falling (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 979 } }, // Lingering Water Bottle
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 984 } }, // Lingering Potion of Night Vision (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 986 } }, // Lingering Potion of Invisibility (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 988 } }, // Lingering Potion of Leaping (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 991 } }, // Lingering Potion of Fire Resistance (Normal)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 993 } }, // Lingering Potion of Swiftness (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 996 } }  // Lingering Potion of Slowness (Normal)
           ]
         }
       }
@@ -91,80 +91,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 948 } }, // Lingering Potion of Swiftness (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 951 } }, // Lingering Potion of Slowness (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 953 } }, // Lingering Potion of Water Breathing (Normal)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 955 } }, // Lingering Potion of Healing (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 957 } }, // Lingering Potion of Harming (Normal)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 959 } }, // Lingering Potion of Poison (Normal)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 962 } }, // Lingering Potion of Regeneration (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 965 } }, // Lingering Potion of Strength (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 968 } }, // Lingering Potion of Weakness (Normal)
-            { "row_10": { "type": "panel", "size": [ 27, 27 ] } }  // ???
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 998  } }, // Lingering Potion of Water Breathing (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1000 } }, // Lingering Potion of Healing (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1002 } }, // Lingering Potion of Harming (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1004 } }, // Lingering Potion of Poison (Normal)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1007 } }, // Lingering Potion of Regeneration (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1010 } }, // Lingering Potion of Strength (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1013 } }, // Lingering Potion of Weakness (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1016 } }, // Lingering Potion of the Turtle Master (Normal)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1019 } }, // Lingering Potion of Slow Falling (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 899  } }  // Potion of Night Vision (Extended)
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 971 } }, // Lingering Potion of the Turtle Master (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 974 } }, // Lingering Potion of Slow Falling (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 854 } }, // Potion of Night Vision (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 856 } }, // Potion of Invisibility (Extended)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 858 } }, // Potion of Leaping (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 861 } }, // Potion of Fire Resistance (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 863 } }, // Potion of Swiftness (Extended)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 866 } }, // Potion of Slowness (Extended)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 868 } }, // Potion of Water Breathing (Extended)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 874 } }  // Potion of Poison (Extended)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 901 } }, // Potion of Invisibility (Extended)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 903 } }, // Potion of Leaping (Extended)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 906 } }, // Potion of Fire Resistance (Extended)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 908 } }, // Potion of Swiftness (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 911 } }, // Potion of Slowness (Extended)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 913 } }, // Potion of Water Breathing (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 919 } }, // Potion of Poison (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 922 } }, // Potion of Regeneration (Extended)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 925 } }, // Potion of Strength (Extended)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 928 } }  // Potion of Weakness (Extended)
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 877 } }, // Potion of Regeneration (Extended)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 880 } }, // Potion of Strength (Extended)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 883 } }, // Potion of Weakness (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 884 } }, // Potion of Decay (Other)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 886 } }, // Potion of the Turtle Master (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 889 } }, // Potion of Slow Falling (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 897 } }, // Splash Potion of Night Vision (Extended)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 899 } }, // Splash Potion of Invisibility (Extended)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 901 } }, // Splash Potion of Leaping (Extended)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 904 } }  // Splash Potion of Fire Resistance (Extended)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 929 } }, // Potion of Decay (Other)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 931 } }, // Potion of the Turtle Master (Extended)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 934 } }, // Potion of Slow Falling (Extended)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 942 } }, // Splash Potion of Night Vision (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 944 } }, // Splash Potion of Invisibility (Extended)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 946 } }, // Splash Potion of Leaping (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 949 } }, // Splash Potion of Fire Resistance (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 951 } }, // Splash Potion of Swiftness (Extended)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 954 } }, // Splash Potion of Slowness (Extended)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 956 } }  // Splash Potion of Water Breathing (Extended)
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 906 } }, // Splash Potion of Swiftness (Extended)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 909 } }, // Splash Potion of Slowness (Extended)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 911 } }, // Splash Potion of Water Breathing (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 917 } }, // Splash Potion of Poison (Extended)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 920 } }, // Splash Potion of Regeneration (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 923 } }, // Splash Potion of Strength (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 926 } }, // Splash Potion of Weakness (Extended)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 927 } }, // Splash Potion of Decay (Other)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 929 } }, // Splash Potion of the Turtle Master (Extended)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 932 } }  // Splash Potion of Slow Falling (Extended)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 962 } }, // Splash Potion of Poison (Extended)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 965 } }, // Splash Potion of Regeneration (Extended)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 968 } }, // Splash Potion of Strength (Extended)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 971 } }, // Splash Potion of Weakness (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 972 } }, // Splash Potion of Decay (Other)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 974 } }, // Splash Potion of the Turtle Master (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 977 } }, // Splash Potion of Slow Falling (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 985 } }, // Lingering Potion of Night Vision (Extended)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 987 } }, // Lingering Potion of Invisibility (Extended)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 989 } }  // Lingering Potion of Leaping (Extended)
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 940 } }, // Lingering Potion of Night Vision (Extended)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 942 } }, // Lingering Potion of Invisibility (Extended)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 944 } }, // Lingering Potion of Leaping (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 947 } }, // Lingering Potion of Fire Resistance (Extended)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 949 } }, // Lingering Potion of Swiftness (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 952 } }, // Lingering Potion of Slowness (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 954 } }, // Lingering Potion of Water Breathing (Extended)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 960 } }, // Lingering Potion of Poison (Extended)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 963 } }, // Lingering Potion of Regeneration (Extended)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 966 } }  // Lingering Potion of Strength (Extended)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 992  } }, // Lingering Potion of Fire Resistance (Extended)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 994  } }, // Lingering Potion of Swiftness (Extended)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 997  } }, // Lingering Potion of Slowness (Extended)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 999  } }, // Lingering Potion of Water Breathing (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1005 } }, // Lingering Potion of Poison (Extended)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1008 } }, // Lingering Potion of Regeneration (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1011 } }, // Lingering Potion of Strength (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1014 } }, // Lingering Potion of Weakness (Extended)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1015 } }, // Lingering Potion of Decay (Other)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1017 } }  // Lingering Potion of the Turtle Master (Extended)
           ]
         }
       }
@@ -176,46 +176,46 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 969 } }, // Lingering Potion of Weakness (Extended)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 970 } }, // Lingering Potion of Decay (Other)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 972 } }, // Lingering Potion of the Turtle Master (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 975 } }, // Lingering Potion of Slow Falling (Extended)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 859 } }, // Potion of Leaping (Enhanced)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 864 } }, // Potion of Swiftness (Enhanced)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 870 } }, // Potion of Healing (Enhanced)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 872 } }, // Potion of Harming (Enhanced)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 875 } }, // Potion of Poison (Enhanced)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 878 } }  // Potion of Regeneration (Enhanced)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1020 } }, // Lingering Potion of Slow Falling (Extended)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 904  } }, // Potion of Leaping (Enhanced)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 909  } }, // Potion of Swiftness (Enhanced)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 915  } }, // Potion of Healing (Enhanced)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 917  } }, // Potion of Harming (Enhanced)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 920  } }, // Potion of Poison (Enhanced)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 923  } }, // Potion of Regeneration (Enhanced)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 926  } }, // Potion of Strength (Enhanced)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 932  } }, // Potion of the Turtle Master (Enhanced)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 935  } }  // Potion of Slowness (Enhanced) *Parity*
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 881 } }, // Potion of Strength (Enhanced)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 887 } }, // Potion of the Turtle Master (Enhanced)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 902 } }, // Splash Potion of Leaping (Enhanced)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 907 } }, // Splash Potion of Swiftness (Enhanced)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 913 } }, // Splash Potion of Healing (Enhanced)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 915 } }, // Splash Potion of Harming (Enhanced)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 918 } }, // Splash Potion of Poison (Enhanced)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 921 } }, // Splash Potion of Regeneration (Enhanced)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 924 } }, // Splash Potion of Strength (Enhanced)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 930 } }  // Splash Potion of the Turtle Master (Enhanced)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 947 } }, // Splash Potion of Leaping (Enhanced)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 952 } }, // Splash Potion of Swiftness (Enhanced)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 958 } }, // Splash Potion of Healing (Enhanced)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 960 } }, // Splash Potion of Harming (Enhanced)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 963 } }, // Splash Potion of Poison (Enhanced)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 966 } }, // Splash Potion of Regeneration (Enhanced)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 969 } }, // Splash Potion of Strength (Enhanced)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 975 } }, // Splash Potion of the Turtle Master (Enhanced)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 978 } }, // Splash Potion of Slowness (Enhanced) *Parity*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 990 } }  // Lingering Potion of Leaping (Enhanced)
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 945 } }, // Lingering Potion of Leaping (Enhanced)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 950 } }, // Lingering Potion of Swiftness (Enhanced)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 956 } }, // Lingering Potion of Healing (Enhanced)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 958 } }, // Lingering Potion of Harming (Enhanced)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 961 } }, // Lingering Potion of Poison (Enhanced)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 964 } }, // Lingering Potion of Regeneration (Enhanced)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 967 } }, // Lingering Potion of Strength (Enhanced)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 973 } }  // Lingering Potion of the Turtle Master (Enhanced)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 995  } }, // Lingering Potion of Swiftness (Enhanced)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1001 } }, // Lingering Potion of Healing (Enhanced)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1003 } }, // Lingering Potion of Harming (Enhanced)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1006 } }, // Lingering Potion of Poison (Enhanced)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1009 } }, // Lingering Potion of Regeneration (Enhanced)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1012 } }, // Lingering Potion of Strength (Enhanced)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1018 } }, // Lingering Potion of the Turtle Master (Enhanced)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1021 } }  // Lingering Potion of Slowness (Enhanced) *Parity*
           ]
         }
       }

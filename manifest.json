@@ -2,15 +2,15 @@
   "format_version": 2,
   "header": {
     "description": "A museum/adaptation resource pack about Legacy Console UI. UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
-    "name": "VDX: 4JD UI v1.0.0 Pre 1",
-    "uuid": "4165d2d1-5db6-4b73-9c28-1754aad30e74",
+    "name": "VDX: 4JD UI v1.0.0 Beta 2",
+    "uuid": "598cc6ad-6d59-4b2a-8abe-24eee330e624",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 19, 10]
+    "min_engine_version": [1, 19, 30]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "16331143-5d18-4eff-b465-92475d18664b",
+      "uuid": "66dfac7c-1a9d-4357-b2d1-c9d81108c2f1",
       "version": [1, 0, 0]
     }
   ],
@@ -20,12 +20,12 @@
       "text": "Make sure to restart Minecraft when you change the UI type."
     }
   ],
-  "subpacks": [
+  "subpacks": [/* 
     {
       "folder_name": "museum_plus",
-      "name": "Museum UI + (Normal Mode)",
+      "name": "Museum UI Ultimate (Normal Mode)",
       "memory_tier": 1
-    },
+    }, */
     {
       "folder_name": "museum",
       "name": "Museum UI (Classic Mode)",

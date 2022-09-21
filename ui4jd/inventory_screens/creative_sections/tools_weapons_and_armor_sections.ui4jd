@@ -6,80 +6,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 834 } }, // Compass
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 714 } }, // Leather Cap
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 720 } }, // Leather Tunic
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 726 } }, // Leather Pants
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 732 } }, // Leather Boots
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 738, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Sword
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 756, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Shovel
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 750, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Pickaxe
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 744, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Axe
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 762, "$item_renderer_size": [ 24, 24 ] } }  // Wooden Hoe
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 870 } }, // Compass
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 750 } }, // Leather Cap
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 756 } }, // Leather Tunic
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 762 } }, // Leather Pants
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 768 } }, // Leather Boots
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 774, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Sword
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 792, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Shovel
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 786, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Pickaxe
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 780, "$item_renderer_size": [ 24, 24 ] } }, // Wooden Axe
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 798, "$item_renderer_size": [ 24, 24 ] } }  // Wooden Hoe
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 836 } }, // Empty Locator Map
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 715 } }, // Chain Helmet
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 721 } }, // Chain Chestplate
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 727 } }, // Chain Leggings
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 733 } }, // Chain Boots
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 739, "$item_renderer_size": [ 24, 24 ] } }, // Stone Sword
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 757, "$item_renderer_size": [ 24, 24 ] } }, // Stone Shovel
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 751, "$item_renderer_size": [ 24, 24 ] } }, // Stone Pickaxe
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 745, "$item_renderer_size": [ 24, 24 ] } }, // Stone Axe
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 763, "$item_renderer_size": [ 24, 24 ] } }  // Stone Hoe
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 881 } }, // Empty Locator Map
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 751 } }, // Chain Helmet
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 757 } }, // Chain Chestplate
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 763 } }, // Chain Leggings
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 769 } }, // Chain Boots
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 775, "$item_renderer_size": [ 24, 24 ] } }, // Stone Sword
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 793, "$item_renderer_size": [ 24, 24 ] } }, // Stone Shovel
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 787, "$item_renderer_size": [ 24, 24 ] } }, // Stone Pickaxe
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 781, "$item_renderer_size": [ 24, 24 ] } }, // Stone Axe
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 799, "$item_renderer_size": [ 24, 24 ] } }  // Stone Hoe
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 768, "$item_renderer_size": [ 24, 24 ] } }, // Bow
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 716 } }, // Iron Helmet
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 722 } }, // Iron Chestplate
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 728 } }, // Iron Leggings
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 734 } }, // Iron Boots  
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 740, "$item_renderer_size": [ 24, 24 ] } }, // Iron Sword
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 758, "$item_renderer_size": [ 24, 24 ] } }, // Iron Shovel
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 752, "$item_renderer_size": [ 24, 24 ] } }, // Iron Pickaxe
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 746, "$item_renderer_size": [ 24, 24 ] } }, // Iron Axe
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 764, "$item_renderer_size": [ 24, 24 ] } }  // Iron Hoe
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 804, "$item_renderer_size": [ 24, 24 ] } }, // Bow
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 752 } }, // Iron Helmet
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 758 } }, // Iron Chestplate
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 764 } }, // Iron Leggings
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 770 } }, // Iron Boots  
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 776, "$item_renderer_size": [ 24, 24 ] } }, // Iron Sword
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 794, "$item_renderer_size": [ 24, 24 ] } }, // Iron Shovel
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 788, "$item_renderer_size": [ 24, 24 ] } }, // Iron Pickaxe
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 782, "$item_renderer_size": [ 24, 24 ] } }, // Iron Axe
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 800, "$item_renderer_size": [ 24, 24 ] } }  // Iron Hoe
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 770 } }, // Arrow
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 717 } }, // Golden Helmet
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 723 } }, // Golden Chestplate
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 729 } }, // Golden Leggings
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 735 } }, // Golden Boots
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 741, "$item_renderer_size": [ 24, 24 ] } }, // Golden Sword
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 759, "$item_renderer_size": [ 24, 24 ] } }, // Golden Shovel
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 753, "$item_renderer_size": [ 24, 24 ] } }, // Golden Pickaxe
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 747, "$item_renderer_size": [ 24, 24 ] } }, // Golden Axe
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 765, "$item_renderer_size": [ 24, 24 ] } }  // Golden Hoe
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 806 } }, // Arrow
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 753 } }, // Golden Helmet
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 759 } }, // Golden Chestplate
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 765 } }, // Golden Leggings
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 771 } }, // Golden Boots
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 777, "$item_renderer_size": [ 24, 24 ] } }, // Golden Sword
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 795, "$item_renderer_size": [ 24, 24 ] } }, // Golden Shovel
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 789, "$item_renderer_size": [ 24, 24 ] } }, // Golden Pickaxe
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 783, "$item_renderer_size": [ 24, 24 ] } }, // Golden Axe
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 801, "$item_renderer_size": [ 24, 24 ] } }  // Golden Hoe
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 831 } }, // Flint and Steel
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 718 } }, // Diamond Helmet
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 724 } }, // Diamond Chestplate
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 730 } }, // Diamond Leggings
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 736 } }, // Diamond Boots
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 742, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Sword
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 760, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Shovel
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 754, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Pickaxe
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 748, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Axe
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 766, "$item_renderer_size": [ 24, 24 ] } }  // Diamond Hoe
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 867 } }, // Flint and Steel
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 754 } }, // Diamond Helmet
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 760 } }, // Diamond Chestplate
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 766 } }, // Diamond Leggings
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 772 } }, // Diamond Boots
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 778, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Sword
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 796, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Shovel
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 790, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Pickaxe
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 784, "$item_renderer_size": [ 24, 24 ] } }, // Diamond Axe
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 802, "$item_renderer_size": [ 24, 24 ] } }  // Diamond Hoe
           ]
         }
       }
@@ -91,80 +91,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 809 } }, // Shield
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1147 } }, // Fire Charge
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 833 } }, // Clock
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 830 } }, // Shears
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 826, "$item_renderer_size": [ 24, 24 ] } }, // Fishing Rod
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 827, "$item_renderer_size": [ 24, 24 ] } }, // Carrot on a Stick
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 832 } }, // Lead
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 845 } }, // Totem of Undying
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 841 } }, // Diamond Horse Armor
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 840 } }  // Gold Horse Armor
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1022 } }, // Spyglass *New*
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 755  } }, // Netherite Helmet *New*
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 761  } }, // Netherite Chestplate *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 767  } }, // Netherite Leggings *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 773  } }, // Netherite Boots *New*
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 779,  "$item_renderer_size": [ 24, 24 ] } }, // Netherite Sword *New*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 797,  "$item_renderer_size": [ 24, 24 ] } }, // Netherite Shovel *New*
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 791,  "$item_renderer_size": [ 24, 24 ] } }, // Netherite Pickaxe *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 785,  "$item_renderer_size": [ 24, 24 ] } }, // Netherite Axe *New*
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 803,  "$item_renderer_size": [ 24, 24 ] } }  // Netherite Hoe *New*
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 839 } }, // Iron Horse Armor
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 838 } }, // Leather Horse Armor
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1059 } }, // Armor Stand
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 843 } }, // Turtle Shell
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 842 } }, // Trident
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 769, "$item_renderer_size": [ 24, 24 ] } }, // Crossbow
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 771 } }, // Arrow of Night Vision (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 773 } }, // Arrow of Invisibility (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 775 } }, // Arrow of Leaping (Normal)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 778 } }  // Arrow of Fire Resistance (Normal)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 845  } }, // Shield
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1196 } }, // Fire Charge
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 869  } }, // Clock
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 871  } }, // Recovery Compass *New*
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 866  } }, // Shears
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 862, "$item_renderer_size": [ 24, 24 ] } }, // Fishing Rod
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 863, "$item_renderer_size": [ 24, 24 ] } }, // Carrot on a Stick
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 864, "$item_renderer_size": [ 24, 24 ] } }, // Warped Fungus on a stick *New*
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 868  } }, // Lead
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 890  } }  // Totem of Undying
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 780 } }, // Arrow of Swiftness (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 783 } }, // Arrow of Slowness (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 785 } }, // Arrow of Water Breathing (Normal)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 787 } }, // Arrow of Healing (Normal)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 789 } }, // Arrow of Harming (Normal)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 791 } }, // Arrow of Poison (Normal)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 794 } }, // Arrow of Regeneration (Normal)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 797 } }, // Arrow of Strength (Normal)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 800 } }, // Arrow of Weakness (Normal)
-            { "row_10": { "type": "panel", "size": [ 27, 27 ] } }  // ???
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 886  } }, // Diamond Horse Armor
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 885  } }, // Gold Horse Armor
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 884  } }, // Iron Horse Armor
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 883  } }, // Leather Horse Armor
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1104 } }, // Armor Stand
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 888  } }, // Turtle Shell
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 887  } }, // Trident
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 805, "$item_renderer_size": [ 24, 24 ] } }, // Crossbow
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 807  } }, // Arrow of Night Vision (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 809  } }  // Arrow of Invisibility (Normal)
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 803 } }, // Arrow of the Turtle Master (Normal)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 806 } }, // Arrow of Slow Falling (Normal)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 772 } }, // Arrow of Night Vision (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 774 } }, // Arrow of Invisibility (Extended)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 776 } }, // Arrow of Leaping (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 779 } }, // Arrow of Fire Resistance (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 781 } }, // Arrow of Swiftness (Extended)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 784 } }, // Arrow of Slowness (Extended)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 786 } }, // Arrow of Water Breathing (Extended)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 792 } }  // Arrow of Poison (Extended)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 811 } }, // Arrow of Leaping (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 814 } }, // Arrow of Fire Resistance (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 816 } }, // Arrow of Swiftness (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 819 } }, // Arrow of Slowness (Normal)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 821 } }, // Arrow of Water Breathing (Normal)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 823 } }, // Arrow of Healing (Normal)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 825 } }, // Arrow of Harming (Normal)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 827 } }, // Arrow of Poison (Normal)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 830 } }, // Arrow of Regeneration (Normal)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 833 } }  // Arrow of Strength (Normal)
           ]
         }
       },
       {
         "column_5@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index":795 } }, // Arrow of Regeneration (Extended)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 798 } }, // Arrow of Strength (Extended)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 801 } }, // Arrow of Weakness (Extended)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 802 } }, // Arrow of Decay (Other)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 804 } }, // Arrow of the Turtle Master (Extended)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 807 } }, // Arrow of Slow Falling (Extended)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 777 } }, // Arrow of Leaping (Enhanced)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 782 } }, // Arrow of Swiftness (Enhanced)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 788 } }, // Arrow of Healing (Enhanced)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 790 } }  // Arrow of Harming (Enhanced)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 836 } }, // Arrow of Weakness (Normal)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 839 } }, // Arrow of the Turtle Master (Normal)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 842 } }, // Arrow of Slow Falling (Normal)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 808 } }, // Arrow of Night Vision (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 810 } }, // Arrow of Invisibility (Extended)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 812 } }, // Arrow of Leaping (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 815 } }, // Arrow of Fire Resistance (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 817 } }, // Arrow of Swiftness (Extended)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 820 } }, // Arrow of Slowness (Extended)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 822 } }  // Arrow of Water Breathing (Extended)
           ]
         }
       }
@@ -176,64 +176,80 @@
       {
         "column_1@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 793 } }, // Arrow of Poison (Enhanced)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 796 } }, // Arrow of Regeneration (Enhanced)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 799 } }, // Arrow of Strength (Enhanced)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 805 } }, // Arrow of the Turtle Master (Enhanced)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1168 } }, // Protection IV (Enchanted Book)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1172 } }, // Fire Protection IV (Enchanted Book)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1176 } }, // Feather Falling IV (Enchanted Book)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1180 } }, // Blast Protection IV (Enchanted Book)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1184 } }, // Proyectile Protection IV (Enchanted Book)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1190 } }  // Respiration III (Enchanted Book)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 828 } }, // Arrow of Poison (Extended)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 831 } }, // Arrow of Regeneration (Extended)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 834 } }, // Arrow of Strength (Extended)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 837 } }, // Arrow of Weakness (Extended)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 838 } }, // Arrow of Decay (Other)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 840 } }, // Arrow of the Turtle Master (Extended)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 843 } }, // Arrow of Slow Falling (Extended)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 813 } }, // Arrow of Leaping (Enhanced)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 818 } }, // Arrow of Swiftness (Enhanced)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 824 } }  // Arrow of Healing (Enhanced)
           ]
         }
       },
       {
         "column_2@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1194 } }, // Aqua Affinity I (Enchanted Book)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1187 } }, // Thorns III (Enchanted Book)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1193 } }, // Depth Strider III (Enchanted Book)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1245 } }, // Frost Walker II (Enchanted Book)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1247 } }, // Curse of Binding I (Enchanted Book)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1199 } }, // Sharpness V (Enchanted Book)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1204 } }, // Smite V (Enchanted Book)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1209 } }, // Bane of Arthropods V (Enchanted Book)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1211 } }, // Knockback II (Enchanted Book)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1213 } }  // Fire Aspect II (Enchanted Book)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 826  } }, // Arrow of Harming (Enhanced)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 829  } }, // Arrow of Poison (Enhanced)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 832  } }, // Arrow of Regeneration (Enhanced)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 835  } }, // Arrow of Strength (Enhanced)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 841  } }, // Arrow of the Turtle Master (Enhanced)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 844  } }, // Arrow of Slowness (Enhanced) *Parity*
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1218 } }, // Protection IV (Enchanted Book)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1222 } }, // Fire Protection IV (Enchanted Book)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1226 } }, // Feather Falling IV (Enchanted Book)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1230 } }  // Blast Protection IV (Enchanted Book)
           ]
         }
       },
       {
         "column_3@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1216 } }, // Looting III (Enchanted Book)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1221 } }, // Efficency V (Enchanted Book)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1222 } }, // Silk Touch I (Enchanted Book)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1225 } }, // Unbreaking III (Enchanted Book)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1228 } }, // Fortune III (Enchanted Book)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1233 } }, // Power V (Enchanted Book)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1235 } }, // Punch II (Enchanted Book)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1236 } }, // Flame I (Enchanted Book)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1237 } }, // Infinity I (Enchanted Book)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1240 } }  // Luck of the Sea III (Enchanted Book)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1234 } }, // Projectile Protection IV (Enchanted Book)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1240 } }, // Respiration III (Enchanted Book)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1244 } }, // Aqua Affinity I (Enchanted Book)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1237 } }, // Thorns III (Enchanted Book)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1243 } }, // Depth Strider III (Enchanted Book)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1295 } }, // Frost Walker II (Enchanted Book)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1297 } }, // Curse of Binding I (Enchanted Book)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1249 } }, // Sharpness V (Enchanted Book)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1254 } }, // Smite V (Enchanted Book)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1259 } }  // Bane of Arthropods V (Enchanted Book)
           ]
         }
       },
       {
         "column_4@creative_items_common_4jd.row_panel": {
           "controls": [
-            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1243 } }, // Lure III (Enchanted Book)
-            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1246 } }, // Mending I (Enchanted Book)
-            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1248 } }, // Curse of Vanishing I (Enchanted Book)
-            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1253 } }, // Impaling V (Enchanted Book)
-            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1256 } }, // Riptide III (Enchanted Book)
-            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1259 } }, // Loyality III (Enchanted Book)
-            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1260 } }, // Channeling I (Enchanted Book)
-            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1261 } }, // Multishot I (Enchanted Book)
-            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1265 } }, // Piercing IV (Enchanted Book)
-            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1268 } }  // Quick Charge III (Enchanted Book)
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1261 } }, // Knockback II (Enchanted Book)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1263 } }, // Fire Aspect II (Enchanted Book)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1266 } }, // Looting III (Enchanted Book)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1271 } }, // Efficiency V (Enchanted Book)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1272 } }, // Silk Touch I (Enchanted Book)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1275 } }, // Unbreaking III (Enchanted Book)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1278 } }, // Fortune III (Enchanted Book)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1283 } }, // Power V (Enchanted Book)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1285 } }, // Punch II (Enchanted Book)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1286 } }  // Flame I (Enchanted Book)
+          ]
+        }
+      },
+      {
+        "column_5@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1287 } }, // Infinity I (Enchanted Book)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1290 } }, // Luck of the Sea III (Enchanted Book)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1293 } }, // Lure III (Enchanted Book)
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1296 } }, // Mending I (Enchanted Book)
+            { "row_05@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1298 } }, // Curse of Vanishing I (Enchanted Book)
+            { "row_06@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1303 } }, // Impaling V (Enchanted Book)
+            { "row_07@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1306 } }, // Riptide III (Enchanted Book)
+            { "row_08@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1309 } }, // Loyalty III (Enchanted Book)
+            { "row_09@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1310 } }, // Channeling I (Enchanted Book)
+            { "row_10@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1311 } }  // Multishot I (Enchanted Book)
           ]
         }
       }
@@ -241,5 +257,17 @@
   },
 
   "tools_items_page_4@creative_items_common_4jd.column_panel": {
+    "controls": [
+      {
+        "column_1@creative_items_common_4jd.row_panel": {
+          "controls": [
+            { "row_01@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1315 } }, // Piercing IV (Enchanted Book)
+            { "row_02@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1318 } }, // Quick Charge III (Enchanted Book)
+            { "row_03@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1321 } }, // Soul Speed III (Enchanted Book) *New*
+            { "row_04@creative_items_common_4jd.grid_item_for_creative": { "collection_index": 1324 } }  // Swift Sneak III (Enchanted Book) *New*
+          ]
+        }
+      }
+    ]
   }
 }
