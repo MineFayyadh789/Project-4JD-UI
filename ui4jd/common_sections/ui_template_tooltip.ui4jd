@@ -126,8 +126,7 @@
               "binding_name_override": "#visible",
               "binding_condition": "none"
             }
-          ],
-          "$desc_panel_content": "inventory_4jd.close_button"
+          ]
         }
       },
       { 

@@ -481,10 +481,21 @@
               }
             },
             {
+              "mixed_padding": {
+                "type": "panel",
+                "size": [ "100%", 1 ]
+              }
+            },
+            {
               "tooltip_padding": {
                 "type": "panel",
-                "size": [ "100%", 22 ],
-                "ignored": "$touch"
+                "size": [ "100%", 21 ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_using_gamepad",
+                    "binding_name_override": "#visible"
+                  }
+                ]
               }
             }
           ]

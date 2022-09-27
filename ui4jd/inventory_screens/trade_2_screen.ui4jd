@@ -6,8 +6,8 @@
   "item_detail_panel": {
     "type": "panel",
     "size": [ 109.5, 93.5 ],
-    "anchor_from": "top_left",
-    "anchor_to": "top_left",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
     "controls": [
       {
         "trade_item_1@trade2_4jd.trade_item_1": {
@@ -134,6 +134,8 @@
   },
 
   "detail_toggle@trade2.trade_toggle": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
     "$toggle_size": [ 0, 0 ],
 
     "$unchecked_control": "common.empty_panel",
@@ -276,8 +278,8 @@
 
   "hover_text_label@common_4jd.hover_text_label": {
     "text": "#hover_text",
-    "font_scale_factor": 0.75,
-    "line_padding": 1.0,
+    //"font_scale_factor": 0.75,
+    //"line_padding": 1.0,
     "bindings": [
       {
         "binding_type": "collection_details"
@@ -358,21 +360,33 @@
     ]
   },
 
-  "selector_toggle@trade2.trade_toggle": {
-    "$toggle_size": [ 27, 27 ],
+  "trade_actual_toggle_deny@trade2_4jd.trade_actual_toggle": {
+    "sound_name": "ui.press"
+  },
 
-    "$toggle_content_control": "trade2_4jd.sell_item",
-
-    "$template_toggle": "trade2_4jd.trade_actual_toggle",
-
-    "$unchecked_control": "trade2_4jd.selector_panel",
-    "$unchecked_hover_control": "trade2_4jd.selector_panel_hover",
-    "$checked_control": "trade2_4jd.selector_panel_checked",
-    "$checked_hover_control": "trade2_4jd.selector_panel_checked",
-    "$unchecked_locked_control": "trade2_4jd.selector_panel_locked",
-    "$unchecked_locked_hover_control": "trade2_4jd.selector_panel_locked",
-    "$checked_locked_control": "trade2_4jd.selector_panel_locked",
-    "$checked_locked_hover_control": "trade2_4jd.selector_panel_locked"
+  "selector_toggle_panel": {
+    "type": "panel",
+    "size": [ 27, 27 ],
+    "controls": [
+      {
+        "selector_toggle@trade2.trade_toggle": {
+          "$toggle_size": [ 27, 27 ],
+      
+          "$toggle_content_control": "trade2_4jd.sell_item",
+      
+          "$template_toggle": "trade2_4jd.trade_actual_toggle",
+      
+          "$unchecked_control": "trade2_4jd.selector_panel",
+          "$unchecked_hover_control": "trade2_4jd.selector_panel_hover",
+          "$checked_control": "trade2_4jd.selector_panel_checked",
+          "$checked_hover_control": "trade2_4jd.selector_panel_checked",
+          "$unchecked_locked_control": "trade2_4jd.selector_panel_locked",
+          "$unchecked_locked_hover_control": "trade2_4jd.selector_panel_locked",
+          "$checked_locked_control": "trade2_4jd.selector_panel_locked",
+          "$checked_locked_hover_control": "trade2_4jd.selector_panel_locked"
+        }
+      }
+    ]
   },
 
   "selector_stack_panel@trade2.tier_stack_panel": {
@@ -384,7 +398,7 @@
         "trade_toggle_stack_panel@trade2.trade_toggle_stack_panel": {
           "orientation": "horizontal",
           "size": [ "default", "100%" ],
-          "$toggle_control_name|default": "trade2_4jd.selector_toggle",
+          "$toggle_control_name|default": "trade2_4jd.selector_toggle_panel",
           "factory": {
             "name": "selected_pack_factory",
             "control_name": "$toggle_control_name"
@@ -724,8 +738,10 @@
           "controls": [
             { 
               "trade_details_stack_panel@trade2.trade_selector_stack_panel": {
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
                 "orientation": "horizontal",
-                "size": [ "100%", "100%" ],
+                "size": [ 0, 0 ],
                 "$input_size": [ 0, 0 ],
                 "$toggle_control_name": "trade2_4jd.detail_toggle",
                 "factory": {
@@ -752,7 +768,16 @@
               }
             },
             /* Input Slots */
-            { "input_slot_01@trade2_4jd.input_slot_01": { } },
+            { 
+              "input_slot_01@trade2_4jd.input_slot_01": {
+                "bindings": [
+                  {
+                    "binding_name": "(not #is_using_gamepad)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
             { 
               "input_cell_1_hold@ui_4jd_textures.cell_image_1_5": {
                 "layer": 3,
@@ -870,29 +895,10 @@
     "anchor_to": "bottom_left",
     "size": [ "100%", 16 ],
     "controls": [
-      { 
-        "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [
-            {
-              "binding_type": "global",
-              "binding_name": "#gamepad_helper_visible",
-              "binding_name_override": "#visible",
-              "binding_condition": "none"
-            }
-          ],
-          "$desc_panel_content": "inventory_4jd.close_button"
-        }
-      },
+      { "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": { } },
       { 
         "gamepad_helper_x@common_tooltip_4jd.gamepad_helper_x": {
-          "$icon_description_bind": "Select Slot",
-          "bindings": [
-            {
-              "binding_name": "#gamepad_helper_x_visible",
-              "binding_name_override": "#visible",
-              "binding_condition": "always"
-            }
-          ]
+          "$icon_description_bind": "Select Slot"
         }
       },
       {
@@ -913,6 +919,7 @@
 
   "trade_full_screen@common_4jd.full_screen": {
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "trade_panel@trade2_4jd.trade_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },

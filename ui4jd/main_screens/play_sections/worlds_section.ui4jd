@@ -15,6 +15,7 @@
               "create_new@common_buttons_4jd.main_button": {
                 "size": [ "100%-2px", 30 ],
                 "$pressed_button_name": "button.menu_local_world_create",
+                //"$focus_override_up": "FOCUS_OVERRIDE_STOP",
                 "$button_text": "selectWorld.createNew"
               }
             },
@@ -388,13 +389,18 @@
           "offset": [ 7, 7 ],
           "controls": [
             {
-              "scrolling_panel@play.scrolling_offsets": {
+              "scrolling_panel@common_scroll_4jd.scrolling_panel": {
                 "size": [ "100% -14px", "100% - 32px" ], // [ "100% -14px", "100% - 14px" ]
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "offset": [ 7, 8 ],
                 "layer": 6,
-                "$scrolling_content": "worlds_4jd.worlds_stack_panel"
+                "$scrolling_content": "worlds_4jd.worlds_stack_panel",
+                "$scroll_bar_contained": false,
+                "$scroll_size": [ 16, "100%" ],
+                "$scroll_view_port_size": [ "100%", "100%" ],
+                "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+                "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
               }
             }
           ]

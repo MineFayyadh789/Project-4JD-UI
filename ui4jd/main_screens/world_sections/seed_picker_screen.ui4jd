@@ -101,9 +101,7 @@
       { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
       {
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
-          "$icon_description_bind": "gui.back",
-          "$desc_panel_content": "inventory_4jd.close_button"
+          "$icon_description_bind": "gui.back"
         }
       }
     ],
@@ -169,6 +167,7 @@
   "seed_picker_panel": {
     "type": "panel",
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "main_panel@seed_picker_4jd.main_panel": { } }
     ]
   }

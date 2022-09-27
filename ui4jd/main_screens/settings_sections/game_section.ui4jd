@@ -81,6 +81,34 @@
           "size": [ 231, "100%c" ],
           "controls": [
             {
+              "top_panel": {
+                "type": "panel",
+                "size": [ "100%", 0 ],
+                "controls": [
+                  { 
+                    "close_button@settings_4jd.back_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "size": [ 24, 24 ],
+                      "offset": [ -40, 0 ],
+                      "$button_text": "<",
+            
+                      "$unchecked_control": "common_buttons_4jd.black_button_default",
+                      "$checked_control": "common_buttons_4jd.black_button_default",
+                      "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "bindings": [
+                        {
+                          "binding_name": "#close_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
               "name_controls": {
                 "type": "stack_panel",
                 "orientation": "vertical",
@@ -469,9 +497,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "bindings": [ ],
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "settings_4jd.back_button"
+                "$icon_description_bind": "gui.back"
               }
             }
           ]
@@ -526,6 +552,15 @@
             }
           ],
           "controls": [
+            { 
+              "close_button@settings_4jd.back_button": {
+                "size": [ 1, 1 ],
+                "offset": [ 0, 0 ],
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "$toggle_focus_enabled": false
+              }
+            },
             { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false, "ignored": "($is_pregame)" } }
           ]
         }

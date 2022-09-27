@@ -291,6 +291,7 @@
 
   "full_screen@common_4jd.full_screen": {
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "screen_stack_panel@stonecutter_4jd.screen_stack_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },

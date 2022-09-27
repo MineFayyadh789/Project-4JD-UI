@@ -8,6 +8,7 @@
     "$scroll_track_image_control": "common.empty_panel",
     "$scroll_box_mouse_image_control": "$scroll_box_image_control",
     "$scroll_box_touch_image_control": "$scroll_box_image_control",
+    "$scroll_bar_contained|default": true,
     "controls": [
       {
         "scroll_base@common_scroll_4jd.scrolling_panel_base": {
@@ -26,6 +27,7 @@
             {
               "panel": {
                 "type": "panel",
+                "ignored": "(not $scroll_bar_contained)",
                 "anchor_to": "top_left",
                 "anchor_from": "top_left",
                 "$view_port_size|default": [ "100%", "100%" ],
@@ -33,6 +35,30 @@
                 "controls": [
                   { "viewport@common_scroll_4jd.viewport": {} },
                   { "bar_and_track@common_scroll_4jd.bar_and_track": {} }
+                ]
+              }
+            },
+            {
+              "stack_panel": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "ignored": "$scroll_bar_contained",
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "size": [ "100%", "100%" ],
+                "$view_port_size|default": [ "100%", "100%" ],
+                "controls": [
+                  {
+                    "scrolling_view_port": {
+                      "layer": 1,
+                      "type": "panel",
+                      "size": [ "fill", "100%" ],
+                      "controls": [
+                        { "viewport@common_scroll_4jd.viewport": { "size": [ "100%", "100%" ] } }
+                      ]
+                    }
+                  },
+                  { "bar_and_track@common_scroll_4jd.bar_and_track": { "size": "$scroll_size" } }
                 ]
               }
             }

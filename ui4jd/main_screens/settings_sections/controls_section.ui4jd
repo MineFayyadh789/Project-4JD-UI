@@ -223,18 +223,41 @@
   /*//// Screen ////*/
 
   "main_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
-    "size": [ 255, 293 ],
+    "size": [ 255, 272 ],
     "controls": [
+      { 
+        "close_button@settings_4jd.back_button": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 24, 24 ],
+          "offset": [ -32, 8 ],
+          "$button_text": "<",
+
+          "$unchecked_control": "common_buttons_4jd.black_button_default",
+          "$checked_control": "common_buttons_4jd.black_button_default",
+          "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+          "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+          "bindings": [
+            {
+              "binding_name": "#close_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
       {
-        "scrolling_panel@common.scrolling_panel": {
+        "scrolling_panel@common_scroll_4jd.scrolling_panel": {
           "size": [ 242, 259 ],
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 7.3, 6.5 ],
           "$scrolling_content": "controls_4jd.controls_stack_panel_content",
           "$show_background": false,
-          "$scroll_size": [ "5px", "100%" ],
-          "$scroll_bar_left_padding_size": [ 2, 0 ]
+          "$scroll_bar_contained": false,
+          "$scroll_size": [ 16, "100%" ],
+          "$scroll_view_port_size": [ "100%", "100%" ],
+          "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+          "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
         }
       }
     ]
@@ -250,9 +273,7 @@
       { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
       { 
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
-          "$icon_description_bind": "gui.back",
-          "$desc_panel_content": "settings_4jd.back_button"
+          "$icon_description_bind": "gui.back"
         }
       }
     ],
@@ -277,6 +298,15 @@
       }
     ],
     "controls": [
+      { 
+        "close_button@settings_4jd.back_button": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "$toggle_focus_enabled": false
+        }
+      },
       { "main_panel@controls_4jd.main_panel": { } }
     ]
   }

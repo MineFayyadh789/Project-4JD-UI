@@ -12,6 +12,34 @@
           "size": [ 231, "100%c" ],
           "controls": [
             {
+              "top_panel": {
+                "type": "panel",
+                "size": [ "100%", 0 ],
+                "controls": [
+                  { 
+                    "close_button@settings_4jd.back_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "size": [ 24, 24 ],
+                      "offset": [ -40, 0 ],
+                      "$button_text": "<",
+            
+                      "$unchecked_control": "common_buttons_4jd.black_button_default",
+                      "$checked_control": "common_buttons_4jd.black_button_default",
+                      "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "bindings": [
+                        {
+                          "binding_name": "#close_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
               "option_toggle_hidehud@settings_common_4jd.option_toggle": {
                 "ignored": "($is_holographic)",
                 "$option_label": "options.hidehud",
@@ -51,8 +79,7 @@
                 "$option_label": "options.hidetooltips",
                 "$option_binding_name": "#hide_tooltips",
                 "$option_enabled_binding_name": "#hint_toggles_enabled",
-                "$toggle_name": "hide_tooltips",
-                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+                "$toggle_name": "hide_tooltips"
               }
             },
             {
@@ -100,12 +127,12 @@
               "safe_zone": {
                 "type": "panel",
                 "size": [ "100%", 22 ],
+                "ignored": "(not $supports_user_configured_safezone or (not $is_pregame))",
                 "controls": [
                   {
                     "safe_zone_button@common_buttons_4jd.main_button": {
                       "anchor_from": "top_left",
                       "anchor_to": "top_left",
-                      "ignored": "(not $supports_user_configured_safezone or (not $is_pregame))",
                       "size": [ "100%", 20 ],
                       "$pressed_button_name": "setup_safe_zone_button",
                       "$button_text": "options.safeZone.title"
@@ -118,12 +145,12 @@
               "ui_profile": {
                 "type": "panel",
                 "size": [ "100%", 22 ],
+                "ignored": "($console_edition)",
                 "controls": [
                   {
                     "ui_profile_dropdown@settings_common_4jd.option_dropdown": {
                       "anchor_from": "top_left",
                       "anchor_to": "top_left",
-                      "ignored": "($console_edition)",
                       "$option_label": "options.uiprofile",
                       "$dropdown_content": "general_section.ui_profile_dropdown_content",
                       "$dropdown_area": "content_area",
@@ -152,9 +179,7 @@
       { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
       { 
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
-          "$icon_description_bind": "gui.back",
-          "$desc_panel_content": "settings_4jd.back_button"
+          "$icon_description_bind": "gui.back"
         }
       }
     ],
@@ -179,6 +204,15 @@
       }
     ],
     "controls": [
+      { 
+        "close_button@settings_4jd.back_button": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "$toggle_focus_enabled": false
+        }
+      },
       { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
       { "main_panel@user_interface_4jd.main_panel": { } }
     ]

@@ -40,7 +40,7 @@ craftingScreen.tab.items.aspects=Items
 4jd.createWorldScreen.commandBlocks.desc=When enabled, command blocks can execute commands without help from players.
 4jd.createWorldScreen.commands.desc=When enabled, players can execute commands from the chat screen.
 4jd.createWorldScreen.daylightCycleAlwaysDay.desc=The time of day will be locked to noon.
-4jd.createWorldScreen.daylightCycleNormal.desc=The time of day will change.
+4jd.createWorldScreen.daylightCycleNormal.desc=When disabled, the time of day will not change.
 4jd.createWorldScreen.education.desc=When enabled, players can access Education Edition features, such as the Element Constructor.
 4jd.createWorldScreen.entitiesDropLoot.desc=When disabled, entities like paintings and minecarts will not drop items when destroyed.
 4jd.createWorldScreen.inventory.desc=When enabled, players will keep their inventory when they die.
@@ -266,6 +266,12 @@ menu.store=Minecraft Store
 store.new.icon= 
 
 store.startMenu.sale= 
+
+controller.buttonTip.tab=Tab
+
+4jd.controller.buttonTip.page=Page
+4jd.controller.buttonTip.type=Type
+4jd.controller.buttonTip.group=Group
 
 ## Options
 

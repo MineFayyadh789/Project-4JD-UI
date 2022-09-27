@@ -335,16 +335,110 @@
     ]
   },
 
+  "bottom_buttons_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%", 16 ],
+    "controls": [
+      {
+        "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": {
+          "bindings": [
+            {
+              "binding_name": "#gamepad_helper_a_visible",
+              "binding_name_override": "#visible",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      { 
+        "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
+          "bindings": [
+            {
+              "binding_name": "#gamepad_helper_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { 
+        "gamepad_helper_x@common_tooltip_4jd.gamepad_helper_x": {
+          "bindings": [
+            {
+              "binding_name": "#gamepad_helper_x_visible",
+              "binding_name_override": "#visible",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      { 
+        "gamepad_helper_y@common_tooltip_4jd.gamepad_helper_y": {
+          "bindings": [
+            {
+              "binding_name": "#gamepad_helper_y_visible",
+              "binding_name_override": "#visible",
+              "binding_condition": "always"
+            }
+          ]
+        }
+      },
+      {
+        "survival_base": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "size": [ "100%c", 16 ],
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(not #is_creative_mode)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "recipe_book": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "size": [ "100%c", 16 ],
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(#is_recipe_book_layout)",
+                    "binding_name_override": "#visible"
+                  }
+                ],
+                "controls": [
+                  { "gamepad_helper_left_trigger@common_tooltip_4jd.gamepad_helper_left_trigger": { "$hide_icon_separator": true, "$icon_description_bind": "" } },
+                  { "gamepad_helper_right_trigger@common_tooltip_4jd.gamepad_helper_right_trigger": { "$hide_icon_separator": false,  "$icon_description_bind": "4jd.controller.buttonTip.type" } },
+                  { "gamepad_helper_left_bumper@common_tooltip_4jd.gamepad_helper_left_bumper": { "$hide_icon_separator": true, "$icon_description_bind": "" } },
+                  { "gamepad_helper_right_bumper@common_tooltip_4jd.gamepad_helper_right_bumper": { "$hide_icon_separator": false,  "$icon_description_bind": "4jd.controller.buttonTip.group" } }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "inventory_center_screen":{
     "type": "panel",
     "controls": [
-      { "bottom_buttons_panel@inventory_4jd.bottom_buttons_panel": { } }
+      { "bottom_buttons_panel@inventory_adaptive_4jd.bottom_buttons_panel": { } }
     ]
   },
 
   "inventory_full_screen@common_4jd.full_screen": {
     "type": "panel",
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },

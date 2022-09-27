@@ -77,14 +77,24 @@
 
   /*//// Black Button ////*/
 
-  "black_button_label@common_dx.global_label": {
+  "black_button_label@common_4jd.global_label": {
     "text": "$button_text",
     "offset": "$text_offset",
     "shadow": false,
     "color": "$text_color",
     "size": [ "default", 10 ],
     "max_size": "$button_label_max_size",
-    "$button_label_max_size|default": [ "100%+2px", 10 ]
+    "$button_label_max_size|default": [ "100%+2px", 10 ],
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "layer": -1,
+          "color": "black",
+          "text": "$button_text",
+          "offset": [ 0.5, 0.5 ]
+        }
+      }
+    ]
   },
   
   "black_button_default": {
@@ -124,6 +134,7 @@
 
   "black_button@common.button": {
     "locked_control": "locked",
+    "sound_name": "ui.press",
     "controls": [
       { "default@common_buttons_4jd.black_button_default": {} },
       { "hover@common_buttons_4jd.black_button_hover": {} },

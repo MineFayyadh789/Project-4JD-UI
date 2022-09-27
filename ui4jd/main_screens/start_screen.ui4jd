@@ -37,6 +37,34 @@
     "offset": [ 0, 125 ],
     "size": [ 225, "100%c" ],
     "controls": [
+      {
+        "top_panel": {
+          "type": "panel",
+          "size": [ "100%", 0 ],
+          "controls": [
+            { 
+              "close_button@start_4jd.main_panel_list_toggle": {
+                "size": [ 24, 24 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -32, 8 ],
+                "$button_text": "<",
+      
+                "$unchecked_control": "common_buttons_4jd.black_button_default",
+                "$checked_control": "common_buttons_4jd.black_button_default",
+                "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+                "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+                "bindings": [
+                  {
+                    "binding_name": "#close_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
       { "button_0@start_4jd.stacked_row": { "controls": [ { "profile_button@start_4jd.profile_button": { } } ] } },
       { "button_1@start_4jd.stacked_row": { "ignored": "$pre_release", "controls": [ { "release_feedback_button@start_4jd.feedback_button": { "property_bag": { "#hyperlink": "https://aka.ms/minecraftfb" } } } ] } },
       { "button_1_alt@start_4jd.stacked_row": { "ignored": "(not $pre_release)",  "controls": [ { "beta_feedback_button@start_4jd.feedback_button": { "property_bag": { "#hyperlink": "https://aka.ms/minecraftfbbeta" } } } ] } },
@@ -342,6 +370,15 @@
         "help_and_options_panel": {
           "type": "panel",
           "controls": [
+            { 
+              "close_button@start_4jd.main_panel_list_toggle": {
+                "size": [ 1, 1 ],
+                "offset": [ 0, 0 ],
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "$toggle_focus_enabled": false
+              }
+            },
             { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
             { "help_and_options_buttons@start_4jd.help_and_options_buttons": { } }
           ],
@@ -392,9 +429,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "bindings": [ ],
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "start_4jd.main_panel_list_toggle"
+                "$icon_description_bind": "gui.back"
               }
             }
           ],

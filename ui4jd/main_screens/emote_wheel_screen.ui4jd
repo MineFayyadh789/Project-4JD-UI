@@ -255,8 +255,7 @@
       { "gamepad_a@common_tooltip_4jd.gamepad_helper_a": {} },
       { 
         "gamepad_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
-          "$desc_panel_content": "inventory_4jd.close_button"
+          "bindings": [ ]
         }
       },
       { "gamepad_y@common_tooltip_4jd.gamepad_helper_y": {} },

@@ -57,5 +57,44 @@
     "layer": 3,
     "size": [ 16, 16 ],
     "texture": "textures/ui4jd/icons/close"
+  },
+
+  /*//// For controller use ////*/
+
+  "controller_close_button@common.button": {
+    "size": [ 1, 1 ],
+    "offset": [ 0, 0 ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "sound_name": "ui.back",
+    "focus_enabled": false,/* 
+    "bindings": [
+      {
+        "binding_name": "(not #close_button_visible)",
+        "binding_name_override": "#visible"
+      }
+    ], */
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_inventory_cancel",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "global"
+      },
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.menu_exit",
+        "mapping_type": "focused"
+      }
+    ]
   }
 }

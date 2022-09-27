@@ -52,6 +52,7 @@
   
   "toggle_button@beacon.toggle_button": {
     "size": [ 22, 22 ],
+    "sound_name": "ui.press",
     "$unchecked_hover_control": "beacon_4jd.button_unchecked_hover",
     "$checked_hover_control": "beacon_4jd.button_checked_hover"
   },
@@ -327,6 +328,7 @@
 
   "beacon_screen_content@common_4jd.full_screen": {
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "beacon_panel@beacon_4jd.beacon_panel": { } },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },

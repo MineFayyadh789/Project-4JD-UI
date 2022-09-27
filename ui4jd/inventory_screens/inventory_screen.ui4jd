@@ -466,8 +466,7 @@
               "binding_name": "#gamepad_helper_visible",
               "binding_name_override": "#visible"
             }
-          ],
-          "$desc_panel_content": "inventory_4jd.close_button"
+          ]
         }
       },
       { 
@@ -533,37 +532,6 @@
           ]
         }
       } */
-    ]
-  },
-
-  "close_button@common.button": {
-    "size": [ "100% + 27px", 16 ],
-    "offset": [ 0, 2 ],
-    "anchor_from": "bottom_left",
-    "anchor_to": "bottom_left",
-    "sound_name": "ui.back",
-    "focus_enabled": false,
-    "button_mappings": [
-      {
-        "from_button_id": "button.menu_cancel",
-        "to_button_id": "button.menu_exit",
-        "mapping_type": "global"
-      },
-      {
-        "from_button_id": "button.menu_inventory_cancel",
-        "to_button_id": "button.menu_exit",
-        "mapping_type": "global"
-      },
-      {
-        "from_button_id": "button.menu_select",
-        "to_button_id": "button.menu_exit",
-        "mapping_type": "pressed"
-      },
-      {
-        "from_button_id": "button.menu_ok",
-        "to_button_id": "button.menu_exit",
-        "mapping_type": "focused"
-      }
     ]
   },
 
@@ -645,6 +613,7 @@
   "inventory_full_screen@common_4jd.full_screen": {
     "type": "panel",
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },

@@ -553,8 +553,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "inventory_4jd.close_button"
+                "$icon_description_bind": "gui.back"
               }
             }
           ]

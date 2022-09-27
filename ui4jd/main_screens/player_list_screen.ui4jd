@@ -24,9 +24,9 @@
   },
 
   "player_gamertag@common_4jd.global_label": {
-    "shadow": true,
+    "shadow": false,
     "text": "#gamertag",
-    "size": [ "100%", 10 ],
+    "size": [ "default", 10 ],
     "layer": 2,
     "bindings": [
       {
@@ -34,19 +34,59 @@
         "binding_type": "collection",
         "binding_collection_name": "players_collection"
       }
+    ],
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", 10 ],
+          "layer": -1,
+          "color": "black",
+          "text": "#gamertag",
+          "offset": [ 0.5, 0.5 ],
+          "text_alignment": "center",
+          "bindings": [
+            {
+              "binding_name": "#gamertag",
+              "binding_type": "collection",
+              "binding_collection_name": "players_collection"
+            }
+          ]
+        }
+      }
     ]
   },
 
   "scoreboard_player_name@common_4jd.global_label": {
-    "shadow": true,
+    "shadow": false,
     "text": "#player_name",
-    "size": [ "100%", 10 ],
+    "size": [ "default", 10 ],
     "layer": 2,
     "bindings": [
       {
         "binding_name": "#player_name",
         "binding_type": "collection",
         "binding_collection_name": "$sb_collection_name"
+      }
+    ],
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "shadow": false,
+          "size": [ "100%", 10 ],
+          "layer": -1,
+          "color": "black",
+          "text": "#player_name",
+          "offset": [ 0.5, 0.5 ],
+          "text_alignment": "center",
+          "bindings": [
+            {
+              "binding_name": "#player_name",
+              "binding_type": "collection",
+              "binding_collection_name": "$sb_collection_name"
+            }
+          ]
+        }
       }
     ]
   },
@@ -244,7 +284,7 @@
     "controls": [
       {
         "score@common_4jd.global_label": {
-          "shadow": true,
+          "shadow": false,
           "size": [ "default", 10 ],
           "color": "$player_score_color",
           "anchor_to": "top_right",
@@ -257,6 +297,26 @@
               "binding_name": "#player_score",
               "binding_type": "collection",
               "binding_collection_name": "$sb_collection_name"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "shadow": false,
+                "size": [ "100%", 10 ],
+                "layer": -1,
+                "color": "black",
+                "text": "#player_score",
+                "offset": [ 0.5, 0.5 ],
+                "text_alignment": "center",
+                "bindings": [
+                  {
+                    "binding_name": "#player_score",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$sb_collection_name"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -388,6 +448,53 @@
     "size": [ 323, 250 ],
     "layer": 1,
     "controls": [
+      { 
+        "close_button@pause_4jd.help_main_panel_list_toggle": {
+          "size": [ 24, 24 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ],
+          "$button_text": "<",
+
+          "$unchecked_control": "common_buttons_4jd.black_button_default",
+          "$checked_control": "common_buttons_4jd.black_button_default",
+          "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+          "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+          "bindings": [
+            {
+              "binding_name": "#close_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "permission_button@player_list_4jd.permission_button": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 34 ],
+          "size": [ 24, 24 ],
+          "$button_text": "O",
+          "sound_name": "ui.press",
+          "locked_control": "locked",
+          "controls": [
+            { "default@common_buttons_4jd.black_button_default": {} },
+            { "hover@common_buttons_4jd.black_button_hover": {} },
+            { "pressed@common_buttons_4jd.black_button_pressed": {} },
+            { "locked@common_buttons_4jd.black_button_locked": {} }
+          ],
+          "bindings": [
+            {
+              "binding_type": "collection_details",
+              "binding_collection_name": "players_collection"
+            },
+            {
+              "binding_name": "#close_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
       {
         "normal_list_panel": {
           "type": "panel",

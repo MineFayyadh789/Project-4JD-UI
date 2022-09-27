@@ -140,7 +140,7 @@
   "hud_tip_text@common_4jd.global_label": {
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
-    "offset": [ 0, -68 ],
+    "offset": [ 0, -80 ], //-63.5
     "text_alignment": "center",
     "layer": 31,
     "line_padding": 2,
@@ -198,7 +198,7 @@
   "hud_actionbar_text@common_4jd.global_label": {
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
-    "offset": [ 0, -68 ],
+    "offset": [ 0, -80 ], //-63.5
     "text_alignment": "center",
     "layer": 31,
     "line_padding": 2,
@@ -207,21 +207,7 @@
     "shadow": false,
     "alpha": "@hud_item_text_4jd.anim_item_name_text_alpha_in",
     "$wait_duration": 1,
-    "$destroy_id": "hud_actionbar_text",
-    "controls": [
-      {
-        "item_text_background": {
-          "type": "image",
-          "size": [ "100% + 12px", "100% + 5px" ],
-          "anchor_from": "top_middle",
-          "anchor_to": "top_middle",
-          "offset": [ 0, -3 ],
-          "layer": -1,
-          "texture": "textures/ui4jd/hud/hud_tip_text_background",
-          "alpha": "@hud_item_text_4jd.anim_item_name_text_alpha_in"
-        }
-      }
-    ]
+    "$destroy_id": "hud_actionbar_text"
   },
 
   /* Main Item Name Text and Jukebox */
@@ -242,7 +228,7 @@
   },
 
   "item_name_text@hud_item_text_4jd.item_name_text_root": {
-    "offset": [ 0, -26 ]
+    "offset": [ 0, -36.5 ]
   },
 
   "item_name_text_root": {
@@ -324,38 +310,35 @@
               }
             },
             {
-              "interact_padding@common.empty_panel": {
-                "visible": "$show_interact_padding",
-                "size": [ "100%sm", 18 ],
-                "bindings": [
-                  {
-                    "binding_name": "#interact_visible",
-                    "binding_name_override": "#visible",
-                    "binding_condition": "always"
-
-                  }
-                ]
-              }
-            },
-            {
               "survival_buffer@common.empty_panel": {
-                "visible": false,
-                "size": [ "100%sm", 14 ],
+                "size": [ "100%sm", "100%c" ],
+                "controls": [
+                  {
+                    "survival_buffer@common.empty_panel": {
+                      "size": [ "100%sm", 18 ],
+                      "bindings": [
+                        {
+                          "binding_name": "#is_riding",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ],
                 "bindings": [
                   {
-                    "binding_name": "#is_not_creative_mode",
+                    "binding_name": "#is_creative_mode",
                     "binding_name_override": "#visible"
                   }
                 ]
               }
             },
             {
-              "armor_buffer@common.empty_panel": {
-                "visible": false,
-                "size": [ "100%sm", 10 ],
+              "survival_buffer@common.empty_panel": {
+                "size": [ "100%sm", 18 ],
                 "bindings": [
                   {
-                    "binding_name": "#is_in_classic_ui_mode_with_visible_armor",
+                    "binding_name": "#show_survival_ui",
                     "binding_name_override": "#visible"
                   }
                 ]
@@ -437,7 +420,7 @@
   "legacy_jukebox_text_label@common_4jd.global_label": {
     "anchor_from": "bottom_middle",
     "anchor_to": "bottom_middle",
-    "offset": [ 0, -68 ],
+    "offset": [ 0, -63.5 ],
     "text_alignment": "center",
     "layer": 31,
     "line_padding": 2,

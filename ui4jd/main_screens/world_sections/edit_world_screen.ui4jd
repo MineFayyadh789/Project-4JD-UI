@@ -352,6 +352,7 @@
             }
           ],
           "controls": [
+            { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
             { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
             { "main_panel@edit_world_4jd.main_panel": { } }
           ]

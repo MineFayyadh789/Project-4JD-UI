@@ -104,6 +104,34 @@
     "offset": [ 0, 125 ],
     "size": [ 225, "100%c" ],
     "controls": [
+      {
+        "top_panel": {
+          "type": "panel",
+          "size": [ "100%", 0 ],
+          "controls": [
+            { 
+              "close_button@pause_4jd.main_panel_list_toggle": {
+                "size": [ 24, 24 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -32, 8 ],
+                "$button_text": "<",
+      
+                "$unchecked_control": "common_buttons_4jd.black_button_default",
+                "$checked_control": "common_buttons_4jd.black_button_default",
+                "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+                "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+                "bindings": [
+                  {
+                    "binding_name": "#close_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
       { "button_0@start_4jd.stacked_row": { "controls": [ { "profile_button@pause_4jd.profile_button": { } } ] } },
       { "button_1@start_4jd.stacked_row": { "controls": [ { "feedback_button@pause_4jd.feedback_button": { } } ] } },
       { "button_2@start_4jd.stacked_row": { "controls": [ { "settings_button@start_4jd.settings_button": { } } ] } },
@@ -133,8 +161,7 @@
     "$pressed_button_name": "button.menu_continue",
     "$button_text": "pauseScreen.back",
     "$button_focus_precedence": 1,
-    "focus_change_up": "button.menu_quit",
-    "$focus_override_right": "change_skin_button"
+    "focus_change_up": "button.menu_quit"
   },
 
   "store_button@start_4jd.main_button": {
@@ -153,7 +180,6 @@
   "quit_button@start_4jd.main_button": {
     "$pressed_button_name": "button.menu_quit",
     "focus_change_down": "button.menu_continue",
-    "$focus_override_right": "change_skin_button",
     "$button_text": "menu.returnToMenu"
   },
 
@@ -235,9 +261,7 @@
                         },
                         { 
                           "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                            "bindings": [ ],
-                            "$icon_description_bind": "gui.back",
-                            "$desc_panel_content": "pause_4jd.main_panel_list_toggle"
+                            "$icon_description_bind": "gui.back"
                           }
                         }
                       ]
@@ -288,16 +312,12 @@
                         },
                         { 
                           "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                            "bindings": [ ],
-                            "$icon_description_bind": "gui.back",
-                            "$desc_panel_content": "pause_4jd.help_main_panel_list_toggle"
+                            "$icon_description_bind": "gui.back"
                           }
                         },
                         { 
                           "gamepad_helper_select@common_tooltip_4jd.gamepad_helper_select": {
-                            "bindings": [ ],
-                            "$icon_description_bind": "permissions.title",
-                            "$desc_panel_content": "player_list_4jd.permission_button"
+                            "$icon_description_bind": "permissions.title"
                           }
                         }
                       ]
@@ -329,6 +349,7 @@
         "main_panel": {
           "type": "panel",
           "controls": [
+            { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
             { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
             { "main_buttons@pause_4jd.main_buttons": { } }
           ],
@@ -358,6 +379,15 @@
                   }
                 ],
                 "controls": [
+                  { 
+                    "close_button@pause_4jd.main_panel_list_toggle": {
+                      "size": [ 1, 1 ],
+                      "offset": [ 0, 0 ],
+                      "anchor_from": "bottom_left",
+                      "anchor_to": "bottom_left",
+                      "$toggle_focus_enabled": false
+                    }
+                  },
                   { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
                   { "help_and_options_buttons@pause_4jd.help_and_options_buttons": { } }
                 ]
@@ -375,6 +405,24 @@
                   }
                 ],
                 "controls": [
+                  { 
+                    "close_button@pause_4jd.help_main_panel_list_toggle": {
+                      "size": [ 1, 1 ],
+                      "offset": [ 0, 0 ],
+                      "anchor_from": "bottom_left",
+                      "anchor_to": "bottom_left",
+                      "$toggle_focus_enabled": false
+                    }
+                  },
+                  {
+                    "permission_button@player_list_4jd.permission_button": {
+                      "size": [ 1, 1 ],
+                      "offset": [ 0, -1 ],
+                      "anchor_from": "bottom_left",
+                      "anchor_to": "bottom_left",
+                      "$toggle_focus_enabled": false
+                    }
+                  },
                   { "player_list_panel@player_list_4jd.player_list_panel": { } }
                 ]
               }

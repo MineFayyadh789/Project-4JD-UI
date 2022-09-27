@@ -1,7 +1,6 @@
 {
   "debug_screen": {
     "screen_draws_last": false,
-    "$screen_bg_content": "common.empty_panel",
-    "$4jd_full_screen_content": "global_debug_screen_4jd.content_bg_panel"
+    "$screen_bg_content": "global_debug_screen_4jd.content_bg_panel"
   }
 }

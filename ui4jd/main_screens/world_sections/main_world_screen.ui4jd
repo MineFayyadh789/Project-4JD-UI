@@ -381,8 +381,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "inventory_4jd.close_button"
+                "$icon_description_bind": "gui.back"
               }
             }
           ]
@@ -414,7 +413,7 @@
             { "gamepad_helper_left_bumper@common_tooltip_4jd.gamepad_helper_left_bumper": { "$hide_icon_separator": false, "$icon_description_bind": "" } },
             { "gamepad_helper_right_bumper@common_tooltip_4jd.gamepad_helper_right_bumper": { "$hide_icon_separator": false,  "$icon_description_bind": "createWorldScreen.worldOptions" } },
             { "gamepad_helper_left_trigger@common_tooltip_4jd.gamepad_helper_left_trigger": { "$hide_icon_separator": false, "$icon_description_bind": "" } },
-            { "gamepad_helper_right_trigger@common_tooltip_4jd.gamepad_helper_right_trigger": { "$hide_icon_separator": false,  "$icon_description_bind": "Scroll" } }
+            { "gamepad_helper_right_trigger@common_tooltip_4jd.gamepad_helper_right_trigger": { "$hide_icon_separator": false,  "$icon_description_bind": "4jd.controller.buttonTip.page" } }
           ]
         }
       },

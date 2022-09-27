@@ -2,15 +2,15 @@
   "format_version": 2,
   "header": {
     "description": "A museum/adaptation resource pack about Legacy Console UI. UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
-    "name": "VDX: 4JD UI v1.0.0 Beta 2",
-    "uuid": "598cc6ad-6d59-4b2a-8abe-24eee330e624",
+    "name": "VDX: 4JD UI v1.0.0 Beta 3",
+    "uuid": "2213e0fb-e39e-4cb5-b72b-f9e1b9a6c958",
     "version": [1, 0, 0],
     "min_engine_version": [1, 19, 30]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "66dfac7c-1a9d-4357-b2d1-c9d81108c2f1",
+      "uuid": "4e2f3ad3-2e30-46b7-bed2-6a8eba1ab918",
       "version": [1, 0, 0]
     }
   ],

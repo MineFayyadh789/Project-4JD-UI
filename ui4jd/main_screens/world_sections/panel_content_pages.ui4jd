@@ -53,6 +53,7 @@
   "page_tab@common_toggles_4jd.toggle_panel": {
     "size": [ 16, 11 ],
     "layer": 4,
+    "$toggle_focus_enabled": false,
     "$is_custom_button": true,
     "$custom_to_button_id": "button.menu_select",
     "$custom_toggle_sound_name": "ui.scroll"

@@ -46,13 +46,6 @@
           "disable_anim_fast_forward": true,
           "layer": 2
         }
-      },
-      { 
-        "gamma_fix@common_4jd.gamma_fix": {
-          //"ignored": "$is_console_aspects",
-          "anims": "unset",
-          "animation_reset_name": "screen_animation_reset"
-        }
       }
     ]
   }

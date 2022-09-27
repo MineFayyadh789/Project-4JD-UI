@@ -6,7 +6,7 @@
   "panorama_scroll": {
     "anim_type": "offset",
     "easing": "linear",
-    "duration": 150,
+    "duration": 136,
     "from": "$panorama_start",
     "to": "$panorama_end",
     "$panorama_start|default": [ 0, 0 ],

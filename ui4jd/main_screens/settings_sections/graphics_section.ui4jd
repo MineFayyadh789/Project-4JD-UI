@@ -12,6 +12,34 @@
           "size": [ 231, "100%c" ],
           "controls": [
             {
+              "top_panel": {
+                "type": "panel",
+                "size": [ "100%", 0 ],
+                "controls": [
+                  { 
+                    "close_button@settings_4jd.back_button": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "size": [ 24, 24 ],
+                      "offset": [ -40, 0 ],
+                      "$button_text": "<",
+            
+                      "$unchecked_control": "common_buttons_4jd.black_button_default",
+                      "$checked_control": "common_buttons_4jd.black_button_default",
+                      "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+                      "bindings": [
+                        {
+                          "binding_name": "#close_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
               "fullscreen_toggle@settings_common_4jd.option_toggle": {
                 "$show_fullscreen_toggle|default": true,
                 "visible": "($show_fullscreen_toggle and not $is_holographic)",
@@ -47,6 +75,21 @@
                 "$option_binding_name": "#smooth_lighting",
                 "$option_enabled_binding_name": "#smooth_lighting_enabled",
                 "$toggle_name": "smooth_lighting"
+              }
+            },
+            {
+              "fov_slider@settings_common_4jd.option_slider": {
+                "$ignored": "($is_holographic and $is_reality_mode and not $is_pregame)",
+                "$option_label": "#field_of_view_slider_label",
+                "$slider_tts_text_value": "#field_of_view_text_value",
+                "$slider_name": "field_of_view",
+                "$slider_value_binding_name": "#field_of_view",
+                "$option_enabled_binding_name": "#field_of_view_enabled",
+                "$label_bindings": [
+                  {
+                    "binding_name": "$option_label"
+                  }
+                ]
               }
             },
             {
@@ -199,9 +242,7 @@
       { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
       { 
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-          "bindings": [ ],
-          "$icon_description_bind": "gui.back",
-          "$desc_panel_content": "settings_4jd.back_button"
+          "$icon_description_bind": "gui.back"
         }
       }
     ],
@@ -226,6 +267,15 @@
       }
     ],
     "controls": [
+      { 
+        "close_button@settings_4jd.back_button": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "$toggle_focus_enabled": false
+        }
+      },
       //{ "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
       { "main_panel@graphics_4jd.main_panel": { } }
     ]

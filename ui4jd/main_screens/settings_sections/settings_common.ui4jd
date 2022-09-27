@@ -259,7 +259,6 @@
                   {
                     "option_label_locked@common_4jd.global_label": {
                       "layer": 10,
-                      "alpha": 0.5,
                       "text": "$option_label",
                       "color": "$main_menu_button_locked_color",
                       "bindings": [

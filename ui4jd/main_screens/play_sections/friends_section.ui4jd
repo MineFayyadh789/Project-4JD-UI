@@ -299,13 +299,18 @@
     "offset": [ 7, 7 ],
     "controls": [
       {
-        "scrolling_panel@play.scrolling_offsets": {
+        "scrolling_panel@common_scroll_4jd.scrolling_panel": {
           "size": [ "100% -14px", "100% - 32px" ],
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 7, 8 ],
           "layer": 6,
-          "$scrolling_content": "friends_4jd.friends_stack_panel"
+          "$scrolling_content": "friends_4jd.friends_stack_panel",
+          "$scroll_bar_contained": false,
+          "$scroll_size": [ 16, "100%" ],
+          "$scroll_view_port_size": [ "100%", "100%" ],
+          "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+          "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
         }
       }
     ]

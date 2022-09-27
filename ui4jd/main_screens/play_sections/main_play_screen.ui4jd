@@ -64,6 +64,7 @@
     "$checked_control": "play_4jd.tab_front",
     "$checked_hover_control": "play_4jd.tab_front",
     "$custom_toggle_sound_name": "ui.focus",
+    "$toggle_focus_enabled": false,
 
     "size": [ 100, 25 ],
     "$toggle_name": "navigation_tab"
@@ -179,8 +180,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "inventory_4jd.close_button"
+                "$icon_description_bind": "gui.back"
               }
             }
           ]
@@ -192,7 +192,17 @@
   "full_screen": {
     "type": "panel",
     "controls": [
-      { "play_panel@play_4jd.play_panel": { } }
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      { "play_panel@play_4jd.play_panel": { } },
+      {
+        "popup_dialog_factory": {
+          "type": "factory",
+          "control_ids": {
+            "join_by_code": "@play.popup_dialog_join_by_code",
+            "high_ping_warning": "@play.popup_dialog_high_ping"
+          }
+        }
+      }
     ]
   }
 }

@@ -98,6 +98,21 @@
     "offset": [ 0, 125 ],
     "size": [ 225, "100%c" ],
     "controls": [
+      {
+        "top_panel": {
+          "type": "panel",
+          "size": [ "100%", 0 ],
+          "controls": [
+            { 
+              "close_button@inventory_buttons_4jd.close_button": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -32, 8 ]
+              }
+            }
+          ]
+        }
+      },
       { "button_0@start_4jd.stacked_row": { "controls": [ { "game_button@settings_4jd.game_button": { } } ] } },
       { "button_1@start_4jd.stacked_row": { "controls": [ { "audio_button@settings_4jd.audio_button": { } } ] } },
       { "button_2@start_4jd.stacked_row": { "controls": [ { "graphics_button@settings_4jd.graphics_button": { } } ] } },
@@ -120,13 +135,7 @@
           "size": [ "100%", 16 ],
           "controls": [
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
-            { 
-              "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "bindings": [ ],
-                "$icon_description_bind": "gui.back",
-                "$desc_panel_content": "inventory_4jd.close_button"
-              }
-            }
+            { "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": { } }
           ]
         }
       },
@@ -147,6 +156,7 @@
         "main_panel@settings_4jd.main_screen": {
           "type": "panel",
           "controls": [
+            { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
             { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
             { "main_buttons@settings_4jd.main_buttons": { } }
           ]

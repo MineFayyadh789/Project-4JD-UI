@@ -179,7 +179,7 @@
         "bottom_padding": {
           "ignored": "$touch",
           "type": "panel",
-          "size": [ 1, 107 ]
+          "size": [ 1, 85 ]
         }
       },
       {
@@ -188,7 +188,7 @@
           "type": "panel",
           "size": [ 1, "fill" ]
         }
-      }/* ,
+      },
       {
         "tooltip_padding": {
           "type": "panel",
@@ -200,7 +200,7 @@
             }
           ]
         }
-      } */
+      }
     ]
   },
 

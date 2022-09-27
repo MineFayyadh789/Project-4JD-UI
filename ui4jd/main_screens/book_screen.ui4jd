@@ -631,8 +631,7 @@
             { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
             { 
               "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
-                "bindings": [ ],
-                "$desc_panel_content": "inventory_4jd.close_button"
+                "bindings": [ ]
               }
             },
             {
@@ -689,6 +688,7 @@
   "full_screen": {
     "type": "panel",
     "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "book_screen_content@book_4jd.book_screen_content": { } }
     ]
   }
