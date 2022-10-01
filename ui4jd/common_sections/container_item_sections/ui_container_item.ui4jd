@@ -218,11 +218,20 @@
       {
         "item_lock_cell_image@common.item_lock_cell_image": {
           "ignored": "(not $include_item_lock_overlay)",
-          "texture": "$item_lock_cell_texture",
-          "size": "$item_lock_cell_size",
-          "$item_lock_cell_size|default": [ "100%", "100%" ],
-          "$item_lock_cell_texture|default": "textures/ui/cell_image_lock",
+          "texture": "textures/ui4jd/cell_images/cell_image_lock",
+          "$highlight_slot_size|default": "$item_renderer_size",
+          "size": "$highlight_slot_size",
           "layer": 2
+        }
+      },
+      {
+        "item_container_transfer_mode_overlay@common.item_container_transfer_mode_overlay": {
+          "ignored": "(not $pre_release))",
+          "size": "$item_renderer_size",
+          "offset": [ 1, 1 ],
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "layer": 10
         }
       }
     ]
@@ -413,11 +422,20 @@
       {
         "item_lock_cell_image@common.item_lock_cell_image": {
           "ignored": "(not $include_item_lock_overlay)",
-          "texture": "$item_lock_cell_texture",
-          "size": "$item_lock_cell_size",
-          "$item_lock_cell_size|default": [ "100%", "100%" ],
-          "$item_lock_cell_texture|default": "textures/ui/cell_image_lock",
+          "texture": "textures/ui4jd/cell_images/cell_image_lock",
+          "$highlight_slot_size|default": "$item_renderer_size",
+          "size": "$highlight_slot_size",
           "layer": 2
+        }
+      },
+      {
+        "item_container_transfer_mode_overlay@common.item_container_transfer_mode_overlay": {
+          "ignored": "(not $pre_release))",
+          "size": "$item_renderer_size",
+          "offset": [ 1, 1 ],
+          "anchor_to": "top_left",
+          "anchor_from": "top_left",
+          "layer": 10
         }
       }
     ]

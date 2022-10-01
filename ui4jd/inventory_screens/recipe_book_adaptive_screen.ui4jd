@@ -320,7 +320,7 @@
     "$item_renderer_size": [ 21, 21 ],
     "$stack_count_font_scale_factor": 1.3,
     "$stack_count_offset": [ 0.5, 1.5 ],
-    "$include_button_ref": false
+    "$include_button_ref": true
   },
 
   "2x2_crafting_panel": {

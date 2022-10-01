@@ -809,6 +809,7 @@
           "controls": [
             { 
               "inventory_panel_small@crafting_4jd.inventory_panel_small": {
+                "$include_button_ref": false,
                 "$label_offset": [ 0, 7.5 ]
               }
             }

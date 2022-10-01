@@ -86,6 +86,7 @@
     "focus_enabled": false,
     "default_focus_precedence": 10,
     "$pressed_button_name": "button.hotbar_inventory_button",
+    "sound_name": "ui.press",
     "controls": [
       {
         "default": {
@@ -863,7 +864,6 @@
     "controls": [
       { "bottom_helpers@hud_4jd.bottom_helpers": {} },
       { "gui_elements@hud_4jd.gui_elements": { } },
-      { "vignette_rend@hud.vignette_renderer": { "layer": -10 } },
       { "cursor_rend@hud.cursor_renderer": {} },
       { "mob_effects_renderer@hud.mob_effects_renderer": { "size": [ "100%", "75%" ], "offset": [ 0, 24 ], "anchor_from": "center", "anchor_to": "center" } },
       { "sidebar@scoreboard.scoreboard_sidebar": {} },

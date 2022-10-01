@@ -63,5 +63,5 @@ At the moment this is designated for use by controller. You can use bumpers to s
 #### Credits ####
 
 - Main project by: @CrisXolt
-- Panorama BG and UI SFX by: @agentms_ (AgentMindStorm)
+- Panorama BG, UI SFX and some resources by: @agentms_ (AgentMindStorm)
 - Custom item durability bar explanation and gamma color concept by @LukasPAH

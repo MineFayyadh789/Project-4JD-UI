@@ -1,5 +1,380 @@
 {
   "namespace": "controls_4jd",
+
+  ////*/ Touch Sections /*////
+
+  "touch_stack_panel_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%-1px", "100%c" ],
+    "controls": [
+      {
+        "reset_button@common_buttons_4jd.main_button": {
+          "size": [ "100%", 20 ],
+          "$pressed_button_name": "button.reset_touch_bindings",
+          "$button_text": "controllerLayoutScreen.resetAllBindings"
+        }
+      },
+      { "padding_0": { "type": "panel", "size": [ "100%", 1.5 ] } },
+      {
+        "option_enable_new_touch_control_schemes_button@settings_common_4jd.option_toggle": {
+          "$option_label": "options.enableNewTouchControlSchemes",
+          "$option_binding_name": "#enable_new_touch_control_schemes",
+          "$option_enabled_binding_name": "#enable_new_touch_control_schemes_enabled",
+          "$toggle_name": "enable_new_touch_control_schemes",
+          "bindings": [
+            {
+              "binding_name": "#new_touch_control_schemes_preview_enabled",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "interaction_model_dropdown@settings_common_4jd.option_dropdown": {
+          "$option_label": "options.interactionmodel",
+          "$dropdown_content": "controls_section.interaction_model_dropdown_content",
+          "$dropdown_area": "content_area",
+          "$dropdown_name": "interaction_model_dropdown",
+          "$option_enabled_binding_name": "#intereaction_model_dropdown_enabled",
+          "$options_dropdown_toggle_label_binding": "#interaction_model_dropdown_toggle_label",
+          "$dropdown_scroll_content_size": [ "100%", "200%" ],
+          "bindings": [
+            {
+              "binding_name": "#new_touch_control_schemes_settings",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { 
+        "padding_1": {
+          "type": "panel",
+          "size": [ "100%", 1.5 ],
+          "bindings": [
+            {
+              "binding_name": "#new_touch_control_schemes_settings",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_show_action_button@settings_common_4jd.option_toggle": {
+          "$option_label": "options.showActionButton",
+          "$option_binding_name": "#show_action_button",
+          "$option_enabled_binding_name": "#show_action_button_enabled",
+          "$toggle_name": "show_action_button",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2_crosshair_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "modify_control_layout_button@common_buttons_4jd.main_button": {
+          "size": [ "100%", 20 ],
+          "$pressed_button_name": "button.modify_control_layout",
+          "$button_text": "Modify Control Layout",
+          "$focus_override_down": "FOCUS_OVERRIDE_STOP",
+          "bindings": [
+            {
+              "binding_name": "#resizable_ui",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      { 
+        "padding_2": {
+          "type": "panel",
+          "size": [ "100%", 1.5 ],
+          "bindings": [
+            {
+              "binding_name": "#resizable_ui",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_invert_y@settings_common_4jd.option_toggle": {
+          "$option_label": "options.invertYAxis",
+          "$option_binding_name": "#touch_invert_y_axis",
+          "$option_enabled_binding_name": "#touch_invert_y_axis_enabled",
+          "$toggle_name": "touch_invert_y_axis"
+        }
+      },
+      {
+        "option_toggle_toggle_crouch@settings_common_4jd.option_toggle": {
+          "$option_label": "options.toggleCrouch",
+          "$option_binding_name": "#touch_toggle_crouch",
+          "$option_enabled_binding_name": "#touch_toggle_crouch_enabled",
+          "$toggle_name": "touch_toggle_crouch",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_bool_sprint_on_movement@settings_common_4jd.option_toggle": {
+          "$option_label": "options.sprintOnMovement",
+          "$option_binding_name": "#sprint_on_movement",
+          "$option_enabled_binding_name": "#sprint_on_movement_enabled",
+          "$toggle_name": "sprint_on_movement",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_always_highlight_hovering_box_in_crosshair@settings_common_4jd.option_toggle": {
+          "$option_label": "options.alwaysHighlightHoveringBoxInCrosshair",
+          "$option_binding_name": "#always_highlight_hovering_box_in_crosshair",
+          "$option_enabled_binding_name": "#always_highlight_hovering_box_in_crosshair_enabled",
+          "$toggle_name": "always_highlight_hovering_box_in_crosshair",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2_crosshair_mode",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_static_joystick@settings_common_4jd.option_toggle": {
+          "$option_label": "options.staticjoystick",
+          "$option_binding_name": "#static_joystick",
+          "$option_enabled_binding_name": "#static_joystick_enabled",
+          "$toggle_name": "static_joystick",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_move_stick_visible@settings_common_4jd.option_toggle": {
+          "$option_label": "options.joystickMoveVisible",
+          "$option_binding_name": "#move_stick_visible",
+          "$option_enabled_binding_name": "#move_stick_visible_enabled",
+          "$toggle_name": "move_stick_visible",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_default_move_stick_visible@settings_common_4jd.option_toggle": {
+          "$option_label": "options.defaultJoystickMoveVisible",
+          "$option_binding_name": "#default_move_stick_visible",
+          "$option_enabled_binding_name": "#default_move_stick_visible_enabled",
+          "$toggle_name": "default_move_stick_visible",
+          "bindings": [
+            {
+              "binding_name": "#touch_controls_v2",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_slider_thumbstick_opacity@settings_common_4jd.option_slider": {
+          "$option_label": "#thumbstick_opacity_slider_label",
+          "$slider_name": "thumbstick_opacity",
+          "$slider_value_binding_name": "#thumbstick_opacity",
+          "$slider_tts_text_value": "#thumbstick_opacity_text_value",
+          "$option_enabled_binding_name": "#thumbstick_opacity_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#is_thumbstick_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_destroy_vibration@settings_common_4jd.option_toggle": {
+          "$option_label": "options.destroyvibration",
+          "$option_binding_name": "#touch_vibration",
+          "$option_enabled_binding_name": "#touch_vibration_enabled",
+          "$toggle_name": "touch_vibration"
+        }
+      },
+      {
+        "option_toggle_use_touchpad@settings_common_4jd.option_toggle": {
+          "$option_label": "options.usetouchpad",
+          "$option_binding_name": "#split_controls",
+          "$option_enabled_binding_name": "#split_controls_enabled",
+          "$toggle_name": "split_controls",
+          "bindings": [
+            {
+              "binding_name": "(not #touch_controls_v2)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "option_toggle_left_handed@settings_common_4jd.option_toggle": {
+          "$option_label": "options.lefthanded",
+          "$option_binding_name": "#left_handed",
+          "$option_enabled_binding_name": "#left_handed_enabled",
+          "$toggle_name": "left_handed"
+        }
+      },
+      {
+        "option_toggle_swap_jump_and_sneak@settings_common_4jd.option_toggle": {
+          "$option_label": "options.swapJumpAndSneak",
+          "$option_binding_name": "#swap_jump_and_sneak",
+          "$option_enabled_binding_name": "#swap_jump_and_sneak_enabled",
+          "$toggle_name": "swap_jump_and_sneak",
+          "bindings": [
+            {
+              "binding_name": "(not #touch_controls_v2)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "hotbar_only_touch_toggle@settings_common_4jd.option_toggle": {
+          "$option_label": "options.hotbarOnlyTouch",
+          "$option_binding_name": "#hotbar_only_touch",
+          "$option_enabled_binding_name": "#hotbar_only_touch_enabled",
+          "$toggle_name": "hotbar_only_touch"
+        }
+      },
+      {
+        "option_slider_1@settings_common_4jd.option_slider": {
+          "$option_label": "#button_size_slider_label",
+          "$slider_name": "button_size",
+          "$slider_value_binding_name": "#button_size",
+          "$slider_tts_text_value": "#button_size_text_value",
+          "$option_enabled_binding_name": "#button_size_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ]
+        }
+      },
+      {
+        "hotbar_scale@settings_common_4jd.option_slider": {
+          "$option_label": "#hotbar_scale_slider_label",
+          "$slider_name": "hotbar_scale",
+          "$slider_value_binding_name": "#hotbar_scale",
+          "$slider_tts_text_value": "#hotbar_scale_text_value",
+          "$option_enabled_binding_name": "#hotbar_scale_enabled",
+          "$label_bindings": [
+            {
+              "binding_name": "$option_label"
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#resizable_ui_active",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  ////*/ Keyboard and Mouse Sections /*////
+  
+  "keyboard_stack_panel_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%-1px", "100%c" ],
+    "$keymapping_collection": "keyboard_standard_collection",
+    "$grid_item_template": "controls_4jd.keymapping_item",
+    "collection_name": "$keymapping_collection",
+    "$ignore_none_text": true,
+    "controls": [
+      {
+        "reset_button@common_buttons_4jd.main_button": {
+          "size": [ "100%", 20 ],
+          "$pressed_button_name": "button.reset_keyboard_bindings",
+          "$button_text": "controllerLayoutScreen.resetAllBindings"
+        }
+      },
+      { "movement_text@controls_4jd.header_text_panel": { "$header_text": "key.categories.movement" } },
+      {
+        "option_toggle_0@settings_common_4jd.option_toggle": {
+          "size": [ "100%", 16 ],
+          "$option_label": "options.invertYAxis",
+          "$option_binding_name": "#keyboard_mouse_invert_y_axis",
+          "$option_enabled_binding_name": "#keyboard_mouse_invert_y_axis_enabled",
+          "$toggle_name": "keyboard_mouse_invert_y_axis",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        "option_toggle_5@settings_common_4jd.option_toggle": {
+          "size": [ "100%", 15.5 ],
+          "$option_label": "options.lefthanded",
+          "$option_binding_name": "#left_handed",
+          "$option_enabled_binding_name": "#left_handed_enabled",
+          "$toggle_name": "left_handed"
+        }
+      },
+      { "look_keymapping@controls_4jd.unmodified_keymapping_panel": { "$keymapping_text": "4jd.key.look", "$keymapping_value_text": "4jd.keyName.cursor" } },
+      { "strafe_left_button@controls_4jd.keymapping_item": { "collection_index": 18 } },
+      { "strafe_right_button@controls_4jd.keymapping_item": { "collection_index": 19 } },
+      { "walk_backwards_button@controls_4jd.keymapping_item": { "collection_index": 20 } },
+      { "walk_forwards_button@controls_4jd.keymapping_item": { "collection_index": 21 } },
+      { "standard_text@controls_4jd.header_text_panel": { "size": [ "100%", 28 ], "$header_text": "4jd.key.categories.standard" } },
+      { "attack_destroy_button@controls_4jd.keymapping_item": { "collection_index": 0 } },
+      { "use_place_block_button@controls_4jd.keymapping_item": { "collection_index": 2 } },
+      { "jump_button@controls_4jd.keymapping_item": { "collection_index": 15 } },
+      { "drop_item_button@controls_4jd.keymapping_item": { "collection_index": 3 } },
+      { "inventory_button@controls_4jd.keymapping_item": { "collection_index": 13 } },
+      { "hotbar_slot_1_button@controls_4jd.keymapping_item": { "collection_index": 4 } },
+      { "hotbar_slot_2_button@controls_4jd.keymapping_item": { "collection_index": 5 } },
+      { "hotbar_slot_3_button@controls_4jd.keymapping_item": { "collection_index": 6 } },
+      { "hotbar_slot_4_button@controls_4jd.keymapping_item": { "collection_index": 7 } },
+      { "hotbar_slot_5_button@controls_4jd.keymapping_item": { "collection_index": 8 } },
+      { "hotbar_slot_6_button@controls_4jd.keymapping_item": { "collection_index": 9 } },
+      { "hotbar_slot_7_button@controls_4jd.keymapping_item": { "collection_index": 10 } },
+      { "hotbar_slot_8_button@controls_4jd.keymapping_item": { "collection_index": 11 } },
+      { "hotbar_slot_9_button@controls_4jd.keymapping_item": { "collection_index": 12 } },
+      { "sneak_button@controls_4jd.keymapping_item": { "collection_index": 16 } },
+      { "sprint_button@controls_4jd.keymapping_item": { "collection_index": 17 } },
+      { "pick_block_button@controls_4jd.keymapping_item": { "collection_index": 1 } },
+      { "toggle_perspective_button@controls_4jd.keymapping_item": { "collection_index": 14 } },
+      { "misc_text@controls_4jd.header_text_panel": { "$header_text": "key.categories.misc" } },
+      { "chat_button@controls_4jd.keymapping_item": { "collection_index": 23 } },
+      { "open_command_button@controls_4jd.keymapping_item": { "collection_index": 24 } },
+      { "mob_effect_button@controls_4jd.keymapping_item": { "collection_index": 22 } },
+      { "emote_button@controls_4jd.keymapping_item": { "collection_index": 25 } },
+      { "menu_tab_left_button@controls_4jd.keymapping_item": { "collection_index": 26 } },
+      { "menu_tab_right_button@controls_4jd.keymapping_item": { "collection_index": 27, "size": [ "100%", 35.5 ] } }
+    ]
+  },
+
+  ////*/ Main Controller Sections /*////
   
   "image_binding_button_content": {
     "type": "panel",
@@ -44,6 +419,100 @@
         }
       },
       {
+        "keymapping_label_control@common_4jd.global_label": {
+          "color": "$text_color",
+          "text": "#binding_button_text",
+          "layer": 4,
+          "size": [ "default", 10 ],
+          "offset": [ -7, 5.5 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "bindings": [
+            {
+              "binding_name": "#binding_button_text",
+              "binding_type": "collection",
+              "binding_collection_name": "$keymapping_collection"
+            }
+          ],
+          "controls": [
+            {
+              "shadow@common_4jd.global_label": {
+                "size": [ "100%", "100%" ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "layer": -1,
+                "color": "black",
+                "text": "#binding_button_text",
+                "offset": [ 0.5, 0.5 ],
+                "bindings": [
+                  {
+                    "binding_name": "#binding_button_text",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$keymapping_collection"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "none_panel": {
+          "type": "panel",
+          "ignored": "$ignore_none_text",
+          "bindings": [
+            {
+              "binding_name": "#binding_button_text",
+              "binding_type": "collection",
+              "binding_collection_name": "$keymapping_collection"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#binding_button_text = '>   <'))",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "none_label@common_4jd.global_label": {
+                "color": "$text_color",
+                "text": "gui.none",
+                "layer": 4,
+                "size": [ "default", 10 ],
+                "offset": [ -7, 5.5 ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "bindings": [
+                  {
+                    "binding_name": "#binding_icon_sprite",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$keymapping_collection"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(#binding_icon_sprite = '')",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", "100%" ],
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "layer": -1,
+                      "color": "black",
+                      "text": "gui.none",
+                      "offset": [ 0.5, 0.5 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
         "base_icon_image": {
           "type": "image",
           "size": [ 26, 26 ],
@@ -65,16 +534,18 @@
     ]
   },
 
-  "gamepad_mapping_item": {
+  "keymapping_item": {
     "type": "panel",
     "layer": 1,
-    "size": [ "100%", 20 ],
+    "size": [ "100%", 21.5 ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "controls": [
       {
         "keymapping_button_0@common_buttons_4jd.main_button": {
           "size": [ "100%", 20 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
           "$pressed_button_name": "button.binding_button",
           "$button_content": "controls_4jd.image_binding_button_content",
           "bindings": [
@@ -91,6 +562,9 @@
   "unmodified_keymapping_panel": {
     "type": "panel",
     "size": [ "100%", 21.5 ],
+    "$keymapping_text": "",
+    "$keymapping_value_text": "",
+    "$keymapping_icon": "common.empty_panel",
     "controls": [
       {
         "title_panel@common_4jd.global_label": {
@@ -109,6 +583,17 @@
           "layer": 2,
           "anchor_from": "top_left",
           "anchor_to": "top_left"
+        }
+      },
+      {
+        "key_label@common_4jd.global_label": {
+          "color": "$title_text_color",
+          "text": "$keymapping_value_text",
+          "layer": 4,
+          "size": [ "default", 10 ],
+          "offset": [ -7, 5.5 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right"
         }
       },
       {
@@ -162,11 +647,10 @@
     "type": "stack_panel",
     "orientation": "vertical",
     "size": [ "100%-1px", "100%c" ],
-    "$keymapping_grid_dimension": "#gamepad_grid_dimension",
     "$keymapping_collection": "gamepad_collection",
-    "$grid_item_template": "controls_4jd.gamepad_mapping_item",
-    "$grid_dimensions": [ 1, 21 ],
-    "$grid_size": [ "100%", 420 ],
+    "$grid_item_template": "controls_4jd.keymapping_item",
+    "collection_name": "$keymapping_collection",
+    "$ignore_none_text": false,
     "controls": [
       {
         "reset_button@common_buttons_4jd.main_button": {
@@ -198,29 +682,72 @@
       { "look_keymapping@controls_4jd.unmodified_keymapping_panel": { "$keymapping_text": "4jd.key.look", "$keymapping_icon": "controls_4jd.unmodified_thumbstick_right" } },
       { "move_keymapping@controls_4jd.unmodified_keymapping_panel": { "$keymapping_text": "4jd.key.move", "$keymapping_icon": "controls_4jd.unmodified_thumbstick_left" } },
       { "standard_text@controls_4jd.header_text_panel": { "size": [ "100%", 28 ], "$header_text": "4jd.key.categories.standard" } },
-      { "attack_destroy_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 2 ] } },
-      { "use_place_block_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 3 ] } },
-      { "jump_button@controls_4jd.key_mapping_grid_panel": {} },
-      { "drop_item_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 1 ] } },
-      { "inventory_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 5 ] } },
-      { "crafting_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 4 ] } },
-      { "cycle_item_left_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 6 ] } },
-      { "cycle_item_right_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 7 ] } },
-      { "sneak_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 9 ] } },
-      { "sprint_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 10 ] } },
-      { "pick_block_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 20 ] } },
-      { "toggle_perspective_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 8 ] } },
+      { "attack_destroy_button@controls_4jd.keymapping_item": { "collection_index": 2 } },
+      { "use_place_block_button@controls_4jd.keymapping_item": { "collection_index": 3 } },
+      { "jump_button@controls_4jd.keymapping_item": { "collection_index": 0 } },
+      { "drop_item_button@controls_4jd.keymapping_item": { "collection_index": 1 } },
+      { "inventory_button@controls_4jd.keymapping_item": { "collection_index": 5 } },
+      { "crafting_button@controls_4jd.keymapping_item": { "collection_index": 4 } },
+      { "cycle_item_left_button@controls_4jd.keymapping_item": { "collection_index": 6 } },
+      { "cycle_item_right_button@controls_4jd.keymapping_item": { "collection_index": 7 } },
+      { "sneak_button@controls_4jd.keymapping_item": { "collection_index": 9 } },
+      { "sprint_button@controls_4jd.keymapping_item": { "collection_index": 10 } },
+      { "pick_block_button@controls_4jd.keymapping_item": { "collection_index": 20 } },
+      { "toggle_perspective_button@controls_4jd.keymapping_item": { "collection_index": 8 } },
       { "creative_text@controls_4jd.header_text_panel": { "$header_text": "createWorldScreen.gameMode.creative" } },
-      { "fly_up_slow_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 12 ] } },
-      { "fly_down_slow_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 11 ] } },
+      { "fly_up_slow_button@controls_4jd.keymapping_item": { "collection_index": 12 } },
+      { "fly_down_slow_button@controls_4jd.keymapping_item": { "collection_index": 11 } },
       { "misc_text@controls_4jd.header_text_panel": { "$header_text": "key.categories.misc" } },
-      { "chat_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 15 ] } },
-      { "mob_effect_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 14 ] } },
-      { "emote_button@controls_4jd.key_mapping_grid_panel": { "$grid_position": [ 0, 13 ], "size": [ "100%", 27 ] } }
+      { "chat_button@controls_4jd.keymapping_item": { "collection_index": 15 } },
+      { "mob_effect_button@controls_4jd.keymapping_item": { "collection_index": 14 } },
+      { "emote_button@controls_4jd.keymapping_item": { "collection_index": 13, "size": [ "100%", 27 ] } }
     ]
   },
   
   /*//// Screen ////*/
+
+  "all_controls_panel_content": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "no_touch_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "100%", "100%c" ],
+          "ignored": "($touch)",
+          "controls": [
+            {
+              "controller@controls_4jd.controls_stack_panel_content": {
+                "bindings": [
+                  {
+                    "binding_name": "(not #close_button_visible)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            },
+            {
+              "keyboard@controls_4jd.keyboard_stack_panel_content": {
+                "bindings": [
+                  {
+                    "binding_name": "#close_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "touch@controls_4jd.touch_stack_panel_content": {
+          "ignored": "(not $touch)"
+        }
+      }
+    ]
+  },
 
   "main_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
     "size": [ 255, 272 ],
@@ -251,7 +778,7 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 7.3, 6.5 ],
-          "$scrolling_content": "controls_4jd.controls_stack_panel_content",
+          "$scrolling_content": "controls_4jd.all_controls_panel_content",
           "$show_background": false,
           "$scroll_bar_contained": false,
           "$scroll_size": [ 16, "100%" ],

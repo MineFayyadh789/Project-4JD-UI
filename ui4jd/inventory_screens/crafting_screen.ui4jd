@@ -208,6 +208,7 @@
     "layer": 3,
 
     "$label_offset": [ 0, 10 ],
+    "$include_button_ref": true,
     "controls": [
       {
         "inventory_label@common_4jd.global_label": {
@@ -244,7 +245,6 @@
   },
 
   "grid_item_for_hotbar_small@container_item_4jd.container_item": {
-    "$include_button_ref": false,
     "size": [ 16, 16 ],
     "$cell_image_size": [ 16, 16 ],
     "$item_renderer_panel_size": [ 14, 14 ],
@@ -256,7 +256,6 @@
   },
 
   "grid_item_for_invnetory_small@container_item_4jd.container_item": {
-    "$include_button_ref": false,
     "size": [ 16, 16 ],
     "$cell_image_size": [ 16, 16 ],
     "$item_renderer_panel_size": [ 14, 14 ],

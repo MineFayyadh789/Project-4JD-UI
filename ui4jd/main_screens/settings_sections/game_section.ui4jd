@@ -326,33 +326,55 @@
                 "$options_dropdown_toggle_label_binding": "#split_screen_dropdown_toggle_label",
                 "$dropdown_scroll_content_size": [ "100%", "145%" ]
               }
-            },/* 
+            },
             {
-              "option_toggle_0@settings_common_4jd.option_toggle": {
-                "$option_label": "options.autojump",
-                "$option_binding_name": "#keyboard_mouse_autojump",
-                "$option_enabled_binding_name": "#keyboard_mouse_autojump_enabled",
-                "$toggle_name": "keyboard_mouse_autojump",
-                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              "auto_jump_panel": {
+                "type": "panel",
+                "size": [ "100%", 15 ],
+                "ignored": "$touch",
+                "controls": [
+                  {
+                    "option_toggle_0@settings_common_4jd.option_toggle": {
+                      "$option_label": "options.autojump",
+                      "$option_binding_name": "#keyboard_mouse_autojump",
+                      "$option_enabled_binding_name": "#keyboard_mouse_autojump_enabled",
+                      "$toggle_name": "keyboard_mouse_autojump",
+                      "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                      "bindings": [
+                        {
+                          "binding_name": "#close_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "option_toggle_0_alt_0@settings_common_4jd.option_toggle": {
+                      "$option_label": "options.autojump",
+                      "$option_binding_name": "#controller_autojump",
+                      "$option_enabled_binding_name": "#controller_autojump_enabled",
+                      "$toggle_name": "controller_autojump",
+                      "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                      "bindings": [
+                        {
+                          "binding_name": "(not #close_button_visible)",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
               }
-            }, */
+            },
             {
-              "option_toggle_0_alt_0@settings_common_4jd.option_toggle": {
-                "$option_label": "options.autojump",
-                "$option_binding_name": "#controller_autojump",
-                "$option_enabled_binding_name": "#controller_autojump_enabled",
-                "$toggle_name": "controller_autojump",
-                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
-              }
-            },/* 
-            {
-              "option_toggle_0_alt_1@settings_common_4jd.option_toggle": {
+              "option_toggle_0_touch@settings_common_4jd.option_toggle": {
                 "$option_label": "options.autojump",
                 "$option_binding_name": "#touch_autojump",
                 "$option_enabled_binding_name": "#touch_autojump_enabled",
-                "$toggle_name": "touch_autojump"
+                "$toggle_name": "touch_autojump",
+                "ignored": "(not $touch)"
               }
-            } */
+            },
             {
               "view_bobbing_toggle@settings_common_4jd.option_toggle": {
                 "$option_label": "options.viewBobbing",
@@ -386,6 +408,119 @@
                 "controls": [
                   { "languages_button@game_options_4jd.languages_button": { } }
                 ]
+              }
+            },
+            {
+              "game_sensitivity_panel": {
+                "type": "panel",
+                "size": [ "100%", 18 ],
+                "ignored": "$touch",
+                "controls": [
+                  {
+                    "option_slider_0@settings_common_4jd.option_slider": {
+                      "$option_label": "#keyboard_mouse_sensitivity_slider_label",
+                      "$slider_name": "keyboard_mouse_sensitivity",
+                      "$slider_value_binding_name": "#keyboard_mouse_sensitivity",
+                      "$slider_tts_text_value": "#keyboard_mouse_sensitivity_text_value",
+                      "$option_enabled_binding_name": "#keyboard_mouse_sensitivity_enabled",
+                      "$label_bindings": [ { "binding_name": "$option_label" } ],
+                      "bindings": [
+                        {
+                          "binding_name": "(not #close_button_visible)",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "option_slider_0_alt_0@settings_common_4jd.option_slider": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "$option_label": "#controller_sensitivity_slider_label",
+                      "$slider_name": "controller_sensitivity",
+                      "$slider_value_binding_name": "#controller_sensitivity",
+                      "$slider_tts_text_value": "#controller_sensitivity_text_value",
+                      "$option_enabled_binding_name": "#controller_sensitivity_enabled",
+                      "$label_bindings": [ { "binding_name": "$option_label" } ],
+                      "bindings": [
+                        {
+                          "binding_name": "#close_button_visible",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "option_slider_0_touch@settings_common_4jd.option_slider": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "$option_label": "#touch_sensitivity_slider_label",
+                "$slider_name": "touch_sensitivity",
+                "$slider_value_binding_name": "#touch_sensitivity",
+                "$option_enabled_binding_name": "#touch_sensitivity_enabled",
+                "$label_bindings": [ { "binding_name": "#touch_sensitivity_slider_label" } ],
+                "ignored": "(not $touch)"
+              }
+            },
+            {
+              "spygrass_sensitivity_panel": {
+                "type": "panel",
+                "size": [ "100%", 18 ],
+                "ignored": "$touch",
+                "controls": [
+                  {
+                    "option_slider_damen@settings_common_4jd.option_slider": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "$option_label": "#spyglass_mouse_dampening_slider_label",
+                      "$slider_name": "spyglass_mouse_dampening",
+                      "$slider_value_binding_name": "#spyglass_mouse_dampening",
+                      "$slider_tts_text_value": "#spyglass_mouse_dampening_text_value",
+                      "$option_enabled_binding_name": "#keyboard_mouse_sensitivity_enabled",
+                      "$label_bindings": [ { "binding_name": "$option_label" } ],
+                      "bindings": [
+                        {
+                          "binding_name": "(not #close_button_visible)",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "option_slider_damen_alt_0@settings_common_4jd.option_slider": {
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
+                      "$option_label": "#spyglass_gamepad_dampening_slider_label",
+                      "$slider_name": "spyglass_gamepad_dampening",
+                      "$slider_value_binding_name": "#spyglass_gamepad_dampening",
+                      "$slider_tts_text_value": "#spyglass_gamepad_dampening_text_value",
+                      "$option_enabled_binding_name": "#keyboard_mouse_sensitivity_enabled",
+                      "$label_bindings": [ { "binding_name": "$option_label" } ],
+                      "bindings": [
+                        {
+                          "binding_name": "(#close_button_visible)",
+                          "binding_name_override": "#visible"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "option_slider_damen_touch@settings_common_4jd.option_slider": {
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "$option_label": "#spyglass_touch_dampening_slider_label",
+                "$slider_name": "spyglass_touch_dampening",
+                "$slider_value_binding_name": "#spyglass_touch_dampening",
+                "$slider_tts_text_value": "#spyglass_touch_dampening_text_value",
+                "$option_enabled_binding_name": "#touch_sensitivity_enabled",
+                "$label_bindings": [ { "binding_name": "$option_label" } ],
+                "ignored": "(not $touch)"
               }
             },
             {

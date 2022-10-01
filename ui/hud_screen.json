@@ -9,59 +9,33 @@
 
   /* Making Full Hive Server Compatibility (Ignoring some UI elements that are not modified by the server) */
 
-  "player_position": {
-    "ignored": true
-  },
+  "player_position": { "ignored": true },
 
-  "chat_panel": {
-    "ignored": true
-  },
+  "chat_panel": { "ignored": true },
 
-  "left_helpers_edu": {
-    "ignored": true
-  },
+  "left_helpers_edu": { "ignored": true },
 
-  "left_helpers": {
-    "ignored": true
-  },
+  "left_helpers": { "ignored": true },
 
-  "right_helpers": {
-    "ignored": true
-  },
+  "right_helpers": { "ignored": true },
 
-  "emote_helpers": {
-    "ignored": true
-  },
+  "emote_helpers": { "ignored": true },
 
-  "centered_gui_elements": {
-    "ignored": true
-  },
+  "centered_gui_elements": { "ignored": true },
 
-  "vignette_renderer": { "layer": -10 },
+  "vignette_renderer": { "ignored": true },
 
-  "centered_gui_elements_at_bottom_middle": {
-    "ignored": true
-  },
+  "centered_gui_elements_at_bottom_middle": { "ignored": true },
 
-  "not_centered_gui_elements": {
-    "ignored": true
-  },
+  "not_centered_gui_elements": { "ignored": true },
 
-  "exp_progress_bar_and_hotbar": {
-    "ignored": true
-  },
+  "exp_progress_bar_and_hotbar": { "ignored": true },
 
-  "hud_actionbar_text": {
-    "ignored": true
-  },
+  "hud_actionbar_text": { "ignored": true },
 
-  "hud_tip_text": {
-    "ignored": true
-  },
+  "hud_tip_text": { "ignored": true },
 
-  "auto_save": {
-    "ignored": true
-  },
+  "auto_save": { "ignored": true },
 
   "hud_content": {
     "controls": [

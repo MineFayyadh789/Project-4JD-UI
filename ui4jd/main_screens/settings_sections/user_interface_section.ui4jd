@@ -83,6 +83,31 @@
               }
             },
             {
+              "hide_paperdoll_toggle@settings_common_4jd.option_toggle": {
+                "$option_label": "options.hidepaperdoll",
+                "$option_binding_name": "#hide_paperdoll",
+                "$option_enabled_binding_name": "#hide_paperdoll_enabled",
+                "$toggle_name": "hide_paperdoll"
+              }
+            },
+            {
+              "gamepad_cursor_sensitivity_option_slider@settings_common_4jd.option_slider": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "$option_label": "#gamepad_cursor_sensitivity_slider_label",
+                "$slider_name": "gamepad_cursor_sensitivity",
+                "$slider_value_binding_name": "#gamepad_cursor_sensitivity",
+                "$slider_tts_text_value": "#gamepad_cursor_sensitivity_text_value",
+                "$option_enabled_binding_name": "#gamepad_cursor_sensitivity_enabled",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$label_bindings": [
+                  {
+                    "binding_name": "$option_label"
+                  }
+                ]
+              }
+            },
+            {
               "gui_scale_slider@settings_common_4jd.option_slider": {
                 "ignored": "($is_holographic)",
                 "$option_label": "#gui_scale_slider_label",
@@ -213,7 +238,7 @@
           "$toggle_focus_enabled": false
         }
       },
-      { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
+      //{ "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
       { "main_panel@user_interface_4jd.main_panel": { } }
     ]
   }

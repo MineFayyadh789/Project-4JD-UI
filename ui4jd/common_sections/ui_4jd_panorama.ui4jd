@@ -22,6 +22,7 @@
       {
         "main_panorama": {
           "type": "image",
+          "ignored": "$is_low_memory_device", 
           "$panorama_texture|default": "textures/ui4jd/panorama/day",
           "texture": "$panorama_texture",
           "size": [ "569.444%y", "100%" ],
