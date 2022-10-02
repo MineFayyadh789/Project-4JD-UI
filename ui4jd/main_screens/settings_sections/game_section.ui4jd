@@ -113,6 +113,7 @@
                 "type": "stack_panel",
                 "orientation": "vertical",
                 "size": [ "100%", "100%c" ],
+                "ignored": "(not $is_pregame or not $is_xboxlive_enabled)",
                 "controls": [
                   { 
                     "option_text_edit_control@settings_common_4jd.option_text_edit": {

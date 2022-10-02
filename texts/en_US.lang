@@ -325,6 +325,10 @@ options.achievementsDisabled=Created in Creative Mode
 
 4jd.keyName.cursor=Cursor
 
+4jd.progressScreen.enteringOverworld=Entering The Overworld
+4jd.progressScreen.enteringNether=Entering The Nether ##3475
+4jd.progressScreen.enteringEnd=Entering The END ##3474
+
 controller.buttonTip.removeFuelInput=Remove Fuel/Ingredient
 controller.buttonTip.removeInput=Remove Ingredient
 

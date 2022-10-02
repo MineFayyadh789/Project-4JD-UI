@@ -34,6 +34,10 @@ craftingScreen.tab.nature.aspects=Naturaleza	#
 craftingScreen.tab.equipment.aspects=Equipo	#
 craftingScreen.tab.items.aspects=Objetos	#
 
+4jd.progressScreen.enteringOverworld=Entrando hacia el mundo exterior
+4jd.progressScreen.enteringNether=Entrando en el inframundo ##3475
+4jd.progressScreen.enteringEnd=Entrando a End ##3474
+
 store.startMenu.sale= 	#
 
 store.new.icon= 	#

@@ -271,12 +271,27 @@
     "layer": 4,
     "controls": [
       { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
-      { 
-        "title_text_panel@progress_4jd.title_text_panel": {
+      {
+        "loading_world_hold": {
+          "type": "panel",
           "bindings": [
             {
               "binding_name": "(not #loading_bar_visible)",
               "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            { "title_text_panel@progress_4jd.title_text_panel": { } },
+            { 
+              "modern_loading_icon@modal_progress_4jd.modern_loading_icon": {
+                "offset": [ 0, 34 ],
+                "bindings": [
+                  {
+                    "binding_name": "#bar_animation_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
             }
           ]
         }
@@ -286,28 +301,14 @@
           "type": "panel",
           "bindings": [
             {
-              "binding_name": "(not #bar_animation_visible)",
+              "binding_name": "#loading_bar_visible",
               "binding_name_override": "#visible"
             }
           ],
           "controls": [
-            { 
-              "title_text_panel@progress_4jd.title_text_panel": {
-                "$title_text": "4jd.progress.initializingServer",
-                "bindings": [
-                  {
-                    "binding_name": "#loading_bar_visible",
-                    "binding_name_override": "#visible"
-                  }
-                ]
-              }
-            },
+            { "title_text_panel@progress_4jd.title_text_panel": { "$title_text": "4jd.progress.initializingServer" } },
             { "loading_bar_panel@progress_4jd.loading_bar_panel": { } },
-            { 
-              "text_panel@progress_4jd.text_panel": {
-                "$text_panel_label": "#progress_text"
-              }
-            }
+            { "text_panel@progress_4jd.text_panel": { "$text_panel_label": "#progress_text" } }
           ]
         }
       },
@@ -398,7 +399,8 @@
     "layer": 4,
     "controls": [
       { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
-      { "title_text_panel@progress_4jd.title_text_panel": { } },
+      { "title_text_panel@progress_4jd.title_text_panel": { "$title_text": "$dimension_title_text" } },
+      { "modern_loading_icon@modal_progress_4jd.modern_loading_icon": { "offset": [ 0, 34 ] } },
       { "popup_dialog_factory@progress.popup_dialog_factory": {} },
       { 
         "panorama_panel@common_panorama_4jd.panorama_panel": {
@@ -416,6 +418,7 @@
     "controls": [
       { "main_title@start_4jd.title_panel": { "$splash_text_visible": false } },
       { "title_text_panel@progress_4jd.title_text_panel": { } },
+      { "modern_loading_icon@modal_progress_4jd.modern_loading_icon": { "offset": [ 0, 34 ] } },
       { "popup_dialog_factory@progress.popup_dialog_factory": {} },
       { "panorama_panel@common_panorama_4jd.panorama_panel": { "ignored": "($is_pregame)" } }
     ]

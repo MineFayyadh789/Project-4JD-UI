@@ -10,18 +10,21 @@
   "overworld_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
     "$screen_bg_content": "common.empty_panel",
+    "$dimension_title_text": "4jd.progressScreen.enteringOverworld",
     "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
   "nether_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
     "$screen_bg_content": "common.empty_panel",
+    "$dimension_title_text": "4jd.progressScreen.enteringNether",
     "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
   "theend_loading_progress_screen": {
     "$screen_content": "progress_4jd.gamepad_helpers",
     "$screen_bg_content": "common.empty_panel",
+    "$dimension_title_text": "4jd.progressScreen.enteringEnd",
     "$4jd_full_screen_content": "progress_4jd.world_dimension_progress_screen_content"
   },
 
@@ -41,5 +44,11 @@
     "$screen_content": "progress_4jd.gamepad_helpers",
     "$screen_bg_content": "common.empty_panel",
     "$4jd_full_screen_content": "progress_4jd.world_realms_progress_screen_content"
+  },
+
+  "modal_progress_screen": {
+    "$screen_content": "common.empty_panel",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "modal_progress_4jd.modal_progress_screen_content"
   }
 }

@@ -57,7 +57,8 @@
           "$stack_count_font_scale_factor": 1.5,
           "$stack_count_offset": [ -0.5, 2 ],
 
-          "$button_ref": "crafting.creative_hotbar_container_slot_button"
+          "$button_ref": "creative_adaptive_4jd.creative_hotbar_container_slot_button",
+          "$auto_place_mode_button_name": "button.container_auto_destroy"
         }
       },
       {

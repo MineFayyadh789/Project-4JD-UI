@@ -71,9 +71,7 @@
   },
 
   "creative_hotbar_container_slot_button@creative_adaptive_4jd.inventory_container_slot_button": {
-    "$button_take_all_place_all": "button.crafting_output_primary",
-    "$button_take_half_place_one": "button.crafting_output_secondary",
-    "$button_auto_place": "button.crafting_output_tertiary"
+    "$button_auto_place": "button.container_auto_destroy"
   },
 
   "no_coalesce_container_slot_button@creative_adaptive_4jd.inventory_container_slot_button": {
@@ -139,6 +137,12 @@
     "$button_take_all_place_all": "button.recipe_select",
     "$button_take_half_place_one": "button.recipe_secondary",
     "$button_auto_place": "button.recipe_tertiary"
+  },
+
+  "output_no_coalesce_container_slot_button@creative_adaptive_4jd.no_coalesce_container_slot_button": {
+    "$button_take_all_place_all": "button.crafting_output_primary",
+    "$button_take_half_place_one": "button.crafting_output_secondary",
+    "$button_auto_place": "button.crafting_output_tertiary"
   },
 
   "tabs_panel": {
@@ -295,7 +299,8 @@
           "$stack_count_font_scale_factor": 1.5,
           "$stack_count_offset": [ -0.5, 2 ],
 
-          "$button_ref": "creative_adaptive_4jd.creative_hotbar_container_slot_button"
+          "$button_ref": "creative_adaptive_4jd.creative_hotbar_container_slot_button",
+          "$auto_place_mode_button_name": "button.container_auto_destroy"
         }
       },
       { "dialog_bg@ui_4jd_textures.dialog_bg_opaque_1_5": { "layer": 1 } }

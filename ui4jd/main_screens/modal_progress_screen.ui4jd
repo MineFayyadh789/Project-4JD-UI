@@ -1,0 +1,33 @@
+{
+  "namespace": "modal_progress_4jd",
+
+  "modern_loading_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 8,
+    "frame_step": 14,
+    "fps": 6,
+    "reversible": false,
+    "easing": "linear"
+  },
+
+  "modern_loading_icon": {
+    "type": "image",
+    "layer": 32,
+    "texture": "textures/ui4jd/progress/modern_loading_icon",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "offset": [ 0, 0 ],
+    "size": [ 75, 75 ],
+    "uv_size": [ 14, 14 ],
+    "uv": "@modal_progress_4jd.modern_loading_animation"
+  },
+
+  "modal_progress_screen_content": {
+    "type": "panel",
+    "layer": 4,
+    "controls": [
+      { "modern_loading_icon@modal_progress_4jd.modern_loading_icon": { } }
+    ]
+  }
+}

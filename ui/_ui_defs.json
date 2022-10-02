@@ -23,6 +23,7 @@
     "ui4jd/main_screens/emote_wheel_screen.ui4jd",
     "ui4jd/main_screens/global_debug_screen.ui4jd",
     "ui4jd/main_screens/in_bed_screen.ui4jd",
+    "ui4jd/main_screens/modal_progress_screen.ui4jd",
     "ui4jd/main_screens/online_safety_screen.ui4jd",
     "ui4jd/main_screens/pause_screen.ui4jd",
     "ui4jd/main_screens/player_list_screen.ui4jd",
