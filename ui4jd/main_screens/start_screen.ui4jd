@@ -279,6 +279,27 @@
 
   "exit_popup@popup_dialog.modal_input_panel": {
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
+      {
+        "close_panel@common.button": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "sound_name": "ui.back",
+          "focus_enabled": false,
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_cancel",
+              "to_button_id": "$popup_dialog_escape_button_name",
+              "mapping_type": "global"
+            }
+          ]
+        }
+      },
       {
         "main_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
           "size": [ 230, 120.5 ],
@@ -339,6 +360,10 @@
   "full_screen": {
     "type": "panel",
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       {
         "popup_dialog_factory": {
           "type": "factory",

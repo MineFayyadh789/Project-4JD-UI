@@ -157,7 +157,6 @@
   /*//// Main Buttons ////*/
 
   "return_to_game_button@start_4jd.main_button": {
-    "sound_name": "ui.back",
     "$pressed_button_name": "button.menu_continue",
     "$button_text": "pauseScreen.back",
     "$button_focus_precedence": 1,
@@ -344,6 +343,10 @@
     "type": "panel",
     "size": [ "100%", "100%" ],
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       { "bg@common.screen_background": { "layer": -10 } },
       {
         "main_panel": {

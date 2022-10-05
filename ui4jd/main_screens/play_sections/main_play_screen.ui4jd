@@ -193,6 +193,12 @@
     "type": "panel",
     "controls": [
       { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      { "controller_lb_button@inventory_buttons_4jd.controller_lb_button": { } },
+      { "controller_rb_button@inventory_buttons_4jd.controller_rb_button": { } },
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       { "play_panel@play_4jd.play_panel": { } },
       {
         "popup_dialog_factory": {

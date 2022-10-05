@@ -557,6 +557,18 @@
               }
             },
             {
+              "show_coordinates_toggle@settings_common_4jd.option_toggle": {
+                "ignored": "($is_pregame)",
+                "$tts_section_header": "createWorldScreen.worldSettings",
+                "$option_label": "createWorldScreen.showCoordinates",
+                "$option_binding_name": "#show_coordinates",
+                "$option_enabled_binding_name": "#show_coordinates_enabled",
+                "$toggle_name": "show_coordinates",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+                "$toggle_binding_condition": "always_when_visible"
+              }
+            },
+            {
               "allow_cheats_toggle@settings_common_4jd.option_toggle": {
                 "ignored": "($is_pregame)",
                 "$tts_section_header": "createWorldScreen.cheatSettings",
@@ -697,7 +709,7 @@
                 "$toggle_focus_enabled": false
               }
             },
-            { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false, "ignored": "($is_pregame)" } }
+            { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false, "ignored": true/* "($is_pregame)" */ } }
           ]
         }
       },

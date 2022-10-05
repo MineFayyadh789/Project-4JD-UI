@@ -137,6 +137,7 @@
     "size": [ 16, 16 ],
     "$icon_image": "",
     "locked_control": "locked",
+    "sound_name": "ui.press",
     "controls": [
       {
         "default@common.empty_panel": {
@@ -252,6 +253,7 @@
   /*//// Arrow Buttons ////*/
   
   "selected_pack_movement_button@common.button": {
+    "sound_name": "ui.press",
     "$pressed_button_name": "$pressed_button_name_type",
     "$enabled_binding_name": "(not #is_selected)",
     "$visible_binding_name|default": "",
@@ -421,6 +423,7 @@
   "selected_pack_minus_button@global_resources_4jd.selected_pack_movement_button": {
     "$selected_button_offset": [ 0, 0 ],
     "ignored": "(not $is_selected)",
+    "default_focus_precedence": 1,
     "$pressed_button_name": "$button.move_left",
     "$enabled_binding_name": "#can_move",
     "$selected_button_texture": "textures/ui/minus"
@@ -429,6 +432,7 @@
   "selected_pack_plus_button@global_resources_4jd.selected_pack_movement_button": {
     "$selected_button_offset": [ 0, 0 ],
     "ignored": "$is_selected",
+    "default_focus_precedence": 1,
     "$pressed_button_name": "$button.move_left",
     "$enabled_binding_name": "#can_move",
     "$selected_button_texture": "textures/ui/plus"
@@ -461,6 +465,7 @@
     "controls": [
       {
         "button@resource_packs.common_pack_button": {
+          "sound_name": "ui.press",
           "size": [ "100%-2px", 30 ],
           "offset": [ 1, 0 ],
           "anchor_from": "top_left",
@@ -491,30 +496,23 @@
         }
       },
       {
-        "selected_border@resource_packs.input_button_panel": {
-          "size": [ "100%-2px", 30 ],
-          "offset": [ 1, 0 ],
-          "anchor_from": "top_left",
-          "anchor_to": "top_left",
-          "controls": [
-            {
-              "screen_background": {
-                "type": "image",
-                "texture": "textures/ui/focus_border_white",
-                "size": [ "100%", "100%" ],
-                "color": [ 1.0, 1.0, 0.0 ]
-              }
-            }
-          ]
-        }
-      },
-      {
         "selected_pack_direction_buttons@resource_packs.input_button_panel": {
           "size": [ "100%-32px", 28 ],
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left",
           "offset": [ 30, -1 ],
           "controls": [
+            {
+              "border": {
+                "type": "image",
+                "texture": "textures/ui/focus_border_white",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "offset": [ -29, 1 ],
+                "size": [ "100%+30px", 30 ],
+                "color": [ 1.0, 1.0, 0.0 ]
+              }
+            },
             {
               "buttons_stack_panel": {
                 "type": "stack_panel",
@@ -662,6 +660,7 @@
           "controls": [
             {
               "button@common.button": {
+                "sound_name": "ui.press",
                 "$pressed_button_name": "unset",
                 "size": [ "100%-2px", 30 ],
                 "offset": [ 1, 0 ],
@@ -800,15 +799,18 @@
               }
             },
             {
-              "panel@common.scrolling_panel": {
+              "scrolling_panel@common_scroll_4jd.scrolling_panel": {
                 "size": [ 230, 150 ],
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, 21 ],
-                "$show_background": false,
+                "layer": 6,
                 "$scrolling_content": "global_resources_4jd.left_stack_panel",
-                "$scroll_size": [ "5px", "100% - 4px" ],
-                "$scroll_bar_left_padding_size": [ 1, 0 ]
+                "$scroll_bar_contained": false,
+                "$scroll_size": [ 10, "100%" ],
+                "$scroll_view_port_size": [ "100%", "100%" ],
+                "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+                "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
               }
             }
           ]
@@ -837,15 +839,18 @@
               }
             },
             {
-              "panel@common.scrolling_panel": {
+              "scrolling_panel@common_scroll_4jd.scrolling_panel": {
                 "size": [ 230, 150 ],
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, 21 ],
-                "$show_background": false,
+                "layer": 6,
                 "$scrolling_content": "global_resources_4jd.right_stack_panel",
-                "$scroll_size": [ "5px", "100% - 4px" ],
-                "$scroll_bar_left_padding_size": [ 1, 0 ]
+                "$scroll_bar_contained": false,
+                "$scroll_size": [ 10, "100%" ],
+                "$scroll_view_port_size": [ "100%", "100%" ],
+                "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+                "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
               }
             }
           ]

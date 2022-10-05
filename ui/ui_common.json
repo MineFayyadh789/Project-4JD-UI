@@ -5,7 +5,13 @@
   },
 
   "screen_panel/popup_dialog_factory": {
-    "ignored": "$ignore_main_popup_dialog"
+    "ignored": "$ignore_main_popup_dialog",
+    "control_ids": "$popup_dialog_control_ids",
+    "$popup_dialog_control_ids|default": {
+      "modal_dialog_popup": "@common_dialogs_4jd.modal_dialog_popup",
+      "storage_dependency_popup": "@storage_management_popup.storage_dependency_modal",
+      "storage_sharing_popup": "@storage_management_popup.sharing_popup_content"
+    }
   },
 
   "base_screen/loading_bars_background": {

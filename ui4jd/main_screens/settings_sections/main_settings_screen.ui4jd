@@ -151,6 +151,10 @@
     "type": "panel",
     "$education_ios": "($education_edition)",
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       { "bg@common.screen_background": { "layer": -10, "ignored": "($is_pregame)" } },
       {
         "main_panel@settings_4jd.main_screen": {

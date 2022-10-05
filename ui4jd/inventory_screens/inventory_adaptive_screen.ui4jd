@@ -428,6 +428,58 @@
     "type": "panel",
     "controls": [
       { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      {
+        "recipe_controller_buttons_base": {
+          "type": "panel",
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(#is_recipe_book_layout)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "controller_lb_button@inventory_buttons_4jd.controller_lb_button": {
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(not #is_creative_mode)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              } 
+            },
+            {
+              "controller_rb_button@inventory_buttons_4jd.controller_rb_button": {
+                "bindings": [
+                  {
+                    "binding_type": "global",
+                    "binding_name": "(not #is_creative_mode)",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              } 
+            }
+          ]
+        }
+      },
+      {
+        "creative_controller_buttons_base": {
+          "type": "panel",
+          "bindings": [
+            {
+              "binding_type": "global",
+              "binding_name": "(#is_creative_layout)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            { "controller_lb_button@inventory_buttons_4jd.controller_lb_button": { } },
+            { "controller_rb_button@inventory_buttons_4jd.controller_rb_button": { } }
+          ]
+        }
+      },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },

@@ -7,11 +7,7 @@
     "type": "panel",
     "size": [ "100%", "100%" ],
     "controls": [
-      { 
-        "panorama_panel@common_panorama_4jd.panorama_panel": {
-          "ignored": "(not $is_pregame)"
-        }
-      }
+      { "panorama_panel@common_panorama_4jd.panorama_panel": { "ignored": "(not $is_pregame)" } }
     ]
   }
 }

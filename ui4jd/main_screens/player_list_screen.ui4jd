@@ -419,6 +419,7 @@
     "anchor_from": "bottom_left",
     "anchor_to": "bottom_left",
     "focus_enabled": false,
+    "sound_name": "ui.press",
     "bindings": [
       {
         "binding_type": "collection_details",
@@ -475,7 +476,6 @@
           "offset": [ -32, 34 ],
           "size": [ 24, 24 ],
           "$button_text": "O",
-          "sound_name": "ui.press",
           "locked_control": "locked",
           "controls": [
             { "default@common_buttons_4jd.black_button_default": {} },

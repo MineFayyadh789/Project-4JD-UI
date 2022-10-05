@@ -233,6 +233,8 @@
     "type": "panel",
     "controls": [
       { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      { "controller_lb_button@inventory_buttons_4jd.controller_lb_button": { } },
+      { "controller_rb_button@inventory_buttons_4jd.controller_rb_button": { } },
       { "inventory_selected_icon_button@selected_icon_4jd.inventory_selected_icon_button": {} },
       { "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {} },
       { "gamepad_cursor_button@common_4jd.gamepad_cursor_button": { } },

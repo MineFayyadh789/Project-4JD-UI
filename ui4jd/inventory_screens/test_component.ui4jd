@@ -17,7 +17,7 @@
           "layer": 100,
           "size": [ "100%", "100%" ],
           "$scroll_view_port_size": [ "100%-25px", "100%" ],
-          "$scroll_size": [ 16, "100%" ],
+          "$scroll_size": [ 10, "100%" ],
           "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
           "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track",
           "$scrolling_content": "test_component_4jd.scroll_grid_panel",

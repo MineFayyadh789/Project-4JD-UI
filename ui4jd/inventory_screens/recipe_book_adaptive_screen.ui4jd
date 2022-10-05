@@ -453,7 +453,7 @@
     "layer": 2,
     "anchor_from": "center",
     "anchor_to": "center",
-    "size": [ 12, "100%-2px" ]
+    "size": [ "100%-4px", "100%-2px" ]
   },
 
   "recipe_scroll_box@ui_4jd_textures.recipe_scroll_box": {
@@ -714,6 +714,8 @@
                 "anchor_to": "top_middle",
                 "offset": [ 0, 10 ],
                 "size": [ "default", "default" ],
+                "max_size": [ 150, "default" ],
+                "text_alignment": "center",
                 "text": "#text",
                 "layer": 51,
                 "bindings": [

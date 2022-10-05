@@ -952,6 +952,8 @@
       }
     ],
     "controls": [
+      { "controller_lb_button@inventory_buttons_4jd.controller_lb_button": { } },
+      { "controller_rb_button@inventory_buttons_4jd.controller_rb_button": { } },
       { 
         "close_button@common_toggles_4jd.toggle_panel": {
           "size": [ 1, 1 ],

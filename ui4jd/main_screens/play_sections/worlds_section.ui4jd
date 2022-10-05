@@ -397,7 +397,7 @@
                 "layer": 6,
                 "$scrolling_content": "worlds_4jd.worlds_stack_panel",
                 "$scroll_bar_contained": false,
-                "$scroll_size": [ 16, "100%" ],
+                "$scroll_size": [ 10, "100%" ],
                 "$scroll_view_port_size": [ "100%", "100%" ],
                 "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
                 "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"

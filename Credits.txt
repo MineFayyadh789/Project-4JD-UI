@@ -2,4 +2,4 @@ Credits
 
 -Main project by: @CrisXolt
 -Panorama BG, UI SFX and some resources by: @agentms_ (AgentMindStorm)
--Custom item durability bar explanation and gamma color concept by @LukasPAH
+-Custom item durability bar explanation by @LukasPAH
