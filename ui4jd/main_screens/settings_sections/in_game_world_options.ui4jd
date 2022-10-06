@@ -81,27 +81,6 @@
         }
       },
       {
-        "option_dropdown_2@settings_common_4jd.option_dropdown_no_scroll": {
-          "$option_label": "options.difficulty",
-          "$dropdown_content": "world_section.world_difficulty_dropdown_content",
-          "$dropdown_area": "content_area",
-          "$dropdown_name": "world_difficulty_dropdown",
-          "$options_dropdown_toggle_label_binding": "#world_difficulty_dropdown_toggle_label",
-          "$option_enabled_binding_name": "#world_difficulty_dropdown_enabled",
-          "$selection_highlight_offset": [ -2, 1 ],
-          "$selection_highlight_size": [ "100%", "100% + 1px" ],
-          "$dropdown_scroll_content_size": [ "100%", "260%" ],
-          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
-        }
-      },
-      {
-        "panel_0": {
-          "type": "panel",
-          "size": [ "100%", 1 ]
-        }
-      },
-      {
         "option_dropdown_0@settings_common_4jd.option_dropdown_no_scroll": {
           "$option_label": "createWorldScreen.gameMode.default",
           "$dropdown_content": "world_section.world_game_mode_dropdown_content",
@@ -193,12 +172,12 @@
         }
       },
       {
-        "entities_drop_loot_toggle@settings_common_4jd.option_toggle": {
-          "$tts_section_header": "createWorldScreen.cheatSettings",
-          "$option_label": "createWorldScreen.entitiesdroploot",
-          "$option_binding_name": "#entities_drop_loot",
-          "$option_enabled_binding_name": "#entities_drop_loot_enabled",
-          "$toggle_name": "entities_drop_loot",
+        "mob_loot_toggle@settings_common_4jd.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.mobLoot",
+          "$option_binding_name": "#mob_loot",
+          "$option_enabled_binding_name": "#mob_loot_enabled",
+          "$toggle_name": "mob_loot",
           "$focus_override_left": "FOCUS_OVERRIDE_STOP",
           "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "$toggle_binding_condition": "always_when_visible"
@@ -223,6 +202,18 @@
           "$option_binding_name": "#natural_regeneration",
           "$option_enabled_binding_name": "#natural_regeneration_enabled",
           "$toggle_name": "natural_regeneration",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {
+        "entities_drop_loot_toggle@settings_common_4jd.option_toggle": {
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "createWorldScreen.entitiesdroploot",
+          "$option_binding_name": "#entities_drop_loot",
+          "$option_enabled_binding_name": "#entities_drop_loot_enabled",
+          "$toggle_name": "entities_drop_loot",
           "$focus_override_left": "FOCUS_OVERRIDE_STOP",
           "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "$toggle_binding_condition": "always_when_visible"
@@ -319,7 +310,7 @@
             }
           ]
         }
-      },
+      },/* 
       {
         "world_tab_pages@world_pages_panels.world_tab_pages": {
           "$prev_button_offset": [ -23, -7 ],
@@ -328,7 +319,33 @@
           "$panel_content_page_1": "in_game_world_options_4jd.in_game_world_options_stack_panel_page_1",
           "$panel_content_page_2": "in_game_world_options_4jd.in_game_world_options_stack_panel_page_2"
         } 
+      }, */
+      {
+        "scrolling_panel@common_scroll_4jd.scrolling_panel": {
+          "size": [ "100%-16px", 184 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 8, 8 ],
+          "$scrolling_content": "in_game_world_options_4jd.all_options_panel_content",
+          "$show_background": false,
+          "$scroll_bar_contained": false,
+          "$scroll_size": [ 10, "100%" ],
+          "$scroll_view_port_size": [ "100%", "100%" ],
+          "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+          "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
+        }
       }
+    ]
+  },
+
+  "all_options_panel_content": {
+    "type": "stack_panel",
+    "size": [ "100%-1px", "100%c" ],
+    "controls": [
+      { "1@in_game_world_options_4jd.in_game_world_options_stack_panel_page_1": { "size": [ "100%", "100%c" ] } },
+      { "padding_0": { "type": "panel", "size": [ "100%", 3 ] } },
+      { "2@in_game_world_options_4jd.in_game_world_options_stack_panel_page_2": { "size": [ "100%", "100%c" ] } },
+      { "padding_1": { "type": "panel", "size": [ "100%", 13 ] } }
     ]
   },
   
@@ -344,9 +361,7 @@
         "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
           "$icon_description_bind": "gui.back"
         }
-      },
-      { "gamepad_helper_left_trigger@common_tooltip_4jd.gamepad_helper_left_trigger": { "$hide_icon_separator": false, "$icon_description_bind": "" } },
-      { "gamepad_helper_right_trigger@common_tooltip_4jd.gamepad_helper_right_trigger": { "$hide_icon_separator": false,  "$icon_description_bind": "4jd.controller.buttonTip.page" } }
+      }
     ],
     "bindings": [
       {

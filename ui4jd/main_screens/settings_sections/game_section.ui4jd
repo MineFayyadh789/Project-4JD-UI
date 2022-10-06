@@ -525,6 +525,32 @@
               }
             },
             {
+              "difficulty_panel": {
+                "type": "panel",
+                "size": [ "100%", 22 ],
+                "ignored": "($is_pregame)",
+                "controls": [
+                  {
+                    "option_dropdown_2@settings_common_4jd.option_dropdown_no_scroll": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "$option_label": "options.difficulty",
+                      "$dropdown_content": "world_section.world_difficulty_dropdown_content",
+                      "$dropdown_area": "content_area",
+                      "$dropdown_name": "world_difficulty_dropdown",
+                      "$options_dropdown_toggle_label_binding": "#world_difficulty_dropdown_toggle_label",
+                      "$option_enabled_binding_name": "#world_difficulty_dropdown_enabled",
+                      "$selection_highlight_offset": [ -2, 1 ],
+                      "$selection_highlight_size": [ "100%", "100% + 1px" ],
+                      "$dropdown_scroll_content_size": [ "100%", "260%" ],
+                      "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                      "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+                    }
+                  }
+                ]
+              }
+            },
+            {
               "global_resources_panel": {
                 "type": "panel",
                 "size": [ "100%", 22 ],
