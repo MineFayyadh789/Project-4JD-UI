@@ -1,0 +1,92 @@
+{
+  "namespace": "safe_zone_4jd",
+
+  "main_content_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
+    "size": [ 230, "100%c+24px" ],
+    "layer": 200,
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ 200, "100%c" ],
+          "controls": [
+            {
+              "title_panel": {
+                "type": "panel",
+                "size": [ "100%", 21 ],
+                "controls": [
+                  {
+                    "title_panel@common_4jd.global_label": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": "$title_text_color",
+                      "text": "options.safeZone.title",
+                      "size": [ "default", 10 ],
+                      "layer": 202
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "desc_panel": {
+                "type": "panel",
+                "size": [ "100%", "100%c" ],
+                "controls": [
+                  {
+                    "desc_panel@common_4jd.global_label": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": "$title_text_color",
+                      "text": "options.safeZone.description",
+                      "size": [ "100%", "default" ],
+                      "line_padding": 2,
+                      "layer": 202
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding_0": {
+                "type": "panel",
+                "size": [ "100%", 9 ]
+              }
+            },
+            {
+              "safe_zone_slider_all@settings_common_4jd.option_slider": {
+                "layer": 10,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "enabled": true,
+                "$option_label": "#safe_zone_all_slider_label",
+                "$slider_name": "safe_zone_all",
+                "$slider_value_binding_name": "#safe_zone_all",
+                "$option_enabled_binding_name": "#safe_zone_all_enabled",
+                "$default_focus_precedence": 1,
+                "$slider_select_on_hover": true,
+                "$slider_tts_text_value": "#safe_zone_all_text_value",
+                "$label_bindings": [ { "binding_name": "#safe_zone_all_slider_label" } ]
+              }
+            },
+            {
+              "padding_1": {
+                "type": "panel",
+                "size": [ "100%", 3 ]
+              }
+            },
+            {
+              "confirm_button@common_buttons_4jd.main_button": {
+                "layer": 202,
+                "size": [ 200, 20 ],
+                "$pressed_button_name": "button.confirm_button",
+                "$button_text": "gui.confirm"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

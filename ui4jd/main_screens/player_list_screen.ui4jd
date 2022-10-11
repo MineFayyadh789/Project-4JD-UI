@@ -189,6 +189,7 @@
           "size": [ "100%", 20 ],
           "anchor_to": "top_left",
           "anchor_from": "top_left",
+          "sound_name": "ui.press",
           "$pressed_button_name": "button.player_profile_card",
           "bindings": [
             {
@@ -349,6 +350,7 @@
           "size": [ "100%", 20 ],
           "anchor_to": "top_left",
           "anchor_from": "top_left",
+          "sound_name": "ui.press",
           "$pressed_button_name": "button.player_profile_card",
           "bindings": [
             {
@@ -470,27 +472,34 @@
         }
       },
       {
-        "permission_button@player_list_4jd.permission_button": {
-          "anchor_from": "top_left",
-          "anchor_to": "top_left",
-          "offset": [ -32, 34 ],
-          "size": [ 24, 24 ],
-          "$button_text": "O",
-          "locked_control": "locked",
-          "controls": [
-            { "default@common_buttons_4jd.black_button_default": {} },
-            { "hover@common_buttons_4jd.black_button_hover": {} },
-            { "pressed@common_buttons_4jd.black_button_pressed": {} },
-            { "locked@common_buttons_4jd.black_button_locked": {} }
-          ],
+        "panel_hold": {
+          "type": "panel",
+          "property_bag": {
+            "#collection_name": "players_collection",
+            "#collection_index": 0
+          },
           "bindings": [
-            {
-              "binding_type": "collection_details",
-              "binding_collection_name": "players_collection"
-            },
             {
               "binding_name": "#close_button_visible",
               "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "permission_button@player_list_4jd.permission_button": {
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ -32, 34 ],
+                "size": [ 24, 24 ],
+                "$button_text": "O",
+                "locked_control": "locked",
+                "controls": [
+                  { "default@common_buttons_4jd.black_button_default": {} },
+                  { "hover@common_buttons_4jd.black_button_hover": {} },
+                  { "pressed@common_buttons_4jd.black_button_pressed": {} },
+                  { "locked@common_buttons_4jd.black_button_locked": {} }
+                ]
+              }
             }
           ]
         }

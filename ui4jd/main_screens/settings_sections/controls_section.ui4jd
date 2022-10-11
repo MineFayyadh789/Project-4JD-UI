@@ -403,7 +403,7 @@
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "layer": -1,
-                "color": "black",
+                "color": [ 0.0, 0.0, 0.0 ],
                 "text": "#keymapping_name",
                 "offset": [ 0.5, 0.5 ],
                 "bindings": [
@@ -441,14 +441,19 @@
                 "anchor_from": "top_left",
                 "anchor_to": "top_left",
                 "layer": -1,
-                "color": "black",
-                "text": "#binding_button_text",
+                "color": [ 0.0, 0.0, 0.0 ],
+                "text": "#text",
                 "offset": [ 0.5, 0.5 ],
                 "bindings": [
                   {
                     "binding_name": "#binding_button_text",
                     "binding_type": "collection",
                     "binding_collection_name": "$keymapping_collection"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('§r' + (#binding_button_text) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+                    "target_property_name": "#text"
                   }
                 ]
               }
@@ -501,7 +506,7 @@
                       "anchor_from": "top_left",
                       "anchor_to": "top_left",
                       "layer": -1,
-                      "color": "black",
+                      "color": [ 0.0, 0.0, 0.0 ],
                       "text": "gui.none",
                       "offset": [ 0.5, 0.5 ]
                     }
@@ -559,22 +564,121 @@
     ]
   }, 
   
-  "unmodified_keymapping_panel": {
-    "type": "panel",
+  "unmodified_keymapping_panel@common.button": {
+    "$pressed_button_name": "unset",
+    "sound_name": "ui.press",
     "size": [ "100%", 21.5 ],
     "$keymapping_text": "",
     "$keymapping_value_text": "",
     "$keymapping_icon": "common.empty_panel",
     "controls": [
       {
-        "title_panel@common_4jd.global_label": {
-          "color": "$title_text_color",
-          "text": "$keymapping_text",
-          "layer": 4,
-          "offset": [ 8, 5.5 ],
-          "size": [ "default", 10 ],
-          "anchor_from": "top_left",
-          "anchor_to": "top_left"
+        "default": {
+          "type": "panel",
+          "controls": [
+            {
+              "title_panel@common_4jd.global_label": {
+                "color": "$title_text_color",
+                "text": "$keymapping_text",
+                "layer": 4,
+                "offset": [ 8, 5.5 ],
+                "size": [ "default", 10 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            },
+            {
+              "key_label@common_4jd.global_label": {
+                "color": "$title_text_color",
+                "text": "$keymapping_value_text",
+                "layer": 4,
+                "size": [ "default", 10 ],
+                "offset": [ -7, 5.5 ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "hover": {
+          "type": "panel",
+          "controls": [
+            {
+              "title_panel@common_4jd.global_label": {
+                "color": "$main_menu_button_hover_color",
+                "text": "$keymapping_text",
+                "layer": 4,
+                "offset": [ 7.5, 5 ],
+                "size": [ "default", 10 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", 10 ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "$keymapping_text",
+                      "offset": [ 0.5, 0.5 ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "key_label@common_4jd.global_label": {
+                "color": "$main_menu_button_hover_color",
+                "text": "$keymapping_value_text",
+                "layer": 4,
+                "size": [ "default", 10 ],
+                "offset": [ -7.5, 5 ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", 10 ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "$keymapping_value_text",
+                      "offset": [ 0.5, 0.5 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "pressed": {
+          "type": "panel",
+          "controls": [
+            {
+              "title_panel@common_4jd.global_label": {
+                "color": "$title_text_color",
+                "text": "$keymapping_text",
+                "layer": 4,
+                "offset": [ 8, 5.5 ],
+                "size": [ "default", 10 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left"
+              }
+            },
+            {
+              "key_label@common_4jd.global_label": {
+                "color": "$title_text_color",
+                "text": "$keymapping_value_text",
+                "layer": 4,
+                "size": [ "default", 10 ],
+                "offset": [ -7, 5.5 ],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right"
+              }
+            }
+          ]
         }
       },
       {
@@ -583,17 +687,6 @@
           "layer": 2,
           "anchor_from": "top_left",
           "anchor_to": "top_left"
-        }
-      },
-      {
-        "key_label@common_4jd.global_label": {
-          "color": "$title_text_color",
-          "text": "$keymapping_value_text",
-          "layer": 4,
-          "size": [ "default", 10 ],
-          "offset": [ -7, 5.5 ],
-          "anchor_from": "top_right",
-          "anchor_to": "top_right"
         }
       },
       {

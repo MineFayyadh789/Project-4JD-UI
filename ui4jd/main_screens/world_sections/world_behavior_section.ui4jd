@@ -120,7 +120,7 @@
       {
         "buttons_panel": {
           "type": "panel",
-          "size": [ 520, 213 ],
+          "size": [ 435, 213 ],
           "offset": [ 0, 24 ],
           "controls": [
             { 
@@ -152,7 +152,7 @@
         }
       },
       { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
-      { "main_screen_panel@global_resources_4jd.main_screen_panel": { } }
+      { "main_screen_panel@global_resources_4jd.main_screen_panel": { "size": [ 435, 213 ] } }
     ],
     "bindings": [
       {

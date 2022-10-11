@@ -1,0 +1,178 @@
+{
+  "namespace": "pack_settings_4jd",
+
+  "pack_settings_stack_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "size": [ "100%-4px", "100%c" ],
+    "controls": [
+      {
+        "top_panel": {
+          "type": "panel",
+          "size": [ 1, 1 ]
+        }
+      },
+      {
+        "content_tiering_panel": {
+          "type": "stack_panel",
+          "size": [ "100%", "100%c" ],
+          "bindings": [
+            {
+              "binding_name": "#has_content_tiering",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "content_tier_slider@settings_common_4jd.option_slider": {
+                "$option_label": "#content_tier_label",
+                "$option_enabled_binding_name": "#has_content_tiering",
+                "$slider_select_on_hover": true,
+                "$slider_deselected_button": "button.menu_exit",
+
+                "$slider_name": "content_tier_slider",
+
+                "$slider_binding_type": "global",
+                "$slider_value_binding_name": "#content_tier_value",
+
+                "$slider_steps_binding_type": "global",
+                "$slider_steps_binding_name": "#content_tier_steps",
+
+                "$slider_enabled_binding_type": "global",
+                "$slider_enabled_binding_name": "#has_content_tiering",
+
+                "$slider_tts_text_value": "#content_tier_slider_text_value",
+                "$label_bindings": [ { "binding_name": "#content_tier_label" } ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "panel_2": {
+          "type": "panel",
+          "size": [ 310, "100%c+2px" ],
+          "bindings": [
+            {
+              "binding_name": "(not #content_tier_supported)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "incompatible_label@common_4jd.global_label": {
+                "anchor_from": "top_middle",
+                "anchor_to": "top_middle",
+                "text": "#incompatible_reason",
+                "color": "$error_text_color",
+                "size": [ "100%-8px", "default" ],
+                "bindings": [
+                  {
+                    "binding_name": "#incompatible_reason"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      { "generated_form@server_form_4jd.generated_contents": { } }
+    ]
+  },
+
+  "pack_settings_scroll_content": {
+    "type": "panel",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      { "pack_settings_stack_panel@pack_settings_4jd.pack_settings_stack_panel": { } }
+    ]
+  },
+
+  "main_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
+    "size": [ 300, 210 ],
+    "controls": [
+      { "close_button@inventory_buttons_4jd.close_button": { } },
+      {
+        "title_panel@common_4jd.global_label": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [ 0, 12 ],
+          "color": "$title_text_color",
+          "text": "#pack_settings_title",
+          "size": [ "default", 10 ],
+          "layer": 202,
+          "bindings": [
+            {
+              "binding_name": "#pack_settings_title",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "main_content@ui_4jd_textures.panel_recess": {
+          "layer": 4,
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "size": [ "100%-14px", "100%-32px" ], // [ "100%-14px", "100%-35px" ]
+          "offset": [ 7, -7 ],
+          "controls": [
+            {
+              "scrolling_panel@common_scroll_4jd.scrolling_panel": {
+                "size": [ "100% -14px", "100% - 14px" ], // [ "100% -14px", "100% - 14px" ]
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [ 7, 7 ],
+                "layer": 6,
+                "$scrolling_content": "pack_settings_4jd.pack_settings_scroll_content",
+                "$scroll_bar_contained": false,
+                "$scroll_size": [ 10, "100%" ],
+                "$scroll_view_port_size": [ "100%", "100%" ],
+                "$scroll_box_image_control": "recipe_book_adaptive_4jd.recipe_scroll_box",
+                "$scroll_track_image_control": "recipe_book_adaptive_4jd.scroll_track"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "main_screen_content": {
+    "type": "panel",
+    "controls": [
+      { "main_panel@pack_settings_4jd.main_panel": { } },
+      {
+        "main_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "size": [ "100%", 16 ],
+          "controls": [
+            { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } },
+            { 
+              "gamepad_helper_b@common_tooltip_4jd.gamepad_helper_b": {
+                "$icon_description_bind": "gui.back"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "bg_screen_content": {
+    "type": "panel",
+    "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
+      { "bg@pack_settings.background": { "layer": -10 } }
+    ]
+  }
+}

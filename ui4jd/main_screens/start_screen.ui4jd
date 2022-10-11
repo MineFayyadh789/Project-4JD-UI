@@ -68,6 +68,7 @@
       { "button_0@start_4jd.stacked_row": { "controls": [ { "profile_button@start_4jd.profile_button": { } } ] } },
       { "button_1@start_4jd.stacked_row": { "ignored": "$pre_release", "controls": [ { "release_feedback_button@start_4jd.feedback_button": { "property_bag": { "#hyperlink": "https://aka.ms/minecraftfb" } } } ] } },
       { "button_1_alt@start_4jd.stacked_row": { "ignored": "(not $pre_release)",  "controls": [ { "beta_feedback_button@start_4jd.feedback_button": { "property_bag": { "#hyperlink": "https://aka.ms/minecraftfbbeta" } } } ] } },
+      { "button_gathering@start_4jd.stacked_row": { "controls": [ { "gathering_button@start_4jd.gathering_button": { } } ], "bindings": [ { "binding_name": "#gathering_enabled", "binding_name_override": "#visible" } ] } },
       { "button_2@start_4jd.stacked_row": { "controls": [ { "settings_button@start_4jd.settings_button": { } } ] } }
     ]
   },
@@ -128,14 +129,21 @@
     "anchor_to": "top_middle",
     "size": [ 285.5, 69 ],
     "offset": [ 0, 28 ],
-    "controls": [/* 
+    "controls": [
+      { "splash_text@common_art.splash_text": { "layer": 10, "offset": [ -41, 1 ] } },
       { 
         "title_image@ui_4jd_textures.title": {
           "anchor_from": "top_middle",
           "anchor_to": "top_middle",
-          "layer": 5
+          "layer": 5/* ,
+          "bindings": [
+            {
+              "binding_name": "(#controller_right_stick_icon = '')",
+              "binding_name_override": "#visible"
+            }
+          ] */
         }
-      }, */
+      }/*, 
       { 
         "pocket@ui_4jd_textures.title_pocket_edition": {
           "anchor_from": "top_middle",
@@ -204,8 +212,7 @@
             }
           ]
         }
-      },
-      { "splash_text@common_art.splash_text": { "layer": 10, "offset": [ -41, 1 ] } }
+      }, */
     ]
   },
 
@@ -245,6 +252,40 @@
     "$button_text": "menu.options"
   },
 
+  "gathering_button@start_4jd.main_button": {
+    "$button_content": "start_4jd.gathering_button_label",
+    "$pressed_button_name": "button.gathering"
+  },
+
+  "gathering_button_label@common_4jd.global_label": {
+    "shadow": false,
+    "size": [ "default", "default" ],
+    "color": "$text_color",
+    "text": "#gathering_button_text",
+    "bindings": [
+      {
+        "binding_name": "#gathering_button_text",
+        "binding_type": "global"
+      }
+    ],
+    "controls": [
+      {
+        "shadow@common_4jd.global_label": {
+          "layer": -1,
+          "color": "black",
+          "text": "#gathering_button_text",
+          "offset": [ 0.5, 0.5 ],
+          "bindings": [
+            {
+              "binding_name": "#gathering_button_text",
+              "binding_type": "global"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "exit_button@start_4jd.main_button": {
     "$pressed_button_name": "button.menu_exit",
     "$button_text": "4jd.menu.exit"
@@ -272,6 +313,99 @@
       { "button_2@start_4jd.stacked_row": { "controls": [ { "help_and_options_toggle@start_4jd.help_and_options_toggle": { } } ] } },
       { "button_3@start_4jd.stacked_row": { "controls": [ { "store_button@start_4jd.store_button": { } } ] } },
       { "button_4@start_4jd.stacked_row": { "controls": [ { "exit_button@start_4jd.exit_button": { } } ] } }
+    ]
+  },
+  
+  /*//// Gamertag Picture and Label ////*/
+  
+  "gamertag_pic_and_label": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%c", 16 ],
+    "anchor_from": "bottom_right",
+    "anchor_to": "bottom_right",
+    "bindings": [
+      {
+        "binding_name": "(not #sign_in_visible)",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "label_panel": {
+          "type": "panel",
+          "size": [ "100%c", "100%" ],
+          "controls": [
+            {
+              "gamertag_label@common_4jd.global_label": {
+                "color": "$main_header_text_color",
+                "layer": 1,
+                "text": "#gamertag_label",
+                "size": [ "default", "100%" ],
+                "offset": [ 0, "25%" ],
+                "bindings": [
+                  {
+                    "binding_name": "#gamertag_label"
+                  }
+                ],
+                "controls": [
+                  {
+                    "shadow@common_4jd.global_label": {
+                      "size": [ "100%", "100%" ],
+                      "layer": -1,
+                      "color": "black",
+                      "text": "#gamertag_label",
+                      "offset": [ 0.5, 0.5 ],
+                      "bindings": [
+                        {
+                          "binding_name": "#gamertag_label"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "spacer": {
+          "type": "panel",
+          "size": [ 4, 0 ]
+        }
+      },
+      {
+        "gamerpic_with_border": {
+          "type": "panel",
+          "size": [ 16, 16 ],
+          "controls": [
+            {
+              "gamerpic": {
+                "type": "image",
+                "size": [ 16, 16 ],
+                "layer": 1,
+                "bindings": [
+                  {
+                    "binding_name": "#gamerpic_texture_path",
+                    "binding_name_override": "#texture"
+                  },
+                  {
+                    "binding_name": "#gamerpic_texture_location_type",
+                    "binding_name_override": "#texture_file_system"
+                  }
+                ]
+              }
+            },
+            {
+              "border_white@common.focus_border_white": {
+                "layer": 3,
+                "size": [ 16, 16 ]
+              }
+            }
+          ]
+        }
+      }
     ]
   },
   
@@ -423,6 +557,7 @@
   "center_screen": {
     "type": "panel",
     "controls": [
+      { "gamertag_pic_and_label@start_4jd.gamertag_pic_and_label": { } },
       {
         "main_panel": {
           "type": "stack_panel",

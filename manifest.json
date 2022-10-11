@@ -2,15 +2,15 @@
   "format_version": 2,
   "header": {
     "description": "A museum/adaptation resource pack about Legacy Console UI. UI design ported by @CrisXolt. Original UI design by Julie \u0022Danger\u0022 Kennedy from 4J Studios.",
-    "name": "VDX: 4JD UI v1.0.0 Beta 5",
-    "uuid": "4753e2ba-c4ea-44f0-ac81-eee9ebb80d5e",
+    "name": "VDX: 4JD UI v1.0.0 Beta 6",
+    "uuid": "95b17661-74fe-4e71-afbf-32cc1b0893ca",
     "version": [1, 0, 0],
     "min_engine_version": [1, 19, 30]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "20b3fbb6-48a4-4761-ae31-eac729fb68b1",
+      "uuid": "4ac8976d-23d7-46c1-b7f7-0c769c566ee0",
       "version": [1, 0, 0]
     }
   ],
@@ -18,7 +18,49 @@
     {
       "type": "label",
       "text": "Make sure to restart Minecraft when you change the UI type."
-    }
+    }/* ,
+    {
+      "type": "slider",
+      "text": "Test Slider",
+      "name": "test_slider",
+      "min": 1,
+      "max": 20,
+      "default": 1
+    },
+    {
+      "type": "step_slider",
+      "text": "Test Slider",
+      "name": "test_step_slider",
+      "steps": [
+        "Option 0",
+        "Option 1",
+        "Option 2"
+      ],
+      "default": 1
+    },
+    {
+      "type": "toggle",
+      "text": "Test Toggle",
+      "name": "test_toggle",
+      "default": true
+    },
+    {
+      "type": "dropdown",
+      "text": "Test Dropdown",
+      "name": "test_dropdown",
+      "options": [
+        "Option 0",
+        "Option 1",
+        "Option 2"
+      ],
+      "default": 0
+    },
+    {
+      "type": "input",
+      "text": "Test Input",
+      "name": "test_input",
+      "default": "This is bedrock edition."
+    } */
   ],
   "subpacks": [/* 
     {

@@ -1,0 +1,7 @@
+{
+  "third_party_server_screen": {
+    "$screen_content": "server_form_4jd.main_screen_content",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "server_form_4jd.bg_screen_content"
+  }
+}

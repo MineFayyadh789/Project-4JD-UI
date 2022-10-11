@@ -49,6 +49,15 @@
               }
             },
             {
+              "option_toggle_hidehand@settings_common_4jd.option_toggle": {
+                "ignored": "($is_holographic)",
+                "$option_label": "options.hidehand",
+                "$option_binding_name": "#hide_hand",
+                "$option_enabled_binding_name": "#hide_hand_enabled",
+                "$toggle_name": "hide_hand"
+              }
+            },
+            {
               "option_toggle_3@settings_common_4jd.option_toggle": {
                 //"ignored": "(not $text_to_speech_supported)",
                 "$option_label": "options.enableOpenChatMessage",

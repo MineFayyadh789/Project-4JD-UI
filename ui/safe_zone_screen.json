@@ -1,0 +1,24 @@
+{
+  "safe_zone_screen": {
+    "$is_popup_dialog_in_game": false,
+    "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      {
+        "safe_zone_bounds_markers": {
+          "type": "panel",
+          "controls": [
+            { "top_left_marker@safe_zone.corner_tl": {} },
+            { "top_right_marker@safe_zone.corner_tr": {} },
+            { "bottom_left_marker@safe_zone.corner_bl": {} },
+            { "bottom_right_marker@safe_zone.corner_br": {} }
+          ]
+        }
+      },
+      { "main_content_panel@safe_zone_4jd.main_content_panel": { } }
+    ]
+  }
+}

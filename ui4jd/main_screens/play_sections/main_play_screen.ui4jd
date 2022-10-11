@@ -3,6 +3,165 @@
 {
   "namespace": "play_4jd",
 
+  /*////// Join Realm Code Dialog //////*/
+
+  "join_by_code_popup_content@ui_4jd_textures.dialog_bg_opaque_1_5": {
+    "size": [ 230, "100%c+24px" ],
+    "layer": 200,
+    "controls": [
+      {
+        "stack_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ 200, "100%c" ],
+          "controls": [
+            {
+              "title_panel": {
+                "type": "panel",
+                "size": [ "100%", 21 ],
+                "controls": [
+                  {
+                    "title_panel@common_4jd.global_label": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": "$title_text_color",
+                      "text": "networkWorld.joinByCode",
+                      "size": [ "default", 10 ],
+                      "layer": 202
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "desc_panel": {
+                "type": "panel",
+                "size": [ "100%", "100%c" ],
+                "controls": [
+                  {
+                    "desc_panel@common_4jd.global_label": {
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "color": "$title_text_color",
+                      "text": "networkWold.joinByCodeHelpText",
+                      "size": [ "100%", "default" ],
+                      "line_padding": 2,
+                      "layer": 202
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding_0": {
+                "type": "panel",
+                "size": [ "100%", 9 ]
+              }
+            },
+            {
+              "text_edit": {
+                "type": "panel",
+                "size": [ "100%", 29 ],
+                "controls": [
+                  {
+                    "option_label@common_4jd.global_label": {
+                      "color": "$title_text_color",
+                      "text": "networkWorld.realmsHashPlaceholder",
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "offset": [ 1, 0 ],
+                      "layer": 5
+                    }
+                  },
+                  {
+                    "edit_box@common.text_edit_box": {
+                      "layer": 5,
+                      "$text_box_name": "#join_by_code_text_edit",
+                      "max_length": 11,
+            
+                      "$hover_content": "common.empty_panel",
+                      "$text_background_default": "ui_4jd_textures.text_input",
+                      "$text_background_hover": "settings_common_4jd.text_input_hover_for_settings",
+            
+                      "anchor_from": "bottom_left",
+                      "anchor_to": "bottom_left",
+                      "size": [ "100%", 18 ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "padding_1": {
+                "type": "panel",
+                "size": [ "100%", 3 ]
+              }
+            },
+            {
+              "join_button@common_buttons_4jd.main_button": {
+                "layer": 202,
+                "size": [ 200, 20 ],
+                "$pressed_button_name": "button.menu_network_join_by_code_popup_join",
+                "$button_text": "networkWorld.join"
+              }
+            },
+            {
+              "padding_2": {
+                "type": "panel",
+                "size": [ "100%", 3 ]
+              }
+            },
+            {
+              "cancel_button@common_buttons_4jd.main_button": {
+                "layer": 202,
+                "size": [ 200, 20 ],
+                "$pressed_button_name": "button.menu_network_join_by_code_close",
+                "$button_text": "gui.cancel"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "popup_dialog_join_by_code@popup_dialog.modal_input_panel": {
+    "size": [ "100%", "100%" ],
+    "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
+      {
+        "close_panel@common.button": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "sound_name": "ui.back",
+          "focus_enabled": false,
+          "button_mappings": [
+            {
+              "from_button_id": "button.menu_cancel",
+              "to_button_id": "button.menu_network_join_by_code_close",
+              "mapping_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "join_by_code_popup_background@play.join_by_code_popup_background": {
+          "layer": 0
+        }
+      },
+      {
+        "join_by_code_popup_content@play_4jd.join_by_code_popup_content": {
+          "layer": 1
+        }
+      }
+    ]
+  },
+
   /*////// TAB BUTTONS //////*/
 
   /* Tabs */
@@ -204,7 +363,7 @@
         "popup_dialog_factory": {
           "type": "factory",
           "control_ids": {
-            "join_by_code": "@play.popup_dialog_join_by_code",
+            "join_by_code": "@play_4jd.popup_dialog_join_by_code",
             "high_ping_warning": "@play.popup_dialog_high_ping"
           }
         }

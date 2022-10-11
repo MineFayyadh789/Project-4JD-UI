@@ -4,6 +4,11 @@
   "add_external_server_screen": {
     "$screen_content": "add_external_server_4jd.center_screen",
     "$screen_bg_content": "common.empty_panel",
-    "$4jd_full_screen_content": "add_external_server_4jd.full_screen"
+    "$4jd_full_screen_content": "add_external_server_4jd.full_screen",
+    "$popup_dialog_control_ids": {
+      "modal_dialog_popup": "@common_dialogs_4jd.modal_dialog_popup_short",
+      "storage_dependency_popup": "@storage_management_popup.storage_dependency_modal",
+      "storage_sharing_popup": "@storage_management_popup.sharing_popup_content"
+    }
   }
 }

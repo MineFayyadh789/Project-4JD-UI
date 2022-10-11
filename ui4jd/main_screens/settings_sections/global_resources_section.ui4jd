@@ -780,7 +780,7 @@
     "orientation": "horizontal",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ 503, 190 ],
+    "size": [ "100%-18px", 190 ],
     "offset": [ 9, 11 ],
     "controls": [
       {
@@ -800,7 +800,7 @@
             },
             {
               "scrolling_panel@common_scroll_4jd.scrolling_panel": {
-                "size": [ 230, 150 ],
+                "size": [ "100%-20px", 150 ],
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, 21 ],
@@ -840,7 +840,7 @@
             },
             {
               "scrolling_panel@common_scroll_4jd.scrolling_panel": {
-                "size": [ 230, 150 ],
+                "size": [ "100%-20px", 150 ],
                 "anchor_from": "top_middle",
                 "anchor_to": "top_middle",
                 "offset": [ 0, 21 ],
@@ -860,7 +860,6 @@
   },
 
   "main_screen_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
-    "size": [ 520, 213 ],
     "offset": [ 0, 24 ],
     "layer": 1,
     "controls": [
@@ -928,11 +927,11 @@
         }
       },
       { "title_panel@start_4jd.title_panel": { "$splash_text_visible": false } },
-      { "main_screen_panel@global_resources_4jd.main_screen_panel": { } },
+      { "main_screen_panel@global_resources_4jd.main_screen_panel": { "size": [ 435, 213 ] } },
       {
         "buttons_panel": {
           "type": "panel",
-          "size": [ 520, 213 ],
+          "size": [ 435, 213 ],
           "offset": [ 0, 24 ],
           "controls": [
             { 

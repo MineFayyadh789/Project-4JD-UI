@@ -160,11 +160,7 @@
                 "color": "$text_color",
                 "layer": 10,
                 "text": "$option_label",
-                "bindings": [
-                  {
-                    "binding_name": "$option_label"
-                  }
-                ],
+                "bindings": "$label_bindings",
                 "controls": [
                   {
                     "shadow@common_4jd.global_label": {
@@ -173,16 +169,7 @@
                       "color": "black",
                       "text": "#text",
                       "offset": [ 0.5, 0.5 ],
-                      "bindings": [
-                        {
-                          "binding_name": "$option_label"
-                        },
-                        {
-                          "binding_type": "view",
-                          "source_property_name": "('§r' + ($option_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
-                          "target_property_name": "#text"
-                        }
-                      ]
+                      "bindings": "$label_bindings_shadow"
                     }
                   }
                 ]
@@ -203,6 +190,21 @@
   "option_slider@settings_common_4jd.option_generic": {
     "size": [ "100%", 18 ],
     "$hover_content|default": "common.empty_panel",
+    "$label_bindings": [
+      {
+        "binding_name": "$option_label"
+      }
+    ],
+    "$label_bindings_shadow": [
+      {
+        "binding_name": "$option_label"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "('§r' + ($option_label) - '§1' - '§2' - '§3' - '§4' - '§5' - '§6' - '§7' - '§8' - '§9' - '§a' - '§b' - '§c' - '§d' - '§e' - '§f')",
+        "target_property_name": "#text"
+      }
+    ],
     "controls": [
       {
         "slider@common.slider": {
@@ -258,7 +260,7 @@
                 "controls": [
                   {
                     "option_label_locked@common_4jd.global_label": {
-                      "layer": 10,
+                      "layer": 4,
                       "text": "$option_label",
                       "color": "$main_menu_button_locked_color",
                       "bindings": [
@@ -308,6 +310,7 @@
     "$option_place_holder_text|default": "",
     "$max_text_edit_length|default": 30,
     "$hover_content|default": "common.empty_panel",
+    "$label_bindings": [],
     "controls": [
       {
         "option_label@common_4jd.global_label": {
@@ -316,7 +319,8 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 1, 0 ],
-          "layer": 5
+          "layer": 6,
+          "bindings": "$label_bindings"
         }
       },
       {
@@ -390,6 +394,7 @@
         "button_label@common_4jd.global_label": {
           "text": "$option_label",
           "color": "$option_label_text_color",
+          "bindings": "$label_bindings",
           "controls": [
             {
               "shadow@common_4jd.global_label": {
@@ -397,7 +402,8 @@
                 "layer": -1,
                 "color": "black",
                 "text": "$option_label",
-                "offset": [ 0.5, 0.5 ]
+                "offset": [ 0.5, 0.5 ],
+                "bindings": "$label_bindings"
               }
             }
           ]
@@ -522,6 +528,7 @@
     "$dropdown_background_control": "common.dropdown_background",
     "$option_dropdown_type": "common.dropdown",
     "$option_label|default": "",
+    "$label_bindings": [],
     "controls": [
       {
         "dropdown@$option_dropdown_type": {

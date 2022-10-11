@@ -1,0 +1,7 @@
+{
+  "screen": {
+    "$screen_content": "pack_settings_4jd.main_screen_content",
+    "$screen_bg_content": "common.empty_panel",
+    "$4jd_full_screen_content": "pack_settings_4jd.bg_screen_content"
+  }
+}
