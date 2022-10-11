@@ -765,15 +765,49 @@
       },
       {
         "option_toggle_5@settings_common_4jd.option_toggle": {
-          "size": [ "100%", 15.5 ],
+          "size": [ "100%", 16 ],
           "$option_label": "options.lefthanded",
           "$option_binding_name": "#left_handed",
           "$option_enabled_binding_name": "#left_handed_enabled",
           "$toggle_name": "left_handed"
         }
       },
+      {
+        "option_toggle_11@settings_common_4jd.option_toggle": {
+          "size": [ "100%", 16 ],
+          "$option_label": "options.clearhotbar",
+          "$option_binding_name": "#controller_clear_hotbar",
+          "$option_enabled_binding_name": "#controller_clear_hotbar_enabled",
+          "$toggle_name": "controller_clear_hotbar"
+        }
+      },
+      {
+        "gamepad_swap_ab@settings_common_4jd.option_toggle": {
+          "size": [ "100%", 16 ],
+          "$option_label": "options.swapGamepadAB",
+          "$option_binding_name": "#swap_gamepad_ab_buttons",
+          "$option_enabled_binding_name": "#swap_gamepad_ab_buttons_enabled",
+          "$toggle_name": "swap_gamepad_ab_buttons"
+        }
+      },
+      {
+        "gamepad_swap_xy@settings_common_4jd.option_toggle": {
+          "size": [ "100%", 15.5 ],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "offset": [ 0, 48 ],
+          "$option_label": "options.swapGamepadXY",
+          "$option_binding_name": "#swap_gamepad_xy_buttons",
+          "$option_enabled_binding_name": "#swap_gamepad_xy_buttons_enabled",
+          "$toggle_name": "swap_gamepad_xy_buttons"
+        }
+      },
       { "look_keymapping@controls_4jd.unmodified_keymapping_panel": { "$keymapping_text": "4jd.key.look", "$keymapping_icon": "controls_4jd.unmodified_thumbstick_right" } },
       { "move_keymapping@controls_4jd.unmodified_keymapping_panel": { "$keymapping_text": "4jd.key.move", "$keymapping_icon": "controls_4jd.unmodified_thumbstick_left" } },
+      { "strafe_left_button@controls_4jd.keymapping_item": { "collection_index": 16 } },
+      { "strafe_right_button@controls_4jd.keymapping_item": { "collection_index": 17 } },
+      { "walk_backwards_button@controls_4jd.keymapping_item": { "collection_index": 18 } },
+      { "walk_forwards_button@controls_4jd.keymapping_item": { "collection_index": 19 } },
       { "standard_text@controls_4jd.header_text_panel": { "size": [ "100%", 28 ], "$header_text": "4jd.key.categories.standard" } },
       { "attack_destroy_button@controls_4jd.keymapping_item": { "collection_index": 2 } },
       { "use_place_block_button@controls_4jd.keymapping_item": { "collection_index": 3 } },
