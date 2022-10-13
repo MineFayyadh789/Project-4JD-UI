@@ -480,6 +480,9 @@
       {
         "reset_tick_speed@common_buttons_4jd.main_button": {
           "size": [ "100%", 20 ],
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -133.5 ],
+          "$option_description_text": "4jd.createWorldScreen.tickSpeed.desc",
           "$button_text": "createWorldScreen.randomtickspeed.reset",
           "$pressed_button_name": "reset_random_tick_speed",
           "$focus_override_left": "FOCUS_OVERRIDE_STOP",
@@ -502,7 +505,7 @@
         "option_text_edit_1@settings_common_4jd.option_text_edit": {
           "$hover_content": "edit_world_optons_4jd.option_desc_text",
           "$option_description_offset": [ 237.5, -10 ],
-          "$option_description_text": "",
+          "$option_description_text": "selectWorld.enterName",
           "$option_label": "selectWorld.enterName",
           "$option_binding_name": "#world_name",
           "$option_enabled_binding_name": "#world_name_enabled",

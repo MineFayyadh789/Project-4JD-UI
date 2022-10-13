@@ -48,12 +48,14 @@
     "type": "panel",
     "size": [ "100%", "100%" ],
     "$button_content|default": "common_buttons_4jd.button_label",
+    "$hover_content|default": "common.empty_panel",
     "$default_state": false,
     "$hover_state": false,
     "$pressed_state": false,
     "$locked_state": false,
     "controls": [
       { "button_content@$button_content": { "layer": 3 } },
+      { "hover_content@$hover_content": { "layer": 10, "ignored": "(not $hover_state)" } },
       { "button_texture@$button_texture": { "layer": 1, "size": [ "100%", "100%" ] } }
     ]
   },
