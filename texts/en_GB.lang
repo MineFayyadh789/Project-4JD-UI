@@ -243,10 +243,10 @@ map.position=X: %s, Y: %s, Z: %s
 
 ##  Main Menu
 
-4jd.menu.play=Play Game ##3343
-4jd.menu.store=Minecraft Store ##1441
-4jd.menu.helpOptions=Help & Options ##1649
-4jd.menu.exit=Exit Game ##1535
+4jd.menu.play=Play Game##3343
+4jd.menu.store=Minecraft Store##1441
+4jd.menu.helpOptions=Help & Options##1649
+4jd.menu.exit=Exit Game##1535
 
 4jd.menu.exitGameWarning=Are you sure you want to exit the game?
 
@@ -255,7 +255,7 @@ selectWorld.tab.friends=Join
 selectWorld.tab.classmates=Join
 selectWorld.tab.thirdParty=Mini Games
 
-4jd.progress.initializingServer=Initializing Server ##3480
+4jd.progress.initializingServer=Initializing Server	##3480
 
 menu.beta= 
 menu.play=Play Game
@@ -295,20 +295,20 @@ options.achievementsDisabled=Created in Creative Mode
 
 4jd.craftingScreen.enableRecipe=Enable Recipe Book
 
-4jd.craftingScreen.tab.structures=Structures ##1640
-4jd.craftingScreen.tab.tools=Tools and Weapons ##1641
-4jd.craftingScreen.tab.food=Food ##1633
-4jd.craftingScreen.tab.armor=Armor ##1630
-4jd.craftingScreen.tab.mechanisms=Mechanisms ##1635
-4jd.craftingScreen.tab.transport=Transport ##1643
-4jd.craftingScreen.tab.decorations=Decorations ##1632
+4jd.craftingScreen.tab.structures=Structures	##1640
+4jd.craftingScreen.tab.tools=Tools and Weapons	##1641
+4jd.craftingScreen.tab.food=Food	##1633
+4jd.craftingScreen.tab.armor=Armor	##1630
+4jd.craftingScreen.tab.mechanisms=Mechanisms	##1635
+4jd.craftingScreen.tab.transport=Transport	##1643
+4jd.craftingScreen.tab.decorations=Decorations	##1632
 
-4jd.creativeScreen.tab.buildingBlocks=Building Blocks ##1631
-4jd.creativeScreen.tab.redstone_and_transport=Redstone & Transportation ##1639
-4jd.creativeScreen.tab.materials=Materials ##1634
-4jd.creativeScreen.tab.toolsWeaponsAndArmor=Tools, Weapons & Armor ##1642
-4jd.creativeScreen.tab.brewing=Brewing ##1637 or 1638
-4jd.creativeScreen.tab.miscellaneous=Miscellaneous ##1636
+4jd.creativeScreen.tab.buildingBlocks=Building Blocks	##1631
+4jd.creativeScreen.tab.redstone_and_transport=Redstone & Transportation	##1639
+4jd.creativeScreen.tab.materials=Materials	##1634
+4jd.creativeScreen.tab.toolsWeaponsAndArmor=Tools, Weapons & Armor	##1642
+4jd.creativeScreen.tab.brewing=Brewing	##1637 or 1638
+4jd.creativeScreen.tab.miscellaneous=Miscellaneous	##1636
 
 ##  Controls
 

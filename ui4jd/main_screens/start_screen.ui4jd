@@ -130,7 +130,30 @@
     "size": [ 285.5, 69 ],
     "offset": [ 0, 28 ],
     "controls": [
-      { "splash_text@common_art.splash_text": { "layer": 10, "offset": [ -41, 1 ] } },
+      {
+        "splash_panel": {
+          "type": "panel",
+          "size": [ 1, 1 ],
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [ 108.5, 6 ],
+          "controls": [
+            { 
+              "splash_text@common_art.splash_text": {
+                "type": "custom",
+                "renderer": "splash_text_renderer",
+                "size": [ 0.1, 0.1 ],
+                "layer": 10,
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [ 0, 0 ],
+                "$splash_text_visible|default": true,
+                "visible": "($splash_text_visible)"
+              }
+            }
+          ]
+        }
+      },
       { 
         "title_image@ui_4jd_textures.title": {
           "anchor_from": "top_middle",

@@ -158,7 +158,7 @@
 
   "return_to_game_button@start_4jd.main_button": {
     "$pressed_button_name": "button.menu_continue",
-    "$button_text": "pauseScreen.back",
+    "$button_text": "menu.returnToGame",
     "$button_focus_precedence": 1,
     "focus_change_up": "button.menu_quit"
   },
@@ -179,7 +179,7 @@
   "quit_button@start_4jd.main_button": {
     "$pressed_button_name": "button.menu_quit",
     "focus_change_down": "button.menu_continue",
-    "$button_text": "menu.returnToMenu"
+    "$button_text": "4jd.menu.exit"
   },
 
   "main_buttons": {
@@ -420,10 +420,6 @@
                   {
                     "panel_hold": {
                       "type": "panel",
-                      "property_bag": {
-                        "#collection_name": "players_collection",
-                        "#collection_index": 0
-                      },
                       "controls": [
                         {
                           "permission_button@player_list_4jd.permission_button": {

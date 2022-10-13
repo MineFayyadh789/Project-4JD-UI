@@ -265,6 +265,13 @@
     "size": [ 245, 228 ],
     "offset": [ -79, 8 ],
     "controls": [
+      { 
+        "close_button@inventory_buttons_4jd.close_button": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ]
+        }
+      },
       { "main_stack_panel@create_world_4jd.main_stack_panel": { } },
       {
         "pack_info_panel": {
@@ -426,6 +433,10 @@
     "type": "panel",
     "$education_ios": "($education_edition)",
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       {
         "main_panel": {
           "type": "panel",
@@ -450,6 +461,7 @@
             }
           ],
           "controls": [
+            { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
             { "main_panel@create_world_4jd.main_panel": { } }
           ]
         }

@@ -167,19 +167,28 @@
     "controls": [
       {
         "multiplayer_game_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, 2.5 ],
+          "$option_description_text": "4jd.createWorldScreen.onlineGame.desc",
           "$option_label": "options.multiplayergame",
           "$option_binding_name": "#multiplayer_game",
           "$option_enabled_binding_name": "#multiplayer_game_enabled",
-          "$toggle_name": "multiplayer_game"
+          "$toggle_name": "multiplayer_game",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "server_visible_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -12.5 ],
+          "$option_description_text": "4jd.createWorldScreen.visibleToLanPlayers.desc",
           "$option_label": "options.servervisible",
           "$option_binding_name": "#server_visible",
           "$option_enabled_binding_name": "#server_visibility_enabled",
           "$toggle_name": "server_visible",
-          "$focus_override_down": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "bindings": [
             {
               "binding_name": "#can_be_server_visible",
@@ -190,115 +199,137 @@
       },
       {
         "pvp_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -27.5 ],
+          "$option_description_text": "4jd.createWorldScreen.playerVsPlayer.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.pvp",
           "$option_binding_name": "#pvp",
           "$option_enabled_binding_name": "#pvp_enabled",
           "$toggle_name": "pvp",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "allow_cheats_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -42.5 ],
+          "$option_description_text": "4jd.createWorldScreen.commands.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "selectWorld.cheats",
           "$option_binding_name": "#allow_cheats",
           "$option_enabled_binding_name": "#allow_cheats_enabled",
           "$toggle_name": "allow_cheats",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "daylight_cycle_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -57.5 ],
+          "$option_description_text": "4jd.createWorldScreen.daylightCycleNormal.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.daylightcycle",
           "$option_binding_name": "#daylight_cycle",
           "$option_enabled_binding_name": "#daylight_cycle_enabled",
           "$toggle_name": "daylight_cycle",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "weather_cycle_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -72.5 ],
+          "$option_description_text": "4jd.createWorldScreen.weather.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.weathercycle",
           "$option_binding_name": "#weather_cycle",
           "$option_enabled_binding_name": "#weather_cycle_enabled",
           "$toggle_name": "weather_cycle",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "variables": [
-            {
-              "requires": "$desktop_screen",
-              "$one_line_layout": true
-            },
-            {
-              "requires": "($is_world_edit and not $is_mp_client and not $trial and $is_pregame and not $pocket_edition and not $export_disabled and not $education_ios and $file_picking_supported)",
-              "$focus_override_down": "export_world_button"
-            },
-            {
-              "requires": "($is_world_edit and not $is_mp_client and not $trial and $is_pregame and ($pocket_edition or $export_disabled or $education_ios or not $file_picking_supported))",
-              "$focus_override_down": "delete_world_button"
-            }
-          ],
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "keep_inventory_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -87.5 ],
+          "$option_description_text": "4jd.createWorldScreen.inventory.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.keepInventory",
           "$option_binding_name": "#keep_inventory",
           "$option_enabled_binding_name": "#keep_inventory_enabled",
           "$toggle_name": "keep_inventory",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "mob_spawn_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -102.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobSpawning.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.mobSpawn",
           "$option_binding_name": "#mob_spawn",
           "$option_enabled_binding_name": "#mob_spawn_enabled",
           "$toggle_name": "mob_spawn",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "mob_griefing_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -117.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobGriefing.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.mobgriefing",
           "$option_binding_name": "#mob_griefing",
           "$option_enabled_binding_name": "#mob_griefing_enabled",
           "$toggle_name": "mob_griefing",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
-        "entities_drop_loot_toggle@settings_common_4jd.option_toggle": {
-          "$tts_section_header": "createWorldScreen.cheatSettings",
-          "$option_label": "createWorldScreen.entitiesdroploot",
-          "$option_binding_name": "#entities_drop_loot",
-          "$option_enabled_binding_name": "#entities_drop_loot_enabled",
-          "$toggle_name": "entities_drop_loot",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+        "mob_loot_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -132.5 ],
+          "$option_description_text": "4jd.createWorldScreen.mobLoot.desc",
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.mobLoot",
+          "$option_binding_name": "#mob_loot",
+          "$option_enabled_binding_name": "#mob_loot_enabled",
+          "$toggle_name": "mob_loot",
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "tile_drops_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -147.5 ],
+          "$option_description_text": "4jd.createWorldScreen.tileDrops.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.tileDrops",
           "$option_binding_name": "#tile_drops",
           "$option_enabled_binding_name": "#tile_drops_enabled",
           "$toggle_name": "tile_drops",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       }
     ]
@@ -308,36 +339,62 @@
     "controls": [
       {
         "natural_regeneration_toggle@settings_common_4jd.option_toggle": {
-          "$hover_content": "create_world_optons_4jd.natural_regen_toggle_desc_text",
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, 2.5 ],
+          "$option_description_text": "4jd.createWorldScreen.naturalregeneration.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.naturalregeneration",
           "$option_binding_name": "#natural_regeneration",
           "$option_enabled_binding_name": "#natural_regeneration_enabled",
           "$toggle_name": "natural_regeneration",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+        }
+      },
+      {
+        "entities_drop_loot_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -12.5 ],
+          "$option_description_text": "4jd.createWorldScreen.entitiesDropLoot.desc",
+          "$tts_section_header": "createWorldScreen.cheatSettings",
+          "$option_label": "createWorldScreen.entitiesdroploot",
+          "$option_binding_name": "#entities_drop_loot",
+          "$option_enabled_binding_name": "#entities_drop_loot_enabled",
+          "$toggle_name": "entities_drop_loot",
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "immediate_respawn_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -27.5 ],
+          "$option_description_text": "4jd.createWorldScreen.immediateRespawn.desc",
           "$tts_section_header": "createWorldScreen.worldSettings",
           "$option_label": "createWorldScreen.immediaterespawn",
           "$option_binding_name": "#immediaterespawn",
           "$option_enabled_binding_name": "#immediaterespawn_enabled",
           "$toggle_name": "doimmediaterespawn",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "respawn_radius@settings_common_4jd.option_text_edit": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -53.5 ],
+          "$option_description_text": "4jd.createWorldScreen.respawnRadius.desc",
           "$option_label": "createWorldScreen.respawnRadius",
           "$option_binding_name": "#respawn_radius",
           "$option_enabled_binding_name": "#respawn_radius_enabled",
           "$text_box_name": "respawn_radius_text_box",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "$max_text_edit_length": 8,
-          "$text_edit_box_text_type": "NumberChars"
+          "$text_edit_box_text_type": "NumberChars",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
@@ -348,33 +405,46 @@
       },
       {
         "education_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -73.5 ],
+          "$option_description_text": "4jd.createWorldScreen.education.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.educationtoggle",
           "$option_binding_name": "#education_toggle",
           "$option_enabled_binding_name": "#education_toggle_enabled",
           "$toggle_name": "education_toggle",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
           "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "command_blocks_enabled_toggle@settings_common_4jd.option_toggle": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -88.5 ],
+          "$option_description_text": "4jd.createWorldScreen.commandBlocks.desc",
           "$tts_section_header": "createWorldScreen.cheatSettings",
           "$option_label": "createWorldScreen.commandblocksenabled",
           "$option_binding_name": "#command_blocks_enabled",
           "$option_enabled_binding_name": "#command_blocks_enabled_on",
           "$toggle_name": "command_blocks_enabled",
-          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-          "$toggle_binding_condition": "always_when_visible"
+          "$toggle_binding_condition": "always_when_visible",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
         "random_tick_speed@settings_common_4jd.option_text_edit": {
+          "$hover_content": "edit_world_optons_4jd.option_desc_text",
+          "$option_description_offset": [ 237.5, -114.5 ],
+          "$option_description_text": "4jd.createWorldScreen.tickSpeed.desc",
           "$option_label": "createWorldScreen.randomtickspeed",
           "$option_binding_name": "#random_tick_speed",
           "$option_enabled_binding_name": "#random_tick_speed_enabled",
           "$max_text_edit_length": 4,
           "$text_edit_box_text_type": "NumberChars",
-          "$text_box_name": "random_tick_speed_text_box"
+          "$text_box_name": "random_tick_speed_text_box",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       },
       {
@@ -387,39 +457,9 @@
         "reset_tick_speed@common_buttons_4jd.main_button": {
           "size": [ "100%", 20 ],
           "$button_text": "createWorldScreen.randomtickspeed.reset",
-          "$pressed_button_name": "reset_random_tick_speed"
-        }
-      },
-      {
-        "panel_1": {
-          "type": "panel",
-          "size": [ "100%", 3 ]
-        }
-      },
-      {
-        "xbl_settings_dropdown@settings_common_4jd.option_dropdown": {
-          "$colon_needed": false,
-          "ignored": "(not $is_xboxlive_enabled)",
-          "$option_label": "structure_block.mode",
-          "$dropdown_content": "world_section.xbl_broadcast_dropdown_content",
-          "$dropdown_area": "content_area",
-          "$dropdown_name": "xbl_broadcast_dropdown",
-          "$options_dropdown_toggle_label_binding": "#xbl_broadcast_dropdown_toggle_label",
-          "$option_enabled_binding_name": "#xbl_show_broadcast_dropdown",
-          "$dropdown_scroll_content_size": [ "100%", 60 ],
-          "variables": [
-            {
-              "requires": "($nx_os or $is_ps4)",
-              "$option_label": "options.xboxliveBroadcastSettingsForCrossplatform",
-              "$show_option_label": true
-            }
-          ],
-          "bindings": [
-            {
-              "binding_name": "#can_be_xbl_enabled",
-              "binding_name_override": "#enabled"
-            }
-          ]
+          "$pressed_button_name": "reset_random_tick_speed",
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP"
         }
       }
     ]
@@ -573,13 +613,47 @@
           "$slider_steps_binding_name": "#server_sim_distance_steps"
         }
       },
-      { "experiments_text@controls_4jd.header_text_panel": { "size": [ "100%", 24.5 ], "$header_text": "createWorldScreen.experimentalgameplay" } },
       {
-        "panel_2": {
+        "panel_3": {
           "type": "panel",
           "size": [ "100%", 1 ]
         }
       },
+      {
+        "xbl_settings_dropdown@settings_common_4jd.option_dropdown": {
+          "$colon_needed": false,
+          "ignored": "(not $is_xboxlive_enabled)",
+          "$option_label": "structure_block.mode",
+          "$dropdown_content": "world_section.xbl_broadcast_dropdown_content",
+          "$dropdown_area": "content_area",
+          "$dropdown_name": "xbl_broadcast_dropdown",
+          "$options_dropdown_toggle_label_binding": "#xbl_broadcast_dropdown_toggle_label",
+          "$option_enabled_binding_name": "#xbl_show_broadcast_dropdown",
+          "$dropdown_scroll_content_size": [ "100%", 60 ],
+          "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "variables": [
+            {
+              "requires": "($nx_os or $is_ps4)",
+              "$option_label": "options.xboxliveBroadcastSettingsForCrossplatform",
+              "$show_option_label": true
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#can_be_xbl_enabled",
+              "binding_name_override": "#enabled"
+            }
+          ]
+        }
+      },
+      {
+        "exp_padding": {
+          "type": "panel",
+          "size": [ "100%", 6 ]
+        }
+      },
+      { "experiments_text@controls_4jd.header_text_panel": { "size": [ "100%", 10 ], "$header_text": "createWorldScreen.experimentalgameplay" } },
       {
         "experimental_toggles": {
           "type": "stack_panel",
@@ -594,13 +668,60 @@
           "collection_name": "experimental_toggles",
 
           "controls": [
-            { "0@create_world_optons_4jd.experimental_toggle": { "collection_index": 0, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -57.5 ] } },
-            { "1@create_world_optons_4jd.experimental_toggle": { "collection_index": 1, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -72.5 ] } },
-            { "2@create_world_optons_4jd.experimental_toggle": { "collection_index": 2, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -87.5 ] } },
-            { "3@create_world_optons_4jd.experimental_toggle": { "collection_index": 3, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -102.5 ] } },
-            { "4@create_world_optons_4jd.experimental_toggle": { "collection_index": 4, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -117.5 ] } },
-            { "5@create_world_optons_4jd.experimental_toggle": { "collection_index": 5, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -132.5 ] } },
-            { "6@create_world_optons_4jd.experimental_toggle": { "collection_index": 6, "$hover_content": "create_world_optons_4jd.experiment_desc_text", "$desc_offset": [ 237.5, -147.5 ] } }
+            { 
+              "0@edit_world_optons_4jd.experimental_toggle": {
+                "collection_index": 0,
+                "$option_description_offset": [ 237.5, -57.5 ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            },
+            { 
+              "1@edit_world_optons_4jd.experimental_toggle": {
+                "collection_index": 1,
+                "$option_description_offset": [ 237.5, -72.5  ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            },
+            { 
+              "2@edit_world_optons_4jd.experimental_toggle": {
+                "collection_index": 2,
+                "$option_description_offset": [ 237.5, -87.5  ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            },
+            { 
+              "3@edit_world_optons_4jd.experimental_toggle": {
+                "collection_index": 3,
+                "$option_description_offset": [ 237.5, -102.5  ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            },
+            { 
+              "4@edit_world_optons_4jd.experimental_toggle": {
+                "collection_index": 4,
+                "$option_description_offset": [ 237.5, -117.5  ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            },
+            { 
+              "5@edit_world_optons_4jd.experimental_toggle": { 
+                "collection_index": 5,
+                "$option_description_offset": [ 237.5, -132.5  ],
+                "$option_description_text": "",
+                "$focus_override_left": "FOCUS_OVERRIDE_STOP",
+                "$focus_override_right": "FOCUS_OVERRIDE_STOP"
+              }
+            }
           ]/* ,
 
           "bindings": [
@@ -614,41 +735,6 @@
     ]
   },
 
-  "experimental_toggle@settings_common_4jd.option_toggle": {
-    "$tts_section_header": "createWorldScreen.worldSettings",
-    "$toggle_tts_header_binding_type": "collection",
-    "$toggle_tts_header_binding_collection_name": "experimental_toggles",
-    "$option_label": "#text",
-    "$option_binding_name": "#experimental_toggle_value",
-    "$option_enabled_binding_name": "#experimental_toggle_enabled",
-    "$toggle_name": "experimental_toggle",
-    "$toggle_grid_collection_name": "experimental_toggles",
-    "$toggle_collection_details_type": "collection_details",
-    "$toggle_collection_detail_name": "experimental_toggles",
-    "$toggle_binding_type": "collection",
-    "$focus_override_right": "FOCUS_OVERRIDE_STOP",
-    "bindings": [
-      {
-        "binding_name": "#show_experimental_toggle",
-        "binding_name_override": "#visible"
-      },
-      {
-        "binding_name": "#experimental_toggle_enabled",
-        "binding_type": "collection",
-        "binding_name_override": "#enabled",
-        "binding_collection_name": "experimental_toggles"
-      }
-    ],
-    "$label_bindings": [
-      {
-        "binding_name": "#experimental_toggle_text",
-        "binding_name_override": "#text",
-        "binding_type": "collection",
-        "binding_collection_name": "experimental_toggles"
-      }
-    ]
-  },
-
   /*////// Panel //////*/
 
   "main_panel@ui_4jd_textures.dialog_bg_opaque_1_5": {
@@ -656,6 +742,31 @@
     "anchor_from": "bottom_left",
     "anchor_to": "bottom_left",
     "controls": [
+      { 
+        "close_button@common_toggles_4jd.toggle_panel": {
+          "$custom_toggle_sound_name": "ui.back",
+          "size": [ 24, 24 ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ],
+          "$toggle_name": "main_world_tab",
+          "$is_back_button": true,
+          "$tab_view_binding_name": "back_tab_toggle",
+          "$toggle_group_forced_index": 100,
+          "$button_text": "<",
+
+          "$unchecked_control": "common_buttons_4jd.black_button_default",
+          "$checked_control": "common_buttons_4jd.black_button_default",
+          "$unchecked_hover_control": "common_buttons_4jd.black_button_hover",
+          "$checked_hover_control": "common_buttons_4jd.black_button_hover",
+          "bindings": [
+            {
+              "binding_name": "#close_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
       {
         "world_options_panel": {
           "type": "panel",
@@ -749,6 +860,22 @@
       }
     ],
     "controls": [
+      { "controller_lb_button@inventory_buttons_4jd.controller_lb_button": { } },
+      { "controller_rb_button@inventory_buttons_4jd.controller_rb_button": { } },
+      { 
+        "close_button@common_toggles_4jd.toggle_panel": {
+          "size": [ 1, 1 ],
+          "offset": [ 0, 0 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "$toggle_focus_enabled": false,
+          "$custom_toggle_sound_name": "ui.back",
+          "$toggle_name": "main_world_tab",
+          "$is_back_button": true,
+          "$tab_view_binding_name": "back_tab_toggle",
+          "$toggle_group_forced_index": 100
+        }
+      },
       { "panel_base@create_world_optons_4jd.panel_base": { } }
     ]
   }

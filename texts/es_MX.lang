@@ -1,28 +1,28 @@
-##  Start
-4jd.menu.play=Jugar al juego ##3343
-4jd.menu.store=Tienda de Minecraft ##1441
-4jd.menu.helpOptions=Ayuda y opciones ##1649
-4jd.menu.exit=Salir del juego ##1535
+##  Start	##1
+4jd.menu.play=Jugar al juego	##3343
+4jd.menu.store=Tienda de Minecraft	##1441
+4jd.menu.helpOptions=Ayuda y opciones	##1649
+4jd.menu.exit=Salir del juego	##1535
 
 4jd.menu.exitGameWarning=¿Seguro que quieres salir del juego?
 
-4jd.progress.initializingServer=Inicializando servidor ##3480
+4jd.progress.initializingServer=Inicializando servidor	##3480
 
 ##  Crafting
-4jd.craftingScreen.tab.structures=Estructuras ##1640
-4jd.craftingScreen.tab.tools=Herramientas y armas ##1641
-4jd.craftingScreen.tab.food=Comida ##1633
-4jd.craftingScreen.tab.armor=Armadura ##1630
-4jd.craftingScreen.tab.mechanisms=Mecanismos ##1635
-4jd.craftingScreen.tab.transport=Transporte ##1643
-4jd.craftingScreen.tab.decorations=Decoraciones ##1632
+4jd.craftingScreen.tab.structures=Estructuras	##1640
+4jd.craftingScreen.tab.tools=Herramientas y armas	##1641
+4jd.craftingScreen.tab.food=Comida	##1633
+4jd.craftingScreen.tab.armor=Armadura	##1630
+4jd.craftingScreen.tab.mechanisms=Mecanismos	##1635
+4jd.craftingScreen.tab.transport=Transporte	##1643
+4jd.craftingScreen.tab.decorations=Decoraciones	##1632
 
-4jd.creativeScreen.tab.buildingBlocks=Bloques de construcción ##1631
-4jd.creativeScreen.tab.redstone_and_transport=Piedra rojiza y transporte ##1639
-4jd.creativeScreen.tab.materials=Materiales ##1634
-4jd.creativeScreen.tab.toolsWeaponsAndArmor=Herramientas, armas y armadura ##1642
-4jd.creativeScreen.tab.brewing=Pociones ##1637 or 1638
-4jd.creativeScreen.tab.miscellaneous=Varios ##1636
+4jd.creativeScreen.tab.buildingBlocks=Bloques de construcción	##1631
+4jd.creativeScreen.tab.redstone_and_transport=Piedra rojiza y transporte	##1639
+4jd.creativeScreen.tab.materials=Materiales	##1634
+4jd.creativeScreen.tab.toolsWeaponsAndArmor=Herramientas, armas y armadura	##1642
+4jd.creativeScreen.tab.brewing=Pociones	##1637 or 1638
+4jd.creativeScreen.tab.miscellaneous=Varios	##1636
 
 craftingScreen.tab.construction=craftingScreen.tab.construction	#
 craftingScreen.tab.nature=craftingScreen.tab.nature	#
@@ -35,8 +35,8 @@ craftingScreen.tab.equipment.aspects=Equipo	#
 craftingScreen.tab.items.aspects=Objetos	#
 
 4jd.progressScreen.enteringOverworld=Entrando hacia el mundo exterior
-4jd.progressScreen.enteringNether=Entrando en el inframundo ##3475
-4jd.progressScreen.enteringEnd=Entrando a End ##3474
+4jd.progressScreen.enteringNether=Entrando en el inframundo	##3475
+4jd.progressScreen.enteringEnd=Entrando a End	##3474
 
 store.startMenu.sale= 	#
 

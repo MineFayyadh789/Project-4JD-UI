@@ -1,8 +1,8 @@
 ##  Start
-4jd.menu.play=Играть ##3343
-4jd.menu.store=Магазин Minecraft ##1441
-4jd.menu.helpOptions=Помощь и настройки ##1649
-4jd.menu.exit=Выйти из игры ##1535
+4jd.menu.play=Играть	##3343
+4jd.menu.store=Магазин Minecraft	##1441
+4jd.menu.helpOptions=Помощь и настройки	##1649
+4jd.menu.exit=Выйти из игры	##1535
 
 4jd.menu.exitGameWarning=Вы уверены, что хотите выйти из игры?
 
@@ -11,7 +11,7 @@ selectWorld.tab.friends=Присоедениться
 selectWorld.tab.classmates=Присоедениться
 selectWorld.tab.thirdParty=Мини игры
 
-4jd.progress.initializingServer=Инициализация сервера ##3480
+4jd.progress.initializingServer=Инициализация сервера	##3480
 
 furnaceScreen.input=Ингредиент
 
@@ -31,20 +31,20 @@ furnaceScreen.input=Ингредиент
 ##  Crafting
 4jd.craftingScreen.enableRecipe=Включить книгу рецептов
 
-4jd.craftingScreen.tab.structures=Структуры ##1640
-4jd.craftingScreen.tab.tools=Инстурменты и оружие ##1641
-4jd.craftingScreen.tab.food=Еда ##1633
-4jd.craftingScreen.tab.armor=Броня ##1630
-4jd.craftingScreen.tab.mechanisms=Механизмы ##1635
-4jd.craftingScreen.tab.transport=Транспорт ##1643
-4jd.craftingScreen.tab.decorations=Декорации ##1632
+4jd.craftingScreen.tab.structures=Структуры	##1640
+4jd.craftingScreen.tab.tools=Инстурменты и оружие	##1641
+4jd.craftingScreen.tab.food=Еда	##1633
+4jd.craftingScreen.tab.armor=Броня	##1630
+4jd.craftingScreen.tab.mechanisms=Механизмы	##1635
+4jd.craftingScreen.tab.transport=Транспорт	##1643
+4jd.craftingScreen.tab.decorations=Декорации	##1632
 
-4jd.creativeScreen.tab.buildingBlocks=Строительные блоки ##1631
-4jd.creativeScreen.tab.redstone_and_transport=Редстоун и транспорт ##1639
-4jd.creativeScreen.tab.materials=Материалы ##1634
-4jd.creativeScreen.tab.toolsWeaponsAndArmor=Инстурменты, оружие и броня ##1642
-4jd.creativeScreen.tab.brewing=Зельеварение ##1637 or 1638
-4jd.creativeScreen.tab.miscellaneous=Другое ##1636
+4jd.creativeScreen.tab.buildingBlocks=Строительные блоки	##1631
+4jd.creativeScreen.tab.redstone_and_transport=Редстоун и транспорт	##1639
+4jd.creativeScreen.tab.materials=Материалы	##1634
+4jd.creativeScreen.tab.toolsWeaponsAndArmor=Инстурменты, оружие и броня	##1642
+4jd.creativeScreen.tab.brewing=Зельеварение	##1637 or 1638
+4jd.creativeScreen.tab.miscellaneous=Другое	##1636
 
 craftingScreen.tab.construction.aspects=Строительство	#
 craftingScreen.tab.nature.aspects=Природа	#

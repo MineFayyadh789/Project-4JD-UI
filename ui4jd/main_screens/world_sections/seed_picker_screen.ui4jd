@@ -119,6 +119,13 @@
     "layer": 1,
     "size": [ 300, 252 ],
     "controls": [
+      { 
+        "close_button@inventory_buttons_4jd.close_button": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ -32, 8 ]
+        }
+      },
       {
         "title@common_4jd.global_label": {
           "offset": [ 0, 10 ],
@@ -167,6 +174,10 @@
   "seed_picker_panel": {
     "type": "panel",
     "controls": [
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
       { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
       { "main_panel@seed_picker_4jd.main_panel": { } }
     ]

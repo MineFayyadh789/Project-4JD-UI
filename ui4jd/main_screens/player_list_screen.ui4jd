@@ -474,10 +474,6 @@
       {
         "panel_hold": {
           "type": "panel",
-          "property_bag": {
-            "#collection_name": "players_collection",
-            "#collection_index": 0
-          },
           "bindings": [
             {
               "binding_name": "#close_button_visible",
