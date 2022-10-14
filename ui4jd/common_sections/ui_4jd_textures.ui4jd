@@ -559,6 +559,12 @@
     "texture": "textures/ui4jd/brewing_stand/brewing_fuel_pipes"
   },
 
+  "brewing_pipes": {
+    "type": "image",
+    "size": [ 96, 96 ],
+    "texture": "textures/ui4jd/brewing_stand/brewing_pipes"
+  },
+
   /* Furnace */
 
   "arrow_empty": {

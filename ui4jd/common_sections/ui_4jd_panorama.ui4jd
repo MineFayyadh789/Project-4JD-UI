@@ -47,5 +47,41 @@
         }
       }
     ]
+  },
+  
+  "aspect_panorama_panel": {
+    "type": "panel",
+    "ignored": "(not $is_console_aspects)",
+    "size": [ "100%", "100%" ],
+    "clips_children": true,
+    "controls": [
+      {
+        "main_panorama": {
+          "type": "image",
+          "ignored": "$is_low_memory_device", 
+          "$panorama_texture|default": "textures/ui4jd/panorama/day",
+          "texture": "$panorama_texture",
+          "size": [ "569.444%y", "100%" ],
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": "@common_panorama_4jd.panorama_scroll",
+          "layer": -200,
+          "bilinear": true,
+          "controls": [
+            { 
+              "next_side_panorama": {
+                "type": "image",
+                "texture": "$panorama_texture",
+                "size": [ "100%", "100%" ],
+                "offset": [ "100%", 0 ],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "bilinear": true
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
 }

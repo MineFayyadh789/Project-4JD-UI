@@ -103,7 +103,7 @@
                 "$focus_override_left_binding_type": "none",
                 "$focus_override_left": "brewing_fuel",
 
-                "$background_images": "ui_4jd_textures.cell_image_1_5",
+                "$background_images": "common.empty_panel", //"ui_4jd_textures.cell_image_1_5"
                 "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
                 "$container_item_size": [ 27, 27 ],
                 "$cell_image_size": [ 27, 27 ],
@@ -126,7 +126,7 @@
           "anchor_to": "top_left",
           "offset": [ 66, 85.5 ],
 
-          "$background_images": "ui_4jd_textures.cell_image_1_5",
+          "$background_images": "common.empty_panel", //"ui_4jd_textures.cell_image_1_5"
           "$highlight_control": "item_highlight_4jd.highlight_slot_panel",
           "$container_item_size": [ 27, 27 ],
           "$cell_image_size": [ 27, 27 ],
@@ -190,7 +190,7 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 120.5, 22.5 ],
-          "size": [ 13.5, 42 ],
+          "size": [ 15, 42 ],
           "layer": 2
         }
       },
@@ -199,16 +199,15 @@
           "anchor_from": "top_left",
           "anchor_to": "top_left",
           "offset": [ 120.5, 22.5 ],
-          "size": [ 13.5, 42 ],
+          "size": [ 15, 42 ],
           "layer": 4
-          
         }
       },
       { 
         "brewing_fuel_bar_empty_image@ui_4jd_textures.brewing_fuel_bar_empty": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 64, 64.5 ],
+          "offset": [ 63.9, 64.5 ],
           "layer": 2
         }
       },
@@ -216,7 +215,7 @@
         "brewing_fuel_bar_full_image@ui_4jd_textures.brewing_fuel_bar_full": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 64, 64.5 ],
+          "offset": [ 63.9, 64.5 ],
           "layer": 4,
           "clip_direction": "left",
           "bindings": [
@@ -232,7 +231,7 @@
         "brewing_fuel_pipes@ui_4jd_textures.brewing_fuel_pipes": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 43, 42 ],
+          "offset": [ 42.9, 42 ],
           "layer": 8
         }
       },
@@ -255,12 +254,12 @@
         }
       },
       { 
-        "brewing_pipes@brewing_stand.brewing_pipes": {
+        "brewing_pipes@ui_4jd_textures.brewing_pipes": {
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "offset": [ 84, 49.5 ],
-          "size": [ 45, 39 ],
-          "layer": 8
+          "offset": [ 58.5, 24 ],
+          "size": [ 96, 96 ],
+          "layer": 3
         }
       },
       { "main_buttons_panel@inventory_buttons_4jd.main_inventory_buttons_panel": { } },

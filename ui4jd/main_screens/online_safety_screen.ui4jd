@@ -2,17 +2,6 @@
 //(c) Don't use any code design without permission!*/
 {
   "namespace": "online_safety_4jd",
-
-  "gamepad_helpers": {
-    "type": "stack_panel",
-    "orientation": "horizontal",
-    "anchor_from": "bottom_left",
-    "anchor_to": "bottom_left",
-    "size": [ "100%", 16 ],
-    "controls": [
-      { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } }
-    ]
-  },
   
   "online_safety_screen_content@ui_4jd_textures.dialog_bg_opaque_1_5": {
     "size": [ 230, "100%c+24px" ],
@@ -127,6 +116,38 @@
           ]
         }
       }
+    ]
+  },
+
+  /*//// Screen ////*/
+
+  "center_screen": {
+    "type": "panel",
+    "controls": [
+      {
+        "main_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "size": [ "100%", 16 ],
+          "controls": [
+            { "gamepad_helper_a@common_tooltip_4jd.gamepad_helper_a": { } }
+          ]
+        }
+      }
+    ]
+  },
+
+  "full_screen": {
+    "type": "panel",
+    "controls": [
+      { "controller_close_button@inventory_buttons_4jd.controller_close_button": { } },
+      { "controller_up_button@inventory_buttons_4jd.controller_up_button": { } },
+      { "controller_dp_button@inventory_buttons_4jd.controller_dp_button": { } },
+      { "controller_lp_button@inventory_buttons_4jd.controller_lp_button": { } },
+      { "controller_rp_button@inventory_buttons_4jd.controller_rp_button": { } },
+      { "main_screen_content@online_safety_4jd.online_safety_screen_content": { } }
     ]
   }
 }
